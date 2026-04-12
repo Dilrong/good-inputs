@@ -350,37 +350,29 @@
       <div class="brand">
         <div>
           <h1>좋은입력</h1>
-          <p>반응 대신 판단 재료를 모으는 모바일 피드</p>
+          <p>커뮤니티 반응을 빼고, 허용한 원문만 받는 클린 피드</p>
         </div>
-        <div class="badge">모바일 우선</div>
+        <div class="badge">화이트리스트</div>
       </div>
-      <input id="search" class="search" type="text" placeholder="사이트, 용도, 태그 검색" />
-      <div class="chips" id="filters">
-        <button class="chip active" data-filter="all">전체</button>
-        <button class="chip" data-filter="투자 원본">투자</button>
-        <button class="chip" data-filter="긴 형식">강의</button>
-        <button class="chip" data-filter="아카이브 글">장문</button>
-        <button class="chip" data-filter="저자극 휴식">휴식</button>
-        <button class="chip" data-filter="지도·통계">데이터</button>
-        <button class="chip" data-filter="팟캐스트">오디오</button>
-      </div>
+      <input id="search" class="search" type="text" placeholder="제목, 저자, 출처 검색" />
+      <div class="chips" id="filters"></div>
     </header>
 
     <main class="content">
       <section id="home-section">
         <div class="hero-card">
-          <p class="hero-title">결론, 커뮤니티를 끊을 때는 대체 동선이 있어야 한다.</p>
-          <p class="hero-text">짧고 강한 자극 대신, 길고 남는 입력으로 바꿔라. 아래 피드는 한국 사이트를 우선으로 정리했다.</p>
+          <p class="hero-title">결론, 이건 트위터 대체재가 아니라 트위터의 반대편이어야 한다.</p>
+          <p class="hero-text">아무나 올리는 타임라인이 아니라, 네가 허용한 기관 원문만 자동 수집해서 시간순으로 보여준다. 댓글, 추천, 논쟁, 알고리즘은 넣지 않는다.</p>
           <div class="quick-grid">
-            <div class="mini-card"><strong>출근 전 10분</strong><span>DART 1개만 읽기</span></div>
-            <div class="mini-card"><strong>점심 15분</strong><span>통계나 실거래가 확인</span></div>
-            <div class="mini-card"><strong>퇴근 후 20분</strong><span>강의나 장문 1개</span></div>
-            <div class="mini-card"><strong>자기 전 15분</strong><span>저자극 휴식 1개</span></div>
+            <div class="mini-card"><strong>입력 원칙</strong><span>화이트리스트 pull만 허용</span></div>
+            <div class="mini-card"><strong>제거 대상</strong><span>댓글, 추천, 실시간 반응</span></div>
+            <div class="mini-card"><strong>표시 항목</strong><span>제목, 날짜, 저자, 핵심 요약</span></div>
+            <div class="mini-card"><strong>현재 소스</strong><span>KRIHS 원문 피드 v1</span></div>
           </div>
         </div>
 
         <div class="section-label">
-          <h2>추천 피드</h2>
+          <h2>클린 피드</h2>
           <span id="result-count">0개</span>
         </div>
         <div class="feed" id="feed"></div>
@@ -439,7 +431,7 @@
         </div>
       </section>
 
-      <div class="helper">원하면 다음 단계로 즐겨찾기, 읽음 표시, 개인 메모 저장까지 붙일 수 있다.</div>
+      <div class="helper">다음 단계는 읽음 체크, 즐겨찾기, 개인 메모를 붙이고, 허용 소스를 더 추가하는 것이다.</div>
     </main>
   </div>
 
@@ -450,63 +442,62 @@
   </nav>
 
   <script>
-    const resources = [
-      { category: '투자 원본', title: 'DART 전자공시', url: 'https://dart.fss.or.kr/', use: '사업보고서, 분기보고서, 감사보고서 확인', why: '기업이 직접 낸 원본을 본다.', tags: ['한국', '공시', '기업'], score: '핵심' },
-      { category: '투자 원본', title: 'KRX KIND', url: 'https://kind.krx.co.kr/', use: '상장사 공시, IPO, 거래소 공지 확인', why: '시장 이벤트를 원문에 가깝게 본다.', tags: ['한국', '거래소', '공시'], score: '핵심' },
-      { category: '투자 원본', title: '한국은행 ECOS', url: 'https://ecos.bok.or.kr/', use: '금리, 통화, 가계부채, 거시지표 조회', why: '경제를 감정이 아니라 숫자로 본다.', tags: ['한국', '거시', '통계'], score: '높음' },
-      { category: '투자 원본', title: 'KOSIS 국가통계포털', url: 'https://kosis.kr/', use: '고용, 물가, 인구, 가계 통계 확인', why: '뉴스 제목이 아니라 구조를 본다.', tags: ['한국', '통계', '정책'], score: '높음' },
-      { category: '투자 원본', title: 'KDI 한국개발연구원', url: 'https://www.kdi.re.kr/', use: '정책 보고서와 경제 분석 읽기', why: '논점이 정리된 장문 분석을 얻기 좋다.', tags: ['한국', '정책', '리포트'], score: '높음' },
-      { category: '투자 원본', title: '국토연구원', url: 'https://www.krihs.re.kr/', use: '부동산, 국토, 도시 관련 정책 연구 읽기', why: '집과 지역을 구조로 보게 만든다.', tags: ['한국', '부동산', '정책'], score: '높음' },
-      { category: '긴 형식', title: 'K-MOOC', url: 'https://www.kmooc.kr/', use: '국내 대학 공개강의 수강', why: '한국어로 긴 호흡의 학습을 하기 쉽다.', tags: ['한국어', '강의', '무료'], score: '높음' },
-      { category: '긴 형식', title: 'KOCW', url: 'https://www.kocw.net/home/index.do', use: '대학 강의 자료와 공개 강좌 탐색', why: '피드 소비 대신 커리큘럼 소비로 바꾼다.', tags: ['한국어', '강의', '대학'], score: '높음' },
-      { category: '긴 형식', title: 'EBS', url: 'https://www.ebs.co.kr/', use: '다큐, 교양, 강의형 영상 보기', why: '짧은 자극보다 훨씬 덜 소모적이다.', tags: ['한국어', '다큐', '교양'], score: '좋음' },
-      { category: '긴 형식', title: '국립중앙도서관', url: 'https://www.nl.go.kr/', use: '디지털 자료, 아카이브, 전시 콘텐츠 탐색', why: '깊게 읽을 수 있는 자료가 많다.', tags: ['한국어', '도서관', '아카이브'], score: '좋음' },
-      { category: '아카이브 글', title: 'KDI 연구자료', url: 'https://www.kdi.re.kr/research/report_all.jsp', use: '정책, 경제, 산업 분석 장문 읽기', why: '근거가 정리된 글을 안정적으로 볼 수 있다.', tags: ['한국', '정책', '장문'], score: '높음' },
-      { category: '아카이브 글', title: 'DBR', url: 'https://dbr.donga.com/', use: '전략, 조직, 일, 의사결정 관련 글 읽기', why: '자극보다 프레임을 주는 편이다.', tags: ['한국', '전략', '경영'], score: '좋음' },
-      { category: '아카이브 글', title: '북저널리즘', url: 'https://www.bookjournalism.com/', use: '한 주제를 길게 정리한 해설 읽기', why: '짧은 뉴스보다 맥락을 준다.', tags: ['한국', '해설', '장문'], score: '좋음' },
-      { category: '아카이브 글', title: '퍼블리', url: 'https://publy.co/', use: '일, 커리어, 생산성, 산업 글 읽기', why: '구조화된 글을 고르기 쉽다.', tags: ['한국', '일', '커리어'], score: '좋음' },
-      { category: '아카이브 글', title: 'ㅍㅍㅅㅅ', url: 'https://ppss.kr/', use: '생산성, 일, 사회 관련 긴 글 탐색', why: '커뮤니티 댓글 소비보다는 낫다.', tags: ['한국', '에세이', '장문'], score: '보조' },
-      { category: '저자극 휴식', title: '국립중앙박물관', url: 'https://www.museum.go.kr/', use: '전시, 유물, 해설 콘텐츠 보기', why: '조용하게 보기에 좋다.', tags: ['한국', '박물관', '휴식'], score: '좋음' },
-      { category: '저자극 휴식', title: '국립현대미술관', url: 'https://www.mmca.go.kr/', use: '전시, 작가, 온라인 미술 콘텐츠 보기', why: '감각을 쉬게 하면서도 밀도 있는 입력이 된다.', tags: ['한국', '미술관', '휴식'], score: '좋음' },
-      { category: '저자극 휴식', title: 'EBS 다큐/교양', url: 'https://www.ebs.co.kr/', use: '저자극 다큐와 교양 프로그램 보기', why: '쉬면서도 뇌를 과소비하지 않게 한다.', tags: ['한국', '다큐', '휴식'], score: '좋음' },
-      { category: '저자극 휴식', title: 'Google Arts & Culture', url: 'https://artsandculture.google.com/', use: '해외 미술, 전시, 박물관 콘텐츠 보기', why: '저자극 보조 재료로 좋다.', tags: ['해외', '미술', '전시'], score: '보조' },
-      { category: '지도·통계', title: '서울열린데이터광장', url: 'https://data.seoul.go.kr/', use: '서울 생활, 교통, 인구, 행정 데이터 보기', why: '생활권 판단을 감으로 하지 않게 해준다.', tags: ['한국', '서울', '데이터'], score: '높음' },
-      { category: '지도·통계', title: '실거래가 공개시스템', url: 'https://rt.molit.go.kr/', use: '아파트, 주택 실거래가 확인', why: '부동산을 소문이 아니라 거래 데이터로 본다.', tags: ['한국', '부동산', '실거래가'], score: '핵심' },
-      { category: '지도·통계', title: '국가공간정보포털', url: 'https://www.nsdi.go.kr/', use: '지도, 공간정보, 행정구역 데이터 탐색', why: '지역을 텍스트보다 구조로 보기 좋다.', tags: ['한국', '지도', '공간정보'], score: '좋음' },
-      { category: '지도·통계', title: '국가교통정보센터', url: 'https://www.its.go.kr/', use: '교통 흐름과 도로 정보 확인', why: '이동성 판단에 직접 도움이 된다.', tags: ['한국', '교통', '지도'], score: '좋음' },
-      { category: '지도·통계', title: 'Our World in Data', url: 'https://ourworldindata.org/', use: '세계 데이터와 차트 보기', why: '한국 외 맥락 비교가 필요할 때 좋다.', tags: ['해외', '데이터', '차트'], score: '보조' },
-      { category: '팟캐스트', title: '팟빵', url: 'https://www.podbbang.com/', use: '긴 형식 오디오를 카테고리별로 탐색', why: '산책과 같이 쓰기 좋다.', tags: ['한국', '오디오', '플랫폼'], score: '좋음' },
-      { category: '팟캐스트', title: 'EBS 오디오', url: 'https://www.ebs.co.kr/', use: '교양형 오디오와 학습형 콘텐츠 탐색', why: '잡담형보다 목적형 듣기에 가깝다.', tags: ['한국', '교양', '오디오'], score: '보조' },
-      { category: '팟캐스트', title: 'EconTalk', url: 'https://www.econtalk.org/', use: '경제, 사회, 제도 관련 긴 인터뷰 듣기', why: '깊은 대화형 자료다.', tags: ['해외', '경제', '긴형식'], score: '보조' },
-      { category: '팟캐스트', title: 'Acquired', url: 'https://www.acquired.fm/', use: '기업, 비즈니스 역사 깊게 듣기', why: '한 회를 길게 파서 피상적 소비가 적다.', tags: ['해외', '기업', '비즈니스'], score: '보조' }
-    ];
-
-    const feed = document.getElementById('feed');
-    const count = document.getElementById('result-count');
-    const search = document.getElementById('search');
-    const chips = Array.from(document.querySelectorAll('.chip'));
+    const feedEl = document.getElementById('feed');
+    const countEl = document.getElementById('result-count');
+    const searchEl = document.getElementById('search');
+    const filtersEl = document.getElementById('filters');
     const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
     const sections = Array.from(document.querySelectorAll('main section'));
 
     let currentFilter = 'all';
+    let items = [];
+
+    function escapeHtml(value = '') {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function scoreLabel(score = '') {
+      return ({ new: 'new', fresh: 'fresh', stable: 'archive' }[score] || score || 'feed');
+    }
+
+    function renderFilters() {
+      const categories = ['all', ...new Set(items.map(item => item.category).filter(Boolean))];
+      filtersEl.innerHTML = categories.map(category => `
+        <button class="chip ${category === currentFilter ? 'active' : ''}" data-filter="${escapeHtml(category)}">${category === 'all' ? '전체' : escapeHtml(category)}</button>
+      `).join('');
+
+      Array.from(filtersEl.querySelectorAll('.chip')).forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentFilter = chip.dataset.filter;
+          renderFilters();
+          renderFeed();
+        });
+      });
+    }
 
     function renderFeed() {
-      const q = search.value.trim().toLowerCase();
-      const filtered = resources.filter(item => {
+      const q = searchEl.value.trim().toLowerCase();
+      const filtered = items.filter(item => {
         const byCategory = currentFilter === 'all' || item.category === currentFilter;
-        const hay = [item.category, item.title, item.use, item.why, ...(item.tags || []), item.score].join(' ').toLowerCase();
-        const bySearch = !q || hay.includes(q);
-        return byCategory && bySearch;
+        const haystack = [item.category, item.source, item.title, item.authors, item.summary, item.date, ...(item.tags || [])]
+          .join(' ')
+          .toLowerCase();
+        return byCategory && (!q || haystack.includes(q));
       });
 
-      count.textContent = `${filtered.length}개`;
-      feed.innerHTML = '';
+      countEl.textContent = `${filtered.length}개`;
+      feedEl.innerHTML = '';
 
       if (!filtered.length) {
-        feed.innerHTML = `
+        feedEl.innerHTML = `
           <article class="card">
             <h3 class="title">결과 없음</h3>
-            <p class="why">검색어나 필터를 조금 넓혀라.</p>
+            <p class="why">검색어나 필터를 넓혀라.</p>
           </article>
         `;
         return;
@@ -520,33 +511,55 @@
             <div class="source">
               <span class="dot"></span>
               <div>
-                <div class="category">${item.category}</div>
-                <h3 class="title">${item.title}</h3>
+                <div class="category">${escapeHtml(item.source || item.category || '원문')}</div>
+                <h3 class="title">${escapeHtml(item.title || '')}</h3>
               </div>
             </div>
-            <div class="score">${item.score}</div>
+            <div class="score">${escapeHtml(scoreLabel(item.score))}</div>
           </div>
-          <p class="desc"><strong>용도.</strong> ${item.use}</p>
-          <p class="why"><strong>이유.</strong> ${item.why}</p>
-          <div class="tags">${(item.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+          <p class="desc"><strong>날짜.</strong> ${escapeHtml(item.date || '-')} · <strong>저자.</strong> ${escapeHtml(item.authors || '-')}</p>
+          <p class="why"><strong>핵심.</strong> ${escapeHtml(item.summary || '요약 없음')}</p>
+          <div class="tags">${(item.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
           <div class="actions">
-            <a class="btn" href="${item.url}" target="_blank" rel="noopener noreferrer">바로 열기</a>
-            <a class="btn secondary" href="${item.url}" target="_blank" rel="noopener noreferrer">링크</a>
+            <a class="btn" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">원문 열기</a>
+            <a class="btn secondary" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">링크</a>
           </div>
         `;
-        feed.appendChild(card);
+        feedEl.appendChild(card);
       });
     }
 
-    chips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        currentFilter = chip.dataset.filter;
-        chips.forEach(c => c.classList.toggle('active', c === chip));
-        renderFeed();
-      });
-    });
+    async function loadFeed() {
+      feedEl.innerHTML = `
+        <article class="card">
+          <h3 class="title">불러오는 중</h3>
+          <p class="why">허용한 원문 소스만 가져온다.</p>
+        </article>
+      `;
 
-    search.addEventListener('input', renderFeed);
+      try {
+        const res = await fetch(`data/feed.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        items = Array.isArray(data.items) ? data.items : [];
+      } catch (error) {
+        items = [];
+        feedEl.innerHTML = `
+          <article class="card">
+            <h3 class="title">피드 로드 실패</h3>
+            <p class="why">정적 사이트는 열렸지만 원문 피드 JSON을 아직 못 읽었다. 잠시 뒤 다시 열어라.</p>
+          </article>
+        `;
+        countEl.textContent = '0개';
+        renderFilters();
+        return;
+      }
+
+      renderFilters();
+      renderFeed();
+    }
+
+    searchEl.addEventListener('input', renderFeed);
 
     navBtns.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -556,7 +569,7 @@
       });
     });
 
-    renderFeed();
+    loadFeed();
   </script>
 </body>
 </html>
