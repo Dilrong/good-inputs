@@ -295,6 +295,53 @@
       min-width: 88px;
     }
 
+    .state-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .state-btn {
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 8px 11px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .state-btn.active {
+      border-color: rgba(122,162,255,.45);
+      background: rgba(122,162,255,.14);
+      color: var(--text);
+    }
+
+    .note-status {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .memo-box {
+      width: 100%;
+      min-height: 88px;
+      margin-top: 10px;
+      padding: 12px 13px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel-2);
+      color: var(--text);
+      resize: vertical;
+      font: inherit;
+    }
+
+    .memo-box::placeholder {
+      color: var(--muted);
+    }
+
     .helper {
       margin-top: 18px;
       padding: 14px;
@@ -373,24 +420,24 @@
       <div class="brand">
         <div>
           <h1>좋은입력</h1>
-          <p>커뮤니티 반응을 빼고, 허용한 원문만 받는 클린 피드</p>
+          <p>허용한 원문만 모아 보는 피드</p>
         </div>
         <div class="badge">화이트리스트</div>
       </div>
-      <input id="search" class="search" type="text" placeholder="제목, 저자, 출처 검색" />
+      <input id="search" class="search" type="text" placeholder="제목, 주체, 출처, 메모 검색" />
       <div class="chips" id="filters"></div>
     </header>
 
     <main class="content">
       <section id="home-section">
         <div class="hero-card">
-          <p class="hero-title">결론, 이건 트위터 대체재가 아니라 트위터의 반대편이어야 한다.</p>
-          <p class="hero-text">아무나 올리는 타임라인이 아니라, 네가 허용한 기관 원문만 자동 수집해서 시간순으로 보여준다. 댓글, 추천, 논쟁, 알고리즘은 넣지 않는다.</p>
+          <p class="hero-title">화이트리스트 원문 피드</p>
+          <p class="hero-text">소스별 원문만 시간순으로 본다. 읽음, 즐겨찾기, 메모는 이 브라우저에만 저장된다.</p>
           <div class="quick-grid">
-            <div class="mini-card"><strong>입력 원칙</strong><span>화이트리스트 pull만 허용</span></div>
-            <div class="mini-card"><strong>제거 대상</strong><span>댓글, 추천, 실시간 반응</span></div>
-            <div class="mini-card"><strong>표시 항목</strong><span>제목, 날짜, 저자, 핵심 요약</span></div>
             <div class="mini-card"><strong>현재 소스</strong><span>KRIHS · KDI · MMCA · 박물관 · EBS</span></div>
+            <div class="mini-card"><strong>루틴</strong><span>투자 · 공부 · 휴식</span></div>
+            <div class="mini-card"><strong>상태 관리</strong><span>읽음 체크 · 즐겨찾기</span></div>
+            <div class="mini-card"><strong>개인 기록</strong><span>카드별 메모 저장</span></div>
           </div>
         </div>
 
@@ -410,28 +457,28 @@
           <button class="card routine-card" type="button" data-routine="invest">
             <div class="category">루틴 1</div>
             <h3 class="title">투자 모드</h3>
-            <p class="desc">정책, 연구, 이슈 자료 중심으로 본다.</p>
-            <p class="why">남의 의견을 소비하는 시간이 아니라, 기준을 만드는 시간으로 바꾼다.</p>
+            <p class="desc">KRIHS, KDI 중심의 정책, 이슈, 연구 자료만 본다.</p>
+            <p class="why">판단과 의사결정에 바로 쓰는 입력만 남긴다.</p>
             <span class="routine-go">해당 피드 보기</span>
           </button>
           <button class="card routine-card" type="button" data-routine="study">
             <div class="category">루틴 2</div>
             <h3 class="title">공부 모드</h3>
-            <p class="desc">연구 자료와 다큐형 학습 콘텐츠만 모아 본다.</p>
-            <p class="why">짧은 반응형 소비 대신, 남는 입력으로 바꾼다.</p>
+            <p class="desc">연구 보고서, 정책 자료, EBS 다큐형 학습 콘텐츠를 본다.</p>
+            <p class="why">축적 가능한 입력만 남긴다.</p>
             <span class="routine-go">해당 피드 보기</span>
           </button>
           <button class="card routine-card" type="button" data-routine="rest">
             <div class="category">루틴 3</div>
             <h3 class="title">휴식 모드</h3>
-            <p class="desc">박물관, 미술관, 다큐 위주로 느슨하게 본다.</p>
-            <p class="why">쉬면서도 뇌를 소모품처럼 쓰지 않게 해준다.</p>
+            <p class="desc">MMCA, 박물관, EBS만 남겨서 가볍게 본다.</p>
+            <p class="why">자극보다 밀도가 높은 휴식 입력만 남긴다.</p>
             <span class="routine-go">해당 피드 보기</span>
           </button>
         </div>
       </section>
 
-      <div class="helper">다음 단계는 읽음 체크, 즐겨찾기, 개인 메모를 붙이는 것이다.</div>
+      <div class="helper">읽음, 즐겨찾기, 메모는 현재 브라우저에만 저장된다.</div>
     </main>
   </div>
 
@@ -449,6 +496,7 @@
     const sections = Array.from(document.querySelectorAll('main section'));
     const routineCards = Array.from(document.querySelectorAll('.routine-card'));
 
+    const STORAGE_KEY = 'good-inputs-user-state-v1';
     const ROUTINES = {
       all: { label: '전체' },
       invest: { label: '투자 모드' },
@@ -456,9 +504,45 @@
       rest: { label: '휴식 모드' },
     };
 
+    const SOURCE_GROUPS = {
+      invest: new Set(['국토정책Brief', '국토이슈리포트', '워킹페이퍼', 'KDI FOCUS', 'KDI 연구보고서']),
+      study: new Set(['국토정책Brief', '국토이슈리포트', '워킹페이퍼', 'KDI FOCUS', 'KDI 연구보고서', 'EBS']),
+      rest: new Set(['MMCA', '국립중앙박물관', 'EBS']),
+    };
+
     let currentFilter = 'all';
     let currentRoutine = 'all';
     let items = [];
+    let userState = loadUserState();
+
+    function defaultUserState() {
+      return { read: {}, favorite: {}, memo: {} };
+    }
+
+    function loadUserState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return defaultUserState();
+        const parsed = JSON.parse(raw);
+        return {
+          read: parsed?.read || {},
+          favorite: parsed?.favorite || {},
+          memo: parsed?.memo || {},
+        };
+      } catch {
+        return defaultUserState();
+      }
+    }
+
+    function saveUserState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(userState));
+      } catch {}
+    }
+
+    function itemKey(item) {
+      return String(item.url || `${item.source}|${item.title}|${item.date}`);
+    }
 
     function escapeHtml(value = '') {
       return String(value)
@@ -473,29 +557,23 @@
       return ({ new: 'new', fresh: 'fresh', stable: 'archive' }[score] || score || 'feed');
     }
 
+    function noteStatusText(key) {
+      if (userState.favorite[key]) return '즐겨찾기 저장됨';
+      if (userState.read[key]) return '읽음 처리됨';
+      return '이 브라우저에 저장';
+    }
+
     function itemMatchesRoutine(item, routine) {
       if (routine === 'all') return true;
-
-      const source = String(item.source || '');
-      const category = String(item.category || '');
-
-      if (routine === 'invest') {
-        return ['정책', '이슈', '연구'].includes(category) || /^KDI/.test(source);
-      }
-
-      if (routine === 'study') {
-        return ['정책', '이슈', '연구'].includes(category) || source === 'EBS';
-      }
-
-      if (routine === 'rest') {
-        return category === '전시' || source === 'EBS';
-      }
-
-      return true;
+      return SOURCE_GROUPS[routine]?.has(String(item.source || '')) || false;
     }
 
     function getRoutineItems() {
       return items.filter(item => itemMatchesRoutine(item, currentRoutine));
+    }
+
+    function getMemo(item) {
+      return userState.memo[itemKey(item)] || '';
     }
 
     function renderFilters() {
@@ -516,13 +594,57 @@
       });
     }
 
+    function attachCardStateEvents(card, item, key) {
+      const readBtn = card.querySelector('[data-action="toggle-read"]');
+      const favoriteBtn = card.querySelector('[data-action="toggle-favorite"]');
+      const memoBox = card.querySelector('[data-action="memo"]');
+      const noteStatus = card.querySelector('[data-role="note-status"]');
+
+      const sync = () => {
+        readBtn.classList.toggle('active', Boolean(userState.read[key]));
+        favoriteBtn.classList.toggle('active', Boolean(userState.favorite[key]));
+        noteStatus.textContent = noteStatusText(key);
+      };
+
+      readBtn.addEventListener('click', () => {
+        userState.read[key] = !userState.read[key];
+        if (!userState.read[key]) delete userState.read[key];
+        saveUserState();
+        sync();
+      });
+
+      favoriteBtn.addEventListener('click', () => {
+        userState.favorite[key] = !userState.favorite[key];
+        if (!userState.favorite[key]) delete userState.favorite[key];
+        saveUserState();
+        sync();
+      });
+
+      memoBox.addEventListener('input', () => {
+        const value = memoBox.value.trim();
+        if (value) userState.memo[key] = value;
+        else delete userState.memo[key];
+        saveUserState();
+        noteStatus.textContent = value ? '메모 저장됨' : noteStatusText(key);
+      });
+
+      sync();
+    }
+
     function renderFeed() {
       const q = searchEl.value.trim().toLowerCase();
       const filtered = getRoutineItems().filter(item => {
         const byCategory = currentFilter === 'all' || item.category === currentFilter;
-        const haystack = [item.category, item.source, item.title, item.authors, item.summary, item.date, ...(item.tags || [])]
-          .join(' ')
-          .toLowerCase();
+        const haystack = [
+          item.category,
+          item.source,
+          item.title,
+          item.authors,
+          item.summary,
+          item.date,
+          getMemo(item),
+          ...(item.tags || []),
+        ].join(' ').toLowerCase();
         return byCategory && (!q || haystack.includes(q));
       });
 
@@ -542,6 +664,8 @@
       }
 
       filtered.forEach(item => {
+        const key = itemKey(item);
+        const memo = getMemo(item);
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
@@ -558,12 +682,19 @@
           <p class="desc"><strong>날짜.</strong> ${escapeHtml(item.date || '-')} · <strong>주체.</strong> ${escapeHtml(item.authors || '-')}</p>
           <p class="why"><strong>핵심.</strong> ${escapeHtml(item.summary || '요약 없음')}</p>
           <div class="tags">${(item.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
+          <div class="state-row">
+            <button class="state-btn" type="button" data-action="toggle-read">읽음</button>
+            <button class="state-btn" type="button" data-action="toggle-favorite">즐겨찾기</button>
+            <span class="note-status" data-role="note-status">${escapeHtml(noteStatusText(key))}</span>
+          </div>
+          <textarea class="memo-box" data-action="memo" placeholder="개인 메모를 남겨라. 이 브라우저에만 저장된다.">${escapeHtml(memo)}</textarea>
           <div class="actions">
             <a class="btn" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">원문 열기</a>
             <a class="btn secondary" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">링크</a>
           </div>
         `;
         feedEl.appendChild(card);
+        attachCardStateEvents(card, item, key);
       });
     }
 
