@@ -2,526 +2,561 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>좋은입력</title>
+  <meta name="theme-color" content="#0b0f1a" />
   <style>
     :root {
-      --bg: #0b1020;
-      --panel: #121934;
-      --panel-2: #0f1530;
+      --bg: #0b0f1a;
+      --panel: #121827;
+      --panel-2: #0f1522;
+      --line: #222c42;
       --text: #eef2ff;
-      --muted: #a8b3cf;
-      --line: #263154;
-      --accent: #7aa2ff;
-      --accent-2: #9ae6b4;
-      --danger: #ff9b9b;
-      --shadow: 0 10px 30px rgba(0,0,0,.28);
+      --muted: #9aa5c3;
+      --blue: #7aa2ff;
+      --green: #7ee0ae;
+      --orange: #ffb86b;
+      --shadow: 0 10px 30px rgba(0, 0, 0, .28);
+      --radius: 18px;
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #0a0f1d 0%, #0b1020 100%);
-      color: var(--text);
-      line-height: 1.55;
-    }
-    a { color: #bcd0ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap {
-      max-width: 1180px;
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { line-height: 1.5; }
+    a { color: inherit; text-decoration: none; }
+
+    .app {
+      width: 100%;
+      max-width: 720px;
       margin: 0 auto;
-      padding: 28px 20px 72px;
+      padding-bottom: 88px;
     }
-    .hero {
-      padding: 28px;
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      background: radial-gradient(circle at top right, rgba(122,162,255,.2), transparent 28%), var(--panel);
-      box-shadow: var(--shadow);
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      padding: 14px 14px 10px;
+      background: linear-gradient(180deg, rgba(11,15,26,.96), rgba(11,15,26,.92));
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,.04);
     }
-    h1, h2, h3 { margin: 0 0 10px; }
-    h1 { font-size: clamp(28px, 4vw, 42px); line-height: 1.1; }
-    h2 { font-size: 22px; margin-top: 32px; }
-    p { margin: 0 0 10px; color: var(--muted); }
-    .subtitle {
-      font-size: 16px;
-      max-width: 760px;
-    }
-    .pill-row, .filter-row {
+
+    .brand {
       display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
-    }
-    .pill, .filter-btn {
-      border: 1px solid var(--line);
-      background: var(--panel-2);
-      color: var(--text);
-      border-radius: 999px;
-      padding: 10px 14px;
-      font-size: 14px;
-    }
-    .filter-btn {
-      cursor: pointer;
-      transition: .15s ease;
-    }
-    .filter-btn.active, .filter-btn:hover {
-      background: rgba(122,162,255,.16);
-      border-color: rgba(122,162,255,.5);
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 16px;
-      margin-top: 18px;
-    }
-    .card {
-      border: 1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00)), var(--panel);
-      border-radius: 18px;
-      padding: 18px;
-      box-shadow: var(--shadow);
-    }
-    .tag {
-      display: inline-block;
-      font-size: 12px;
-      color: var(--accent-2);
-      border: 1px solid rgba(154,230,180,.35);
-      background: rgba(154,230,180,.08);
-      padding: 4px 8px;
-      border-radius: 999px;
-      margin-bottom: 10px;
-    }
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 10px 0 12px;
-    }
-    .meta span {
-      font-size: 12px;
-      color: var(--muted);
-      border: 1px solid var(--line);
-      padding: 4px 8px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.02);
-    }
-    .reason {
-      color: #d5dcf3;
-      font-size: 14px;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
       margin-bottom: 12px;
     }
-    .actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 12px;
+
+    .brand h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.1;
+      letter-spacing: -.02em;
     }
-    .btn {
-      display: inline-block;
-      border: 1px solid rgba(122,162,255,.45);
-      background: rgba(122,162,255,.12);
-      color: var(--text);
-      padding: 10px 12px;
-      border-radius: 12px;
-      font-size: 14px;
-    }
-    .btn.secondary {
-      border-color: var(--line);
-      background: rgba(255,255,255,.03);
-    }
-    .section {
-      margin-top: 26px;
-    }
-    .two-col {
-      display: grid;
-      grid-template-columns: 1.3fr .9fr;
-      gap: 16px;
-      margin-top: 16px;
-    }
-    .note {
-      border-left: 3px solid var(--accent);
-      padding-left: 12px;
-      color: #d5dcf3;
-    }
-    .danger-list li { color: #ffd2d2; }
-    ul { padding-left: 18px; margin: 10px 0 0; }
-    li { margin: 6px 0; color: var(--muted); }
-    .search {
-      width: 100%;
-      margin-top: 16px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: #0d1328;
-      color: var(--text);
-      padding: 14px 16px;
-      outline: none;
-      font-size: 15px;
-    }
-    .footer {
-      margin-top: 36px;
+
+    .brand p {
+      margin: 6px 0 0;
       color: var(--muted);
       font-size: 13px;
     }
-    .hidden { display: none; }
-    @media (max-width: 860px) {
-      .two-col { grid-template-columns: 1fr; }
+
+    .badge {
+      flex: 0 0 auto;
+      border: 1px solid rgba(126,224,174,.35);
+      color: var(--green);
+      background: rgba(126,224,174,.10);
+      padding: 7px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .search {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 14px 14px;
+      font-size: 15px;
+      outline: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.02);
+    }
+
+    .chips {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-top: 10px;
+      scrollbar-width: none;
+    }
+    .chips::-webkit-scrollbar { display: none; }
+
+    .chip {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 13px;
+      white-space: nowrap;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .chip.active {
+      background: rgba(122,162,255,.16);
+      border-color: rgba(122,162,255,.45);
+      color: #dfe8ff;
+    }
+
+    .content {
+      padding: 14px;
+    }
+
+    .hero-card, .card, .mini-card {
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card {
+      padding: 16px;
+      margin-bottom: 14px;
+      background:
+        radial-gradient(circle at top right, rgba(122,162,255,.22), transparent 34%),
+        linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+    }
+
+    .hero-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+
+    .hero-text {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .mini-card {
+      padding: 12px;
+    }
+
+    .mini-card strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .mini-card span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 18px 2px 10px;
+    }
+
+    .section-label h2 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .section-label span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .feed {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .card {
+      padding: 14px;
+    }
+
+    .meta-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .source {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--blue);
+      flex: 0 0 auto;
+      box-shadow: 0 0 0 4px rgba(122,162,255,.12);
+    }
+
+    .category {
+      font-size: 12px;
+      color: var(--green);
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+      word-break: keep-all;
+    }
+
+    .score {
+      flex: 0 0 auto;
+      border: 1px solid rgba(255,184,107,.35);
+      background: rgba(255,184,107,.08);
+      color: var(--orange);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .desc {
+      color: #d8def2;
+      font-size: 14px;
+      margin: 0 0 8px;
+    }
+
+    .why {
+      color: var(--muted);
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 6px 9px;
+      font-size: 12px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(122,162,255,.45);
+      background: rgba(122,162,255,.14);
+      color: var(--text);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .btn.secondary {
+      border-color: var(--line);
+      background: var(--panel-2);
+      color: var(--muted);
+      min-width: 88px;
+    }
+
+    .helper {
+      margin-top: 18px;
+      padding: 14px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .footer-nav {
+      position: fixed;
+      left: 50%;
+      bottom: 10px;
+      transform: translateX(-50%);
+      width: min(92vw, 560px);
+      border: 1px solid var(--line);
+      background: rgba(15,21,34,.92);
+      backdrop-filter: blur(12px);
+      border-radius: 18px;
+      padding: 8px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .nav-btn {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      border-radius: 12px;
+      padding: 10px 8px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .nav-btn.active {
+      background: rgba(122,162,255,.14);
+      color: var(--text);
+    }
+
+    .hidden { display: none !important; }
+
+    @media (min-width: 721px) {
+      .content { padding: 18px; }
+      .topbar { padding: 18px 18px 12px; }
+      .quick-grid { grid-template-columns: repeat(4, 1fr); }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <section class="hero">
-      <h1>좋은입력</h1>
-      <p class="subtitle">핵심은 단순하다. 반응을 소비하지 말고, 판단 재료를 쌓아라. 이 페이지는 한국 사이트를 우선으로, 원본 자료, 긴 형식 콘텐츠, 아카이브형 글, 저자극 휴식, 데이터, 오디오를 한곳에 모은 개인용 허브다.</p>
-      <div class="pill-row">
-        <span class="pill">원칙 1, 메모 3줄이 남아야 한다</span>
-        <span class="pill">원칙 2, 판단 기준이 선명해져야 한다</span>
-        <span class="pill">원칙 3, 일주일 뒤에도 가치가 있어야 한다</span>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div>
+          <h1>좋은입력</h1>
+          <p>반응 대신 판단 재료를 모으는 모바일 피드</p>
+        </div>
+        <div class="badge">모바일 우선</div>
       </div>
-      <input id="search" class="search" placeholder="사이트 이름, 카테고리, 용도로 검색" />
-      <div class="filter-row" id="filters">
-        <button class="filter-btn active" data-filter="all">전체</button>
-        <button class="filter-btn" data-filter="투자 원본">투자 원본</button>
-        <button class="filter-btn" data-filter="긴 형식">긴 형식</button>
-        <button class="filter-btn" data-filter="아카이브 글">아카이브 글</button>
-        <button class="filter-btn" data-filter="저자극 휴식">저자극 휴식</button>
-        <button class="filter-btn" data-filter="지도·통계">지도·통계</button>
-        <button class="filter-btn" data-filter="팟캐스트">팟캐스트</button>
+      <input id="search" class="search" type="text" placeholder="사이트, 용도, 태그 검색" />
+      <div class="chips" id="filters">
+        <button class="chip active" data-filter="all">전체</button>
+        <button class="chip" data-filter="투자 원본">투자</button>
+        <button class="chip" data-filter="긴 형식">강의</button>
+        <button class="chip" data-filter="아카이브 글">장문</button>
+        <button class="chip" data-filter="저자극 휴식">휴식</button>
+        <button class="chip" data-filter="지도·통계">데이터</button>
+        <button class="chip" data-filter="팟캐스트">오디오</button>
       </div>
-    </section>
+    </header>
 
-    <section class="section two-col">
-      <div class="card">
-        <h2>30분 대체 루틴</h2>
-        <div class="note">커뮤니티를 끊을 때 가장 중요한 건 의지가 아니라 대체 동선이다.</div>
-        <ul>
-          <li><strong>투자 모드:</strong> DART 10분 → 한국은행/통계 10분 → 내 메모 10분</li>
-          <li><strong>공부 모드:</strong> 공개강의 20분 → 요약 5줄</li>
-          <li><strong>휴식 모드:</strong> 다큐나 건축·미술 콘텐츠 30분</li>
-          <li><strong>사고 정리 모드:</strong> 지도·차트 15분 → 기준 정리 10분</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>피해야 할 대체재</h2>
-        <ul class="danger-list">
-          <li>쇼츠, 릴스, 자극형 썸네일</li>
-          <li>실시간 반응 방송</li>
-          <li>조롱, 논쟁, 분노 유도 콘텐츠</li>
-          <li>무조건 오른다, 정답 알려준다 류의 투자 영상</li>
-          <li>속보 중독형 뉴스 피드</li>
-        </ul>
-      </div>
-    </section>
+    <main class="content">
+      <section id="home-section">
+        <div class="hero-card">
+          <p class="hero-title">결론, 커뮤니티를 끊을 때는 대체 동선이 있어야 한다.</p>
+          <p class="hero-text">짧고 강한 자극 대신, 길고 남는 입력으로 바꿔라. 아래 피드는 한국 사이트를 우선으로 정리했다.</p>
+          <div class="quick-grid">
+            <div class="mini-card"><strong>출근 전 10분</strong><span>DART 1개만 읽기</span></div>
+            <div class="mini-card"><strong>점심 15분</strong><span>통계나 실거래가 확인</span></div>
+            <div class="mini-card"><strong>퇴근 후 20분</strong><span>강의나 장문 1개</span></div>
+            <div class="mini-card"><strong>자기 전 15분</strong><span>저자극 휴식 1개</span></div>
+          </div>
+        </div>
 
-    <section class="section">
-      <h2>추천 사이트</h2>
-      <p>클릭해서 바로 볼 수 있게 정리했다. 각 카드에는 용도와 이유를 같이 붙였다.</p>
-      <div id="cards" class="grid"></div>
-    </section>
+        <div class="section-label">
+          <h2>추천 피드</h2>
+          <span id="result-count">0개</span>
+        </div>
+        <div class="feed" id="feed"></div>
+      </section>
 
-    <section class="section two-col">
-      <div class="card">
-        <h2>내 문서에 바로 남길 질문</h2>
-        <ul>
-          <li>이 자료를 보고 내 판단 기준이 무엇이 바뀌었나</li>
-          <li>이건 사실, 해석, 추측 중 어디에 속하나</li>
-          <li>이 정보가 내 자산, 의사결정, 습관에 어떤 영향을 주나</li>
-          <li>다음 행동 1개는 무엇인가</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>선택 기준</h2>
-        <ul>
-          <li>메모 3줄이 가능하면 통과</li>
-          <li>비교심리나 분노만 남으면 탈락</li>
-          <li>반응이 아니라 구조를 보여주면 통과</li>
-          <li>내 기준을 흐리면 탈락</li>
-        </ul>
-      </div>
-    </section>
+      <section id="routine-section" class="hidden">
+        <div class="hero-card">
+          <p class="hero-title">30분 대체 루틴</p>
+          <p class="hero-text">의지보다 루틴이 중요하다. 아래 3개만 돌리면 커뮤니티를 줄이기 쉽다.</p>
+        </div>
+        <div class="feed">
+          <div class="card">
+            <div class="category">루틴 1</div>
+            <h3 class="title">투자 모드</h3>
+            <p class="desc">DART 10분 → ECOS/KOSIS 10분 → 내 메모 10분</p>
+            <p class="why">남의 의견을 소비하는 시간이 아니라, 기준을 만드는 시간으로 바꾼다.</p>
+          </div>
+          <div class="card">
+            <div class="category">루틴 2</div>
+            <h3 class="title">공부 모드</h3>
+            <p class="desc">K-MOOC나 KOCW 20분 → 요약 5줄</p>
+            <p class="why">짧은 반응형 영상보다 남는 게 많다.</p>
+          </div>
+          <div class="card">
+            <div class="category">루틴 3</div>
+            <h3 class="title">휴식 모드</h3>
+            <p class="desc">박물관, 미술관, 다큐 20~30분</p>
+            <p class="why">쉬면서도 뇌를 소모품처럼 쓰지 않게 해준다.</p>
+          </div>
+        </div>
+      </section>
 
-    <p class="footer">이 페이지는 정적 HTML 파일이다. 원하면 다음 단계로 카테고리 추가, 즐겨찾기 저장, 개인 메모 연동, GitHub Pages 배포까지 확장할 수 있다.</p>
+      <section id="rules-section" class="hidden">
+        <div class="hero-card">
+          <p class="hero-title">선택 기준</p>
+          <p class="hero-text">이 기준 3개를 통과하지 못하면, 보지 않는 게 낫다.</p>
+        </div>
+        <div class="feed">
+          <div class="card">
+            <h3 class="title">1. 메모 3줄이 남는가</h3>
+            <p class="why">남지 않으면 대부분 반응만 남긴다.</p>
+          </div>
+          <div class="card">
+            <h3 class="title">2. 판단 기준이 더 선명해지는가</h3>
+            <p class="why">감정이 아니라 기준이 생겨야 한다.</p>
+          </div>
+          <div class="card">
+            <h3 class="title">3. 일주일 뒤에도 가치가 있는가</h3>
+            <p class="why">지속 가치가 없으면 잡음일 가능성이 높다.</p>
+          </div>
+          <div class="card">
+            <h3 class="title">피해야 할 것</h3>
+            <p class="desc">쇼츠, 릴스, 자극형 썸네일, 실시간 반응 방송, 조롱형 논쟁, 속보 중독형 피드</p>
+            <p class="why">이건 정보가 아니라 주의력 누수다.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="helper">원하면 다음 단계로 즐겨찾기, 읽음 표시, 개인 메모 저장까지 붙일 수 있다.</div>
+    </main>
   </div>
+
+  <nav class="footer-nav">
+    <button class="nav-btn active" data-target="home-section">피드</button>
+    <button class="nav-btn" data-target="routine-section">루틴</button>
+    <button class="nav-btn" data-target="rules-section">기준</button>
+  </nav>
 
   <script>
     const resources = [
-      {
-        category: '투자 원본',
-        title: 'DART 전자공시',
-        url: 'https://dart.fss.or.kr/',
-        use: '사업보고서, 분기보고서, 감사보고서 확인',
-        why: '남의 해석이 아니라 기업이 직접 낸 원본을 본다.',
-        tags: ['한국', '공시', '기업']
-      },
-      {
-        category: '투자 원본',
-        title: 'KRX KIND',
-        url: 'https://kind.krx.co.kr/',
-        use: '상장사 공시, IPO, 거래소 공지 확인',
-        why: '시장 이벤트를 원문에 가깝게 본다.',
-        tags: ['한국', '거래소', '공시']
-      },
-      {
-        category: '투자 원본',
-        title: '한국은행 ECOS',
-        url: 'https://ecos.bok.or.kr/',
-        use: '금리, 통화, 가계부채, 거시지표 조회',
-        why: '경제 이야기를 감정이 아니라 숫자로 본다.',
-        tags: ['한국', '거시', '통계']
-      },
-      {
-        category: '투자 원본',
-        title: 'KOSIS 국가통계포털',
-        url: 'https://kosis.kr/',
-        use: '고용, 물가, 인구, 가계 통계 확인',
-        why: '뉴스 제목이 아니라 실제 구조를 본다.',
-        tags: ['한국', '통계', '정책']
-      },
-      {
-        category: '투자 원본',
-        title: 'KDI 한국개발연구원',
-        url: 'https://www.kdi.re.kr/',
-        use: '정책 보고서와 경제 분석 읽기',
-        why: '논점이 정리된 장문 분석을 얻기 좋다.',
-        tags: ['한국', '정책', '리포트']
-      },
-      {
-        category: '투자 원본',
-        title: '국토연구원',
-        url: 'https://www.krihs.re.kr/',
-        use: '부동산, 국토, 도시 관련 정책 연구 읽기',
-        why: '집과 지역을 감정이 아니라 구조로 보게 만든다.',
-        tags: ['한국', '부동산', '정책']
-      },
-      {
-        category: '긴 형식',
-        title: 'K-MOOC',
-        url: 'https://www.kmooc.kr/',
-        use: '국내 대학 공개강의 수강',
-        why: '한국어로 긴 호흡의 학습을 하기 쉽다.',
-        tags: ['한국어', '강의', '무료']
-      },
-      {
-        category: '긴 형식',
-        title: 'KOCW',
-        url: 'https://www.kocw.net/home/index.do',
-        use: '대학 강의 자료와 공개 강좌 탐색',
-        why: '피드 소비 대신 커리큘럼 소비로 바꾼다.',
-        tags: ['한국어', '강의', '대학']
-      },
-      {
-        category: '긴 형식',
-        title: 'EBS',
-        url: 'https://www.ebs.co.kr/',
-        use: '다큐, 교양, 강의형 영상 보기',
-        why: '짧은 반응형 영상보다 훨씬 덜 소모적이다.',
-        tags: ['한국어', '다큐', '교양']
-      },
-      {
-        category: '긴 형식',
-        title: '국립중앙도서관',
-        url: 'https://www.nl.go.kr/',
-        use: '디지털 자료, 아카이브, 전시 콘텐츠 탐색',
-        why: '깊게 읽을 수 있는 자료가 많고 속도가 느리다.',
-        tags: ['한국어', '도서관', '아카이브']
-      },
-      {
-        category: '아카이브 글',
-        title: 'KDI FOCUS / 연구자료',
-        url: 'https://www.kdi.re.kr/research/report_all.jsp',
-        use: '정책, 경제, 산업 분석 장문 읽기',
-        why: '논점과 근거가 정리된 글을 안정적으로 볼 수 있다.',
-        tags: ['한국', '정책', '장문']
-      },
-      {
-        category: '아카이브 글',
-        title: 'DBR',
-        url: 'https://dbr.donga.com/',
-        use: '전략, 조직, 일, 의사결정 관련 글 읽기',
-        why: '자극보다 프레임을 주는 편이다.',
-        tags: ['한국', '전략', '경영']
-      },
-      {
-        category: '아카이브 글',
-        title: '북저널리즘',
-        url: 'https://www.bookjournalism.com/',
-        use: '한 주제를 길게 정리한 해설 읽기',
-        why: '짧은 뉴스보다 맥락을 준다.',
-        tags: ['한국', '해설', '장문']
-      },
-      {
-        category: '아카이브 글',
-        title: '퍼블리',
-        url: 'https://publy.co/',
-        use: '일, 커리어, 생산성, 산업 글 읽기',
-        why: '경험담보다 구조화된 글을 고르기 쉽다.',
-        tags: ['한국', '일', '커리어']
-      },
-      {
-        category: '아카이브 글',
-        title: 'ㅍㅍㅅㅅ',
-        url: 'https://ppss.kr/',
-        use: '생산성, 일, 사회, 생활 관련 긴 글 탐색',
-        why: '커뮤니티 댓글 소비보다 낫고, 읽을 만한 장문이 섞여 있다.',
-        tags: ['한국', '에세이', '장문']
-      },
-      {
-        category: '저자극 휴식',
-        title: '국립중앙박물관',
-        url: 'https://www.museum.go.kr/',
-        use: '전시, 유물, 해설 콘텐츠 보기',
-        why: '조용하게 보기에 좋고, 자극 중독으로 흐르지 않는다.',
-        tags: ['한국', '박물관', '휴식']
-      },
-      {
-        category: '저자극 휴식',
-        title: '국립현대미술관',
-        url: 'https://www.mmca.go.kr/',
-        use: '전시, 작가, 온라인 미술 콘텐츠 보기',
-        why: '감각을 쉬게 하면서도 밀도 있는 입력이 된다.',
-        tags: ['한국', '미술관', '휴식']
-      },
-      {
-        category: '저자극 휴식',
-        title: 'EBS 다큐/교양',
-        url: 'https://www.ebs.co.kr/',
-        use: '저자극 다큐와 교양 프로그램 보기',
-        why: '쉬면서도 뇌를 소모품처럼 쓰지 않게 해준다.',
-        tags: ['한국', '다큐', '휴식']
-      },
-      {
-        category: '저자극 휴식',
-        title: 'Google Arts & Culture',
-        url: 'https://artsandculture.google.com/',
-        use: '해외 미술, 전시, 박물관 콘텐츠 보기',
-        why: '한국 사이트 외에 쓸 만한 저자극 보조 재료다.',
-        tags: ['해외', '미술', '전시']
-      },
-      {
-        category: '지도·통계',
-        title: '서울열린데이터광장',
-        url: 'https://data.seoul.go.kr/',
-        use: '서울 생활, 교통, 인구, 행정 데이터 보기',
-        why: '생활권 판단을 감으로 하지 않게 해준다.',
-        tags: ['한국', '서울', '데이터']
-      },
-      {
-        category: '지도·통계',
-        title: '국토교통부 실거래가 공개시스템',
-        url: 'https://rt.molit.go.kr/',
-        use: '아파트, 주택 실거래가 확인',
-        why: '부동산 이야기를 소문이 아니라 거래 데이터로 본다.',
-        tags: ['한국', '부동산', '실거래가']
-      },
-      {
-        category: '지도·통계',
-        title: '국가공간정보포털',
-        url: 'https://www.nsdi.go.kr/',
-        use: '지도, 공간정보, 행정구역 데이터 탐색',
-        why: '지역을 텍스트보다 구조로 보기 좋다.',
-        tags: ['한국', '지도', '공간정보']
-      },
-      {
-        category: '지도·통계',
-        title: '국가교통정보센터',
-        url: 'https://www.its.go.kr/',
-        use: '교통 흐름과 도로 정보 확인',
-        why: '생활권과 이동성 판단에 직접 도움이 된다.',
-        tags: ['한국', '교통', '지도']
-      },
-      {
-        category: '지도·통계',
-        title: 'Our World in Data',
-        url: 'https://ourworldindata.org/',
-        use: '세계 데이터와 차트 보기',
-        why: '한국 외 맥락 비교가 필요할 때 좋은 보조 자료다.',
-        tags: ['해외', '데이터', '차트']
-      },
-      {
-        category: '팟캐스트',
-        title: '팟빵',
-        url: 'https://www.podbbang.com/',
-        use: '긴 형식 오디오를 카테고리별로 탐색',
-        why: '짧은 영상보다 덜 자극적이고 산책과 같이 쓰기 좋다.',
-        tags: ['한국', '오디오', '플랫폼']
-      },
-      {
-        category: '팟캐스트',
-        title: 'EBS 오디오',
-        url: 'https://www.ebs.co.kr/',
-        use: '교양형 오디오와 학습형 콘텐츠 탐색',
-        why: '잡담형보다 목적형 듣기에 가깝다.',
-        tags: ['한국', '교양', '오디오']
-      },
-      {
-        category: '팟캐스트',
-        title: 'EconTalk',
-        url: 'https://www.econtalk.org/',
-        use: '경제, 사회, 제도 관련 긴 인터뷰 듣기',
-        why: '한국 사이트 외에 유지할 만한 깊은 대화형 자료다.',
-        tags: ['해외', '경제', '긴형식']
-      },
-      {
-        category: '팟캐스트',
-        title: 'Acquired',
-        url: 'https://www.acquired.fm/',
-        use: '기업, 비즈니스 역사 깊게 듣기',
-        why: '한 회를 길게 파서 피상적 소비가 적다.',
-        tags: ['해외', '기업', '비즈니스']
-      }
+      { category: '투자 원본', title: 'DART 전자공시', url: 'https://dart.fss.or.kr/', use: '사업보고서, 분기보고서, 감사보고서 확인', why: '기업이 직접 낸 원본을 본다.', tags: ['한국', '공시', '기업'], score: '핵심' },
+      { category: '투자 원본', title: 'KRX KIND', url: 'https://kind.krx.co.kr/', use: '상장사 공시, IPO, 거래소 공지 확인', why: '시장 이벤트를 원문에 가깝게 본다.', tags: ['한국', '거래소', '공시'], score: '핵심' },
+      { category: '투자 원본', title: '한국은행 ECOS', url: 'https://ecos.bok.or.kr/', use: '금리, 통화, 가계부채, 거시지표 조회', why: '경제를 감정이 아니라 숫자로 본다.', tags: ['한국', '거시', '통계'], score: '높음' },
+      { category: '투자 원본', title: 'KOSIS 국가통계포털', url: 'https://kosis.kr/', use: '고용, 물가, 인구, 가계 통계 확인', why: '뉴스 제목이 아니라 구조를 본다.', tags: ['한국', '통계', '정책'], score: '높음' },
+      { category: '투자 원본', title: 'KDI 한국개발연구원', url: 'https://www.kdi.re.kr/', use: '정책 보고서와 경제 분석 읽기', why: '논점이 정리된 장문 분석을 얻기 좋다.', tags: ['한국', '정책', '리포트'], score: '높음' },
+      { category: '투자 원본', title: '국토연구원', url: 'https://www.krihs.re.kr/', use: '부동산, 국토, 도시 관련 정책 연구 읽기', why: '집과 지역을 구조로 보게 만든다.', tags: ['한국', '부동산', '정책'], score: '높음' },
+      { category: '긴 형식', title: 'K-MOOC', url: 'https://www.kmooc.kr/', use: '국내 대학 공개강의 수강', why: '한국어로 긴 호흡의 학습을 하기 쉽다.', tags: ['한국어', '강의', '무료'], score: '높음' },
+      { category: '긴 형식', title: 'KOCW', url: 'https://www.kocw.net/home/index.do', use: '대학 강의 자료와 공개 강좌 탐색', why: '피드 소비 대신 커리큘럼 소비로 바꾼다.', tags: ['한국어', '강의', '대학'], score: '높음' },
+      { category: '긴 형식', title: 'EBS', url: 'https://www.ebs.co.kr/', use: '다큐, 교양, 강의형 영상 보기', why: '짧은 자극보다 훨씬 덜 소모적이다.', tags: ['한국어', '다큐', '교양'], score: '좋음' },
+      { category: '긴 형식', title: '국립중앙도서관', url: 'https://www.nl.go.kr/', use: '디지털 자료, 아카이브, 전시 콘텐츠 탐색', why: '깊게 읽을 수 있는 자료가 많다.', tags: ['한국어', '도서관', '아카이브'], score: '좋음' },
+      { category: '아카이브 글', title: 'KDI 연구자료', url: 'https://www.kdi.re.kr/research/report_all.jsp', use: '정책, 경제, 산업 분석 장문 읽기', why: '근거가 정리된 글을 안정적으로 볼 수 있다.', tags: ['한국', '정책', '장문'], score: '높음' },
+      { category: '아카이브 글', title: 'DBR', url: 'https://dbr.donga.com/', use: '전략, 조직, 일, 의사결정 관련 글 읽기', why: '자극보다 프레임을 주는 편이다.', tags: ['한국', '전략', '경영'], score: '좋음' },
+      { category: '아카이브 글', title: '북저널리즘', url: 'https://www.bookjournalism.com/', use: '한 주제를 길게 정리한 해설 읽기', why: '짧은 뉴스보다 맥락을 준다.', tags: ['한국', '해설', '장문'], score: '좋음' },
+      { category: '아카이브 글', title: '퍼블리', url: 'https://publy.co/', use: '일, 커리어, 생산성, 산업 글 읽기', why: '구조화된 글을 고르기 쉽다.', tags: ['한국', '일', '커리어'], score: '좋음' },
+      { category: '아카이브 글', title: 'ㅍㅍㅅㅅ', url: 'https://ppss.kr/', use: '생산성, 일, 사회 관련 긴 글 탐색', why: '커뮤니티 댓글 소비보다는 낫다.', tags: ['한국', '에세이', '장문'], score: '보조' },
+      { category: '저자극 휴식', title: '국립중앙박물관', url: 'https://www.museum.go.kr/', use: '전시, 유물, 해설 콘텐츠 보기', why: '조용하게 보기에 좋다.', tags: ['한국', '박물관', '휴식'], score: '좋음' },
+      { category: '저자극 휴식', title: '국립현대미술관', url: 'https://www.mmca.go.kr/', use: '전시, 작가, 온라인 미술 콘텐츠 보기', why: '감각을 쉬게 하면서도 밀도 있는 입력이 된다.', tags: ['한국', '미술관', '휴식'], score: '좋음' },
+      { category: '저자극 휴식', title: 'EBS 다큐/교양', url: 'https://www.ebs.co.kr/', use: '저자극 다큐와 교양 프로그램 보기', why: '쉬면서도 뇌를 과소비하지 않게 한다.', tags: ['한국', '다큐', '휴식'], score: '좋음' },
+      { category: '저자극 휴식', title: 'Google Arts & Culture', url: 'https://artsandculture.google.com/', use: '해외 미술, 전시, 박물관 콘텐츠 보기', why: '저자극 보조 재료로 좋다.', tags: ['해외', '미술', '전시'], score: '보조' },
+      { category: '지도·통계', title: '서울열린데이터광장', url: 'https://data.seoul.go.kr/', use: '서울 생활, 교통, 인구, 행정 데이터 보기', why: '생활권 판단을 감으로 하지 않게 해준다.', tags: ['한국', '서울', '데이터'], score: '높음' },
+      { category: '지도·통계', title: '실거래가 공개시스템', url: 'https://rt.molit.go.kr/', use: '아파트, 주택 실거래가 확인', why: '부동산을 소문이 아니라 거래 데이터로 본다.', tags: ['한국', '부동산', '실거래가'], score: '핵심' },
+      { category: '지도·통계', title: '국가공간정보포털', url: 'https://www.nsdi.go.kr/', use: '지도, 공간정보, 행정구역 데이터 탐색', why: '지역을 텍스트보다 구조로 보기 좋다.', tags: ['한국', '지도', '공간정보'], score: '좋음' },
+      { category: '지도·통계', title: '국가교통정보센터', url: 'https://www.its.go.kr/', use: '교통 흐름과 도로 정보 확인', why: '이동성 판단에 직접 도움이 된다.', tags: ['한국', '교통', '지도'], score: '좋음' },
+      { category: '지도·통계', title: 'Our World in Data', url: 'https://ourworldindata.org/', use: '세계 데이터와 차트 보기', why: '한국 외 맥락 비교가 필요할 때 좋다.', tags: ['해외', '데이터', '차트'], score: '보조' },
+      { category: '팟캐스트', title: '팟빵', url: 'https://www.podbbang.com/', use: '긴 형식 오디오를 카테고리별로 탐색', why: '산책과 같이 쓰기 좋다.', tags: ['한국', '오디오', '플랫폼'], score: '좋음' },
+      { category: '팟캐스트', title: 'EBS 오디오', url: 'https://www.ebs.co.kr/', use: '교양형 오디오와 학습형 콘텐츠 탐색', why: '잡담형보다 목적형 듣기에 가깝다.', tags: ['한국', '교양', '오디오'], score: '보조' },
+      { category: '팟캐스트', title: 'EconTalk', url: 'https://www.econtalk.org/', use: '경제, 사회, 제도 관련 긴 인터뷰 듣기', why: '깊은 대화형 자료다.', tags: ['해외', '경제', '긴형식'], score: '보조' },
+      { category: '팟캐스트', title: 'Acquired', url: 'https://www.acquired.fm/', use: '기업, 비즈니스 역사 깊게 듣기', why: '한 회를 길게 파서 피상적 소비가 적다.', tags: ['해외', '기업', '비즈니스'], score: '보조' }
     ];
 
-    const cards = document.getElementById('cards');
+    const feed = document.getElementById('feed');
+    const count = document.getElementById('result-count');
     const search = document.getElementById('search');
-    const filterButtons = Array.from(document.querySelectorAll('.filter-btn'));
+    const chips = Array.from(document.querySelectorAll('.chip'));
+    const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
+    const sections = Array.from(document.querySelectorAll('main section'));
 
-    function render(selected = 'all', query = '') {
-      const q = query.trim().toLowerCase();
-      cards.innerHTML = '';
+    let currentFilter = 'all';
+
+    function renderFeed() {
+      const q = search.value.trim().toLowerCase();
       const filtered = resources.filter(item => {
-        const matchesCategory = selected === 'all' || item.category === selected;
-        const haystack = [item.category, item.title, item.use, item.why, ...(item.tags || [])].join(' ').toLowerCase();
-        const matchesQuery = !q || haystack.includes(q);
-        return matchesCategory && matchesQuery;
+        const byCategory = currentFilter === 'all' || item.category === currentFilter;
+        const hay = [item.category, item.title, item.use, item.why, ...(item.tags || []), item.score].join(' ').toLowerCase();
+        const bySearch = !q || hay.includes(q);
+        return byCategory && bySearch;
       });
 
+      count.textContent = `${filtered.length}개`;
+      feed.innerHTML = '';
+
       if (!filtered.length) {
-        cards.innerHTML = '<div class="card"><h3>결과 없음</h3><p>검색어나 필터를 조금 넓혀라.</p></div>';
+        feed.innerHTML = `
+          <article class="card">
+            <h3 class="title">결과 없음</h3>
+            <p class="why">검색어나 필터를 조금 넓혀라.</p>
+          </article>
+        `;
         return;
       }
 
       filtered.forEach(item => {
-        const el = document.createElement('article');
-        el.className = 'card';
-        el.innerHTML = `
-          <div class="tag">${item.category}</div>
-          <h3>${item.title}</h3>
-          <div class="meta">
-            ${(item.tags || []).map(tag => `<span>${tag}</span>`).join('')}
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="meta-top">
+            <div class="source">
+              <span class="dot"></span>
+              <div>
+                <div class="category">${item.category}</div>
+                <h3 class="title">${item.title}</h3>
+              </div>
+            </div>
+            <div class="score">${item.score}</div>
           </div>
-          <p class="reason"><strong>용도:</strong> ${item.use}</p>
-          <p class="reason"><strong>이유:</strong> ${item.why}</p>
+          <p class="desc"><strong>용도.</strong> ${item.use}</p>
+          <p class="why"><strong>이유.</strong> ${item.why}</p>
+          <div class="tags">${(item.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
           <div class="actions">
-            <a class="btn" href="${item.url}" target="_blank" rel="noopener noreferrer">열기</a>
-            <a class="btn secondary" href="${item.url}" target="_blank" rel="noopener noreferrer">링크 다시 보기</a>
+            <a class="btn" href="${item.url}" target="_blank" rel="noopener noreferrer">바로 열기</a>
+            <a class="btn secondary" href="${item.url}" target="_blank" rel="noopener noreferrer">링크</a>
           </div>
         `;
-        cards.appendChild(el);
+        feed.appendChild(card);
       });
     }
 
-    let currentFilter = 'all';
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        currentFilter = btn.dataset.filter;
-        filterButtons.forEach(b => b.classList.toggle('active', b === btn));
-        render(currentFilter, search.value);
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        currentFilter = chip.dataset.filter;
+        chips.forEach(c => c.classList.toggle('active', c === chip));
+        renderFeed();
       });
     });
 
-    search.addEventListener('input', () => render(currentFilter, search.value));
-    render();
+    search.addEventListener('input', renderFeed);
+
+    navBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        navBtns.forEach(b => b.classList.toggle('active', b === btn));
+        sections.forEach(section => section.classList.toggle('hidden', section.id !== btn.dataset.target));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+
+    renderFeed();
   </script>
 </body>
 </html>
