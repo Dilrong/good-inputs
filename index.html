@@ -367,7 +367,7 @@
             <div class="mini-card"><strong>입력 원칙</strong><span>화이트리스트 pull만 허용</span></div>
             <div class="mini-card"><strong>제거 대상</strong><span>댓글, 추천, 실시간 반응</span></div>
             <div class="mini-card"><strong>표시 항목</strong><span>제목, 날짜, 저자, 핵심 요약</span></div>
-            <div class="mini-card"><strong>현재 소스</strong><span>KRIHS 원문 피드 v1</span></div>
+            <div class="mini-card"><strong>현재 소스</strong><span>KRIHS · KDI · MMCA · 박물관 · EBS</span></div>
           </div>
         </div>
 
@@ -517,7 +517,7 @@
             </div>
             <div class="score">${escapeHtml(scoreLabel(item.score))}</div>
           </div>
-          <p class="desc"><strong>날짜.</strong> ${escapeHtml(item.date || '-')} · <strong>저자.</strong> ${escapeHtml(item.authors || '-')}</p>
+          <p class="desc"><strong>날짜.</strong> ${escapeHtml(item.date || '-')} · <strong>주체.</strong> ${escapeHtml(item.authors || '-')}</p>
           <p class="why"><strong>핵심.</strong> ${escapeHtml(item.summary || '요약 없음')}</p>
           <div class="tags">${(item.tags || []).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}</div>
           <div class="actions">
