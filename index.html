@@ -315,9 +315,32 @@
       border-radius: 18px;
       padding: 8px;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 8px;
       box-shadow: var(--shadow);
+    }
+
+    .routine-card {
+      width: 100%;
+      border: 1px solid var(--line);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .routine-card:hover,
+    .routine-card:focus-visible {
+      border-color: rgba(122,162,255,.45);
+      background: rgba(122,162,255,.08);
+      outline: none;
+    }
+
+    .routine-go {
+      display: inline-flex;
+      margin-top: 12px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 700;
     }
 
     .nav-btn {
@@ -381,64 +404,40 @@
       <section id="routine-section" class="hidden">
         <div class="hero-card">
           <p class="hero-title">30분 대체 루틴</p>
-          <p class="hero-text">의지보다 루틴이 중요하다. 아래 3개만 돌리면 커뮤니티를 줄이기 쉽다.</p>
+          <p class="hero-text">루틴을 누르면 그 목적에 맞는 피드만 바로 보여준다.</p>
         </div>
         <div class="feed">
-          <div class="card">
+          <button class="card routine-card" type="button" data-routine="invest">
             <div class="category">루틴 1</div>
             <h3 class="title">투자 모드</h3>
-            <p class="desc">DART 10분 → ECOS/KOSIS 10분 → 내 메모 10분</p>
+            <p class="desc">정책, 연구, 이슈 자료 중심으로 본다.</p>
             <p class="why">남의 의견을 소비하는 시간이 아니라, 기준을 만드는 시간으로 바꾼다.</p>
-          </div>
-          <div class="card">
+            <span class="routine-go">해당 피드 보기</span>
+          </button>
+          <button class="card routine-card" type="button" data-routine="study">
             <div class="category">루틴 2</div>
             <h3 class="title">공부 모드</h3>
-            <p class="desc">K-MOOC나 KOCW 20분 → 요약 5줄</p>
-            <p class="why">짧은 반응형 영상보다 남는 게 많다.</p>
-          </div>
-          <div class="card">
+            <p class="desc">연구 자료와 다큐형 학습 콘텐츠만 모아 본다.</p>
+            <p class="why">짧은 반응형 소비 대신, 남는 입력으로 바꾼다.</p>
+            <span class="routine-go">해당 피드 보기</span>
+          </button>
+          <button class="card routine-card" type="button" data-routine="rest">
             <div class="category">루틴 3</div>
             <h3 class="title">휴식 모드</h3>
-            <p class="desc">박물관, 미술관, 다큐 20~30분</p>
+            <p class="desc">박물관, 미술관, 다큐 위주로 느슨하게 본다.</p>
             <p class="why">쉬면서도 뇌를 소모품처럼 쓰지 않게 해준다.</p>
-          </div>
+            <span class="routine-go">해당 피드 보기</span>
+          </button>
         </div>
       </section>
 
-      <section id="rules-section" class="hidden">
-        <div class="hero-card">
-          <p class="hero-title">선택 기준</p>
-          <p class="hero-text">이 기준 3개를 통과하지 못하면, 보지 않는 게 낫다.</p>
-        </div>
-        <div class="feed">
-          <div class="card">
-            <h3 class="title">1. 메모 3줄이 남는가</h3>
-            <p class="why">남지 않으면 대부분 반응만 남긴다.</p>
-          </div>
-          <div class="card">
-            <h3 class="title">2. 판단 기준이 더 선명해지는가</h3>
-            <p class="why">감정이 아니라 기준이 생겨야 한다.</p>
-          </div>
-          <div class="card">
-            <h3 class="title">3. 일주일 뒤에도 가치가 있는가</h3>
-            <p class="why">지속 가치가 없으면 잡음일 가능성이 높다.</p>
-          </div>
-          <div class="card">
-            <h3 class="title">피해야 할 것</h3>
-            <p class="desc">쇼츠, 릴스, 자극형 썸네일, 실시간 반응 방송, 조롱형 논쟁, 속보 중독형 피드</p>
-            <p class="why">이건 정보가 아니라 주의력 누수다.</p>
-          </div>
-        </div>
-      </section>
-
-      <div class="helper">다음 단계는 읽음 체크, 즐겨찾기, 개인 메모를 붙이고, 허용 소스를 더 추가하는 것이다.</div>
+      <div class="helper">다음 단계는 읽음 체크, 즐겨찾기, 개인 메모를 붙이는 것이다.</div>
     </main>
   </div>
 
   <nav class="footer-nav">
     <button class="nav-btn active" data-target="home-section">피드</button>
     <button class="nav-btn" data-target="routine-section">루틴</button>
-    <button class="nav-btn" data-target="rules-section">기준</button>
   </nav>
 
   <script>
@@ -448,8 +447,17 @@
     const filtersEl = document.getElementById('filters');
     const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
     const sections = Array.from(document.querySelectorAll('main section'));
+    const routineCards = Array.from(document.querySelectorAll('.routine-card'));
+
+    const ROUTINES = {
+      all: { label: '전체' },
+      invest: { label: '투자 모드' },
+      study: { label: '공부 모드' },
+      rest: { label: '휴식 모드' },
+    };
 
     let currentFilter = 'all';
+    let currentRoutine = 'all';
     let items = [];
 
     function escapeHtml(value = '') {
@@ -465,8 +473,36 @@
       return ({ new: 'new', fresh: 'fresh', stable: 'archive' }[score] || score || 'feed');
     }
 
+    function itemMatchesRoutine(item, routine) {
+      if (routine === 'all') return true;
+
+      const source = String(item.source || '');
+      const category = String(item.category || '');
+
+      if (routine === 'invest') {
+        return ['정책', '이슈', '연구'].includes(category) || /^KDI/.test(source);
+      }
+
+      if (routine === 'study') {
+        return ['정책', '이슈', '연구'].includes(category) || source === 'EBS';
+      }
+
+      if (routine === 'rest') {
+        return category === '전시' || source === 'EBS';
+      }
+
+      return true;
+    }
+
+    function getRoutineItems() {
+      return items.filter(item => itemMatchesRoutine(item, currentRoutine));
+    }
+
     function renderFilters() {
-      const categories = ['all', ...new Set(items.map(item => item.category).filter(Boolean))];
+      const routineItems = getRoutineItems();
+      const categories = ['all', ...new Set(routineItems.map(item => item.category).filter(Boolean))];
+      if (!categories.includes(currentFilter)) currentFilter = 'all';
+
       filtersEl.innerHTML = categories.map(category => `
         <button class="chip ${category === currentFilter ? 'active' : ''}" data-filter="${escapeHtml(category)}">${category === 'all' ? '전체' : escapeHtml(category)}</button>
       `).join('');
@@ -482,7 +518,7 @@
 
     function renderFeed() {
       const q = searchEl.value.trim().toLowerCase();
-      const filtered = items.filter(item => {
+      const filtered = getRoutineItems().filter(item => {
         const byCategory = currentFilter === 'all' || item.category === currentFilter;
         const haystack = [item.category, item.source, item.title, item.authors, item.summary, item.date, ...(item.tags || [])]
           .join(' ')
@@ -490,7 +526,9 @@
         return byCategory && (!q || haystack.includes(q));
       });
 
-      countEl.textContent = `${filtered.length}개`;
+      countEl.textContent = currentRoutine === 'all'
+        ? `${filtered.length}개`
+        : `${filtered.length}개 · ${ROUTINES[currentRoutine].label}`;
       feedEl.innerHTML = '';
 
       if (!filtered.length) {
@@ -559,13 +597,37 @@
       renderFeed();
     }
 
+    function activateSection(targetId) {
+      navBtns.forEach(btn => btn.classList.toggle('active', btn.dataset.target === targetId));
+      sections.forEach(section => section.classList.toggle('hidden', section.id !== targetId));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function setRoutineFilter(routine) {
+      currentRoutine = ROUTINES[routine] ? routine : 'all';
+      currentFilter = 'all';
+      renderFilters();
+      renderFeed();
+      activateSection('home-section');
+    }
+
     searchEl.addEventListener('input', renderFeed);
 
     navBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        navBtns.forEach(b => b.classList.toggle('active', b === btn));
-        sections.forEach(section => section.classList.toggle('hidden', section.id !== btn.dataset.target));
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (btn.dataset.target === 'home-section') {
+          currentRoutine = 'all';
+          currentFilter = 'all';
+          renderFilters();
+          renderFeed();
+        }
+        activateSection(btn.dataset.target);
+      });
+    });
+
+    routineCards.forEach(card => {
+      card.addEventListener('click', () => {
+        setRoutineFilter(card.dataset.routine || 'all');
       });
     });
 
