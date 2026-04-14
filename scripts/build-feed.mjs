@@ -215,24 +215,6 @@ const SOURCES = [
   {
     kind: 'rss',
     format: 'rss',
-    source: 'Tailscale Blog',
-    category: '개발',
-    listUrl: 'https://tailscale.com/blog/index.xml',
-    maxItems: 1,
-    extraTags: ['개발', '글로벌'],
-  },
-  {
-    kind: 'rss',
-    format: 'rss',
-    source: 'Stripe Blog',
-    category: '경제',
-    listUrl: 'https://stripe.com/blog/feed.rss',
-    maxItems: 1,
-    extraTags: ['경제', '글로벌'],
-  },
-  {
-    kind: 'rss',
-    format: 'rss',
     source: 'St. Louis Fed',
     category: '경제',
     listUrl: 'https://www.stlouisfed.org/on-the-economy/feed',
@@ -287,13 +269,6 @@ const SOURCES = [
   {
     kind: 'rss',
     format: 'rss',
-    source: 'Dallas Fed',
-    category: '경제',
-    listUrl: 'https://www.dallasfed.org/rss/dallasfed.xml',
-    maxItems: 1,
-    extraTags: ['경제', '글로벌', '연준'],
-  },
-  {
     kind: 'mmca',
     source: 'MMCA',
     category: '전시',
