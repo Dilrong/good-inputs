@@ -45,6 +45,52 @@ const SOURCES = [
     insecure: true,
   },
   {
+    kind: 'rss',
+    format: 'rss',
+    source: '토스 테크',
+    category: '개발',
+    listUrl: 'https://toss.tech/rss.xml',
+    maxItems: 2,
+    extraTags: ['개발', '국내'],
+  },
+  {
+    kind: 'rss',
+    format: 'atom',
+    source: '네이버 D2',
+    category: '개발',
+    listUrl: 'https://d2.naver.com/d2.atom',
+    maxItems: 2,
+    extraTags: ['개발', '국내'],
+    excludeTags: ['news'],
+  },
+  {
+    kind: 'rss',
+    format: 'rss',
+    source: 'GitHub Engineering',
+    category: '개발',
+    listUrl: 'https://github.blog/engineering/feed/',
+    maxItems: 2,
+    extraTags: ['개발', '글로벌'],
+  },
+  {
+    kind: 'rss',
+    format: 'rss',
+    source: 'React Blog',
+    category: '개발',
+    listUrl: 'https://react.dev/rss.xml',
+    maxItems: 2,
+    extraTags: ['개발', '글로벌'],
+  },
+  {
+    kind: 'rss',
+    format: 'atom',
+    source: 'Go Blog',
+    category: '개발',
+    listUrl: 'https://go.dev/blog/feed.atom',
+    maxItems: 2,
+    extraTags: ['개발', '글로벌'],
+  },
+  {
     kind: 'mmca',
     source: 'MMCA',
     category: '전시',
@@ -91,6 +137,7 @@ function decodeHtml(str = '') {
 
 function stripTags(str = '') {
   return decodeHtml(str)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<br\s*\/?>/gi, '\n')
@@ -117,7 +164,14 @@ function truncateText(str = '', max = 280) {
 
 function normalizeDate(str = '') {
   const match = String(str).match(/(20\d{2})[.-](\d{2})[.-](\d{2})/);
-  return match ? `${match[1]}-${match[2]}-${match[3]}` : String(str).trim();
+  if (match) return `${match[1]}-${match[2]}-${match[3]}`;
+  return toIsoDate(str) || String(str).trim();
+}
+
+function toIsoDate(value = '') {
+  const timestamp = Date.parse(String(value).trim());
+  if (!Number.isFinite(timestamp)) return '';
+  return new Date(timestamp).toISOString().slice(0, 10);
 }
 
 function absoluteUrl(base, path) {
@@ -141,6 +195,50 @@ function uniqueBy(items, keyFn) {
 function extractMetaContent(html, attr, name) {
   const regex = new RegExp(`<meta[^>]+${attr}=["']${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}["'][^>]+content=["']([\s\S]*?)["']`, 'i');
   return cleanText((html.match(regex) || [])[1] || '');
+}
+
+function parseXmlAttributes(fragment = '') {
+  const attrs = {};
+  for (const match of String(fragment).matchAll(/([:\w-]+)=["']([\s\S]*?)["']/g)) {
+    attrs[match[1]] = decodeHtml(match[2]);
+  }
+  return attrs;
+}
+
+function extractXmlTag(block = '', tagNames = []) {
+  const names = Array.isArray(tagNames) ? tagNames : [tagNames];
+  for (const tagName of names) {
+    const escaped = String(tagName).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const match = String(block).match(new RegExp(`<${escaped}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escaped}>`, 'i'));
+    if (match) return match[1];
+  }
+  return '';
+}
+
+function extractAtomLink(block = '') {
+  let fallback = '';
+  for (const match of String(block).matchAll(/<link\b([^>]*)\/?>(?:<\/link>)?/gi)) {
+    const attrs = parseXmlAttributes(match[1]);
+    if (!attrs.href) continue;
+    if (!fallback) fallback = attrs.href;
+    if (!attrs.rel || attrs.rel === 'alternate') return attrs.href;
+  }
+  return fallback;
+}
+
+function extractRssCategories(block = '') {
+  return [...String(block).matchAll(/<category(?:\s[^>]*)?>([\s\S]*?)<\/category>/gi)]
+    .map(match => cleanText(match[1]))
+    .filter(Boolean);
+}
+
+function extractAtomCategories(block = '') {
+  const categories = [];
+  for (const match of String(block).matchAll(/<category\b([^>]*)\/?>(?:([\s\S]*?)<\/category>)?/gi)) {
+    const attrs = parseXmlAttributes(match[1]);
+    categories.push(cleanText(attrs.term || match[2] || ''));
+  }
+  return categories.filter(Boolean);
 }
 
 async function fetchText(url, options = {}) {
@@ -200,6 +298,58 @@ function finalizeItem(item, extraTags = []) {
   }
 
   return next;
+}
+
+function extractRssFeedItems(xml, source) {
+  const items = [];
+
+  for (const match of String(xml).matchAll(/<item\b[\s\S]*?<\/item>/gi)) {
+    const block = match[0];
+    const categories = extractRssCategories(block);
+    if (source.excludeTags?.some(tag => categories.includes(tag))) continue;
+
+    items.push(finalizeItem({
+      source: source.source,
+      category: source.category,
+      title: extractXmlTag(block, 'title'),
+      authors: extractXmlTag(block, ['dc:creator', 'author']),
+      date: normalizeDate(extractXmlTag(block, ['pubDate', 'dc:date'])),
+      url: extractXmlTag(block, 'link'),
+      summary: extractXmlTag(block, ['description', 'content:encoded']),
+    }, [...(source.extraTags || []), ...categories]));
+  }
+
+  return uniqueBy(items, item => item.url).slice(0, source.maxItems);
+}
+
+function extractAtomFeedItems(xml, source) {
+  const items = [];
+
+  for (const match of String(xml).matchAll(/<entry\b[\s\S]*?<\/entry>/gi)) {
+    const block = match[0];
+    const categories = extractAtomCategories(block);
+    if (source.excludeTags?.some(tag => categories.includes(tag))) continue;
+
+    items.push(finalizeItem({
+      source: source.source,
+      category: source.category,
+      title: extractXmlTag(block, 'title'),
+      authors: extractXmlTag(block, ['name', 'author']),
+      date: normalizeDate(extractXmlTag(block, ['published', 'updated'])),
+      url: extractAtomLink(block),
+      summary: extractXmlTag(block, ['summary', 'content']),
+    }, [...(source.extraTags || []), ...categories]));
+  }
+
+  return uniqueBy(items, item => item.url).slice(0, source.maxItems);
+}
+
+async function buildRssSource(source) {
+  const xml = await fetchText(source.listUrl, { insecure: source.insecure });
+  const format = source.format || (/\<feed\b/i.test(xml) ? 'atom' : 'rss');
+  return format === 'atom'
+    ? extractAtomFeedItems(xml, source)
+    : extractRssFeedItems(xml, source);
 }
 
 function extractKrihsListItems(html, sourceMeta) {
@@ -464,6 +614,8 @@ async function buildSource(source) {
     }
     case 'kdi-report':
       return await buildKdiReportSource(source);
+    case 'rss':
+      return await buildRssSource(source);
     case 'mmca':
       return await buildMmcaSource(source);
     case 'museum':
@@ -496,7 +648,7 @@ async function build() {
 
   return {
     generatedAt: new Date().toISOString(),
-    description: '좋은입력 클린 피드. 허용한 원문 소스만 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.',
+    description: '좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.',
     items: uniqueItems,
   };
 }

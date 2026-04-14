@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-14T08:04:34.870Z",
-  "description": "좋은입력 클린 피드. 허용한 원문 소스만 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
+  "generatedAt": "2026-04-14T12:47:33.401Z",
+  "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
       "source": "국토정책Brief",
@@ -35,6 +35,38 @@
       ]
     },
     {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "하마터면 못생겨질 뻔했다 - 토스 프론트 2 제작기",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://toss.tech/article/toss_front",
+      "summary": "아름다우면서 사용성까지 챙긴 토스 프론트 2, 그 뒤에는 “이게 정말 최선일까?”를 끝까지 놓지 않았던 집요한 고민이 있었어요.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "Layers of your time : 토스와 함께한 시간을 기념하기",
+      "authors": "",
+      "date": "2026-04-07",
+      "url": "https://toss.tech/article/layers-of-your-time",
+      "summary": "팀원의 시간을 진심으로 축하하는 방법을 찾고 싶었어요. 8개월 동안 사내 굿즈를 다시 만들며 고민했던 과정과, 그 안에서 발견한 기준을 들려드려요.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
+    {
       "source": "국립중앙박물관",
       "category": "전시",
       "title": "깨달음으로 이끄는 부처 안동 봉정사 괘불",
@@ -64,6 +96,27 @@
       "tags": [
         "정책",
         "국토정책Brief",
+        "fresh"
+      ]
+    },
+    {
+      "source": "GitHub Engineering",
+      "category": "개발",
+      "title": "The uphill climb of making diff lines performant",
+      "authors": "Luke Ghenco",
+      "date": "2026-04-03",
+      "url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+      "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog .",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "GitHub Engineering",
+        "글로벌",
+        "Architecture & optimization",
+        "Engineering",
+        "diffs",
+        "performance engineering",
+        "pull requests",
         "fresh"
       ]
     },
@@ -102,6 +155,29 @@
       ]
     },
     {
+      "source": "GitHub Engineering",
+      "category": "개발",
+      "title": "Agent-driven development in Copilot Applied Science",
+      "authors": "Tyler McGoffin",
+      "date": "2026-03-31",
+      "url": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+      "summary": "I used coding agents to build agents that automated part of my job. Here's what I learned about working better with coding agents. The post Agent-driven development in Copilot Applied Science appeared first on The GitHub Blog .",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "GitHub Engineering",
+        "글로벌",
+        "AI & ML",
+        "Application development",
+        "Architecture & optimization",
+        "GitHub Copilot",
+        "AI agents",
+        "automation",
+        "GitHub Copilot CLI",
+        "fresh"
+      ]
+    },
+    {
       "source": "국토정책Brief",
       "category": "정책",
       "title": "[국토정책Brief 제1056호] 노후계획도시정비, '주택 통합 재건축'을 넘어 '도시기능 향상'으로",
@@ -134,6 +210,40 @@
       ]
     },
     {
+      "source": "네이버 D2",
+      "category": "개발",
+      "title": "C++ 객체 수명과 암묵적 객체 생성",
+      "authors": "",
+      "date": "2026-03-26",
+      "url": "https://d2.naver.com/helloworld/7997284",
+      "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "네이버 D2",
+        "국내",
+        "hello world",
+        "fresh"
+      ]
+    },
+    {
+      "source": "네이버 D2",
+      "category": "개발",
+      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
+      "authors": "",
+      "date": "2026-03-25",
+      "url": "https://d2.naver.com/helloworld/1155434",
+      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_ca…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "네이버 D2",
+        "국내",
+        "hello world",
+        "fresh"
+      ]
+    },
+    {
       "source": "KDI FOCUS",
       "category": "정책",
       "title": "기업의 성공적 스케일업을 위한 정책 지원체계 재구축 방안",
@@ -145,6 +255,22 @@
       "tags": [
         "정책",
         "KDI FOCUS",
+        "fresh"
+      ]
+    },
+    {
+      "source": "Go Blog",
+      "category": "개발",
+      "title": "Type Construction and Cycle Detection",
+      "authors": "Mark Freeman",
+      "date": "2026-03-24",
+      "url": "https://go.dev/blog/type-construction-and-cycle-detection",
+      "summary": "Go 1.26 simplifies type construction and enhances cycle detection for certain kinds of recursive types.",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "Go Blog",
+        "글로벌",
         "fresh"
       ]
     },
@@ -245,6 +371,22 @@
       ]
     },
     {
+      "source": "Go Blog",
+      "category": "개발",
+      "title": "//go:fix inline and the source-level inliner",
+      "authors": "Alan Donovan",
+      "date": "2026-03-10",
+      "url": "https://go.dev/blog/inliner",
+      "summary": "How Go 1.26's source-level inliner works, and how it can help you with self-service API migrations.",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Go Blog",
+        "글로벌",
+        "stable"
+      ]
+    },
+    {
       "source": "EBS",
       "category": "교양",
       "title": "다큐프라임 - 자연모사 | 자연모사 1부",
@@ -258,6 +400,22 @@
         "교양",
         "EBS",
         "다큐프라임 - 자연모사",
+        "stable"
+      ]
+    },
+    {
+      "source": "React Blog",
+      "category": "개발",
+      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
+      "authors": "Matt Carroll",
+      "date": "2026-02-24",
+      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
+      "summary": "The React Foundation has officially launched, hosted by the Linux Foundation.",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "React Blog",
+        "글로벌",
         "stable"
       ]
     },
@@ -401,6 +559,22 @@
       "tags": [
         "연구",
         "워킹페이퍼",
+        "stable"
+      ]
+    },
+    {
+      "source": "React Blog",
+      "category": "개발",
+      "title": "Denial of Service and Source Code Exposure in React Server Components",
+      "authors": "The React Team",
+      "date": "2025-12-11",
+      "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+      "summary": "Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability. High vulnerability Denial of Service (CVE-2025-55184), and medium vulnerability Source Code Expo…",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "React Blog",
+        "글로벌",
         "stable"
       ]
     },
