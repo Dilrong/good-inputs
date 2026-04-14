@@ -399,7 +399,7 @@
           <p class="hero-text">필터는 최소화했다. 중요한 것만 빨리 읽고 바로 원문으로 들어간다.</p>
           <div class="quick-grid">
             <div class="mini-card"><strong>기준</strong><span>원문 · 저잡음 · 긴 호흡</span></div>
-            <div class="mini-card"><strong>필터</strong><span>전체 · 중요 · 최근 · 경제 · 개발</span></div>
+            <div class="mini-card"><strong>필터</strong><span>전체 · 중요 · 최근 · 국내경제 · 경제 · 개발</span></div>
             <div class="mini-card"><strong>루틴</strong><span>판단 · 자본 · 회복</span></div>
             <div class="mini-card"><strong>동작</strong><span>검색 · 원문 열기</span></div>
           </div>
@@ -469,7 +469,8 @@
     };
 
     const DEV_SOURCES = new Set(['토스 테크', '네이버 D2', 'GitHub Engineering', 'React Blog', 'Go Blog']);
-    const ECON_SOURCES = new Set(['자본시장연구원', 'KIEP', '한국은행', 'St. Louis Fed', 'NY Fed Liberty Street', 'FRED Blog', 'NBER Working Papers', 'ECB Blog']);
+    const KOREAN_ECON_SOURCES = new Set(['자본시장연구원', 'KIEP', '한국은행']);
+    const ECON_SOURCES = new Set([...KOREAN_ECON_SOURCES, 'St. Louis Fed', 'NY Fed Liberty Street', 'FRED Blog', 'NBER Working Papers', 'ECB Blog']);
     const DECISION_SOURCES = new Set(['국토정책Brief', '국토이슈리포트', '워킹페이퍼', 'KDI FOCUS', 'KDI 연구보고서', ...DEV_SOURCES, ...ECON_SOURCES]);
     const RECOVERY_SOURCES = new Set(['MMCA', '국립중앙박물관', 'EBS']);
     const CAPITAL_KEYWORDS = [
@@ -524,6 +525,7 @@
         { key: 'all', label: '전체' },
         { key: 'important', label: '중요' },
         { key: 'recent', label: '최근' },
+        { key: 'korean-economy', label: '국내경제' },
         { key: 'economy', label: '경제' },
         { key: 'development', label: '개발' },
       ];
@@ -537,6 +539,9 @@
       if (currentFilter === 'all') return true;
       if (currentFilter === 'recent') return item.score === 'new' || item.score === 'fresh';
       if (currentFilter === 'development') return DEV_SOURCES.has(source) || category === '개발';
+      if (currentFilter === 'korean-economy') {
+        return KOREAN_ECON_SOURCES.has(source);
+      }
       if (currentFilter === 'economy') {
         return ECON_SOURCES.has(source)
           || category === '경제'
