@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T13:04:10.873Z",
+  "generatedAt": "2026-04-14T13:22:50.597Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -14,6 +14,26 @@
       "tags": [
         "정책",
         "국토정책Brief",
+        "new"
+      ]
+    },
+    {
+      "source": "Slack Engineering",
+      "category": "개발",
+      "title": "Managing context in long-run agentic applications",
+      "authors": "Dominic Marks",
+      "date": "2026-04-13",
+      "url": "https://slack.engineering/managing-context-in-long-run-agentic-applications/",
+      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Slack Engineering",
+        "글로벌",
+        "Uncategorized",
+        "development",
+        "security",
+        "software-engineering",
         "new"
       ]
     },
@@ -137,6 +157,25 @@
       ]
     },
     {
+      "source": "Meta Engineering",
+      "category": "개발",
+      "title": "Escaping the Fork: How Meta Modernized WebRTC Across 50+ Use Cases",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://engineering.fb.com/2026/04/09/developer-tools/escaping-the-fork-how-meta-modernized-webrtc-across-50-use-cases/",
+      "summary": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’r…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Meta Engineering",
+        "글로벌",
+        "DevInfra",
+        "Open Source",
+        "Video Engineering",
+        "new"
+      ]
+    },
+    {
       "source": "St. Louis Fed",
       "category": "경제",
       "title": "Banking Analytics: Credit and Debit Card Fees Collected by Banks Rose in 2025",
@@ -240,6 +279,22 @@
       ]
     },
     {
+      "source": "Stripe Blog",
+      "category": "경제",
+      "title": "How agents, digital wallets, and trust are rewriting checkout",
+      "authors": "",
+      "date": "2026-04-07",
+      "url": "https://stripe.com/blog/global-checkout-trends",
+      "summary": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "Stripe Blog",
+        "글로벌",
+        "new"
+      ]
+    },
+    {
       "source": "국립중앙박물관",
       "category": "전시",
       "title": "깨달음으로 이끄는 부처 안동 봉정사 괘불",
@@ -305,6 +360,42 @@
       ]
     },
     {
+      "source": "AWS Developer",
+      "category": "개발",
+      "title": "Smithy Java client framework is now generally available",
+      "authors": "Manuel Sugawara",
+      "date": "2026-04-06",
+      "url": "https://aws.amazon.com/blogs/developer/smithy-java-client-framework-is-now-generally-available/",
+      "summary": "Smithy Java client code generation is now generally available. You can use it to build type-safe, protocol-agnostic Java clients directly from Smithy models. With Smithy Java, serialization, protocol handling, and request/response lifecycles are all generated automatically from…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "AWS Developer",
+        "글로벌",
+        "Announcements",
+        "Developer Tools",
+        "Java",
+        "smithy",
+        "fresh"
+      ]
+    },
+    {
+      "source": "Rust Blog",
+      "category": "개발",
+      "title": "docs.rs: building fewer targets by default",
+      "authors": "Denis Cornehl",
+      "date": "2026-04-04",
+      "url": "https://blog.rust-lang.org/2026/04/04/docsrs-only-default-targets/",
+      "summary": "Building fewer targets by default On 2026-05-01 , docs.rs will make a breaking change to its build behavior. Today, if a crate does not define a targets list in its docs.rs metadata , docs.rs builds documentation for a default list of five targets. Starting on 2026-05-01 , docs.…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "Rust Blog",
+        "글로벌",
+        "fresh"
+      ]
+    },
+    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "The uphill climb of making diff lines performant",
@@ -340,6 +431,25 @@
         "국내",
         "이슈보고서",
         "자본시장",
+        "fresh"
+      ]
+    },
+    {
+      "source": "Dropbox Tech",
+      "category": "개발",
+      "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
+      "authors": "Facundo Agriel",
+      "date": "2026-04-02",
+      "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
+      "summary": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "Dropbox Tech",
+        "글로벌",
+        "Magic Pocket",
+        "storage",
+        "Infrastructure",
         "fresh"
       ]
     },
@@ -412,6 +522,22 @@
       "tags": [
         "정책",
         "국토정책Brief",
+        "fresh"
+      ]
+    },
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Kubernetes v1.36 Sneak Peek",
+      "authors": "",
+      "date": "2026-03-30",
+      "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
+      "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
         "fresh"
       ]
     },
