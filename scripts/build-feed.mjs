@@ -45,6 +45,27 @@ const SOURCES = [
     insecure: true,
   },
   {
+    kind: 'kcmi',
+    source: '자본시장연구원',
+    category: '경제',
+    listUrl: 'https://www.kcmi.re.kr/report/json_report_list',
+    maxItems: 3,
+  },
+  {
+    kind: 'kiep',
+    source: 'KIEP',
+    category: '경제',
+    listUrl: 'https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002',
+    maxItems: 3,
+  },
+  {
+    kind: 'bok',
+    source: '한국은행',
+    category: '경제',
+    listUrl: 'https://www.bok.or.kr/portal/singl/crncyPolicyDrcMtg/listYear.do?mtgSe=A&menuNo=200755',
+    maxItems: 3,
+  },
+  {
     kind: 'rss',
     format: 'rss',
     source: '토스 테크',
@@ -293,14 +314,21 @@ async function fetchText(url, options = {}) {
   };
 
   try {
-    const res = await fetch(url, { headers });
+    const res = await fetch(url, {
+      method: options.method || 'GET',
+      headers,
+      body: options.body,
+    });
     if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);
     return await res.text();
   } catch (error) {
-    const args = ['-sL', '--compressed', '-A', USER_AGENT];
+    const args = ['-sL', '--compressed', '-A', USER_AGENT, '-X', options.method || 'GET'];
     if (options.insecure) args.push('-k');
     for (const [key, value] of Object.entries(options.headers || {})) {
       args.push('-H', `${key}: ${value}`);
+    }
+    if (typeof options.body === 'string') {
+      args.push('--data', options.body);
     }
     args.push(url);
     const { stdout } = await execFileAsync('curl', args, { maxBuffer: 20 * 1024 * 1024 });
@@ -520,6 +548,96 @@ async function buildKdiReportSource(source) {
   return items;
 }
 
+async function buildKcmiSource(source) {
+  const body = new URLSearchParams({
+    thispage: '1',
+    perpage: String(source.maxItems),
+    s_report_subject: '',
+    s_report_type: '',
+  });
+  const text = await fetchText(source.listUrl, {
+    headers: {
+      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    },
+    method: 'POST',
+    body: body.toString(),
+  });
+  const data = JSON.parse(text);
+  return (Array.isArray(data) ? data : []).slice(0, source.maxItems).map(item => finalizeItem({
+    source: source.source,
+    category: source.category,
+    title: item.report_title,
+    authors: item.author,
+    date: item.pub_date,
+    url: absoluteUrl('https://www.kcmi.re.kr', item.report_pdf_preview_link || item.report_pdf_download_link || ''),
+    summary: item.summary,
+  }, ['경제', '국내', item.report_type_name, item.report_subject_name]));
+}
+
+function extractKiepListItems(html, source) {
+  const block = (html.match(/<div class="board_list">([\s\S]*?)<div class="board_pager">/i) || [])[1] || '';
+  const items = [];
+
+  for (const match of block.matchAll(/<li>([\s\S]*?)<\/li>/gi)) {
+    const row = match[1];
+    const href = (row.match(/<a href="([^"]+)"[^>]*class="title"/i) || [])[1] || '';
+    const title = (row.match(/class="title">\s*([\s\S]*?)\s*<\/a>/i) || [])[1] || '';
+    const info = cleanText((row.match(/<p class="info">([\s\S]*?)<\/p>/i) || [])[1] || '');
+    const author = (info.match(/^(.+?)\s+작성일/) || [])[1] || '';
+    const date = (info.match(/작성일\s*([0-9.]+)/) || [])[1] || '';
+    if (!href || !title) continue;
+
+    items.push({
+      source: source.source,
+      category: source.category,
+      title,
+      authors: author,
+      date,
+      url: absoluteUrl('https://www.kiep.go.kr', href),
+      summary: '대외경제, 공급망, 통상, 성장구조 관련 연구보고서.',
+    });
+  }
+
+  return items.slice(0, source.maxItems);
+}
+
+async function buildKiepSource(source) {
+  const html = await fetchText(source.listUrl);
+  return extractKiepListItems(html, source).map(item => finalizeItem(item, ['경제', '국내']));
+}
+
+function extractBokMeetingItems(html, source) {
+  const body = (html.match(/<tbody>([\s\S]*?)<\/tbody>/i) || [])[1] || '';
+  const currentYear = new Date().getUTCFullYear();
+  const items = [];
+
+  for (const match of body.matchAll(/<tr>([\s\S]*?)<\/tr>/gi)) {
+    const row = match[1];
+    const dayText = cleanText((row.match(/<th[^>]*>([\s\S]*?)<\/th>/i) || [])[1] || '');
+    const monthDay = dayText.match(/(\d{2})월\s*(\d{2})일/);
+    const viewHref = (row.match(/<a href='([^']+B0000169\/view\.do[^']+)'/i) || [])[1] || '';
+    const title = cleanText((row.match(/class="i-goView">([\s\S]*?)<\/a>/i) || [])[1] || '');
+    if (!monthDay || !viewHref || !title) continue;
+
+    items.push({
+      source: source.source,
+      category: source.category,
+      title,
+      authors: '',
+      date: `${currentYear}-${monthDay[1]}-${monthDay[2]}`,
+      url: absoluteUrl('https://www.bok.or.kr', decodeHtml(viewHref)),
+      summary: '통화정책방향 결정회의와 관련된 총재 기자간담회 및 회의 자료.',
+    });
+  }
+
+  return items.slice(0, source.maxItems);
+}
+
+async function buildBokSource(source) {
+  const html = await fetchText(source.listUrl);
+  return extractBokMeetingItems(html, source).map(item => finalizeItem(item, ['경제', '국내', '중앙은행']));
+}
+
 async function buildMmcaSource(source) {
   const data = await fetchJson(source.listUrl, {
     headers: { 'x-requested-with': 'XMLHttpRequest' },
@@ -659,6 +777,12 @@ async function buildSource(source) {
     }
     case 'kdi-report':
       return await buildKdiReportSource(source);
+    case 'kcmi':
+      return await buildKcmiSource(source);
+    case 'kiep':
+      return await buildKiepSource(source);
+    case 'bok':
+      return await buildBokSource(source);
     case 'rss':
       return await buildRssSource(source);
     case 'mmca':

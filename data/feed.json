@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T12:56:41.007Z",
+  "generatedAt": "2026-04-14T13:04:10.873Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -84,6 +84,39 @@
         "교양",
         "EBS",
         "다큐프라임 - 백세부자",
+        "new"
+      ]
+    },
+    {
+      "source": "한국은행",
+      "category": "경제",
+      "title": "통화정책방향 관련 총재 기자간담회 (2026.04)",
+      "authors": "",
+      "date": "2026-04-10",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10097474&menuNo=201295&programType=multiCont",
+      "summary": "통화정책방향 결정회의와 관련된 총재 기자간담회 및 회의 자료.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "한국은행",
+        "국내",
+        "중앙은행",
+        "new"
+      ]
+    },
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "중국의 해외 생산ㆍ공급 거점 다변화와 한ㆍ중 경쟁력 분석",
+      "authors": "정지현 외",
+      "date": "2026-04-09",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12353&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
         "new"
       ]
     },
@@ -240,6 +273,38 @@
       ]
     },
     {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "글로벌 인구구조 변화의 거시경제적 영향과 시사점",
+      "authors": "윤상하 외",
+      "date": "2026-04-06",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12343&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "fresh",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
+        "fresh"
+      ]
+    },
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "지속가능한 중장기 개발재원 규모 확대 방안 연구",
+      "authors": "정지원 외",
+      "date": "2026-04-06",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12344&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "fresh",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
+        "fresh"
+      ]
+    },
+    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "The uphill climb of making diff lines performant",
@@ -257,6 +322,24 @@
         "diffs",
         "performance engineering",
         "pull requests",
+        "fresh"
+      ]
+    },
+    {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "title": "이사 자격 제한 및 정보 공개 제도의 국제 비교와 개선 과제",
+      "authors": "연구위원 정수민",
+      "date": "2026-04-02",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28838&fgu=002002&fty=004003",
+      "summary": "본 보고서는 우리나라의 이사 자격 제한 제도와 이사 후보자 정보 공개 제도의 현황을 분석하고, 이를 일본‧영국‧호주‧미국‧홍콩‧싱가포르 등 주요국의 제도와 비교하여 국내 제도의 개선 방향을 제안한다. 국내 상법은 독립이사(사외이사)에 대해서만 결격사유를 규정하고 사내이사에 대한 적격성 기준을 두지 않는 비대칭적 구조를 갖고 있다. 반면 해외 주요국은 사내‧사외이사를 구분하지 않고 모든 이사에게 동일한 적격성 요건을 적용하며, 이사의 결격사유 또한 우리나라에 비해 폭넓게 규정한 경우가 많다. 우리…",
+      "score": "fresh",
+      "tags": [
+        "경제",
+        "자본시장연구원",
+        "국내",
+        "이슈보고서",
+        "자본시장",
         "fresh"
       ]
     },
@@ -346,6 +429,24 @@
         "교양",
         "EBS",
         "다큐프라임 - 자연다큐 죽음",
+        "fresh"
+      ]
+    },
+    {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "title": "기업지배구조 보고서 공시 의무화 효과 분석 및 시사점",
+      "authors": "연구위원 임나연",
+      "date": "2026-03-26",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28827&fgu=002002&fty=004003",
+      "summary": "전 세계적으로 기업지배구조는 지속가능성, 책임경영, 투자자 보호를 위한 핵심 요소로 강조되어 왔으며, 이에 따라 많은 국가가 기업지배구조 원칙을 제정하고 원칙의 준수 여부 공시를 의무화했다. 한국은 2019년부터 자산 규모를 기준으로 기업지배구조 보고서 공시 의무화를 단계적으로 시행했으며, 2026년부터 모든 유가증권시장 상장기업으로 의무공시가 전면 확대될 예정이다. 제도의 궁극적 목표가 단순한 공시를 넘어 실질적 지배구조 개선과 기업가치 제고에 있는 만큼, 이 목적이 제대로 달성되고 있는지 제…",
+      "score": "fresh",
+      "tags": [
+        "경제",
+        "자본시장연구원",
+        "국내",
+        "연구보고서",
+        "자본시장",
         "fresh"
       ]
     },
@@ -544,6 +645,41 @@
       ]
     },
     {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "title": "TDF의 동향과 개선 과제",
+      "authors": "연구위원 홍원구",
+      "date": "2026-03-05",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28777&fgu=002002&fty=004003",
+      "summary": "목표일펀드(Target Date Fund: TDF) 시장은 2016년 672억원에서 2024년 16.6조원으로 확대되었으며, 현재 TDF 적립액의 대부분은 퇴직연금 자산으로 구성되어 있다. 특히 IRP와 DC형 퇴직연금이 TDF의 핵심 활용 기반을 형성하고 있어, TDF는 그간 퇴직연금 자산운용 과정에서 일정한 역할을 수행해 온 것으로 평가된다. 다만 2023년 도입된 사전지정운용제도는 초기 기대와 달리 TDF 활용 확대에 미치는 영향이 제한적인 것으로 나타나고 있으며, 최근에는 ETF, 로보어…",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "자본시장연구원",
+        "국내",
+        "이슈보고서",
+        "자산운용/연금",
+        "stable"
+      ]
+    },
+    {
+      "source": "한국은행",
+      "category": "경제",
+      "title": "통화정책방향 관련 총재 기자간담회 (2026.02)",
+      "authors": "",
+      "date": "2026-02-26",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10096712&menuNo=201295&programType=multiCont",
+      "summary": "통화정책방향 결정회의와 관련된 총재 기자간담회 및 회의 자료.",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "한국은행",
+        "국내",
+        "중앙은행",
+        "stable"
+      ]
+    },
+    {
       "source": "React Blog",
       "category": "개발",
       "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
@@ -603,6 +739,23 @@
       "tags": [
         "연구",
         "워킹페이퍼",
+        "stable"
+      ]
+    },
+    {
+      "source": "한국은행",
+      "category": "경제",
+      "title": "통화정책방향 관련 총재 기자간담회 (2026.01)",
+      "authors": "",
+      "date": "2026-01-15",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10095737&menuNo=201295&programType=multiCont",
+      "summary": "통화정책방향 결정회의와 관련된 총재 기자간담회 및 회의 자료.",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "한국은행",
+        "국내",
+        "중앙은행",
         "stable"
       ]
     },
