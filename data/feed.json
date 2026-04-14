@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T12:47:33.401Z",
+  "generatedAt": "2026-04-14T12:56:41.007Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -14,6 +14,59 @@
       "tags": [
         "정책",
         "국토정책Brief",
+        "new"
+      ]
+    },
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "title": "What Millions of Homeowner’s Insurance Contracts Reveal About Risk Sharing",
+      "authors": "",
+      "date": "2026-04-13",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/04/what-millions-of-homeowners-insurance-contracts-reveal-about-risk-sharing/",
+      "summary": "Housing is the largest component of assets held by households in the United States, totaling $48 trillion in 2025. When natural disasters strike, the resulting damage to homes can be large relative to households’ liquid savings. Homeowner’s insurance is the primary financial too…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "NY Fed Liberty Street",
+        "글로벌",
+        "연준",
+        "Household Finance",
+        "new"
+      ]
+    },
+    {
+      "source": "FRED Blog",
+      "category": "경제",
+      "title": "Real GDP growth by state: Fourth quarter 2025",
+      "authors": "",
+      "date": "2026-04-13",
+      "url": "https://fredblog.stlouisfed.org/2026/04/real-gdp-growth-by-state-annual-2025/",
+      "summary": "On April 9, 2026, the Bureau of Economic Analysis released real GDP data for all US states for the fourth quarter and annualized for 2025. The FRED map above shows the annualized year-over-year growth rates: Light green denotes slow growth … Continue reading →",
+      "score": "new",
+      "tags": [
+        "경제",
+        "FRED Blog",
+        "글로벌",
+        "데이터",
+        "Uncategorized",
+        "new"
+      ]
+    },
+    {
+      "source": "ECB Blog",
+      "category": "경제",
+      "title": "Why monetary policy hits harder after big shocks",
+      "authors": "",
+      "date": "2026-04-13",
+      "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260413~78ef6fe470.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Blog",
+        "글로벌",
+        "중앙은행",
         "new"
       ]
     },
@@ -47,6 +100,93 @@
         "개발",
         "토스 테크",
         "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Banking Analytics: Credit and Debit Card Fees Collected by Banks Rose in 2025",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-credit-debit-card-fees-collected-banks-rose-2025",
+      "summary": "The interchange, or ‘swipe,’ fees collected by U.S. banks grew to $66 billion in 2025 as debit and credit card purchase volumes and values increased.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "new"
+      ]
+    },
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "title": "A Closer Look at Emerging Market Resilience During Recent Shocks",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/04/a-closer-look-at-emerging-market-resilience-during-recent-shocks/",
+      "summary": "A succession of shocks to the global economy in recent years has focused attention on the improved economic and financial resilience of emerging market economies. For some of these economies, this assessment is well-founded and highlights the fruits of deep, structural economic…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "NY Fed Liberty Street",
+        "글로벌",
+        "연준",
+        "International Economics",
+        "new"
+      ]
+    },
+    {
+      "source": "FRED Blog",
+      "category": "경제",
+      "title": "India’s long work year",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://fredblog.stlouisfed.org/2026/04/indias-long-work-year/",
+      "summary": "In a recent post, we looked at US-India trade. Today we look at the amount of labor in India that provides their goods and services. In short, India’s workers put in more hours than workers in almost* any other country. … Continue reading →",
+      "score": "new",
+      "tags": [
+        "경제",
+        "FRED Blog",
+        "글로벌",
+        "데이터",
+        "Uncategorized",
+        "new"
+      ]
+    },
+    {
+      "source": "ECB Blog",
+      "category": "경제",
+      "title": "Euro adoption and price increases in Bulgaria: separating myths from facts",
+      "authors": "",
+      "date": "2026-04-09",
+      "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260409~cc951a0d29.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Blog",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ]
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "America Underbuilt Inc.: The Supply Side of the U.S. Housing Challenge",
+      "authors": "",
+      "date": "2026-04-08",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/supply-side-of-us-housing-challenge",
+      "summary": "This analysis finds that the U.S. has underbuilt housing for decades. The persistent supply shortfall amid growing demand drives today’s affordability crisis.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
         "new"
       ]
     },
@@ -690,6 +830,40 @@
       "tags": [
         "이슈",
         "국토이슈리포트",
+        "stable"
+      ]
+    },
+    {
+      "source": "NBER Working Papers",
+      "category": "경제",
+      "title": "The Empathy Channel in Fertility -- by Sebastian Galiani, Raul A. Sosa",
+      "authors": "",
+      "date": "",
+      "url": "https://www.nber.org/papers/w35021#fromrss",
+      "summary": "Being around babies makes people want babies. We formalize this observation as the empathy channel: exposure to infants in the social environment activates neurobiological mechanisms that increase the desire for parenthood. As children become scarcer, this affective stimulus wea…",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "NBER Working Papers",
+        "글로벌",
+        "연구",
+        "stable"
+      ]
+    },
+    {
+      "source": "NBER Working Papers",
+      "category": "경제",
+      "title": "Profit Regulation and Strategic Transfer Pricing by Vertically Integrated Firms: Evidence from Health Care -- by Pragya Kakani, Eric Yde, Genevieve P. Kanter, Richard G. Frank, Amelia M. Bond",
+      "authors": "",
+      "date": "",
+      "url": "https://www.nber.org/papers/w35043#fromrss",
+      "summary": "We provide evidence of strategic transfer pricing by vertically integrated health care firms in response to insurer profit regulations. Insurers increased prices at vertically integrated pharmacies by 9.5% following the introduction of caps on insurer profits in Medicare Part D.…",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "NBER Working Papers",
+        "글로벌",
+        "연구",
         "stable"
       ]
     }
