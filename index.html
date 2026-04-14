@@ -95,6 +95,15 @@
     }
     .chips::-webkit-scrollbar { display: none; }
 
+    .subchips {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-top: 8px;
+      scrollbar-width: none;
+    }
+    .subchips::-webkit-scrollbar { display: none; }
+
     .chip {
       border: 1px solid var(--line);
       background: var(--panel);
@@ -109,6 +118,23 @@
       background: rgba(122,162,255,.16);
       border-color: rgba(122,162,255,.45);
       color: #dfe8ff;
+    }
+
+    .subchip {
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 7px 11px;
+      white-space: nowrap;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .subchip.active {
+      background: rgba(126,224,174,.10);
+      border-color: rgba(126,224,174,.35);
+      color: var(--green);
     }
 
     .content {
@@ -363,6 +389,7 @@
       </div>
       <input id="search" class="search" type="text" placeholder="제목, 출처 검색" />
       <div class="chips" id="filters"></div>
+      <div class="subchips" id="language-filters"></div>
     </header>
 
     <main class="content">
@@ -429,6 +456,7 @@
     const countEl = document.getElementById('result-count');
     const searchEl = document.getElementById('search');
     const filtersEl = document.getElementById('filters');
+    const languageFiltersEl = document.getElementById('language-filters');
     const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
     const sections = Array.from(document.querySelectorAll('main section'));
     const routineCards = Array.from(document.querySelectorAll('.routine-card'));
@@ -449,6 +477,7 @@
     ];
 
     let currentFilter = 'all';
+    let currentLanguageFilter = 'all';
     let currentRoutine = 'all';
     let items = [];
 
@@ -522,6 +551,16 @@
       return true;
     }
 
+    function itemLanguage(item) {
+      const text = [item.title, item.summary, item.source, item.authors].join(' ');
+      return /[가-힣]/.test(text) ? 'ko' : 'en';
+    }
+
+    function languageMatches(item) {
+      if (currentLanguageFilter === 'all') return true;
+      return itemLanguage(item) === currentLanguageFilter;
+    }
+
     function usageText(item) {
       const source = String(item.source || '');
       const title = String(item.title || '');
@@ -555,6 +594,26 @@
       });
     }
 
+    function renderLanguageFilters() {
+      const options = [
+        { key: 'all', label: '전체 언어' },
+        { key: 'ko', label: '한글' },
+        { key: 'en', label: '영어' },
+      ];
+
+      languageFiltersEl.innerHTML = options.map(option => `
+        <button class="subchip ${option.key === currentLanguageFilter ? 'active' : ''}" data-language="${escapeHtml(option.key)}">${escapeHtml(option.label)}</button>
+      `).join('');
+
+      Array.from(languageFiltersEl.querySelectorAll('.subchip')).forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentLanguageFilter = chip.dataset.language || 'all';
+          renderLanguageFilters();
+          renderFeed();
+        });
+      });
+    }
+
     function renderFeed() {
       const q = searchEl.value.trim().toLowerCase();
       const filtered = getRoutineItems().filter(item => {
@@ -564,7 +623,7 @@
           item.summary,
           item.date,
         ].join(' ').toLowerCase();
-        return filterMatches(item) && (!q || haystack.includes(q));
+        return filterMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
       });
 
       countEl.textContent = currentRoutine === 'all'
@@ -629,10 +688,12 @@
         `;
         countEl.textContent = '0개';
         renderFilters();
+        renderLanguageFilters();
         return;
       }
 
       renderFilters();
+      renderLanguageFilters();
       renderFeed();
     }
 
@@ -645,7 +706,9 @@
     function setRoutineFilter(routine) {
       currentRoutine = ROUTINES[routine] ? routine : 'all';
       currentFilter = 'all';
+      currentLanguageFilter = 'all';
       renderFilters();
+      renderLanguageFilters();
       renderFeed();
       activateSection('home-section');
     }
@@ -657,7 +720,9 @@
         if (btn.dataset.target === 'home-section') {
           currentRoutine = 'all';
           currentFilter = 'all';
+          currentLanguageFilter = 'all';
           renderFilters();
+          renderLanguageFilters();
           renderFeed();
         }
         activateSection(btn.dataset.target);
