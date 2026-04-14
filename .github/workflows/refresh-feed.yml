@@ -23,6 +23,9 @@ jobs:
       - name: Build feed
         run: node scripts/build-feed.mjs
 
+      - name: Show source health
+        run: cat data/source-health.json
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
@@ -31,6 +34,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/feed.json data/translation-cache.json
+          git add data/feed.json data/translation-cache.json data/source-health.json
           git commit -m "chore: refresh feed"
           git push

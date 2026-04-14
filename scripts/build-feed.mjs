@@ -6,6 +6,7 @@ import { promisify } from 'node:util';
 const execFileAsync = promisify(execFile);
 const USER_AGENT = 'Mozilla/5.0 (compatible; GoodInputsBot/2.0)';
 const TRANSLATION_CACHE_PATH = join(process.cwd(), 'data', 'translation-cache.json');
+const SOURCE_HEALTH_PATH = join(process.cwd(), 'data', 'source-health.json');
 const SUMMARY_FALLBACK = '요약 추출 실패. 제목과 원문 링크만 우선 표시한다.';
 
 const SOURCES = [
@@ -497,6 +498,10 @@ function isMostlyKorean(text = '') {
   return /[가-힣]/.test(String(text));
 }
 
+function countMatches(text = '', regex) {
+  return (String(text).match(regex) || []).length;
+}
+
 function shouldTranslateItem(item) {
   const sample = (item.summary && item.summary !== SUMMARY_FALLBACK ? item.summary : item.title).trim();
   return Boolean(sample) && !isMostlyKorean(sample);
@@ -513,6 +518,52 @@ async function translateToKorean(text = '') {
   } catch {
     return '';
   }
+}
+
+function isUsableKoreanTranslation(sourceText = '', translatedText = '') {
+  const source = cleanText(sourceText);
+  const translated = cleanText(translatedText);
+  if (!source || !translated) return false;
+  if (source === translated) return false;
+  if (!/[가-힣]/.test(translated)) return false;
+  if (/^발췌(?:\s|$)/.test(translated)) return false;
+
+  const hangulCount = countMatches(translated, /[가-힣]/g);
+  const latinCount = countMatches(translated, /[A-Za-z]/g);
+  const compactLength = translated.replace(/\s+/g, '').length || 1;
+
+  if (hangulCount < 4) return false;
+  if (source.length >= 60 && translated.length < 18) return false;
+  if ((hangulCount / compactLength) < 0.2) return false;
+  if (latinCount > hangulCount * 1.5 && translated.length > 24) return false;
+
+  return true;
+}
+
+function readCachedTranslation(cacheEntry, sourceText = '') {
+  if (!cacheEntry || cacheEntry.input !== sourceText) return null;
+  const candidate = cleanText(cacheEntry.koText || cacheEntry.koSummary || '');
+  if (typeof cacheEntry.approved === 'boolean') {
+    return cacheEntry.approved && isUsableKoreanTranslation(sourceText, candidate) ? candidate : '';
+  }
+  return isUsableKoreanTranslation(sourceText, candidate) ? candidate : '';
+}
+
+async function translateWithGuard(sourceText, cacheKey, cache) {
+  const cached = readCachedTranslation(cache[cacheKey], sourceText);
+  if (cached !== null) return cached;
+
+  const raw = cleanText(await translateToKorean(sourceText));
+  const approved = isUsableKoreanTranslation(sourceText, raw);
+  const koText = approved ? truncateText(raw, 220) : '';
+
+  cache[cacheKey] = {
+    input: sourceText,
+    approved,
+    koText,
+  };
+
+  return koText;
 }
 
 function scoreItem(item) {
@@ -978,44 +1029,106 @@ async function buildSource(source) {
 
 async function addKoreanSummaries(items) {
   const cache = await readJsonIfExists(TRANSLATION_CACHE_PATH);
+  const stats = { attempted: 0, kept: 0, rejected: 0, titleFallback: 0 };
 
   for (const item of items) {
     if (!shouldTranslateItem(item)) continue;
+    stats.attempted += 1;
 
-    const sourceText = item.summary && item.summary !== SUMMARY_FALLBACK
+    const summaryText = item.summary && item.summary !== SUMMARY_FALLBACK
       ? item.summary
-      : item.title;
-    const cacheKey = item.url || `${item.source}|${item.title}`;
-    const cached = cache[cacheKey];
+      : '';
+    const titleText = item.title;
+    const baseKey = item.url || `${item.source}|${item.title}`;
 
-    if (cached?.input === sourceText && cached?.koSummary) {
-      item.koSummary = cached.koSummary;
+    let koSummary = '';
+    if (summaryText) {
+      koSummary = await translateWithGuard(summaryText, `${baseKey}|summary`, cache);
+    }
+
+    if (!koSummary && titleText) {
+      koSummary = await translateWithGuard(titleText, `${baseKey}|title`, cache);
+      if (koSummary) stats.titleFallback += 1;
+    }
+
+    if (!koSummary) {
+      delete item.koSummary;
+      stats.rejected += 1;
       continue;
     }
 
-    const koSummary = truncateText(await translateToKorean(sourceText), 220);
-    if (!koSummary) continue;
-
     item.koSummary = koSummary;
-    cache[cacheKey] = {
-      input: sourceText,
-      koSummary,
-    };
+    stats.kept += 1;
   }
 
   await writeFile(TRANSLATION_CACHE_PATH, JSON.stringify(cache, null, 2) + '\n', 'utf8');
-  return items;
+  return { items, stats };
+}
+
+function assessSourceHealth(source, itemCount, previousEntry = {}) {
+  const previousCount = Number(previousEntry.itemCount || 0);
+  let status = 'ok';
+  let detail = 'stable';
+
+  if (itemCount === 0) {
+    status = 'warn';
+    detail = 'empty';
+  } else if (previousCount >= 2 && itemCount < Math.ceil(previousCount / 2)) {
+    status = 'warn';
+    detail = 'drop';
+  }
+
+  return {
+    source: source.source,
+    category: source.category,
+    maxItems: source.maxItems,
+    itemCount,
+    previousCount,
+    status,
+    detail,
+    checkedAt: new Date().toISOString(),
+  };
+}
+
+async function writeSourceHealth(entries, translationStats) {
+  const summary = entries.reduce((acc, entry) => {
+    acc.total += 1;
+    acc[entry.status] = (acc[entry.status] || 0) + 1;
+    return acc;
+  }, { total: 0, ok: 0, warn: 0, error: 0 });
+
+  await writeFile(SOURCE_HEALTH_PATH, JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    summary,
+    translation: translationStats,
+    sources: entries,
+  }, null, 2) + '\n', 'utf8');
 }
 
 async function build() {
   const items = [];
+  const previousHealth = await readJsonIfExists(SOURCE_HEALTH_PATH);
+  const previousMap = Object.fromEntries((previousHealth.sources || []).map(entry => [entry.source, entry]));
+  const sourceHealth = [];
 
   for (const source of SOURCES) {
     try {
       const nextItems = await buildSource(source);
       items.push(...nextItems);
+      sourceHealth.push(assessSourceHealth(source, nextItems.length, previousMap[source.source]));
       console.log(`Loaded ${nextItems.length} items from ${source.source}`);
     } catch (error) {
+      sourceHealth.push({
+        source: source.source,
+        category: source.category,
+        maxItems: source.maxItems,
+        itemCount: 0,
+        previousCount: Number(previousMap[source.source]?.itemCount || 0),
+        status: 'error',
+        detail: 'fetch-failed',
+        error: error.message,
+        checkedAt: new Date().toISOString(),
+      });
       console.warn(`Skipped ${source.source}: ${error.message}`);
     }
   }
@@ -1026,7 +1139,13 @@ async function build() {
     throw new Error('No feed items collected.');
   }
 
-  await addKoreanSummaries(uniqueItems);
+  const { stats: translationStats } = await addKoreanSummaries(uniqueItems);
+  await writeSourceHealth(sourceHealth, translationStats);
+
+  for (const entry of sourceHealth.filter(entry => entry.status !== 'ok')) {
+    console.warn(`Health ${entry.status} ${entry.source}: ${entry.detail}${entry.error ? ` (${entry.error})` : ''}`);
+  }
+  console.log(`Translation kept ${translationStats.kept}/${translationStats.attempted}, rejected ${translationStats.rejected}, title fallback ${translationStats.titleFallback}`);
 
   return {
     generatedAt: new Date().toISOString(),

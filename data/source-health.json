@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-04-14T14:12:08.864Z",
+  "summary": {
+    "total": 33,
+    "ok": 33,
+    "warn": 0,
+    "error": 0
+  },
+  "translation": {
+    "attempted": 29,
+    "kept": 29,
+    "rejected": 0,
+    "titleFallback": 6
+  },
+  "sources": [
+    {
+      "source": "국토정책Brief",
+      "category": "정책",
+      "maxItems": 5,
+      "itemCount": 5,
+      "previousCount": 5,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:46.093Z"
+    },
+    {
+      "source": "국토이슈리포트",
+      "category": "이슈",
+      "maxItems": 5,
+      "itemCount": 5,
+      "previousCount": 5,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:47.000Z"
+    },
+    {
+      "source": "워킹페이퍼",
+      "category": "연구",
+      "maxItems": 4,
+      "itemCount": 4,
+      "previousCount": 4,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:48.586Z"
+    },
+    {
+      "source": "KDI FOCUS",
+      "category": "정책",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:49.130Z"
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "maxItems": 4,
+      "itemCount": 4,
+      "previousCount": 4,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:51.375Z"
+    },
+    {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "maxItems": 3,
+      "itemCount": 3,
+      "previousCount": 3,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:51.493Z"
+    },
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "maxItems": 3,
+      "itemCount": 3,
+      "previousCount": 3,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:51.771Z"
+    },
+    {
+      "source": "한국은행",
+      "category": "경제",
+      "maxItems": 3,
+      "itemCount": 3,
+      "previousCount": 3,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:51.961Z"
+    },
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:52.939Z"
+    },
+    {
+      "source": "네이버 D2",
+      "category": "개발",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.137Z"
+    },
+    {
+      "source": "GitHub Engineering",
+      "category": "개발",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.357Z"
+    },
+    {
+      "source": "Node.js Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.470Z"
+    },
+    {
+      "source": "Django Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.499Z"
+    },
+    {
+      "source": "Python Insider",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.521Z"
+    },
+    {
+      "source": "pnpm Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.601Z"
+    },
+    {
+      "source": "React Blog",
+      "category": "개발",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:53.664Z"
+    },
+    {
+      "source": "Go Blog",
+      "category": "개발",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:55.259Z"
+    },
+    {
+      "source": "Rust Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:55.280Z"
+    },
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:55.536Z"
+    },
+    {
+      "source": "AWS Developer",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:55.835Z"
+    },
+    {
+      "source": "Meta Engineering",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:55.998Z"
+    },
+    {
+      "source": "Dropbox Tech",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:57.215Z"
+    },
+    {
+      "source": "Slack Engineering",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:57.576Z"
+    },
+    {
+      "source": "Svelte Blog",
+      "category": "개발",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:57.744Z"
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:58.514Z"
+    },
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:58.818Z"
+    },
+    {
+      "source": "FRED Blog",
+      "category": "경제",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:11:58.886Z"
+    },
+    {
+      "source": "NBER Working Papers",
+      "category": "경제",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:00.329Z"
+    },
+    {
+      "source": "ECB Blog",
+      "category": "경제",
+      "maxItems": 2,
+      "itemCount": 2,
+      "previousCount": 2,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:01.308Z"
+    },
+    {
+      "source": "ECB Press",
+      "category": "경제",
+      "maxItems": 1,
+      "itemCount": 1,
+      "previousCount": 1,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:01.531Z"
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "maxItems": 5,
+      "itemCount": 5,
+      "previousCount": 5,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:01.807Z"
+    },
+    {
+      "source": "국립중앙박물관",
+      "category": "전시",
+      "maxItems": 4,
+      "itemCount": 3,
+      "previousCount": 3,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:04.779Z"
+    },
+    {
+      "source": "EBS",
+      "category": "교양",
+      "maxItems": 5,
+      "itemCount": 5,
+      "previousCount": 5,
+      "status": "ok",
+      "detail": "stable",
+      "checkedAt": "2026-04-14T14:12:08.599Z"
+    }
+  ]
+}
