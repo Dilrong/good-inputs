@@ -137,6 +137,79 @@
       color: var(--green);
     }
 
+    .compact-mode .hero-card,
+    .compact-mode .helper {
+      display: none;
+    }
+
+    .compact-mode .content {
+      padding-top: 10px;
+    }
+
+    .compact-mode .section-label {
+      margin: 8px 2px 8px;
+    }
+
+    .compact-mode .feed {
+      gap: 8px;
+    }
+
+    .compact-mode .card {
+      padding: 12px;
+      border-radius: 14px;
+    }
+
+    .compact-mode .meta-top {
+      margin-bottom: 6px;
+      gap: 8px;
+    }
+
+    .compact-mode .dot {
+      width: 8px;
+      height: 8px;
+      box-shadow: 0 0 0 3px rgba(122,162,255,.12);
+    }
+
+    .compact-mode .category {
+      font-size: 11px;
+      margin-bottom: 1px;
+    }
+
+    .compact-mode .title {
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .compact-mode .score {
+      padding: 5px 8px;
+      font-size: 11px;
+    }
+
+    .compact-mode .meta-line {
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .compact-mode .why {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .compact-mode .actions {
+      margin-top: 8px;
+    }
+
+    .compact-mode .btn {
+      min-height: 38px;
+      font-size: 13px;
+      border-radius: 12px;
+    }
+
     .content {
       padding: 14px;
     }
@@ -368,6 +441,7 @@
       <input id="search" class="search" type="text" placeholder="제목, 출처 검색" />
       <div class="chips" id="filters"></div>
       <div class="subchips" id="language-filters"></div>
+      <div class="subchips" id="view-mode-filters"></div>
     </header>
 
     <main class="content">
@@ -429,9 +503,11 @@
     const searchEl = document.getElementById('search');
     const filtersEl = document.getElementById('filters');
     const languageFiltersEl = document.getElementById('language-filters');
+    const viewModeFiltersEl = document.getElementById('view-mode-filters');
     const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
     const sections = Array.from(document.querySelectorAll('main section'));
     const routineCards = Array.from(document.querySelectorAll('.routine-card'));
+    const VIEW_MODE_KEY = 'good-inputs-view-mode-v1';
 
     const ROUTINES = {
       all: { label: '전체' },
@@ -452,7 +528,23 @@
     let currentFilter = 'all';
     let currentLanguageFilter = 'all';
     let currentRoutine = 'all';
+    let currentViewMode = loadViewMode();
     let items = [];
+
+    function loadViewMode() {
+      try {
+        const saved = localStorage.getItem(VIEW_MODE_KEY);
+        return saved === 'compact' ? 'compact' : 'default';
+      } catch {
+        return 'default';
+      }
+    }
+
+    function saveViewMode() {
+      try {
+        localStorage.setItem(VIEW_MODE_KEY, currentViewMode);
+      } catch {}
+    }
 
     function escapeHtml(value = '') {
       return String(value)
@@ -586,6 +678,30 @@
       });
     }
 
+    function applyViewMode() {
+      document.body.classList.toggle('compact-mode', currentViewMode === 'compact');
+    }
+
+    function renderViewModeFilters() {
+      const options = [
+        { key: 'default', label: '기본' },
+        { key: 'compact', label: '초미니' },
+      ];
+
+      viewModeFiltersEl.innerHTML = options.map(option => `
+        <button class="subchip ${option.key === currentViewMode ? 'active' : ''}" data-view-mode="${escapeHtml(option.key)}">${escapeHtml(option.label)}</button>
+      `).join('');
+
+      Array.from(viewModeFiltersEl.querySelectorAll('.subchip')).forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentViewMode = chip.dataset.viewMode || 'default';
+          saveViewMode();
+          applyViewMode();
+          renderViewModeFilters();
+        });
+      });
+    }
+
     function renderFeed() {
       const q = searchEl.value.trim().toLowerCase();
       const filtered = getRoutineItems().filter(item => {
@@ -661,11 +777,14 @@
         countEl.textContent = '0개';
         renderFilters();
         renderLanguageFilters();
+        renderViewModeFilters();
         return;
       }
 
+      applyViewMode();
       renderFilters();
       renderLanguageFilters();
+      renderViewModeFilters();
       renderFeed();
     }
 
