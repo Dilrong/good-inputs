@@ -284,5 +284,11 @@
     "input": "Managing context in long-run agentic applications",
     "approved": true,
     "koText": "장기 실행 에이전트 애플리케이션에서 컨텍스트 관리"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/04/use-of-gen-ai-in-the-workplace-and-the-value-of-access-to-training/|summary": {
+    "input": "The rapid spread of generative AI (AI) tools is reshaping the workplace at a remarkable rate. Yet relatively little is known about whether workers have access to these tools, how the tools affect workers’ daily productivity, and how much workers value the training needed to use…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "생성적 AI(AI) 도구의 급속한 확산은 놀라운 속도로 업무 공간을 변화시키고 있습니다. 그러나 근로자가 이러한 도구에 접근할 수 있는지, 도구가 근로자의 일일 생산성에 어떤 영향을 미치는지, 근로자가 사용하는 데 필요한 교육을 얼마나 중요하게 생각하는지에 대해서는 알려진 바가 상대적으로 적습니다."
   }
 }

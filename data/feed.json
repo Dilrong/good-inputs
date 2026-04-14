@@ -1,7 +1,28 @@
 {
-  "generatedAt": "2026-04-14T14:25:18.609Z",
+  "generatedAt": "2026-04-14T19:42:34.089Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "title": "Use of Gen AI in the Workplace and the Value of Access to Training",
+      "authors": "",
+      "date": "2026-04-14",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/04/use-of-gen-ai-in-the-workplace-and-the-value-of-access-to-training/",
+      "summary": "The rapid spread of generative AI (AI) tools is reshaping the workplace at a remarkable rate. Yet relatively little is known about whether workers have access to these tools, how the tools affect workers’ daily productivity, and how much workers value the training needed to use…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "NY Fed Liberty Street",
+        "글로벌",
+        "연준",
+        "Expectations",
+        "Human Capital",
+        "Labor Market",
+        "new"
+      ],
+      "koSummary": "생성적 AI(AI) 도구의 급속한 확산은 놀라운 속도로 업무 공간을 변화시키고 있습니다. 그러나 근로자가 이러한 도구에 접근할 수 있는지, 도구가 근로자의 일일 생산성에 어떤 영향을 미치는지, 근로자가 사용하는 데 필요한 교육을 얼마나 중요하게 생각하는지에 대해서는 알려진 바가 상대적으로 적습니다."
+    },
     {
       "source": "ECB Press",
       "category": "경제",
@@ -215,25 +236,6 @@
         "new"
       ],
       "koSummary": "직불카드 및 신용카드 구매량과 가치가 증가함에 따라 미국 은행이 징수하는 교환 또는 '스와이프' 수수료는 2025년에 660억 달러로 증가했습니다."
-    },
-    {
-      "source": "NY Fed Liberty Street",
-      "category": "경제",
-      "title": "A Closer Look at Emerging Market Resilience During Recent Shocks",
-      "authors": "",
-      "date": "2026-04-09",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/04/a-closer-look-at-emerging-market-resilience-during-recent-shocks/",
-      "summary": "A succession of shocks to the global economy in recent years has focused attention on the improved economic and financial resilience of emerging market economies. For some of these economies, this assessment is well-founded and highlights the fruits of deep, structural economic…",
-      "score": "new",
-      "tags": [
-        "경제",
-        "NY Fed Liberty Street",
-        "글로벌",
-        "연준",
-        "International Economics",
-        "new"
-      ],
-      "koSummary": "최근 몇 년간 세계 경제에 연속적인 충격이 가해지면서 신흥 시장 경제의 경제 및 금융 회복력 향상에 관심이 집중되었습니다. 이들 경제 중 일부의 경우, 이 평가는 근거가 충분하며 심층적이고 구조적인 경제의 성과를 강조합니다."
     },
     {
       "source": "FRED Blog",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T14:25:18.608Z",
+  "generatedAt": "2026-04-14T19:42:34.089Z",
   "summary": {
     "total": 33,
     "ok": 33,
@@ -20,363 +20,363 @@
       "category": "정책",
       "maxItems": 5,
       "itemCount": 5,
-      "previousCount": 0,
+      "previousCount": 5,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:24:55.563Z"
+      "checkedAt": "2026-04-14T19:41:37.475Z"
     },
     {
       "source": "국토이슈리포트",
       "category": "이슈",
       "maxItems": 5,
       "itemCount": 5,
-      "previousCount": 0,
+      "previousCount": 5,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:24:56.176Z"
+      "checkedAt": "2026-04-14T19:41:39.440Z"
     },
     {
       "source": "워킹페이퍼",
       "category": "연구",
       "maxItems": 4,
       "itemCount": 4,
-      "previousCount": 0,
+      "previousCount": 4,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:24:56.703Z"
+      "checkedAt": "2026-04-14T19:41:40.990Z"
     },
     {
       "source": "KDI FOCUS",
       "category": "정책",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:24:57.345Z"
+      "checkedAt": "2026-04-14T19:41:48.037Z"
     },
     {
       "source": "KDI 연구보고서",
       "category": "연구",
       "maxItems": 4,
       "itemCount": 4,
-      "previousCount": 0,
+      "previousCount": 4,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:24:59.530Z"
+      "checkedAt": "2026-04-14T19:42:03.727Z"
     },
     {
       "source": "자본시장연구원",
       "category": "경제",
       "maxItems": 3,
       "itemCount": 3,
-      "previousCount": 0,
+      "previousCount": 3,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:02.091Z"
+      "checkedAt": "2026-04-14T19:42:05.956Z"
     },
     {
       "source": "KIEP",
       "category": "경제",
       "maxItems": 3,
       "itemCount": 3,
-      "previousCount": 0,
+      "previousCount": 3,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:02.359Z"
+      "checkedAt": "2026-04-14T19:42:07.625Z"
     },
     {
       "source": "한국은행",
       "category": "경제",
       "maxItems": 3,
       "itemCount": 3,
-      "previousCount": 0,
+      "previousCount": 3,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:02.550Z"
+      "checkedAt": "2026-04-14T19:42:09.228Z"
     },
     {
       "source": "토스 테크",
       "category": "개발",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:03.600Z"
+      "checkedAt": "2026-04-14T19:42:11.171Z"
     },
     {
       "source": "네이버 D2",
       "category": "개발",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:03.943Z"
+      "checkedAt": "2026-04-14T19:42:12.585Z"
     },
     {
       "source": "GitHub Engineering",
       "category": "개발",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:04.162Z"
+      "checkedAt": "2026-04-14T19:42:12.983Z"
     },
     {
       "source": "Node.js Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:04.570Z"
+      "checkedAt": "2026-04-14T19:42:13.298Z"
     },
     {
       "source": "Django Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:04.976Z"
+      "checkedAt": "2026-04-14T19:42:13.534Z"
     },
     {
       "source": "Python Insider",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.036Z"
+      "checkedAt": "2026-04-14T19:42:13.577Z"
     },
     {
       "source": "pnpm Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.111Z"
+      "checkedAt": "2026-04-14T19:42:13.670Z"
     },
     {
       "source": "React Blog",
       "category": "개발",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.182Z"
+      "checkedAt": "2026-04-14T19:42:13.792Z"
     },
     {
       "source": "Go Blog",
       "category": "개발",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.727Z"
+      "checkedAt": "2026-04-14T19:42:13.989Z"
     },
     {
       "source": "Rust Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.760Z"
+      "checkedAt": "2026-04-14T19:42:14.066Z"
     },
     {
       "source": "Kubernetes Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:05.892Z"
+      "checkedAt": "2026-04-14T19:42:14.336Z"
     },
     {
       "source": "AWS Developer",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:06.149Z"
+      "checkedAt": "2026-04-14T19:42:14.467Z"
     },
     {
       "source": "Meta Engineering",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:06.321Z"
+      "checkedAt": "2026-04-14T19:42:14.646Z"
     },
     {
       "source": "Dropbox Tech",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:07.497Z"
+      "checkedAt": "2026-04-14T19:42:15.340Z"
     },
     {
       "source": "Slack Engineering",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:07.853Z"
+      "checkedAt": "2026-04-14T19:42:15.647Z"
     },
     {
       "source": "Svelte Blog",
       "category": "개발",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:08.015Z"
+      "checkedAt": "2026-04-14T19:42:15.910Z"
     },
     {
       "source": "St. Louis Fed",
       "category": "경제",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:08.958Z"
+      "checkedAt": "2026-04-14T19:42:16.694Z"
     },
     {
       "source": "NY Fed Liberty Street",
       "category": "경제",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:09.253Z"
+      "checkedAt": "2026-04-14T19:42:17.159Z"
     },
     {
       "source": "FRED Blog",
       "category": "경제",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:09.497Z"
+      "checkedAt": "2026-04-14T19:42:17.339Z"
     },
     {
       "source": "NBER Working Papers",
       "category": "경제",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:10.697Z"
+      "checkedAt": "2026-04-14T19:42:18.096Z"
     },
     {
       "source": "ECB Blog",
       "category": "경제",
       "maxItems": 2,
       "itemCount": 2,
-      "previousCount": 0,
+      "previousCount": 2,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:11.420Z"
+      "checkedAt": "2026-04-14T19:42:18.867Z"
     },
     {
       "source": "ECB Press",
       "category": "경제",
       "maxItems": 1,
       "itemCount": 1,
-      "previousCount": 0,
+      "previousCount": 1,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:11.651Z"
+      "checkedAt": "2026-04-14T19:42:19.026Z"
     },
     {
       "source": "MMCA",
       "category": "전시",
       "maxItems": 5,
       "itemCount": 5,
-      "previousCount": 0,
+      "previousCount": 5,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:11.836Z"
+      "checkedAt": "2026-04-14T19:42:20.433Z"
     },
     {
       "source": "국립중앙박물관",
       "category": "전시",
       "maxItems": 4,
       "itemCount": 3,
-      "previousCount": 0,
+      "previousCount": 3,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:14.949Z"
+      "checkedAt": "2026-04-14T19:42:25.834Z"
     },
     {
       "source": "EBS",
       "category": "교양",
       "maxItems": 5,
       "itemCount": 5,
-      "previousCount": 0,
+      "previousCount": 5,
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-04-14T14:25:18.593Z"
+      "checkedAt": "2026-04-14T19:42:32.846Z"
     }
   ]
 }
