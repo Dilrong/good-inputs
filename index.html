@@ -494,6 +494,8 @@
       <div class="chips" id="filters"></div>
       <details class="more-tools">
         <summary>언어 · 보기</summary>
+        <div class="subtools-label">선별</div>
+        <div class="subchips" id="quality-filters"></div>
         <div class="subtools-label">언어</div>
         <div class="subchips" id="language-filters"></div>
         <div class="subtools-label">보기</div>
@@ -559,12 +561,14 @@
     const countEl = document.getElementById('result-count');
     const searchEl = document.getElementById('search');
     const filtersEl = document.getElementById('filters');
+    const qualityFiltersEl = document.getElementById('quality-filters');
     const languageFiltersEl = document.getElementById('language-filters');
     const viewModeFiltersEl = document.getElementById('view-mode-filters');
     const navBtns = Array.from(document.querySelectorAll('.nav-btn'));
     const sections = Array.from(document.querySelectorAll('main section'));
     const routineCards = Array.from(document.querySelectorAll('.routine-card'));
     const VIEW_MODE_KEY = 'good-inputs-view-mode-v1';
+    const QUALITY_MODE_KEY = 'good-inputs-quality-mode-v1';
 
     const ROUTINES = {
       all: { label: '전체' },
@@ -581,12 +585,34 @@
     const CAPITAL_KEYWORDS = [
       '스케일업', '성장', '기업', '산업', '재정', '경제', '투자', '인구', '도시', '주택', '인프라', '에너지', '건설', '민간투자', '생활인구', '북한', '고령화', '금리', 'inflation', 'interest rate', 'labor', 'employment', 'productivity', 'recession', 'market', 'trade', 'ai', 'agent', '배포', 'infra', 'infrastructure', 'performance', 'security'
     ];
+    const DEV_HARD_KEYWORDS = [
+      'security', 'vulnerability', 'cve', 'release', 'bug', 'performance', 'architecture', 'migration', 'compiler', 'storage', 'webrtc', 'agent', 'context', 'inline', 'build', 'deprecation', '취약점', '보안', '릴리즈', '성능', '아키텍처'
+    ];
+    const ECON_HARD_KEYWORDS = [
+      '금리', 'inflation', 'interest', 'market', '고용', 'labor', 'employment', 'productivity', 'recession', 'risk', 'housing', 'bank', 'monetary', 'gdp', 'trade', 'supply', '부채', '거시경제', '통화정책', '재정', '성장', '공급망', '통상', '경쟁력', '인구구조', '시장', '리스크'
+    ];
 
     let currentFilter = 'all';
+    let currentQualityMode = loadQualityMode();
     let currentLanguageFilter = 'all';
     let currentRoutine = 'all';
     let currentViewMode = loadViewMode();
     let items = [];
+
+    function loadQualityMode() {
+      try {
+        const saved = localStorage.getItem(QUALITY_MODE_KEY);
+        return saved === 'hard' ? 'hard' : 'basic';
+      } catch {
+        return 'basic';
+      }
+    }
+
+    function saveQualityMode() {
+      try {
+        localStorage.setItem(QUALITY_MODE_KEY, currentQualityMode);
+      } catch {}
+    }
 
     function loadViewMode() {
       try {
@@ -682,6 +708,18 @@
       return itemLanguage(item) === currentLanguageFilter;
     }
 
+    function hardModeMatches(item) {
+      if (currentQualityMode !== 'hard') return true;
+      const source = String(item.source || '');
+      if (RECOVERY_SOURCES.has(source)) return true;
+
+      const haystack = [item.title, item.summary, item.authors, ...(item.tags || [])].join(' ').toLowerCase();
+      const matches = keywords => keywords.some(keyword => haystack.includes(String(keyword).toLowerCase()));
+
+      if (DEV_SOURCES.has(source) || item.category === '개발') return matches(DEV_HARD_KEYWORDS);
+      return matches(ECON_HARD_KEYWORDS);
+    }
+
     function usageText(item) {
       const source = String(item.source || '');
       const title = String(item.title || '');
@@ -735,6 +773,26 @@
       });
     }
 
+    function renderQualityFilters() {
+      const options = [
+        { key: 'basic', label: '기본' },
+        { key: 'hard', label: '하드' },
+      ];
+
+      qualityFiltersEl.innerHTML = options.map(option => `
+        <button class="subchip ${option.key === currentQualityMode ? 'active' : ''}" data-quality-mode="${escapeHtml(option.key)}">${escapeHtml(option.label)}</button>
+      `).join('');
+
+      Array.from(qualityFiltersEl.querySelectorAll('.subchip')).forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentQualityMode = chip.dataset.qualityMode || 'basic';
+          saveQualityMode();
+          renderQualityFilters();
+          renderFeed();
+        });
+      });
+    }
+
     function applyViewMode() {
       document.body.classList.toggle('compact-mode', currentViewMode === 'compact');
     }
@@ -768,7 +826,7 @@
           item.summary,
           item.date,
         ].join(' ').toLowerCase();
-        return filterMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
+        return filterMatches(item) && hardModeMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
       });
 
       countEl.textContent = currentRoutine === 'all'
@@ -835,6 +893,7 @@
         `;
         countEl.textContent = '0개';
         renderFilters();
+        renderQualityFilters();
         renderLanguageFilters();
         renderViewModeFilters();
         return;
@@ -842,6 +901,7 @@
 
       applyViewMode();
       renderFilters();
+      renderQualityFilters();
       renderLanguageFilters();
       renderViewModeFilters();
       renderFeed();
