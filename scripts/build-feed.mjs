@@ -520,13 +520,13 @@ async function translateToKorean(text = '') {
   }
 }
 
-function isUsableKoreanTranslation(sourceText = '', translatedText = '') {
+function isUsableKoreanTranslation(sourceText = '', translatedText = '', mode = 'summary') {
   const source = cleanText(sourceText);
   const translated = cleanText(translatedText);
   if (!source || !translated) return false;
   if (source === translated) return false;
   if (!/[가-힣]/.test(translated)) return false;
-  if (/^발췌(?:\s|$)/.test(translated)) return false;
+  if (/^(발췌|번역|원문|요약)(?:\s|$)/.test(translated)) return false;
 
   const hangulCount = countMatches(translated, /[가-힣]/g);
   const latinCount = countMatches(translated, /[A-Za-z]/g);
@@ -535,31 +535,41 @@ function isUsableKoreanTranslation(sourceText = '', translatedText = '') {
   if (hangulCount < 4) return false;
   if (source.length >= 60 && translated.length < 18) return false;
   if ((hangulCount / compactLength) < 0.2) return false;
-  if (latinCount > hangulCount * 1.5 && translated.length > 24) return false;
+
+  if (mode === 'summary') {
+    if (source.length >= 90 && translated.length < 24) return false;
+    if (source.length >= 140 && translated.length < 32) return false;
+    if ((hangulCount / compactLength) < 0.3) return false;
+    if (latinCount > hangulCount && translated.length > 20) return false;
+    if (/^[A-Za-z][^가-힣]{0,40}:\s*[가-힣]/.test(translated)) return false;
+  } else if (latinCount > hangulCount * 1.2 && translated.length > 24) {
+    return false;
+  }
 
   return true;
 }
 
-function readCachedTranslation(cacheEntry, sourceText = '') {
+function readCachedTranslation(cacheEntry, sourceText = '', mode = 'summary') {
   if (!cacheEntry || cacheEntry.input !== sourceText) return null;
   const candidate = cleanText(cacheEntry.koText || cacheEntry.koSummary || '');
   if (typeof cacheEntry.approved === 'boolean') {
-    return cacheEntry.approved && isUsableKoreanTranslation(sourceText, candidate) ? candidate : '';
+    return cacheEntry.approved && isUsableKoreanTranslation(sourceText, candidate, mode) ? candidate : '';
   }
-  return isUsableKoreanTranslation(sourceText, candidate) ? candidate : '';
+  return isUsableKoreanTranslation(sourceText, candidate, mode) ? candidate : '';
 }
 
-async function translateWithGuard(sourceText, cacheKey, cache) {
-  const cached = readCachedTranslation(cache[cacheKey], sourceText);
+async function translateWithGuard(sourceText, cacheKey, cache, mode = 'summary') {
+  const cached = readCachedTranslation(cache[cacheKey], sourceText, mode);
   if (cached !== null) return cached;
 
   const raw = cleanText(await translateToKorean(sourceText));
-  const approved = isUsableKoreanTranslation(sourceText, raw);
+  const approved = isUsableKoreanTranslation(sourceText, raw, mode);
   const koText = approved ? truncateText(raw, 220) : '';
 
   cache[cacheKey] = {
     input: sourceText,
     approved,
+    mode,
     koText,
   };
 
@@ -1043,11 +1053,11 @@ async function addKoreanSummaries(items) {
 
     let koSummary = '';
     if (summaryText) {
-      koSummary = await translateWithGuard(summaryText, `${baseKey}|summary`, cache);
+      koSummary = await translateWithGuard(summaryText, `${baseKey}|summary`, cache, 'summary');
     }
 
     if (!koSummary && titleText) {
-      koSummary = await translateWithGuard(titleText, `${baseKey}|title`, cache);
+      koSummary = await translateWithGuard(titleText, `${baseKey}|title`, cache, 'title');
       if (koSummary) stats.titleFallback += 1;
     }
 
@@ -1086,6 +1096,7 @@ function assessSourceHealth(source, itemCount, previousEntry = {}) {
     previousCount,
     status,
     detail,
+    publish: status === 'ok',
     checkedAt: new Date().toISOString(),
   };
 }
@@ -1094,8 +1105,10 @@ async function writeSourceHealth(entries, translationStats) {
   const summary = entries.reduce((acc, entry) => {
     acc.total += 1;
     acc[entry.status] = (acc[entry.status] || 0) + 1;
+    if (entry.publish) acc.published += 1;
+    else acc.excluded += 1;
     return acc;
-  }, { total: 0, ok: 0, warn: 0, error: 0 });
+  }, { total: 0, ok: 0, warn: 0, error: 0, published: 0, excluded: 0 });
 
   await writeFile(SOURCE_HEALTH_PATH, JSON.stringify({
     generatedAt: new Date().toISOString(),
@@ -1114,8 +1127,13 @@ async function build() {
   for (const source of SOURCES) {
     try {
       const nextItems = await buildSource(source);
-      items.push(...nextItems);
-      sourceHealth.push(assessSourceHealth(source, nextItems.length, previousMap[source.source]));
+      const healthEntry = assessSourceHealth(source, nextItems.length, previousMap[source.source]);
+      sourceHealth.push(healthEntry);
+      if (healthEntry.publish) {
+        items.push(...nextItems);
+      } else {
+        console.warn(`Excluded ${source.source} from feed: ${healthEntry.detail}`);
+      }
       console.log(`Loaded ${nextItems.length} items from ${source.source}`);
     } catch (error) {
       sourceHealth.push({
@@ -1126,6 +1144,7 @@ async function build() {
         previousCount: Number(previousMap[source.source]?.itemCount || 0),
         status: 'error',
         detail: 'fetch-failed',
+        publish: false,
         error: error.message,
         checkedAt: new Date().toISOString(),
       });
