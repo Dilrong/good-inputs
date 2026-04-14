@@ -137,6 +137,37 @@
       color: var(--green);
     }
 
+    .more-tools {
+      margin-top: 8px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,.02);
+      padding: 10px 12px;
+    }
+
+    .more-tools summary {
+      list-style: none;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .more-tools summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .more-tools[open] summary {
+      color: var(--text);
+    }
+
+    .subtools-label {
+      margin: 10px 0 2px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+    }
+
     .compact-mode .hero-card,
     .compact-mode .helper {
       display: none;
@@ -440,8 +471,13 @@
       </div>
       <input id="search" class="search" type="text" placeholder="제목, 출처 검색" />
       <div class="chips" id="filters"></div>
-      <div class="subchips" id="language-filters"></div>
-      <div class="subchips" id="view-mode-filters"></div>
+      <details class="more-tools">
+        <summary>언어 · 보기</summary>
+        <div class="subtools-label">언어</div>
+        <div class="subchips" id="language-filters"></div>
+        <div class="subtools-label">보기</div>
+        <div class="subchips" id="view-mode-filters"></div>
+      </details>
     </header>
 
     <main class="content">
