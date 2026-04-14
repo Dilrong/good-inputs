@@ -1,0 +1,130 @@
+{
+  "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260414~ad43db8bb6.en.html": {
+    "input": "ECB Governing Council urges Single Market boost to strengthen bank competitiveness",
+    "koSummary": "ECB 이사회, 은행 경쟁력 강화를 위해 단일시장 활성화 촉구"
+  },
+  "https://slack.engineering/managing-context-in-long-run-agentic-applications/": {
+    "input": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over…",
+    "koSummary": "발췌 복잡하고 오래 실행되는 에이전트 시스템에서 에이전트 간의 정렬과 일관된 추론을 유지하려면 신중한 설계가 필요합니다. 시리즈의 두 번째 기사에서는 에이전트 팀이 계속해서 생산적으로 작업할 수 있도록 구축한 메커니즘과 이러한 과제를 살펴봅니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/04/what-millions-of-homeowners-insurance-contracts-reveal-about-risk-sharing/": {
+    "input": "Housing is the largest component of assets held by households in the United States, totaling $48 trillion in 2025. When natural disasters strike, the resulting damage to homes can be large relative to households’ liquid savings. Homeowner’s insurance is the primary financial too…",
+    "koSummary": "주택은 미국 가구가 보유한 자산 중 가장 큰 부분을 차지하며 2025년 총 48조 달러에 달합니다. 자연재해가 발생하면 주택에 대한 피해는 가구의 유동 저축에 비해 클 수 있습니다. 주택 소유자 보험도 주요 재정입니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/04/real-gdp-growth-by-state-annual-2025/": {
+    "input": "On April 9, 2026, the Bureau of Economic Analysis released real GDP data for all US states for the fourth quarter and annualized for 2025. The FRED map above shows the annualized year-over-year growth rates: Light green denotes slow growth … Continue reading →",
+    "koSummary": "2026년 4월 9일, 경제분석국(Bureau of Economic Analysis)은 미국 전체 주에 대한 4분기 실질 GDP 데이터를 발표하고 2025년에 대해 연간화했습니다. 위의 FRED 지도는 연간 연간 성장률을 보여줍니다. 연한 녹색은 느린 성장을 나타냅니다… 계속 읽기 →"
+  },
+  "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260413~78ef6fe470.en.html": {
+    "input": "Why monetary policy hits harder after big shocks",
+    "koSummary": "통화정책이 큰 충격 이후에 더욱 타격을 받는 이유"
+  },
+  "https://www.dallasfed.org/research/swe/2026/swe2608": {
+    "input": "Gary Hoover, author of \"Ladder or Lottery: Economic Promises and the Reality of Who Gets Ahead,\" discusses why some people who follow the rules for getting ahead instead fall behind.",
+    "koSummary": "\"사다리 또는 복권: 경제적 약속과 앞서가는 사람의 현실\"의 저자인 게리 후버(Gary Hoover)는 앞서기 위해 규칙을 따르는 일부 사람들이 왜 뒤처지는지에 대해 설명합니다."
+  },
+  "https://engineering.fb.com/2026/04/09/developer-tools/escaping-the-fork-how-meta-modernized-webrtc-across-50-use-cases/": {
+    "input": "At Meta, WebRTC powers real-time audio and video across various platforms. But forking a large open-source project like WebRTC within our monorepo presents unique challenges – over time, an internal fork can drift behind upstream, cutting itself off from community upgrades. We’r…",
+    "koSummary": "Meta에서 WebRTC는 다양한 플랫폼에서 실시간 오디오 및 비디오를 지원합니다. 그러나 모노레포 내에서 WebRTC와 같은 대규모 오픈 소스 프로젝트를 포크하는 것은 고유한 문제를 야기합니다. 시간이 지남에 따라 내부 포크가 업스트림 뒤쳐져 커뮤니티 업그레이드가 중단될 수 있습니다. 우리는…"
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-credit-debit-card-fees-collected-banks-rose-2025": {
+    "input": "The interchange, or ‘swipe,’ fees collected by U.S. banks grew to $66 billion in 2025 as debit and credit card purchase volumes and values increased.",
+    "koSummary": "직불카드 및 신용카드 구매량과 가치가 증가함에 따라 미국 은행이 징수하는 교환 또는 '스와이프' 수수료는 2025년에 660억 달러로 증가했습니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/04/a-closer-look-at-emerging-market-resilience-during-recent-shocks/": {
+    "input": "A succession of shocks to the global economy in recent years has focused attention on the improved economic and financial resilience of emerging market economies. For some of these economies, this assessment is well-founded and highlights the fruits of deep, structural economic…",
+    "koSummary": "최근 몇 년간 세계 경제에 연속적인 충격이 가해지면서 신흥 시장 경제의 경제 및 금융 회복력 향상에 관심이 집중되었습니다. 이들 경제 중 일부의 경우, 이 평가는 근거가 충분하며 심층적이고 구조적인 경제의 성과를 강조합니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/04/indias-long-work-year/": {
+    "input": "In a recent post, we looked at US-India trade. Today we look at the amount of labor in India that provides their goods and services. In short, India’s workers put in more hours than workers in almost* any other country. … Continue reading →",
+    "koSummary": "최근 게시물에서 우리는 미국-인도 무역을 살펴보았습니다. 오늘 우리는 인도에서 상품과 서비스를 제공하는 노동력의 양을 살펴보겠습니다. 간단히 말해서, 인도의 근로자는 거의 모든 다른 국가의 근로자보다 더 많은 시간을 일합니다. … 계속 읽기 →"
+  },
+  "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260409~cc951a0d29.en.html": {
+    "input": "Euro adoption and price increases in Bulgaria: separating myths from facts",
+    "koSummary": "불가리아의 유로 채택 및 가격 인상: 사실과 신화 분리"
+  },
+  "https://blog.python.org/2026/04/rust-for-cpython-2026-04/": {
+    "input": "Rust for CPython project status update April 2026",
+    "koSummary": "CPython용 Rust 프로젝트 상태 업데이트 2026년 4월"
+  },
+  "https://tailscale.com/blog/pricing-v4": {
+    "input": "Tailscale’s updated plans are now live. The free Personal plan is more generous, business plans include more features, and pricing is easier to understand and predict.",
+    "koSummary": "Tailscale의 업데이트된 계획이 이제 공개되었습니다. 무료 개인 요금제는 더 관대하고 비즈니스 요금제는 더 많은 기능을 포함하며 가격은 이해하고 예측하기 더 쉽습니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/apr/supply-side-of-us-housing-challenge": {
+    "input": "This analysis finds that the U.S. has underbuilt housing for decades. The persistent supply shortfall amid growing demand drives today’s affordability crisis.",
+    "koSummary": "이 분석에 따르면 미국은 수십 년 동안 주택 건설이 부족했던 것으로 나타났습니다. 수요 증가에 따른 지속적인 공급 부족은 오늘날의 경제성 위기를 초래합니다."
+  },
+  "https://www.djangoproject.com/weblog/2026/apr/07/security-releases/": {
+    "input": "In accordance with our security release policy , the Django team is issuing releases for Django 6.0.4 , Django 5.2.13 , and Django 4.2.30 . These releases address the security issues detailed below. We encourage all users of Django to upgrade as soon as possible. Django 4.2 has…",
+    "koSummary": "보안 릴리스 정책에 따라 Django 팀은 Django 6.0.4, Django 5.2.13 및 Django 4.2.30용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. 장고 4.2에는…"
+  },
+  "https://stripe.com/blog/global-checkout-trends": {
+    "input": "We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.",
+    "koSummary": "우리는 20,000개가 넘는 기업의 결제 활동을 분석하고 쇼핑객과 전자상거래 리더를 대상으로 설문조사를 실시했으며 Stripe 네트워크 기업으로부터 통찰력을 수집하여 온라인 전환에 어떤 변화가 있는지 이해했습니다."
+  },
+  "https://aws.amazon.com/blogs/developer/smithy-java-client-framework-is-now-generally-available/": {
+    "input": "Smithy Java client code generation is now generally available. You can use it to build type-safe, protocol-agnostic Java clients directly from Smithy models. With Smithy Java, serialization, protocol handling, and request/response lifecycles are all generated automatically from…",
+    "koSummary": "이제 Smithy Java 클라이언트 코드 생성이 일반 공급됩니다. 이를 사용하여 Smithy 모델에서 직접 유형이 안전하고 프로토콜에 구애받지 않는 Java 클라이언트를 구축할 수 있습니다. Smithy Java를 사용하면 직렬화, 프로토콜 처리, 요청/응답 수명주기가 모두 자동으로 생성됩니다."
+  },
+  "https://blog.rust-lang.org/2026/04/04/docsrs-only-default-targets/": {
+    "input": "Building fewer targets by default On 2026-05-01 , docs.rs will make a breaking change to its build behavior. Today, if a crate does not define a targets list in its docs.rs metadata , docs.rs builds documentation for a default list of five targets. Starting on 2026-05-01 , docs.…",
+    "koSummary": "기본적으로 더 적은 수의 대상 빌드 2026-05-01에 docs.rs는 빌드 동작을 크게 변경합니다. 현재 크레이트가 docs.rs 메타데이터에 대상 목록을 정의하지 않은 경우 docs.rs는 5개 대상의 기본 목록에 대한 문서를 작성합니다. 2026-05-01부터 문서.…"
+  },
+  "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/": {
+    "input": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog .",
+    "koSummary": "더 나은 성능을 향한 길은 종종 단순함에서 발견됩니다. diff 라인을 성능 좋게 만드는 오르막 오르막 게시물이 The GitHub Blog 에 처음 나타났습니다."
+  },
+  "https://nodejs.org/en/blog/announcements/discontinuing-security-bug-bounties": {
+    "input": "Security Bug Bounty Program Paused Due to Loss of Funding",
+    "koSummary": "자금 손실로 인해 보안 버그 포상금 프로그램이 일시 중지되었습니다."
+  },
+  "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store": {
+    "input": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",
+    "koSummary": "압축을 계층화된 적응형 파이프라인으로 전환하고 모니터링 및 제어를 강화함으로써 Magic Pocket이 워크로드 변화에 더욱 탄력적으로 대응할 수 있게 되었습니다."
+  },
+  "https://svelte.dev/blog/whats-new-in-svelte-april-2026": {
+    "input": "This month, a new best practices guide was added to the Svelte docs. Check it out, if you haven't already! On the code side, the Svelte MCP got even easier to use with improvements to the official OpenCode package. Combined with the improvements to svelte.config.js , server-side…",
+    "koSummary": "이번 달에는 Svelte 문서에 새로운 모범 사례 가이드가 추가되었습니다. 아직 확인하지 않으셨다면 확인해 보세요! 코드 측면에서 Svelte MCP는 공식 OpenCode 패키지의 개선으로 사용이 더욱 쉬워졌습니다. svelte.config.js 개선 사항과 결합하여 서버 측…"
+  },
+  "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/": {
+    "input": "I used coding agents to build agents that automated part of my job. Here's what I learned about working better with coding agents. The post Agent-driven development in Copilot Applied Science appeared first on The GitHub Blog .",
+    "koSummary": "저는 코딩 에이전트를 사용하여 작업의 일부를 자동화하는 에이전트를 구축했습니다. 코딩 에이전트를 사용하여 더 효과적으로 작업하는 방법에 대해 배운 내용은 다음과 같습니다. Copilot Applied Science의 에이전트 기반 개발 포스트는 GitHub 블로그에 처음으로 게재되었습니다."
+  },
+  "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/": {
+    "input": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects…",
+    "koSummary": "Kubernetes v1.36은 2026년 4월 말에 출시됩니다. 이 릴리스에는 제거 및 지원 중단이 포함되며 인상적인 여러 가지 향상된 기능이 포함되어 있습니다. 이번 주기에서 가장 기대되는 기능은 다음과 같습니다! 이 정보에는 다음 사항이 반영되어 있습니다."
+  },
+  "https://go.dev/blog/type-construction-and-cycle-detection": {
+    "input": "Go 1.26 simplifies type construction and enhances cycle detection for certain kinds of recursive types.",
+    "koSummary": "Go 1.26은 유형 구성을 단순화하고 특정 종류의 재귀 유형에 대한 주기 감지를 향상시킵니다."
+  },
+  "https://go.dev/blog/inliner": {
+    "input": "How Go 1.26's source-level inliner works, and how it can help you with self-service API migrations.",
+    "koSummary": "Go 1.26의 소스 수준 인라이너 작동 방식과 셀프 서비스 API 마이그레이션에 어떻게 도움이 되는지 알아보세요."
+  },
+  "https://pnpm.io/blog/releases/10.32": {
+    "input": "pnpm 10.32 adds an --all flag to pnpm approve-builds for approving all pending builds without interactive prompts.",
+    "koSummary": "pnpm 10.32에서는 대화형 프롬프트 없이 보류 중인 모든 빌드를 승인하기 위해 pnpm recognition-builds에 --all 플래그를 추가합니다."
+  },
+  "https://react.dev/blog/2026/02/24/the-react-foundation": {
+    "input": "The React Foundation has officially launched, hosted by the Linux Foundation.",
+    "koSummary": "Linux Foundation이 주최하는 React Foundation이 공식적으로 출시되었습니다."
+  },
+  "https://library.krihs.re.kr/library/10120/contents/7626971": {
+    "input": "Housing as a Driver of Growth and Well-being: Lessons from Korea",
+    "koSummary": "성장과 웰빙의 원동력인 주택: 한국의 교훈"
+  },
+  "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components": {
+    "input": "Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability. High vulnerability Denial of Service (CVE-2025-55184), and medium vulnerability Source Code Expo…",
+    "koSummary": "보안 연구원들은 지난 주의 심각한 취약점에 대한 패치를 악용하려고 시도하던 중 React Server 구성 요소에서 두 가지 추가 취약점을 발견하고 공개했습니다. 높은 취약성 서비스 거부(CVE-2025-55184) 및 중간 취약성 소스 코드 엑스포…"
+  },
+  "https://www.nber.org/papers/w35021#fromrss": {
+    "input": "Being around babies makes people want babies. We formalize this observation as the empathy channel: exposure to infants in the social environment activates neurobiological mechanisms that increase the desire for parenthood. As children become scarcer, this affective stimulus wea…",
+    "koSummary": "아기 주변에 있으면 사람들은 아기를 원하게 됩니다. 우리는 이 관찰을 공감 채널로 공식화합니다. 사회적 환경에서 유아에 대한 노출은 부모가 되고 싶은 욕구를 증가시키는 신경생물학적 메커니즘을 활성화합니다. 아이들이 점점 적어짐에 따라 이러한 정서적 자극은 약화됩니다."
+  },
+  "https://www.nber.org/papers/w35043#fromrss": {
+    "input": "We provide evidence of strategic transfer pricing by vertically integrated health care firms in response to insurer profit regulations. Insurers increased prices at vertically integrated pharmacies by 9.5% following the introduction of caps on insurer profits in Medicare Part D.…",
+    "koSummary": "우리는 보험사 이익 규제에 대응하여 수직 통합된 의료 회사의 전략적 이전 가격에 대한 증거를 제공합니다. 보험사는 메디케어 파트 D에 보험사 이익 상한선을 도입한 후 수직 통합 약국의 가격을 9.5% 인상했습니다.…"
+  }
+}

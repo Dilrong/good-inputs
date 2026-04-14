@@ -1,10 +1,12 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
 const USER_AGENT = 'Mozilla/5.0 (compatible; GoodInputsBot/2.0)';
+const TRANSLATION_CACHE_PATH = join(process.cwd(), 'data', 'translation-cache.json');
+const SUMMARY_FALLBACK = '요약 추출 실패. 제목과 원문 링크만 우선 표시한다.';
 
 const SOURCES = [
   {
@@ -476,6 +478,36 @@ async function fetchJson(url, options = {}) {
   return JSON.parse(await fetchText(url, options));
 }
 
+async function readJsonIfExists(path) {
+  try {
+    return JSON.parse(await readFile(path, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+function isMostlyKorean(text = '') {
+  return /[가-힣]/.test(String(text));
+}
+
+function shouldTranslateItem(item) {
+  const sample = (item.summary && item.summary !== SUMMARY_FALLBACK ? item.summary : item.title).trim();
+  return Boolean(sample) && !isMostlyKorean(sample);
+}
+
+async function translateToKorean(text = '') {
+  const input = cleanText(text);
+  if (!input) return '';
+
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ko&dt=t&q=${encodeURIComponent(input)}`;
+  try {
+    const data = JSON.parse(await fetchText(url));
+    return cleanText((data?.[0] || []).map(part => part?.[0] || '').join(' '));
+  } catch {
+    return '';
+  }
+}
+
 function scoreItem(item) {
   const timestamp = new Date(item.date).getTime();
   if (!Number.isFinite(timestamp)) return 'stable';
@@ -502,7 +534,7 @@ function finalizeItem(item, extraTags = []) {
   );
 
   if (!next.summary) {
-    next.summary = '요약 추출 실패. 제목과 원문 링크만 우선 표시한다.';
+    next.summary = SUMMARY_FALLBACK;
   }
 
   return next;
@@ -931,6 +963,37 @@ async function buildSource(source) {
   }
 }
 
+async function addKoreanSummaries(items) {
+  const cache = await readJsonIfExists(TRANSLATION_CACHE_PATH);
+
+  for (const item of items) {
+    if (!shouldTranslateItem(item)) continue;
+
+    const sourceText = item.summary && item.summary !== SUMMARY_FALLBACK
+      ? item.summary
+      : item.title;
+    const cacheKey = item.url || `${item.source}|${item.title}`;
+    const cached = cache[cacheKey];
+
+    if (cached?.input === sourceText && cached?.koSummary) {
+      item.koSummary = cached.koSummary;
+      continue;
+    }
+
+    const koSummary = truncateText(await translateToKorean(sourceText), 220);
+    if (!koSummary) continue;
+
+    item.koSummary = koSummary;
+    cache[cacheKey] = {
+      input: sourceText,
+      koSummary,
+    };
+  }
+
+  await writeFile(TRANSLATION_CACHE_PATH, JSON.stringify(cache, null, 2) + '\n', 'utf8');
+  return items;
+}
+
 async function build() {
   const items = [];
 
@@ -949,6 +1012,8 @@ async function build() {
   if (!uniqueItems.length) {
     throw new Error('No feed items collected.');
   }
+
+  await addKoreanSummaries(uniqueItems);
 
   return {
     generatedAt: new Date().toISOString(),

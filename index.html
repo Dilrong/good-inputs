@@ -231,6 +231,20 @@
       overflow: hidden;
     }
 
+    .compact-mode .translation {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 2px;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .compact-mode .why.original-summary.has-translation {
+      display: none;
+    }
+
     .compact-mode .actions {
       margin-top: 8px;
     }
@@ -359,6 +373,13 @@
       font-size: 14px;
       line-height: 1.65;
       margin: 0 0 8px;
+    }
+
+    .translation {
+      color: #dfe8ff;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0 0 6px;
     }
 
     .actions {
@@ -766,6 +787,7 @@
       }
 
       filtered.forEach(item => {
+        const hasTranslation = Boolean(item.koSummary && itemLanguage(item) === 'en');
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
@@ -780,7 +802,8 @@
             <div class="score">${escapeHtml(scoreLabel(item.score))}</div>
           </div>
           <p class="meta-line">${escapeHtml(item.date || '-')} · ${escapeHtml(usageText(item))}${item.authors ? ` · ${escapeHtml(item.authors)}` : ''}</p>
-          <p class="why">${escapeHtml(item.summary || '요약 없음')}</p>
+          ${hasTranslation ? `<p class="translation">${escapeHtml(item.koSummary || '')}</p>` : ''}
+          <p class="why original-summary ${hasTranslation ? 'has-translation' : ''}">${escapeHtml(item.summary || '요약 없음')}</p>
           <div class="actions">
             <a class="btn" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">원문 열기</a>
           </div>
