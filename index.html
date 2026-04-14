@@ -177,6 +177,28 @@
       padding-top: 10px;
     }
 
+    .compact-mode .brief-section {
+      margin-bottom: 10px;
+    }
+
+    .compact-mode .brief-list {
+      gap: 6px;
+    }
+
+    .compact-mode .brief-card {
+      padding: 10px 12px;
+    }
+
+    .compact-mode .brief-title {
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .compact-mode .brief-meta {
+      font-size: 11px;
+      margin-top: 4px;
+    }
+
     .compact-mode .section-label {
       margin: 8px 2px 8px;
     }
@@ -284,6 +306,44 @@
       margin: 0;
       color: var(--muted);
       font-size: 14px;
+    }
+
+    .brief-section {
+      margin-bottom: 16px;
+    }
+
+    .brief-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .brief-card {
+      display: block;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+    }
+
+    .brief-rank {
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      margin-bottom: 3px;
+    }
+
+    .brief-title {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .brief-meta {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 12px;
     }
 
     .section-label {
@@ -510,6 +570,14 @@
           <p class="hero-text">원문 소스는 넓혔다. 화면은 줄였다. 중요, 최근부터 보고 바로 원문으로 들어간다.</p>
         </div>
 
+        <section class="brief-section" id="brief-section">
+          <div class="section-label">
+            <h2>오늘 볼 5개</h2>
+            <span id="brief-count">0개</span>
+          </div>
+          <div class="brief-list" id="brief-list"></div>
+        </section>
+
         <div class="section-label">
           <h2>지금 볼 입력</h2>
           <span id="result-count">0개</span>
@@ -558,6 +626,9 @@
 
   <script>
     const feedEl = document.getElementById('feed');
+    const briefSectionEl = document.getElementById('brief-section');
+    const briefListEl = document.getElementById('brief-list');
+    const briefCountEl = document.getElementById('brief-count');
     const countEl = document.getElementById('result-count');
     const searchEl = document.getElementById('search');
     const filtersEl = document.getElementById('filters');
@@ -736,6 +807,62 @@
       return '판단 보조용';
     }
 
+    function priorityScore(item) {
+      const source = String(item.source || '');
+      const text = [item.title, item.summary, item.koSummary, ...(item.tags || [])].join(' ').toLowerCase();
+      let score = 0;
+
+      if (item.score === 'new') score += 40;
+      else if (item.score === 'fresh') score += 22;
+      else score += 8;
+
+      if (KOREAN_ECON_SOURCES.has(source)) score += 26;
+      else if (ECON_SOURCES.has(source)) score += 18;
+      if (DEV_SOURCES.has(source)) score += 16;
+      if (source === 'KDI FOCUS') score += 18;
+      if (source === '국토정책Brief' || source === '국토이슈리포트') score += 12;
+
+      if (/ai|agent|security|취약점|보안|release|릴리즈|performance|성능|architecture|아키텍처|migration|compiler|infra/.test(text)) score += 18;
+      if (/금리|inflation|interest|market|시장|고용|labor|employment|productivity|생산성|recession|risk|리스크|trade|통상|공급망|housing|주택/.test(text)) score += 20;
+      if (/투자|cashflow|현금흐름|기업|산업|growth|성장|경쟁력/.test(text)) score += 14;
+      if (RECOVERY_SOURCES.has(source)) score -= 20;
+
+      return score;
+    }
+
+    function getBriefItems(itemsForView) {
+      return [...itemsForView]
+        .sort((a, b) => {
+          const scoreDiff = priorityScore(b) - priorityScore(a);
+          if (scoreDiff !== 0) return scoreDiff;
+          return String(b.date || '').localeCompare(String(a.date || ''));
+        })
+        .slice(0, 5);
+    }
+
+    function renderBrief(itemsForView, queryActive) {
+      if (queryActive) {
+        briefSectionEl.classList.add('hidden');
+        return;
+      }
+
+      const picks = getBriefItems(itemsForView);
+      if (!picks.length) {
+        briefSectionEl.classList.add('hidden');
+        return;
+      }
+
+      briefSectionEl.classList.remove('hidden');
+      briefCountEl.textContent = `${picks.length}개`;
+      briefListEl.innerHTML = picks.map((item, index) => `
+        <a class="brief-card" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener noreferrer">
+          <div class="brief-rank">TOP ${index + 1}</div>
+          <p class="brief-title">${escapeHtml(item.koSummary && itemLanguage(item) === 'en' ? item.koSummary : item.title || '')}</p>
+          <p class="brief-meta">${escapeHtml(item.source || '')} · ${escapeHtml(item.date || '-')} · ${escapeHtml(usageText(item))}</p>
+        </a>
+      `).join('');
+    }
+
     function renderFilters() {
       const options = getFilterOptions();
       if (!options.some(option => option.key === currentFilter)) currentFilter = 'all';
@@ -828,11 +955,15 @@
         ].join(' ').toLowerCase();
         return filterMatches(item) && hardModeMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
       });
+      const briefBase = getRoutineItems().filter(item => {
+        return filterMatches(item) && hardModeMatches(item) && languageMatches(item);
+      });
 
       countEl.textContent = currentRoutine === 'all'
         ? `${filtered.length}개`
         : `${filtered.length}개 · ${ROUTINES[currentRoutine].label}`;
       feedEl.innerHTML = '';
+      renderBrief(briefBase, Boolean(q));
 
       if (!filtered.length) {
         feedEl.innerHTML = `
