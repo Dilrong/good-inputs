@@ -94,6 +94,7 @@ const SOURCES = [
     listUrl: 'https://github.blog/engineering/feed/',
     maxItems: 2,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['performance', 'agent', 'architecture', 'optimization', 'security', 'diff', 'migration'],
   },
   {
     kind: 'rss',
@@ -103,6 +104,7 @@ const SOURCES = [
     listUrl: 'https://nodejs.org/en/feed/blog.xml',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['security', 'release', 'permission', 'v8', 'npm', 'toolchain'],
   },
   {
     kind: 'rss',
@@ -112,6 +114,7 @@ const SOURCES = [
     listUrl: 'https://www.djangoproject.com/rss/weblog/',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['security', 'release'],
   },
   {
     kind: 'rss',
@@ -121,6 +124,7 @@ const SOURCES = [
     listUrl: 'https://blog.python.org/feeds/posts/default?alt=rss',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['security', 'release', 'cpython', 'pep', 'progress'],
   },
   {
     kind: 'rss',
@@ -130,6 +134,7 @@ const SOURCES = [
     listUrl: 'https://pnpm.io/blog/rss.xml',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['release', 'security', 'approve-builds', 'strict', 'catalog'],
   },
   {
     kind: 'rss',
@@ -139,6 +144,7 @@ const SOURCES = [
     listUrl: 'https://react.dev/rss.xml',
     maxItems: 2,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['security', 'release', 'compiler', 'server'],
   },
   {
     kind: 'rss',
@@ -148,6 +154,7 @@ const SOURCES = [
     listUrl: 'https://go.dev/blog/feed.atom',
     maxItems: 2,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['type', 'compiler', 'inline', 'release', 'security', 'go 1.'],
   },
   {
     kind: 'rss',
@@ -157,6 +164,7 @@ const SOURCES = [
     listUrl: 'https://blog.rust-lang.org/feed.xml',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['build', 'release', 'cargo', 'docs.rs', 'security'],
   },
   {
     kind: 'rss',
@@ -166,6 +174,7 @@ const SOURCES = [
     listUrl: 'https://kubernetes.io/feed.xml',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['release', 'deprecation', 'kubernetes v', 'security', 'feature gate'],
   },
   {
     kind: 'rss',
@@ -175,6 +184,7 @@ const SOURCES = [
     listUrl: 'https://aws.amazon.com/blogs/developer/feed/',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['generally available', 'release', 'sdk', 'smithy', 'security', 'performance'],
   },
   {
     kind: 'rss',
@@ -184,6 +194,7 @@ const SOURCES = [
     listUrl: 'https://engineering.fb.com/feed/',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['performance', 'modernized', 'webrtc', 'infrastructure', 'architecture', 'efficiency', 'ai'],
   },
   {
     kind: 'rss',
@@ -193,6 +204,7 @@ const SOURCES = [
     listUrl: 'https://dropbox.tech/feed',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['storage', 'efficiency', 'performance', 'architecture', 'infrastructure'],
   },
   {
     kind: 'rss',
@@ -202,6 +214,7 @@ const SOURCES = [
     listUrl: 'https://slack.engineering/feed',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['agentic', 'context', 'performance', 'architecture', 'scalability', 'infrastructure'],
   },
   {
     kind: 'rss',
@@ -211,6 +224,8 @@ const SOURCES = [
     listUrl: 'https://svelte.dev/blog/rss.xml',
     maxItems: 1,
     extraTags: ['개발', '글로벌'],
+    includeKeywords: ['release', 'migration', 'compiler', 'sveltekit'],
+    excludeKeywords: ["what's new", 'what’s new'],
   },
   {
     kind: 'rss',
@@ -220,6 +235,7 @@ const SOURCES = [
     listUrl: 'https://www.stlouisfed.org/on-the-economy/feed',
     maxItems: 2,
     extraTags: ['경제', '글로벌', '연준'],
+    includeKeywords: ['housing', 'inflation', 'credit', 'debit', 'banking', 'labor', 'productivity', 'interest', 'supply', 'recession'],
   },
   {
     kind: 'rss',
@@ -229,6 +245,7 @@ const SOURCES = [
     listUrl: 'https://libertystreeteconomics.newyorkfed.org/feed/',
     maxItems: 2,
     extraTags: ['경제', '글로벌', '연준'],
+    includeKeywords: ['risk', 'market', 'econom', 'inflation', 'resilience', 'mortgage', 'housing', 'labor'],
   },
   {
     kind: 'rss',
@@ -238,6 +255,7 @@ const SOURCES = [
     listUrl: 'https://fredblog.stlouisfed.org/feed/',
     maxItems: 2,
     extraTags: ['경제', '글로벌', '데이터'],
+    includeKeywords: ['gdp', 'inflation', 'trade', 'labor', 'employment', 'productivity', 'recession'],
   },
   {
     kind: 'rss',
@@ -256,6 +274,7 @@ const SOURCES = [
     listUrl: 'https://www.ecb.europa.eu/rss/blog.html',
     maxItems: 2,
     extraTags: ['경제', '글로벌', '중앙은행'],
+    includeKeywords: ['monetary', 'inflation', 'price', 'policy', 'wage', 'productivity', 'bank'],
   },
   {
     kind: 'rss',
@@ -265,6 +284,7 @@ const SOURCES = [
     listUrl: 'https://www.ecb.europa.eu/rss/press.html',
     maxItems: 1,
     extraTags: ['경제', '글로벌', '중앙은행'],
+    includeKeywords: ['policy', 'inflation', 'bank', 'market', 'competitiveness', 'interest'],
   },
   {
     kind: 'rss',
@@ -419,6 +439,18 @@ function extractAtomCategories(block = '') {
   return categories.filter(Boolean);
 }
 
+function keywordMatch(text = '', keywords = []) {
+  const normalized = String(text).toLowerCase();
+  return keywords.some(keyword => normalized.includes(String(keyword).toLowerCase()));
+}
+
+function sourceAllowsItem(source, item) {
+  const haystack = [item.title, item.summary, item.authors, ...(item.tags || [])].join(' ').toLowerCase();
+  if (source.includeKeywords?.length && !keywordMatch(haystack, source.includeKeywords)) return false;
+  if (source.excludeKeywords?.length && keywordMatch(haystack, source.excludeKeywords)) return false;
+  return true;
+}
+
 async function fetchText(url, options = {}) {
   const headers = {
     'user-agent': USER_AGENT,
@@ -523,7 +555,7 @@ function extractRssFeedItems(xml, source) {
     const categories = extractRssCategories(block);
     if (source.excludeTags?.some(tag => categories.includes(tag))) continue;
 
-    items.push(finalizeItem({
+    const item = finalizeItem({
       source: source.source,
       category: source.category,
       title: extractXmlTag(block, 'title'),
@@ -531,7 +563,10 @@ function extractRssFeedItems(xml, source) {
       date: normalizeDate(extractXmlTag(block, ['pubDate', 'dc:date'])),
       url: extractXmlTag(block, 'link'),
       summary: extractXmlTag(block, ['description', 'content:encoded']),
-    }, [...(source.extraTags || []), ...categories]));
+    }, [...(source.extraTags || []), ...categories]);
+
+    if (!sourceAllowsItem(source, item)) continue;
+    items.push(item);
   }
 
   return uniqueBy(items, item => item.url).slice(0, source.maxItems);
@@ -545,7 +580,7 @@ function extractAtomFeedItems(xml, source) {
     const categories = extractAtomCategories(block);
     if (source.excludeTags?.some(tag => categories.includes(tag))) continue;
 
-    items.push(finalizeItem({
+    const item = finalizeItem({
       source: source.source,
       category: source.category,
       title: extractXmlTag(block, 'title'),
@@ -553,7 +588,10 @@ function extractAtomFeedItems(xml, source) {
       date: normalizeDate(extractXmlTag(block, ['published', 'updated'])),
       url: extractAtomLink(block),
       summary: extractXmlTag(block, ['summary', 'content']),
-    }, [...(source.extraTags || []), ...categories]));
+    }, [...(source.extraTags || []), ...categories]);
+
+    if (!sourceAllowsItem(source, item)) continue;
+    items.push(item);
   }
 
   return uniqueBy(items, item => item.url).slice(0, source.maxItems);

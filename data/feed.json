@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T13:48:50.019Z",
+  "generatedAt": "2026-04-14T13:51:50.814Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -522,23 +522,6 @@
       "koSummary": "압축을 계층화된 적응형 파이프라인으로 전환하고 모니터링 및 제어를 강화함으로써 Magic Pocket이 워크로드 변화에 더욱 탄력적으로 대응할 수 있게 되었습니다."
     },
     {
-      "source": "Svelte Blog",
-      "category": "개발",
-      "title": "What’s new in Svelte: April 2026",
-      "authors": "Dani Sandoval",
-      "date": "2026-04-01",
-      "url": "https://svelte.dev/blog/whats-new-in-svelte-april-2026",
-      "summary": "This month, a new best practices guide was added to the Svelte docs. Check it out, if you haven't already! On the code side, the Svelte MCP got even easier to use with improvements to the official OpenCode package. Combined with the improvements to svelte.config.js , server-side…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "Svelte Blog",
-        "글로벌",
-        "fresh"
-      ],
-      "koSummary": "이번 달에는 Svelte 문서에 새로운 모범 사례 가이드가 추가되었습니다. 아직 확인하지 않으셨다면 확인해 보세요! 코드 측면에서 Svelte MCP는 공식 OpenCode 패키지의 개선으로 사용이 더욱 쉬워졌습니다. svelte.config.js 개선 사항과 결합하여 서버 측…"
-    },
-    {
       "source": "MMCA",
       "category": "전시",
       "title": "데이미언 허스트와 YBA",
@@ -913,23 +896,6 @@
       ]
     },
     {
-      "source": "React Blog",
-      "category": "개발",
-      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
-      "authors": "Matt Carroll",
-      "date": "2026-02-24",
-      "url": "https://react.dev/blog/2026/02/24/the-react-foundation",
-      "summary": "The React Foundation has officially launched, hosted by the Linux Foundation.",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "React Blog",
-        "글로벌",
-        "stable"
-      ],
-      "koSummary": "Linux Foundation이 주최하는 React Foundation이 공식적으로 출시되었습니다."
-    },
-    {
       "source": "국토이슈리포트",
       "category": "이슈",
       "title": "[국토이슈리포트 제91호] 국유지 복합개발 지원을 위한 비축제도 이슈와 정책과제",
@@ -992,6 +958,23 @@
         "중앙은행",
         "stable"
       ]
+    },
+    {
+      "source": "Svelte Blog",
+      "category": "개발",
+      "title": "CVEs affecting the Svelte ecosystem",
+      "authors": "Elliott Johnson",
+      "date": "2026-01-15",
+      "url": "https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem",
+      "summary": "We’ve released patches for 5 vulnerabilities across devalue , svelte , @sveltejs/kit , and @sveltejs/adapter-node . Here’s what you need to know: Upgrade now If you’re using any of these packages, upgrade them to their corresponding non-vulnerable versions: devalue : 5.6.2 svelt…",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Svelte Blog",
+        "글로벌",
+        "stable"
+      ],
+      "koSummary": "우리는 devalue , svelte , @sveltejs/kit 및 @sveltejs/adapter-node 전반에 걸쳐 5개 취약점에 대한 패치를 출시했습니다. 알아야 할 사항은 다음과 같습니다. 지금 업그레이드하세요. 이러한 패키지를 사용하는 경우 해당 패키지를 취약하지 않은 버전으로 업그레이드하세요. devalue : 5.6.2 svelt…"
     },
     {
       "source": "KDI 연구보고서",
@@ -1121,6 +1104,23 @@
         "국토이슈리포트",
         "stable"
       ]
+    },
+    {
+      "source": "React Blog",
+      "category": "개발",
+      "title": "Critical Security Vulnerability in React Server Components",
+      "authors": "The React Team",
+      "date": "2025-12-03",
+      "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+      "summary": "There is an unauthenticated remote code execution vulnerability in React Server Components. A fix has been published in versions 19.0.1, 19.1.2, and 19.2.1. We recommend upgrading immediately.",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "React Blog",
+        "글로벌",
+        "stable"
+      ],
+      "koSummary": "React Server 구성 요소에 인증되지 않은 원격 코드 실행 취약점이 있습니다. 버전 19.0.1, 19.1.2 및 19.2.1에 수정 사항이 게시되었습니다. 즉시 업그레이드하는 것이 좋습니다."
     },
     {
       "source": "국립중앙박물관",
