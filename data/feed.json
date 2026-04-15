@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T19:42:34.089Z",
+  "generatedAt": "2026-04-15T03:42:05.701Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -318,12 +318,12 @@
       "date": "2026-04-07",
       "url": "https://toss.tech/article/layers-of-your-time",
       "summary": "팀원의 시간을 진심으로 축하하는 방법을 찾고 싶었어요. 8개월 동안 사내 굿즈를 다시 만들며 고민했던 과정과, 그 안에서 발견한 기준을 들려드려요.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "토스 테크",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -334,12 +334,12 @@
       "date": "2026-04-07",
       "url": "https://www.djangoproject.com/weblog/2026/apr/07/security-releases/",
       "summary": "In accordance with our security release policy , the Django team is issuing releases for Django 6.0.4 , Django 5.2.13 , and Django 4.2.30 . These releases address the security issues detailed below. We encourage all users of Django to upgrade as soon as possible. Django 4.2 has…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Django Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "보안 릴리스 정책에 따라 Django 팀은 Django 6.0.4, Django 5.2.13 및 Django 4.2.30용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. 장고 4.2에는…"
     },
@@ -352,13 +352,13 @@
       "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3465083&listType=gallery",
       "summary": "국립중앙박물관이 개최하는 스무 번째 괘불전으로 보물 을 전시",
       "type": "테마전",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "전시",
         "국립중앙박물관",
         "테마전",
         "현재전시",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -690,11 +690,11 @@
       "date": "2026-03-24",
       "url": "https://www.kdi.re.kr/research/focusView?pub_no=19131",
       "summary": "기업의 성장 병목을 정밀 진단하여 맞춤형 패키지를 지원하고, 고성장 전환 등 실질적 성과 중심의 지원 체계를 확립해야 함",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "정책",
         "KDI FOCUS",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -705,12 +705,12 @@
       "date": "2026-03-24",
       "url": "https://go.dev/blog/type-construction-and-cycle-detection",
       "summary": "Go 1.26 simplifies type construction and enhances cycle detection for certain kinds of recursive types.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Go Blog",
         "글로벌",
-        "fresh"
+        "stable"
       ],
       "koSummary": "Go 1.26은 유형 구성을 단순화하고 특정 종류의 재귀 유형에 대한 주기 감지를 향상시킵니다."
     },
