@@ -290,5 +290,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "생성적 AI(AI) 도구의 급속한 확산은 놀라운 속도로 업무 공간을 변화시키고 있습니다. 그러나 근로자가 이러한 도구에 접근할 수 있는지, 도구가 근로자의 일일 생산성에 어떤 영향을 미치는지, 근로자가 사용하는 데 필요한 교육을 얼마나 중요하게 생각하는지에 대해서는 알려진 바가 상대적으로 적습니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/04/the-r-labor-share-nexus/|summary": {
+    "input": "Over the past quarter century, the U.S. economy has experienced significant declines in both the labor share of income and the natural rate of interest, referred to as R*. Existing research has largely analyzed these two developments in isolation. In this post, we provide a simp…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "지난 25년 동안 미국 경제는 노동소득분배율과 자연이자율(R*) 모두에서 상당한 하락을 경험했습니다. 기존 연구에서는 이 두 가지 발전을 개별적으로 분석해 왔습니다. 이 게시물에서는 간단한 내용을 제공합니다…"
   }
 }
