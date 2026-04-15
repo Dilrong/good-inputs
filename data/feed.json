@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T14:06:43.564Z",
+  "generatedAt": "2026-04-15T19:44:11.659Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -22,6 +22,24 @@
       "koSummary": "지난 25년 동안 미국 경제는 노동소득분배율과 자연이자율(R*) 모두에서 상당한 하락을 경험했습니다. 기존 연구에서는 이 두 가지 발전을 개별적으로 분석해 왔습니다. 이 게시물에서는 간단한 내용을 제공합니다…"
     },
     {
+      "source": "ECB Press",
+      "category": "경제",
+      "title": "Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks",
+      "authors": "",
+      "date": "2026-04-15",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Press",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ],
+      "koSummary": "Piero Cipollone: ​​금융 변혁의 촉발: 토큰화와 중앙은행의 역할"
+    },
+    {
       "source": "NY Fed Liberty Street",
       "category": "경제",
       "title": "Use of Gen AI in the Workplace and the Value of Access to Training",
@@ -41,24 +59,6 @@
         "new"
       ],
       "koSummary": "생성적 AI(AI) 도구의 급속한 확산은 놀라운 속도로 업무 공간을 변화시키고 있습니다. 그러나 근로자가 이러한 도구에 접근할 수 있는지, 도구가 근로자의 일일 생산성에 어떤 영향을 미치는지, 근로자가 사용하는 데 필요한 교육을 얼마나 중요하게 생각하는지에 대해서는 알려진 바가 상대적으로 적습니다."
-    },
-    {
-      "source": "ECB Press",
-      "category": "경제",
-      "title": "Philip R. Lane: The economic outlook and monetary policy in the euro area",
-      "authors": "",
-      "date": "2026-04-14",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260414~b312adeb55.en.pdf",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
-      "tags": [
-        "경제",
-        "ECB Press",
-        "글로벌",
-        "중앙은행",
-        "new"
-      ],
-      "koSummary": "Philip R. Lane: 유로 지역의 경제 전망과 통화 정책"
     },
     {
       "source": "국토정책Brief",
