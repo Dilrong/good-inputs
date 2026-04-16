@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-04-15T19:44:11.659Z",
+  "generatedAt": "2026-04-16T03:48:12.004Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "노동수급 불균형 해소를 위한 국가간 인력교류 활성화 방안 연구",
+      "authors": "장영욱 외",
+      "date": "2026-04-16",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12366&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "Apache Flink + RocksDB 튜닝으로 광고 Frequency Capping 실시간 집계를 일주일까지 확장하기",
+      "authors": "",
+      "date": "2026-04-16",
+      "url": "https://toss.tech/article/flink-realtime-frequency-capping",
+      "summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
     {
       "source": "NY Fed Liberty Street",
       "category": "경제",
@@ -282,13 +314,13 @@
       "date": "2026-04-08",
       "url": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
       "summary": "Rust for CPython project status update April 2026",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Python Insider",
         "글로벌",
         "Rust",
-        "new"
+        "fresh"
       ],
       "koSummary": "CPython용 Rust 프로젝트 상태 업데이트 2026년 4월"
     },
@@ -300,31 +332,15 @@
       "date": "2026-04-08",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/supply-side-of-us-housing-challenge",
       "summary": "This analysis finds that the U.S. has underbuilt housing for decades. The persistent supply shortfall amid growing demand drives today’s affordability crisis.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "new"
+        "fresh"
       ],
       "koSummary": "이 분석에 따르면 미국은 수십 년 동안 주택 건설이 부족했던 것으로 나타났습니다. 수요 증가에 따른 지속적인 공급 부족은 오늘날의 경제성 위기를 초래합니다."
-    },
-    {
-      "source": "토스 테크",
-      "category": "개발",
-      "title": "Layers of your time : 토스와 함께한 시간을 기념하기",
-      "authors": "",
-      "date": "2026-04-07",
-      "url": "https://toss.tech/article/layers-of-your-time",
-      "summary": "팀원의 시간을 진심으로 축하하는 방법을 찾고 싶었어요. 8개월 동안 사내 굿즈를 다시 만들며 고민했던 과정과, 그 안에서 발견한 기준을 들려드려요.",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "토스 테크",
-        "국내",
-        "fresh"
-      ]
     },
     {
       "source": "Django Blog",
@@ -383,22 +399,6 @@
       "authors": "윤상하 외",
       "date": "2026-04-06",
       "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12343&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
-      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "KIEP",
-        "국내",
-        "fresh"
-      ]
-    },
-    {
-      "source": "KIEP",
-      "category": "경제",
-      "title": "지속가능한 중장기 개발재원 규모 확대 방안 연구",
-      "authors": "정지원 외",
-      "date": "2026-04-06",
-      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12344&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
       "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
       "score": "fresh",
       "tags": [
@@ -673,13 +673,13 @@
       "date": "2026-03-25",
       "url": "https://d2.naver.com/helloworld/1155434",
       "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_ca…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "네이버 D2",
         "국내",
         "hello world",
-        "fresh"
+        "stable"
       ]
     },
     {
