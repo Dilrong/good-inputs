@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T13:34:42.178Z",
+  "generatedAt": "2026-04-16T13:40:27.332Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -198,6 +198,24 @@
       "koSummary": "Piero Cipollone: ​​금융 변혁의 촉발: 토큰화와 중앙은행의 역할"
     },
     {
+      "source": "Grafana Blog",
+      "category": "개발",
+      "title": "Grafana Alerting: Respond faster and get situational awareness with alert enrichment in Grafana Cloud",
+      "authors": "Fayzal Ghantiwala",
+      "date": "2026-04-14",
+      "url": "https://grafana.com/blog/grafana-alerting-respond-faster-and-get-situational-awareness-with-alert-enrichment-in-grafana-cloud/",
+      "summary": "Alerts are meant to help teams respond quickly to problems, but too often they arrive without enough context to be immediately useful. An alert that says “CPU usage is high” still leaves the on-call engineer asking critical follow-up questions: Which service? Which environment?…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Grafana Blog",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "경고는 팀이 문제에 신속하게 대응하는 데 도움이 되지만 즉시 유용할 정도로 충분한 컨텍스트 없이 도착하는 경우가 너무 많습니다. \"CPU 사용량이 높습니다\"라는 경고가 표시되면 대기 중인 엔지니어는 여전히 다음과 같은 중요한 후속 질문을 하게 됩니다. 어떤 서비스입니까? 어떤 환경?…"
+    },
+    {
       "source": "NY Fed Liberty Street",
       "category": "경제",
       "title": "Use of Gen AI in the Workplace and the Value of Access to Training",
@@ -253,6 +271,24 @@
         "new"
       ],
       "koSummary": "장기 실행 에이전트 애플리케이션에서 컨텍스트 관리"
+    },
+    {
+      "source": "Grafana Blog",
+      "category": "개발",
+      "title": "How to manage synthetic monitoring checks as code with Terraform and Grafana Cloud",
+      "authors": "Bukola Ayodele",
+      "date": "2026-04-13",
+      "url": "https://grafana.com/blog/how-to-manage-synthetic-monitoring-checks-as-code-with-terraform-and-grafana-cloud/",
+      "summary": "As teams scale, managing synthetic monitoring checks manually in the UI becomes difficult and error-prone. When you're dealing with dozens of checks across multiple environments, teams experience inconsistent configurations, lack of version control, and difficulty tracking chang…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Grafana Blog",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "팀이 확장됨에 따라 UI에서 종합 모니터링 검사를 수동으로 관리하는 것이 어려워지고 오류가 발생하기 쉽습니다. 여러 환경에 걸쳐 수십 개의 검사를 처리할 때 팀은 일관되지 않은 구성, 버전 제어 부족, 변경 사항 추적의 어려움을 경험하게 됩니다."
     },
     {
       "source": "FRED Blog",
@@ -324,6 +360,24 @@
         "중앙은행",
         "new"
       ]
+    },
+    {
+      "source": "OpenTelemetry",
+      "category": "개발",
+      "title": "OBI Gives Incident Response the Request Context It Needs",
+      "authors": "",
+      "date": "2026-04-10",
+      "url": "https://opentelemetry.io/blog/2026/obi-http-header-enrichment/",
+      "summary": "When incidents are active, traces usually tell you that something is wrong. The harder problem is figuring out who is affected and why, quickly. OpenTelemetry eBPF Instrumentation (OBI) v0.7.0 adds HTTP header enrichment so spans can carry request context like tenant or user seg…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "OpenTelemetry",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "인시던트가 활성화되면 일반적으로 추적을 통해 무언가 잘못되었음을 알 수 있습니다. 더 어려운 문제는 영향을 받은 사람과 그 이유를 신속하게 파악하는 것입니다. OpenTelemetry eBPF Instrumentation(OBI) v0.7.0은 HTTP 헤더 강화를 추가하여 범위가 테넌트 또는 사용자 세그먼트와 같은 요청 컨텍스트를 전달할 수 있습니다."
     },
     {
       "source": "KIEP",
@@ -457,6 +511,24 @@
         "fresh"
       ],
       "koSummary": "이 게시물에서는 태그된 스토리지 패턴을 사용하여 확장 가능한 다중 테넌트 구성 서비스를 구축하는 방법을 보여줍니다. 이는 주요 접두사(예:tenant_config_ 또는 param_config_)를 사용하여 구성 요청을 가장 적합한 경로로 자동 라우팅하는 아키텍처 접근 방식입니다."
+    },
+    {
+      "source": "OpenTelemetry",
+      "category": "개발",
+      "title": "Inside Adobe's OpenTelemetry pipeline: simplicity at scale",
+      "authors": "",
+      "date": "2026-04-08",
+      "url": "https://opentelemetry.io/blog/2026/devex-adobe/",
+      "summary": "As part of an ongoing series, the Developer Experience SIG interviews organizations about their real-world OpenTelemetry Collector deployments to share practical lessons with the broader community. This post features Adobe, a global software company whose observability team has…",
+      "score": "fresh",
+      "tags": [
+        "개발",
+        "OpenTelemetry",
+        "글로벌",
+        "관측성",
+        "fresh"
+      ],
+      "koSummary": "진행 중인 시리즈의 일환으로 개발자 경험 SIG는 실제 OpenTelemetry Collector 배포에 대해 조직을 인터뷰하여 더 광범위한 커뮤니티와 실용적인 교훈을 공유합니다. 이 게시물에는 관찰 가능성 팀이 있는 글로벌 소프트웨어 회사인 Adobe가 포함되어 있습니다."
     },
     {
       "source": "St. Louis Fed",
@@ -1290,6 +1362,24 @@
       ]
     },
     {
+      "source": "Prometheus Blog",
+      "category": "개발",
+      "title": "Introducing the Experimental info() Function",
+      "authors": "Arve Knudsen",
+      "date": "2025-12-16",
+      "url": "https://prometheus.io/blog/2025/12/16/introducing-info-function/",
+      "summary": "Enriching metrics with metadata labels can be surprisingly tricky in Prometheus, even if you're a PromQL wiz! The PromQL join query traditionally used for this is inherently quite complex because it has to specify the labels to join on, the info metric to join with, and the labe…",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Prometheus Blog",
+        "글로벌",
+        "관측성",
+        "stable"
+      ],
+      "koSummary": "Prometheus에서는 메타데이터 레이블을 사용하여 측정항목을 강화하는 것이 PromQL 전문가라도 놀라울 정도로 까다로울 수 있습니다. 이에 전통적으로 사용되는 PromQL 조인 쿼리는 조인할 레이블, 조인할 정보 측정항목, 라벨을 지정해야 하기 때문에 본질적으로 매우 복잡합니다."
+    },
+    {
       "source": "React Blog",
       "category": "개발",
       "title": "Denial of Service and Source Code Exposure in React Server Components",
@@ -1337,6 +1427,24 @@
         "stable"
       ],
       "koSummary": "React Server 구성 요소에 인증되지 않은 원격 코드 실행 취약점이 있습니다. 버전 19.0.1, 19.1.2 및 19.2.1에 수정 사항이 게시되었습니다. 즉시 업그레이드하는 것이 좋습니다."
+    },
+    {
+      "source": "Prometheus Blog",
+      "category": "개발",
+      "title": "Visualizing Target Relabeling Rules in Prometheus 3.8.0",
+      "authors": "Julius Volz (@juliusv)",
+      "date": "2025-12-02",
+      "url": "https://prometheus.io/blog/2025/12/02/visualizing-target-relabeling-rules-in-the-prometheus-ui/",
+      "summary": "Prometheus' target relabeling feature allows you to adjust the labels of a discovered target or even drop the target entirely. Relabeling rules, while powerful, can be hard to understand and debug. Your rules have to match the expected labels that your service discovery mechanis…",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Prometheus Blog",
+        "글로벌",
+        "관측성",
+        "stable"
+      ],
+      "koSummary": "Prometheus의 대상 재지정 기능을 사용하면 발견된 대상의 레이블을 조정하거나 대상을 완전히 삭제할 수도 있습니다. 레이블 재지정 규칙은 강력하기는 하지만 이해하고 디버깅하기 어려울 수 있습니다. 규칙은 서비스 검색 메커니즘에서 예상되는 레이블과 일치해야 합니다."
     },
     {
       "source": "국립중앙박물관",
