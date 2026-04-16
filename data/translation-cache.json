@@ -446,5 +446,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "Prometheus의 대상 재지정 기능을 사용하면 발견된 대상의 레이블을 조정하거나 대상을 완전히 삭제할 수도 있습니다. 레이블 재지정 규칙은 강력하기는 하지만 이해하고 디버깅하기 어려울 수 있습니다. 규칙은 서비스 검색 메커니즘에서 예상되는 레이블과 일치해야 합니다."
+  },
+  "https://blog.cloudflare.com/ai-platform/|summary": {
+    "input": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 AI를 위한 통합 추론 계층에 AI Gateway를 구축하여 개발자가 14개 이상의 제공업체로부터 모델을 호출할 수 있도록 하고 있습니다. 새로운 기능에는 Workers AI 바인딩 통합과 다중 모드 모델이 포함된 확장된 카탈로그가 포함됩니다."
+  },
+  "https://blog.cloudflare.com/high-performance-llms/|summary": {
+    "input": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 Cloudflare의 인프라에서 대규모 언어 모델을 빠르게 실행하기 위해 맞춤형 기술 스택을 구축했습니다. 이 게시물에서는 고성능 AI 추론에 액세스하는 데 필요한 엔지니어링 절충안과 기술 최적화를 살펴봅니다."
   }
 }
