@@ -458,5 +458,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "우리는 Cloudflare의 인프라에서 대규모 언어 모델을 빠르게 실행하기 위해 맞춤형 기술 스택을 구축했습니다. 이 게시물에서는 고성능 AI 추론에 액세스하는 데 필요한 엔지니어링 절충안과 기술 최적화를 살펴봅니다."
+  },
+  "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/|summary": {
+    "input": "We’re sharing insights into Meta’s Capacity Efficiency Program, where we’ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface th…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 인프라 전체에서 성능 문제를 자동으로 찾아 해결하는 데 도움이 되는 AI 에이전트 플랫폼을 구축한 Meta의 용량 효율성 프로그램에 대한 통찰력을 공유하고 있습니다. 통합되고 표준화된 도구 인터페이스 전반에 걸쳐 인코딩된 도메인 전문 지식을 활용함으로써…"
+  },
+  "https://opentelemetry.io/blog/2026/otel-php-distro-donation-update/|summary": {
+    "input": "The OpenTelemetry community accepted the donation of the OpenTelemetry PHP Distro project. This post summarizes what the donation enables, how it relates to existing PHP instrumentation paths, and where contributors can help next. Why this donation matters OpenTelemetry provides…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "OpenTelemetry 커뮤니티는 OpenTelemetry PHP Distro 프로젝트의 기부를 수락했습니다. 이 게시물에서는 기부를 통해 무엇을 할 수 있는지, 기부가 기존 PHP 계측 경로와 어떻게 관련되는지, 기여자가 다음에 도움을 줄 수 있는 부분을 요약합니다. 이 기부가 중요한 이유 OpenTelemetry는…"
   }
 }
