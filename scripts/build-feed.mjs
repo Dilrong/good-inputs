@@ -231,6 +231,15 @@ const SOURCES = [
   {
     kind: 'rss',
     format: 'rss',
+    source: 'arXiv cs.SE',
+    category: '개발',
+    listUrl: 'https://rss.arxiv.org/rss/cs.SE',
+    maxItems: 2,
+    extraTags: ['개발', '글로벌', '논문'],
+  },
+  {
+    kind: 'rss',
+    format: 'rss',
     source: 'St. Louis Fed',
     category: '경제',
     listUrl: 'https://www.stlouisfed.org/on-the-economy/feed',
