@@ -326,5 +326,41 @@
     "approved": true,
     "mode": "summary",
     "koText": "시카고 연준의 CARTS(Advanced Retail Trade Summary) 발표에서 더 많은 데이터가 이제 FRED에 있습니다. 이러한 소매 및 식품 서비스 판매 추정치(일부 자동차 및 부품 제외)는 미국 인구 조사국의 월별 소매 무역 조사(MRTS)를 추적합니다. … 계속 읽기 →"
+  },
+  "https://blog.cloudflare.com/project-think/|summary": {
+    "input": "Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "경량 기본 요소부터 생각하고 행동하고 지속하는 AI 에이전트를 위한 배터리 포함 플랫폼에 이르기까지 Agents SDK의 다음 버전 미리보기를 발표합니다."
+  },
+  "https://blog.cloudflare.com/introducing-agent-lee/|summary": {
+    "input": "Agent Lee is an in-dashboard agent that shifts Cloudflare’s interface from manual tab-switching to a single prompt. Using sandboxed TypeScript, it helps you troubleshoot and manage your stack as a grounded technical collaborator.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Agent Lee는 Cloudflare의 인터페이스를 수동 탭 전환에서 단일 프롬프트로 전환하는 대시보드 내 에이전트입니다. 샌드박스 TypeScript를 사용하면 기반 기술 협력자로서 스택 문제를 해결하고 관리하는 데 도움이 됩니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/|summary": {
+    "input": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appro…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 태그된 스토리지 패턴을 사용하여 확장 가능한 다중 테넌트 구성 서비스를 구축하는 방법을 보여줍니다. 이는 주요 접두사(예:tenant_config_ 또는 param_config_)를 사용하여 구성 요청을 가장 적합한 경로로 자동 라우팅하는 아키텍처 접근 방식입니다."
+  },
+  "https://martinfowler.com/articles/mechanical-sympathy-principles.html|summary": {
+    "input": "Modern hardware is remarkably fast, but software often fails to leverage it. Caer Sanders has found it valuable to guide their work with mechanical sympathy - the practice of creating software that is sympathetic to its underlying hardware. They distill this practice into everyd…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "최신 하드웨어는 놀라울 정도로 빠르지만 소프트웨어는 이를 활용하지 못하는 경우가 많습니다. Caer Sanders는 기계적인 공감, 즉 기본 하드웨어에 공감하는 소프트웨어를 만드는 관행을 바탕으로 작업을 안내하는 것이 중요하다는 것을 알았습니다. 그들은 이 관행을 모든…"
+  },
+  "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/|summary": {
+    "input": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference scheduling",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 새로운 설치 환경을 살펴보고 세 가지 배포 방법(콘솔, CLI 및 Terraform)을 시연하고 다중 인스턴스 유형 배포 및 기본 노드 선호도와 같은 기능을 통해 추론 일정을 세밀하게 제어할 수 있는 방법을 보여줍니다."
+  },
+  "https://martinfowler.com/articles/harness-engineering.html|summary": {
+    "input": "Last month Birgitta Böckeler wrote some initial thoughts about the recently developed notion of Harness Engineering. She's been researching and thinking more about this in the weeks since and has now written a thoughtful mental model for understanding harness engineering that we…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
   }
 }
