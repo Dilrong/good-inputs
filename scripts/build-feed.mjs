@@ -69,6 +69,13 @@ const SOURCES = [
     maxItems: 3,
   },
   {
+    kind: 'stripe-engineering',
+    source: 'Stripe Engineering',
+    category: '개발',
+    listUrl: 'https://stripe.com/blog/engineering',
+    maxItems: 2,
+  },
+  {
     kind: 'rss',
     format: 'rss',
     source: '토스 테크',
@@ -266,6 +273,13 @@ const SOURCES = [
     listUrl: 'https://rss.arxiv.org/rss/cs.SE',
     maxItems: 2,
     extraTags: ['개발', '글로벌', '논문'],
+  },
+  {
+    kind: 'postgresql-release',
+    source: 'PostgreSQL',
+    category: '개발',
+    listUrl: 'https://www.postgresql.org/',
+    maxItems: 1,
   },
   {
     kind: 'rss',
@@ -705,6 +719,49 @@ async function buildRssSource(source) {
     : extractRssFeedItems(xml, source);
 }
 
+function extractStripeEngineeringItems(html, source) {
+  const items = [];
+
+  for (const match of String(html).matchAll(/<article\b[\s\S]*?class="[^"]*BlogIndexPost[^"]*"[\s\S]*?<\/article>/gi)) {
+    const block = match[0];
+    const titleMatch = block.match(/BlogIndexPost__titleLink[\s\S]*?href="([^"]+)"[\s\S]*?>([\s\S]*?)<\/a>/i);
+    if (!titleMatch) continue;
+
+    const authors = [...block.matchAll(/<a\s+class="BlogAuthor__link"[^>]*>([\s\S]*?)<\/a>/gi)]
+      .map(part => cleanText(part[1]))
+      .filter(Boolean)
+      .join(', ');
+
+    items.push(finalizeItem({
+      source: source.source,
+      category: source.category,
+      title: titleMatch[2],
+      authors,
+      date: (block.match(/<time\b[^>]*datetime="([^"]+)"/i) || [])[1] || '',
+      url: absoluteUrl('https://stripe.com', titleMatch[1]),
+      summary: (block.match(/<div\s+class="BlogIndexPost__body">[\s\S]*?<p>([\s\S]*?)<\/p>/i) || [])[1] || '',
+    }, ['글로벌', '아키텍처']));
+  }
+
+  return uniqueBy(items, item => item.url).slice(0, source.maxItems);
+}
+
+function extractPostgresqlReleaseItems(html, source) {
+  const match = String(html).match(/<h2>Latest Releases<\/h2>[\s\S]*?<strong>\s*([0-9-]+)\s*-\s*<a href="([^"]+)">\s*([\s\S]*?)\s*<\/a>[\s\S]*?<\/strong>[\s\S]*?<p>\s*([\s\S]*?)<\/p>/i);
+  if (!match) return [];
+
+  const [, date, href, title, summary] = match;
+  return [finalizeItem({
+    source: source.source,
+    category: source.category,
+    title,
+    authors: 'PostgreSQL Global Development Group',
+    date,
+    url: absoluteUrl('https://www.postgresql.org', href),
+    summary,
+  }, ['글로벌', 'DB', '릴리즈'])];
+}
+
 function extractKrihsListItems(html, sourceMeta) {
   const regex = /javascript:viewCntAdd(?:2)?\('[^']+','[^']+','([^']+)'\)[\s\S]*?<strong class="title">\s*([\s\S]*?)\s*<\/strong>[\s\S]*?<strong class="label">저자 <\/strong>([\s\S]*?)<\/p>[\s\S]*?<strong class="label"> 발행일 <\/strong>\s*([0-9.-]+)/g;
   const items = [];
@@ -1049,6 +1106,10 @@ async function buildEbsSource(source) {
 
 async function buildSource(source) {
   switch (source.kind) {
+    case 'stripe-engineering': {
+      const html = await fetchText(source.listUrl);
+      return extractStripeEngineeringItems(html, source);
+    }
     case 'krihs':
       return await buildKrihsSource(source);
     case 'kdi-focus': {
@@ -1065,6 +1126,10 @@ async function buildSource(source) {
       return await buildBokSource(source);
     case 'rss':
       return await buildRssSource(source);
+    case 'postgresql-release': {
+      const html = await fetchText(source.listUrl);
+      return extractPostgresqlReleaseItems(html, source);
+    }
     case 'mmca':
       return await buildMmcaSource(source);
     case 'museum':

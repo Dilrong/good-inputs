@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T13:30:43.792Z",
+  "generatedAt": "2026-04-16T13:34:42.178Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -1058,6 +1058,24 @@
       ]
     },
     {
+      "source": "Stripe Engineering",
+      "category": "개발",
+      "title": "Can AI agents build real Stripe integrations? We built a benchmark to find out",
+      "authors": "Carol Liang, Kevin Ho",
+      "date": "2026-03-02",
+      "url": "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations",
+      "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe i…",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Stripe Engineering",
+        "글로벌",
+        "아키텍처",
+        "stable"
+      ],
+      "koSummary": "최첨단 LLM은 이제 범위가 지정된 코딩 문제의 대부분을 해결할 수 있지만 소프트웨어 엔지니어링 프로젝트를 완전히 자율적으로 관리할 수 있는지 여부는 아직 의문입니다. 우리는 AI 에이전트가 실제 Stripe i를 얼마나 잘 생성할 수 있는지 벤치마킹하기 위해 평가 환경을 구축하는 데 수개월을 보냈습니다."
+    },
+    {
       "source": "한국은행",
       "category": "경제",
       "title": "통화정책방향 관련 총재 기자간담회 (2026.02)",
@@ -1073,6 +1091,25 @@
         "중앙은행",
         "stable"
       ]
+    },
+    {
+      "source": "PostgreSQL",
+      "category": "개발",
+      "title": "PostgreSQL 18.3, 17.9, 16.13, 15.17, and 14.22 Released!",
+      "authors": "PostgreSQL Global Development Group",
+      "date": "2026-02-26",
+      "url": "https://www.postgresql.org/about/news/postgresql-183-179-1613-1517-and-1422-released-3246/",
+      "summary": "The PostgreSQL Global Development Group has released an update to all supported versions of PostgreSQL, including 18.3, 17.9, 16.13, 15.17, and 14.22. This is an out-of-cycle release that fixes several regressions reported after the last update release.",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "PostgreSQL",
+        "글로벌",
+        "DB",
+        "릴리즈",
+        "stable"
+      ],
+      "koSummary": "PostgreSQL 글로벌 개발 그룹은 18.3, 17.9, 16.13, 15.17 및 14.22를 포함하여 지원되는 모든 버전의 PostgreSQL에 대한 업데이트를 출시했습니다. 이는 마지막 업데이트 릴리스 이후에 보고된 여러 회귀 문제를 수정하는 비주기 릴리스입니다."
     },
     {
       "source": "국토이슈리포트",
@@ -1335,6 +1372,24 @@
         "현재전시",
         "stable"
       ]
+    },
+    {
+      "source": "Stripe Engineering",
+      "category": "개발",
+      "title": "How we built it: Real-time analytics for Stripe Billing",
+      "authors": "Reed Trevelyan",
+      "date": "2025-09-16",
+      "url": "https://stripe.com/blog/how-we-built-it-real-time-analytics-for-stripe-billing",
+      "summary": "Among global business leaders surveyed, 84% agree that adapting pricing quickly will be a key competitive advantage. Our new real-time analytics system for Stripe Billing helps them spot customer trends just as they emerge.",
+      "score": "stable",
+      "tags": [
+        "개발",
+        "Stripe Engineering",
+        "글로벌",
+        "아키텍처",
+        "stable"
+      ],
+      "koSummary": "설문조사에 참여한 글로벌 비즈니스 리더 중 84%는 가격을 신속하게 조정하는 것이 주요 경쟁 우위가 될 것이라는 점에 동의했습니다. Stripe Billing을 위한 새로운 실시간 분석 시스템은 고객 동향이 나타나는 즉시 이를 파악하는 데 도움이 됩니다."
     },
     {
       "source": "국립중앙박물관",

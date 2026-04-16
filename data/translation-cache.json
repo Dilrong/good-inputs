@@ -362,5 +362,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
+  },
+  "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations|summary": {
+    "input": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building evaluation environments to benchmark how well AI agents can create real Stripe i…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "최첨단 LLM은 이제 범위가 지정된 코딩 문제의 대부분을 해결할 수 있지만 소프트웨어 엔지니어링 프로젝트를 완전히 자율적으로 관리할 수 있는지 여부는 아직 의문입니다. 우리는 AI 에이전트가 실제 Stripe i를 얼마나 잘 생성할 수 있는지 벤치마킹하기 위해 평가 환경을 구축하는 데 수개월을 보냈습니다."
+  },
+  "https://www.postgresql.org/about/news/postgresql-183-179-1613-1517-and-1422-released-3246/|summary": {
+    "input": "The PostgreSQL Global Development Group has released an update to all supported versions of PostgreSQL, including 18.3, 17.9, 16.13, 15.17, and 14.22. This is an out-of-cycle release that fixes several regressions reported after the last update release.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "PostgreSQL 글로벌 개발 그룹은 18.3, 17.9, 16.13, 15.17 및 14.22를 포함하여 지원되는 모든 버전의 PostgreSQL에 대한 업데이트를 출시했습니다. 이는 마지막 업데이트 릴리스 이후에 보고된 여러 회귀 문제를 수정하는 비주기 릴리스입니다."
+  },
+  "https://stripe.com/blog/how-we-built-it-real-time-analytics-for-stripe-billing|summary": {
+    "input": "Among global business leaders surveyed, 84% agree that adapting pricing quickly will be a key competitive advantage. Our new real-time analytics system for Stripe Billing helps them spot customer trends just as they emerge.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "설문조사에 참여한 글로벌 비즈니스 리더 중 84%는 가격을 신속하게 조정하는 것이 주요 경쟁 우위가 될 것이라는 점에 동의했습니다. Stripe Billing을 위한 새로운 실시간 분석 시스템은 고객 동향이 나타나는 즉시 이를 파악하는 데 도움이 됩니다."
   }
 }
