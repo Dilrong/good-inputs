@@ -552,6 +552,7 @@
       </div>
       <input id="search" class="search" type="text" placeholder="제목, 출처 검색" />
       <div class="chips" id="filters"></div>
+      <div class="subchips hidden" id="topic-filters"></div>
       <details class="more-tools">
         <summary>언어 · 보기</summary>
         <div class="subtools-label">선별</div>
@@ -632,6 +633,7 @@
     const countEl = document.getElementById('result-count');
     const searchEl = document.getElementById('search');
     const filtersEl = document.getElementById('filters');
+    const topicFiltersEl = document.getElementById('topic-filters');
     const qualityFiltersEl = document.getElementById('quality-filters');
     const languageFiltersEl = document.getElementById('language-filters');
     const viewModeFiltersEl = document.getElementById('view-mode-filters');
@@ -649,6 +651,9 @@
     };
 
     const DEV_SOURCES = new Set(['Stripe Engineering', '토스 테크', '네이버 D2', 'GitHub Engineering', 'Node.js Blog', 'Django Blog', 'Python Insider', 'pnpm Blog', 'React Blog', 'Go Blog', 'Rust Blog', 'Kubernetes Blog', 'AWS Developer', 'Meta Engineering', 'Dropbox Tech', 'Slack Engineering', 'Svelte Blog', 'AWS Architecture Blog', 'Martin Fowler', 'Cloudflare Architecture', 'Prometheus Blog', 'Grafana Blog', 'OpenTelemetry', 'arXiv cs.SE', 'PostgreSQL']);
+    const WEB_PLATFORM_SOURCES = new Set(['토스 테크', '네이버 D2', 'Node.js Blog', 'Django Blog', 'Python Insider', 'pnpm Blog', 'React Blog', 'Go Blog', 'Rust Blog', 'Svelte Blog']);
+    const ARCHITECTURE_SOURCES = new Set(['Stripe Engineering', 'GitHub Engineering', 'AWS Developer', 'Meta Engineering', 'Dropbox Tech', 'Slack Engineering', 'AWS Architecture Blog', 'Martin Fowler', 'Cloudflare Architecture', 'arXiv cs.SE', 'PostgreSQL', 'Kubernetes Blog']);
+    const OBSERVABILITY_SOURCES = new Set(['Prometheus Blog', 'Grafana Blog', 'OpenTelemetry']);
     const KOREAN_ECON_SOURCES = new Set(['자본시장연구원', 'KIEP', '한국은행']);
     const ECON_SOURCES = new Set([...KOREAN_ECON_SOURCES, 'St. Louis Fed', 'NY Fed Liberty Street', 'FRED Blog', 'NBER Working Papers', 'ECB Blog', 'ECB Press']);
     const DECISION_SOURCES = new Set(['국토정책Brief', '국토이슈리포트', '워킹페이퍼', 'KDI FOCUS', 'KDI 연구보고서', ...DEV_SOURCES, ...ECON_SOURCES]);
@@ -664,6 +669,7 @@
     ];
 
     let currentFilter = 'all';
+    let currentTopicFilter = 'all';
     let currentQualityMode = loadQualityMode();
     let currentLanguageFilter = 'all';
     let currentRoutine = 'all';
@@ -766,6 +772,30 @@
           || DEV_SOURCES.has(source)
           || /금리|재정|경제|투자|기업|산업|ai|agent|security|performance/.test(combined);
       }
+      return true;
+    }
+
+    function topicFilterMatches(item) {
+      if (currentFilter !== 'development' || currentTopicFilter === 'all') return true;
+
+      const source = String(item.source || '');
+      const combined = [item.title, item.summary, ...(item.tags || [])].join(' ').toLowerCase();
+
+      if (currentTopicFilter === 'web-platform') {
+        return WEB_PLATFORM_SOURCES.has(source)
+          || /web|browser|frontend|react|node|javascript|typescript|css|render|dom|server component|framework|ui|sdk/.test(combined);
+      }
+
+      if (currentTopicFilter === 'architecture') {
+        return ARCHITECTURE_SOURCES.has(source)
+          || /architecture|아키텍처|multi-tenant|distributed|queue|cache|storage|infra|infrastructure|database|runtime|workflow|boundary|reliability|tenant/.test(combined);
+      }
+
+      if (currentTopicFilter === 'observability') {
+        return OBSERVABILITY_SOURCES.has(source)
+          || /observability|monitoring|metrics|tracing|trace|logs|profil|alert|incident|telemetry|relabel/.test(combined);
+      }
+
       return true;
     }
 
@@ -875,6 +905,37 @@
         chip.addEventListener('click', () => {
           currentFilter = chip.dataset.filter || 'all';
           renderFilters();
+          renderTopicFilters();
+          renderFeed();
+        });
+      });
+    }
+
+    function renderTopicFilters() {
+      if (currentFilter !== 'development') {
+        topicFiltersEl.classList.add('hidden');
+        topicFiltersEl.innerHTML = '';
+        return;
+      }
+
+      const options = [
+        { key: 'all', label: '전체 개발' },
+        { key: 'web-platform', label: '웹플랫폼' },
+        { key: 'architecture', label: '아키텍처' },
+        { key: 'observability', label: '관측성' },
+      ];
+
+      if (!options.some(option => option.key === currentTopicFilter)) currentTopicFilter = 'all';
+
+      topicFiltersEl.classList.remove('hidden');
+      topicFiltersEl.innerHTML = options.map(option => `
+        <button class="subchip ${option.key === currentTopicFilter ? 'active' : ''}" data-topic-filter="${escapeHtml(option.key)}">${escapeHtml(option.label)}</button>
+      `).join('');
+
+      Array.from(topicFiltersEl.querySelectorAll('.subchip')).forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentTopicFilter = chip.dataset.topicFilter || 'all';
+          renderTopicFilters();
           renderFeed();
         });
       });
@@ -953,10 +1014,10 @@
           item.summary,
           item.date,
         ].join(' ').toLowerCase();
-        return filterMatches(item) && hardModeMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
+        return filterMatches(item) && topicFilterMatches(item) && hardModeMatches(item) && languageMatches(item) && (!q || haystack.includes(q));
       });
       const briefBase = getRoutineItems().filter(item => {
-        return filterMatches(item) && hardModeMatches(item) && languageMatches(item);
+        return filterMatches(item) && topicFilterMatches(item) && hardModeMatches(item) && languageMatches(item);
       });
 
       countEl.textContent = currentRoutine === 'all'
@@ -1024,6 +1085,7 @@
         `;
         countEl.textContent = '0개';
         renderFilters();
+        renderTopicFilters();
         renderQualityFilters();
         renderLanguageFilters();
         renderViewModeFilters();
@@ -1032,6 +1094,7 @@
 
       applyViewMode();
       renderFilters();
+      renderTopicFilters();
       renderQualityFilters();
       renderLanguageFilters();
       renderViewModeFilters();
@@ -1047,8 +1110,10 @@
     function setRoutineFilter(routine) {
       currentRoutine = ROUTINES[routine] ? routine : 'all';
       currentFilter = 'all';
+      currentTopicFilter = 'all';
       currentLanguageFilter = 'all';
       renderFilters();
+      renderTopicFilters();
       renderLanguageFilters();
       renderFeed();
       activateSection('home-section');
@@ -1061,8 +1126,10 @@
         if (btn.dataset.target === 'home-section') {
           currentRoutine = 'all';
           currentFilter = 'all';
+          currentTopicFilter = 'all';
           currentLanguageFilter = 'all';
           renderFilters();
+          renderTopicFilters();
           renderLanguageFilters();
           renderFeed();
         }
