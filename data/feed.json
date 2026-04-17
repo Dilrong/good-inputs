@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T13:59:55.486Z",
+  "generatedAt": "2026-04-17T19:33:02.245Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -29,11 +29,11 @@
     {
       "source": "Cloudflare Architecture",
       "category": "개발",
-      "title": "Redirects for AI Training enforces canonical content",
-      "authors": "Cam Whiteside",
+      "title": "Shared Dictionaries: compression that keeps up with the agentic web",
+      "authors": "Alex Krivit",
       "date": "2026-04-17",
-      "url": "https://blog.cloudflare.com/ai-redirects/",
-      "summary": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
+      "url": "https://blog.cloudflare.com/shared-dictionaries/",
+      "summary": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
       "score": "new",
       "tags": [
         "개발",
@@ -42,14 +42,13 @@
         "아키텍처",
         "Agents Week",
         "Agents",
+        "Compression",
+        "Pingora",
+        "Speed",
         "AI",
-        "Radar",
-        "Bot Management",
-        "Developer Platform",
-        "Developers",
         "new"
       ],
-      "koSummary": "소프트 지시어는 크롤러가 더 이상 사용되지 않는 콘텐츠를 수집하는 것을 막지 않습니다. AI 훈련을 위한 리디렉션을 사용하면 Cloudflare의 누구나 원본 변경 없이 한 번의 토글로 확인된 크롤러를 표준 페이지로 리디렉션할 수 있습니다."
+      "koSummary": "오늘은 공유 압축 사전에 대한 지원을 살짝 엿보고, 페이지 로드 시간이 어떻게 개선되는지 보여주고, 베타 버전을 직접 사용해 볼 수 있는 시기를 알려드리게 되어 기쁩니다."
     },
     {
       "source": "arXiv cs.SE",

@@ -500,5 +500,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
+  },
+  "https://blog.cloudflare.com/shared-dictionaries/|summary": {
+    "input": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "오늘은 공유 압축 사전에 대한 지원을 살짝 엿보고, 페이지 로드 시간이 어떻게 개선되는지 보여주고, 베타 버전을 직접 사용해 볼 수 있는 시기를 알려드리게 되어 기쁩니다."
   }
 }
