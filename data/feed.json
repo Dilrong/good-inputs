@@ -1,24 +1,7 @@
 {
-  "generatedAt": "2026-04-16T19:39:09.459Z",
+  "generatedAt": "2026-04-17T03:46:19.346Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "new"
-      ]
-    },
     {
       "source": "KIEP",
       "category": "경제",
@@ -442,12 +425,12 @@
       "date": "2026-04-09",
       "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12353&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
       "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "KIEP",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -458,12 +441,12 @@
       "date": "2026-04-09",
       "url": "https://toss.tech/article/toss_front",
       "summary": "아름다우면서 사용성까지 챙긴 토스 프론트 2, 그 뒤에는 “이게 정말 최선일까?”를 끝까지 놓지 않았던 집요한 고민이 있었어요.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "토스 테크",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -474,13 +457,13 @@
       "date": "2026-04-09",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-credit-debit-card-fees-collected-banks-rose-2025",
       "summary": "The interchange, or ‘swipe,’ fees collected by U.S. banks grew to $66 billion in 2025 as debit and credit card purchase volumes and values increased.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "new"
+        "fresh"
       ],
       "koSummary": "직불카드 및 신용카드 구매량과 가치가 증가함에 따라 미국 은행이 징수하는 교환 또는 '스와이프' 수수료는 2025년에 660억 달러로 증가했습니다."
     },
@@ -492,13 +475,13 @@
       "date": "2026-04-09",
       "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260409~cc951a0d29.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "ECB Blog",
         "글로벌",
         "중앙은행",
-        "new"
+        "fresh"
       ],
       "koSummary": "불가리아의 유로 채택 및 가격 인상: 사실과 신화 분리"
     },
@@ -790,40 +773,6 @@
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "데이미언 허스트와 YBA",
-      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
-      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 다원예술 2026: 탐정의 시간",
-      "authors": "료지 이케다/앙상블 모데른, 마말리안 다이빙 리플렉스, 엘 콘데 데 토레필, 마테오 마랑고니/디터 반도렌, 신서, 위성희, 리타 후프와이크, 살로메 무이, 샘 소이어만, 박민희, 크리스토퍼 놀란, 정여름",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002024",
-      "summary": "“분열자의 산책. 이것은 소파에 누운 신경증자보다 나은 모델이다.” (질 들뢰즈·펠릭스 과타리, 『안티 오이디푸스』) 인공지능에게 즉각적인 연산과 답변을 기대하는 동시대의 흐름 속에서, 이 프로젝트는 오랫동안 관찰하는 몇몇 이들, 예술가들, 그리고 아이들을 ‘탐정’으로 호명합니다. 누군가를 유심히 살펴보고 그 사람의 흔적을 의아하게 생각하는 존재는 이제 탐정 외에는 많지 않습니다. 이러한 집요한 관찰은 단순히 정보를 모으는 행위가 아닙니다. 비밀과 진실을 알아낼 수 있다고 믿고, 누군가를 의심하…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "Agent-driven development in Copilot Applied Science",
@@ -904,14 +853,14 @@
       "date": "2026-03-26",
       "url": "https://www.kcmi.re.kr/flexer/view?fid=28827&fgu=002002&fty=004003",
       "summary": "전 세계적으로 기업지배구조는 지속가능성, 책임경영, 투자자 보호를 위한 핵심 요소로 강조되어 왔으며, 이에 따라 많은 국가가 기업지배구조 원칙을 제정하고 원칙의 준수 여부 공시를 의무화했다. 한국은 2019년부터 자산 규모를 기준으로 기업지배구조 보고서 공시 의무화를 단계적으로 시행했으며, 2026년부터 모든 유가증권시장 상장기업으로 의무공시가 전면 확대될 예정이다. 제도의 궁극적 목표가 단순한 공시를 넘어 실질적 지배구조 개선과 기업가치 제고에 있는 만큼, 이 목적이 제대로 달성되고 있는지 제…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "경제",
         "자본시장연구원",
         "국내",
         "연구보고서",
         "자본시장",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -922,13 +871,13 @@
       "date": "2026-03-26",
       "url": "https://d2.naver.com/helloworld/7997284",
       "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "네이버 D2",
         "국내",
         "hello world",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -945,21 +894,6 @@
         "네이버 D2",
         "국내",
         "hello world",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI FOCUS",
-      "category": "정책",
-      "title": "기업의 성공적 스케일업을 위한 정책 지원체계 재구축 방안",
-      "authors": "",
-      "date": "2026-03-24",
-      "url": "https://www.kdi.re.kr/research/focusView?pub_no=19131",
-      "summary": "기업의 성장 병목을 정밀 진단하여 맞춤형 패키지를 지원하고, 고성장 전환 등 실질적 성과 중심의 지원 체계를 확립해야 함",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "KDI FOCUS",
         "stable"
       ]
     },
@@ -1009,23 +943,6 @@
         "교양",
         "EBS",
         "다큐프라임 - 자연다큐 죽음",
-        "stable"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "데이미언 허스트",
-      "authors": "데이미언 허스트",
-      "date": "2026-03-20",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002023",
-      "summary": "국립현대미술관은 영국 시각미술가 데이미언 허스트의 아시아 최초 대규모 개인전을 개최한다. 이번 전시는 작가의 초기작부터 근작까지 작업 전반을 아우르며 설치, 조각, 회화 등 다양한 매체로 구성된다. 전시는 죽음과 영생, 과학·의학에 대한 인간의 믿음과 욕망, 예술 가치와 시장 논리 등 작가가 탐구해 온 핵심 주제를 조명하며 현대사회의 삶과 가치에 대한 폭넓은 담론의 장을 마련하고자 한다. 죽은 동물을 포름알데히드 수조에 담은 ‹자연사› 연작, ‹신의 사랑을 위하여›(2007) 등의 대표작을 비롯…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
         "stable"
       ]
     },
@@ -1229,23 +1146,6 @@
         "연구",
         "KDI 연구보고서",
         "정책연구시리즈",
-        "stable"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "소멸의 시학: 삭는 미술에 대하여",
-      "authors": "고사리, 김방주, 김주리, 댄 리, 델시 모렐로스, 라이스 브루잉 시스터즈 클럽, 미래 재료×그린 레시피 랩, 세실리아 비쿠냐, 아사드 라자, 에드가 칼렐, 여다함, 유코 모리, 이은경, 이은재",
-      "date": "2026-01-30",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202511280002008",
-      "summary": "뛰어난 작품을 불후의 명작이라고 부른다. 이때 불후(不朽)는 썩지 아니함이라는 뜻을 갖고 있다. 훌륭한 작품이란 곧 변하지 않을 혹은 변해서는 안 될 작품이라면, 굳이 변하고 사라질 작품을 만드는 이유는 무엇일까? «소멸의 시학: 삭는 미술에 대하여»는 언젠가 썩어갈 운명을 시인하는 작품, 차라리 무엇도 남기지 않기로 마음먹은 작품, 자신의 분해를 공연히 상연하는 작품을 '삭는 미술'이라는 이름으로 묶어 소개한다. 오늘날 폭발적으로 분출한 인간중심주의에 대한 비판과 첨단의 자본주의, 기술만능주의…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
         "stable"
       ]
     },
