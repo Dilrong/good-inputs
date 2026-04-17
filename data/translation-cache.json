@@ -482,5 +482,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.14248v1 발표 유형: 새로운 개요: HLS(고수준 합성) 도구는 ECO(엔지니어링 변경 주문)에 대한 제한된 지원을 제공하므로 최종 단계의 설계 수정이 까다롭고 비용이 많이 듭니다. 본 논문에서는 Google XLS에 맞춰진 그래프 기반 ECO 방법론을 소개합니다…"
+  },
+  "https://blog.cloudflare.com/agent-readiness/|summary": {
+    "input": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "에이전트 준비 점수는 사이트 소유자가 웹 사이트가 AI 에이전트를 얼마나 잘 지원하는지 이해하는 데 도움이 될 수 있습니다. 여기에서는 새로운 표준을 살펴보고, Radar 데이터를 공유하며, Cloudflare의 문서를 웹에서 가장 에이전트 친화적인 문서로 만든 방법에 대해 자세히 설명합니다."
+  },
+  "https://blog.cloudflare.com/ai-redirects/|summary": {
+    "input": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "소프트 지시어는 크롤러가 더 이상 사용되지 않는 콘텐츠를 수집하는 것을 막지 않습니다. AI 훈련을 위한 리디렉션을 사용하면 Cloudflare의 누구나 원본 변경 없이 한 번의 토글로 확인된 크롤러를 표준 페이지로 리디렉션할 수 있습니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-uninsured-deposit-ratio-back-prepandemic-level|summary": {
+    "input": "The ratio of uninsured deposits to total deposits held by U.S. commercial banks increased slightly in the fourth quarter of 2025, to 43.3%.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
   }
 }

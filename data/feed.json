@@ -1,7 +1,56 @@
 {
-  "generatedAt": "2026-04-17T08:04:53.322Z",
+  "generatedAt": "2026-04-17T13:59:55.486Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
+      "authors": "André Jesus",
+      "date": "2026-04-17",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "summary": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Agents Week",
+        "Radar",
+        "Developer Documentation",
+        "AI",
+        "Agents",
+        "Agent Readiness",
+        "new"
+      ],
+      "koSummary": "에이전트 준비 점수는 사이트 소유자가 웹 사이트가 AI 에이전트를 얼마나 잘 지원하는지 이해하는 데 도움이 될 수 있습니다. 여기에서는 새로운 표준을 살펴보고, Radar 데이터를 공유하며, Cloudflare의 문서를 웹에서 가장 에이전트 친화적인 문서로 만든 방법에 대해 자세히 설명합니다."
+    },
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Redirects for AI Training enforces canonical content",
+      "authors": "Cam Whiteside",
+      "date": "2026-04-17",
+      "url": "https://blog.cloudflare.com/ai-redirects/",
+      "summary": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Agents Week",
+        "Agents",
+        "AI",
+        "Radar",
+        "Bot Management",
+        "Developer Platform",
+        "Developers",
+        "new"
+      ],
+      "koSummary": "소프트 지시어는 크롤러가 더 이상 사용되지 않는 콘텐츠를 수집하는 것을 막지 않습니다. AI 훈련을 위한 리디렉션을 사용하면 Cloudflare의 누구나 원본 변경 없이 한 번의 토글로 확인된 크롤러를 표준 페이지로 리디렉션할 수 있습니다."
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -42,6 +91,41 @@
         "new"
       ],
       "koSummary": "arXiv:2604.14248v1 발표 유형: 새로운 개요: HLS(고수준 합성) 도구는 ECO(엔지니어링 변경 주문)에 대한 제한된 지원을 제공하므로 최종 단계의 설계 수정이 까다롭고 비용이 많이 듭니다. 본 논문에서는 Google XLS에 맞춰진 그래프 기반 ECO 방법론을 소개합니다…"
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Banking Analytics: Uninsured Deposit Ratio Back to Prepandemic Level",
+      "authors": "",
+      "date": "2026-04-17",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-uninsured-deposit-ratio-back-prepandemic-level",
+      "summary": "The ratio of uninsured deposits to total deposits held by U.S. commercial banks increased slightly in the fourth quarter of 2025, to 43.3%.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "new"
+      ],
+      "koSummary": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "그래도 해보던 날들",
+      "authors": "양정욱",
+      "date": "2026-04-17",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
+      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "new"
+      ]
     },
     {
       "source": "KIEP",
@@ -111,57 +195,6 @@
         "new"
       ],
       "koSummary": "우리는 인프라 전체에서 성능 문제를 자동으로 찾아 해결하는 데 도움이 되는 AI 에이전트 플랫폼을 구축한 Meta의 용량 효율성 프로그램에 대한 통찰력을 공유하고 있습니다. 통합되고 표준화된 도구 인터페이스 전반에 걸쳐 인코딩된 도메인 전문 지식을 활용함으로써…"
-    },
-    {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
-      "authors": "Ming Lu",
-      "date": "2026-04-16",
-      "url": "https://blog.cloudflare.com/ai-platform/",
-      "summary": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Agents Week",
-        "Agents",
-        "AI",
-        "AI Gateway",
-        "Workers AI",
-        "Developers",
-        "Developer Platform",
-        "LLM",
-        "new"
-      ],
-      "koSummary": "우리는 AI를 위한 통합 추론 계층에 AI Gateway를 구축하여 개발자가 14개 이상의 제공업체로부터 모델을 호출할 수 있도록 하고 있습니다. 새로운 기능에는 Workers AI 바인딩 통합과 다중 모드 모델이 포함된 확장된 카탈로그가 포함됩니다."
-    },
-    {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Building the foundation for running extra-large language models",
-      "authors": "Michelle Chen",
-      "date": "2026-04-16",
-      "url": "https://blog.cloudflare.com/high-performance-llms/",
-      "summary": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Agents Week",
-        "Agents",
-        "AI",
-        "Developer Platform",
-        "Developers",
-        "Infrastructure",
-        "Workers AI",
-        "new"
-      ],
-      "koSummary": "우리는 Cloudflare의 인프라에서 대규모 언어 모델을 빠르게 실행하기 위해 맞춤형 기술 스택을 구축했습니다. 이 게시물에서는 고성능 AI 추론에 액세스하는 데 필요한 엔지니어링 절충안과 기술 최적화를 살펴봅니다."
     },
     {
       "source": "OpenTelemetry",
@@ -533,24 +566,6 @@
       "koSummary": "이 게시물에서는 태그된 스토리지 패턴을 사용하여 확장 가능한 다중 테넌트 구성 서비스를 구축하는 방법을 보여줍니다. 이는 주요 접두사(예:tenant_config_ 또는 param_config_)를 사용하여 구성 요청을 가장 적합한 경로로 자동 라우팅하는 아키텍처 접근 방식입니다."
     },
     {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "America Underbuilt Inc.: The Supply Side of the U.S. Housing Challenge",
-      "authors": "",
-      "date": "2026-04-08",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/supply-side-of-us-housing-challenge",
-      "summary": "This analysis finds that the U.S. has underbuilt housing for decades. The persistent supply shortfall amid growing demand drives today’s affordability crisis.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "fresh"
-      ],
-      "koSummary": "이 분석에 따르면 미국은 수십 년 동안 주택 건설이 부족했던 것으로 나타났습니다. 수요 증가에 따른 지속적인 공급 부족은 오늘날의 경제성 위기를 초래합니다."
-    },
-    {
       "source": "Django Blog",
       "category": "개발",
       "title": "Django security releases issued: 6.0.4, 5.2.13, and 4.2.30",
@@ -775,6 +790,40 @@
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "데이미언 허스트와 YBA",
+      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
+      "date": "2026-04-01",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
+      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 다원예술 2026: 탐정의 시간",
+      "authors": "료지 이케다/앙상블 모데른, 마말리안 다이빙 리플렉스, 엘 콘데 데 토레필, 마테오 마랑고니/디터 반도렌, 신서, 위성희, 리타 후프와이크, 살로메 무이, 샘 소이어만, 박민희, 크리스토퍼 놀란, 정여름",
+      "date": "2026-04-01",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002024",
+      "summary": "“분열자의 산책. 이것은 소파에 누운 신경증자보다 나은 모델이다.” (질 들뢰즈·펠릭스 과타리, 『안티 오이디푸스』) 인공지능에게 즉각적인 연산과 답변을 기대하는 동시대의 흐름 속에서, 이 프로젝트는 오랫동안 관찰하는 몇몇 이들, 예술가들, 그리고 아이들을 ‘탐정’으로 호명합니다. 누군가를 유심히 살펴보고 그 사람의 흔적을 의아하게 생각하는 존재는 이제 탐정 외에는 많지 않습니다. 이러한 집요한 관찰은 단순히 정보를 모으는 행위가 아닙니다. 비밀과 진실을 알아낼 수 있다고 믿고, 누군가를 의심하…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "Agent-driven development in Copilot Applied Science",
@@ -945,6 +994,23 @@
         "교양",
         "EBS",
         "다큐프라임 - 자연다큐 죽음",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "데이미언 허스트",
+      "authors": "데이미언 허스트",
+      "date": "2026-03-20",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002023",
+      "summary": "국립현대미술관은 영국 시각미술가 데이미언 허스트의 아시아 최초 대규모 개인전을 개최한다. 이번 전시는 작가의 초기작부터 근작까지 작업 전반을 아우르며 설치, 조각, 회화 등 다양한 매체로 구성된다. 전시는 죽음과 영생, 과학·의학에 대한 인간의 믿음과 욕망, 예술 가치와 시장 논리 등 작가가 탐구해 온 핵심 주제를 조명하며 현대사회의 삶과 가치에 대한 폭넓은 담론의 장을 마련하고자 한다. 죽은 동물을 포름알데히드 수조에 담은 ‹자연사› 연작, ‹신의 사랑을 위하여›(2007) 등의 대표작을 비롯…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
         "stable"
       ]
     },
@@ -1148,6 +1214,23 @@
         "연구",
         "KDI 연구보고서",
         "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "소멸의 시학: 삭는 미술에 대하여",
+      "authors": "고사리, 김방주, 김주리, 댄 리, 델시 모렐로스, 라이스 브루잉 시스터즈 클럽, 미래 재료×그린 레시피 랩, 세실리아 비쿠냐, 아사드 라자, 에드가 칼렐, 여다함, 유코 모리, 이은경, 이은재",
+      "date": "2026-01-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202511280002008",
+      "summary": "뛰어난 작품을 불후의 명작이라고 부른다. 이때 불후(不朽)는 썩지 아니함이라는 뜻을 갖고 있다. 훌륭한 작품이란 곧 변하지 않을 혹은 변해서는 안 될 작품이라면, 굳이 변하고 사라질 작품을 만드는 이유는 무엇일까? «소멸의 시학: 삭는 미술에 대하여»는 언젠가 썩어갈 운명을 시인하는 작품, 차라리 무엇도 남기지 않기로 마음먹은 작품, 자신의 분해를 공연히 상연하는 작품을 '삭는 미술'이라는 이름으로 묶어 소개한다. 오늘날 폭발적으로 분출한 인간중심주의에 대한 비판과 첨단의 자본주의, 기술만능주의…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
         "stable"
       ]
     },
