@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T19:33:02.245Z",
+  "generatedAt": "2026-04-18T03:31:14.922Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -400,23 +400,6 @@
       "koSummary": "큰 충격 이후 통화정책이 더 어려워지는 이유"
     },
     {
-      "source": "EBS",
-      "category": "교양",
-      "title": "다큐프라임 - 백세부자 | 백세부자 1부",
-      "authors": "다큐프라임 - 백세부자",
-      "date": "2026-04-13",
-      "url": "https://www.ebs.co.kr/tv/show?prodId=452818&lectId=60708834&new",
-      "summary": "차마 자식에게도 털어놓지 못했던 통장 속 민낯을 공개한 사례자들의 질문은 하나로 모인다. \"백세 시대, 돈 걱정 없이 사는 법은 무엇인가.\" 그러나 돈은 결국 삶의 문제다. 〈백세부자〉는 노후자금에 대한 실질적 해법과 함께, 재정 위기를 가족과 함께 극복하는 과정을 담으며 진정한 '노후 부자'의 의미를 묻는다.",
-      "program": "다큐프라임 - 백세부자",
-      "score": "new",
-      "tags": [
-        "교양",
-        "EBS",
-        "다큐프라임 - 백세부자",
-        "new"
-      ]
-    },
-    {
       "source": "한국은행",
       "category": "경제",
       "title": "통화정책방향 관련 총재 기자간담회 (2026.04)",
@@ -424,13 +407,13 @@
       "date": "2026-04-10",
       "url": "https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10097474&menuNo=201295&programType=multiCont",
       "summary": "통화정책방향 결정회의와 관련된 총재 기자간담회 및 회의 자료.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "한국은행",
         "국내",
         "중앙은행",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -441,13 +424,13 @@
       "date": "2026-04-10",
       "url": "https://opentelemetry.io/blog/2026/obi-http-header-enrichment/",
       "summary": "When incidents are active, traces usually tell you that something is wrong. The harder problem is figuring out who is affected and why, quickly. OpenTelemetry eBPF Instrumentation (OBI) v0.7.0 adds HTTP header enrichment so spans can carry request context like tenant or user seg…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "OpenTelemetry",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "인시던트가 활성화되면 일반적으로 추적을 통해 무언가 잘못되었음을 알 수 있습니다. 더 어려운 문제는 영향을 받은 사람과 그 이유를 신속하게 파악하는 것입니다. OpenTelemetry eBPF Instrumentation(OBI) v0.7.0은 HTTP 헤더 강화를 추가하여 범위가 테넌트 또는 사용자 세그먼트와 같은 요청 컨텍스트를 전달할 수 있습니다."
     },
@@ -692,6 +675,23 @@
         "fresh"
       ],
       "koSummary": "이 게시물에서는 새로운 설치 환경을 살펴보고 세 가지 배포 방법(콘솔, CLI 및 Terraform)을 시연하고 다중 인스턴스 유형 배포 및 기본 노드 선호도와 같은 기능을 통해 추론 일정을 세밀하게 제어할 수 있는 방법을 보여줍니다."
+    },
+    {
+      "source": "EBS",
+      "category": "교양",
+      "title": "다큐프라임 - 베이비부머 은퇴 없는 세대 | 베이비부머, 은퇴 없는 세대",
+      "authors": "다큐프라임 - 베이비부머 은퇴 없는 세대",
+      "date": "2026-04-06",
+      "url": "https://www.ebs.co.kr/tv/show?prodId=452795&lectId=60707794&new",
+      "summary": "우리 사회 베이비부머의 경제 활동을 조명한다. 아울러 초고령사회 대한민국의 생산성을 높이기 위한 베이비부머 활용 경제정책을 제안한다.",
+      "program": "다큐프라임 - 베이비부머 은퇴 없는 세대",
+      "score": "fresh",
+      "tags": [
+        "교양",
+        "EBS",
+        "다큐프라임 - 베이비부머 은퇴 없는 세대",
+        "fresh"
+      ]
     },
     {
       "source": "GitHub Engineering",
