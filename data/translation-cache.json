@@ -536,5 +536,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "금융 시장에서 파생된 인플레이션 기대는 2025년에 전례 없는 역동성을 보였습니다. 1년 인플레이션 스왑과 1년 앞으로의 1년 선도 금리 사이의 상관관계는 사상 처음으로 크게 음의 상관관계를 보였습니다. 우리는 이러한 디커플링 현상이 발생한다는 것을 보여줍니다."
+  },
+  "https://blog.cloudflare.com/agents-week-in-review/|summary": {
+    "input": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2026년 에이전트 주간이 끝났습니다. 컴퓨팅과 보안부터 에이전트 도구 상자, 플랫폼 도구, 새로운 에이전트 웹까지 우리가 발표한 모든 내용을 살펴보겠습니다. 에이전트 클라우드를 위해 우리가 배송한 모든 것."
+  },
+  "https://blog.cloudflare.com/internal-ai-engineering-stack/|summary": {
+    "input": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 우리가 출시하는 것과 동일한 제품을 기반으로 내부 AI 엔지니어링 스택을 구축했습니다. 이는 AI 게이트웨이를 통해 라우팅된 2천만 건의 요청, 처리된 2,410억 개의 토큰, Workers AI에서 추론이 실행되어 3,683명 이상의 내부 사용자에게 서비스를 제공한다는 의미입니다. 우리가 한 방법은 다음과 같습니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/04/revisions-to-2025-state-employment/|summary": {
+    "input": "In early April 2026, the Bureau of Labor Statistics (BLS) released the annual benchmark revision to state employment data for 2025. Before this benchmark revision, the data showed positive job growth in 2025 in just over two-thirds of US states: … Continue reading →",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2026년 4월 초, 노동통계국(BLS)은 2025년 주 고용 데이터에 대한 연간 벤치마크 개정판을 발표했습니다. 이 벤치마크 개정 이전에 데이터는 미국 주의 3분의 2가 조금 넘는 지역에서 2025년에 긍정적인 일자리 증가를 보였습니다. … 계속 읽기 →"
   }
 }
