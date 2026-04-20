@@ -554,5 +554,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "2026년 4월 초, 노동통계국(BLS)은 2025년 주 고용 데이터에 대한 연간 벤치마크 개정판을 발표했습니다. 이 벤치마크 개정 이전에 데이터는 미국 주의 3분의 2가 조금 넘는 지역에서 2025년에 긍정적인 일자리 증가를 보였습니다. … 계속 읽기 →"
+  },
+  "https://grafana.com/blog/monitor-databricks-with-grafana-cloud-for-instant-visibility-into-your-workloads/|summary": {
+    "input": "If you're running Databricks workloads, you've probably asked yourself these types of questions: How much is this costing me? Why did that job fail last night? Why are my dashboard queries suddenly slow?",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Databricks 워크로드를 실행하는 경우 다음과 같은 질문을 스스로에게 물어봤을 것입니다. 비용이 얼마나 드나요? 어젯밤에 그 일이 왜 실패했나요? 대시보드 쿼리가 갑자기 느려지는 이유는 무엇입니까?"
   }
 }
