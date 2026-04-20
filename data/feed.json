@@ -1,7 +1,65 @@
 {
-  "generatedAt": "2026-04-20T03:53:11.648Z",
+  "generatedAt": "2026-04-20T08:28:37.333Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Prompt-Driven Code Summarization: A Systematic Literature Review",
+      "authors": "Afia Farjana, Zaiyu Cheng, Antonio Mastropaolo",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.15385",
+      "summary": "arXiv:2604.15385v1 Announce Type: new Abstract: Software documentation is essential for program comprehension, developer onboarding, code review, and long-term maintenance. Yet producing quality documentation manually is time-consuming and frequently yields incomplete or inconsi…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.LG",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.15385v1 발표 유형: new 개요: 소프트웨어 문서는 프로그램 이해, 개발자 온보딩, 코드 검토 및 장기 유지 관리에 필수적입니다. 그러나 고품질 문서를 ​​수동으로 작성하는 것은 시간이 많이 걸리고 종종 불완전하거나 일관성이 없는 결과를 낳습니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Analyzing Chain of Thought (CoT) Approaches in Control Flow Code Deobfuscation Tasks",
+      "authors": "Seyedreza Mohseni, Sarvesh Baskar, Edward Raff, Manas Gaur",
+      "date": "2026-04-20",
+      "url": "https://arxiv.org/abs/2604.15390",
+      "summary": "arXiv:2604.15390v1 Announce Type: new Abstract: Code deobfuscation is the task of recovering a readable version of a program while preserving its original behavior. In practice, this often requires days or even months of manual work with complex and expensive analysis tools. In…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.15390v1 발표 유형: new 개요: 코드 난독화는 프로그램의 원래 동작을 유지하면서 읽을 수 있는 버전을 복구하는 작업입니다. 실제로 이를 위해서는 복잡하고 값비싼 분석 도구를 사용하여 며칠 또는 몇 달간 수동 작업이 필요한 경우가 많습니다. 안에…"
+    },
+    {
+      "source": "국립중앙박물관",
+      "category": "전시",
+      "title": "아름다움을 나누는 마음-새로 맞이한 기증유물전 1",
+      "authors": "",
+      "date": "2026-04-20",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3505270&listType=gallery",
+      "summary": "최신 기증 문화유산 특별공개전시",
+      "type": "테마전",
+      "score": "new",
+      "tags": [
+        "전시",
+        "국립중앙박물관",
+        "테마전",
+        "현재전시",
+        "new"
+      ]
+    },
     {
       "source": "Django Blog",
       "category": "개발",
@@ -9,7 +67,7 @@
       "authors": "Sarah Abderemane",
       "date": "2026-04-19",
       "url": "https://www.djangoproject.com/weblog/2026/apr/19/dsf-member-of-the-month-rob-hudson/",
-      "summary": "For April 2026, we welcome Rob Hudson as our DSF member of the month! ⭐ Rob is the creator of django-debug-toolbar (DDT), tool used by more than 100 000 folks in the world. He introduces Content-Security-Policy (CSP) support in Django and contribute to many open source packages.…",
+      "summary": "For April 2026, we welcome Rob Hudson as our DSF member of the month! ⭐ Rob is the creator of django-debug-toolbar (DDT), a tool used by more than 100 000 folks in the world. He introduces Content-Security-Policy (CSP) support in Django and contribute to many open source package…",
       "score": "new",
       "tags": [
         "개발",
@@ -17,7 +75,7 @@
         "글로벌",
         "new"
       ],
-      "koSummary": "2026년 4월에는 Rob Hudson을 이달의 DSF 회원으로 환영합니다! ⭐ Rob은 전 세계 10만 명 이상의 사람들이 사용하는 도구인 DDT(django-debug-toolbar)의 창시자입니다. 그는 Django의 CSP(Content-Security-Policy) 지원을 소개하고 많은 오픈 소스 패키지에 기여합니다.…"
+      "koSummary": "2026년 4월에는 Rob Hudson을 이달의 DSF 회원으로 환영합니다! ⭐ Rob은 전 세계 10만 명이 넘는 사람들이 사용하는 도구인 DDT(django-debug-toolbar)의 창시자입니다. 그는 Django에서 CSP(Content-Security-Policy) 지원을 소개하고 많은 오픈 소스 패키지에 기여합니다."
     },
     {
       "source": "Cloudflare Architecture",
@@ -1425,11 +1483,11 @@
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "The Empathy Channel in Fertility -- by Sebastian Galiani, Raul A. Sosa",
+      "title": "The Impact of Maternal Education on Early Childhood Development -- by Moriam Khanam, Mohammad Hajizadeh, Casey Warman",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35021#fromrss",
-      "summary": "Being around babies makes people want babies. We formalize this observation as the empathy channel: exposure to infants in the social environment activates neurobiological mechanisms that increase the desire for parenthood. As children become scarcer, this affective stimulus wea…",
+      "url": "https://www.nber.org/papers/w35075#fromrss",
+      "summary": "This study leverages exogenous variation from a secondary school stipend program for female students in rural Bangladesh to estimate the causal effect of maternal education on early childhood development. Using data from the 2019 Bangladesh Multiple Indicator Cluster Survey, we…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1438,16 +1496,16 @@
         "연구",
         "stable"
       ],
-      "koSummary": "아기 주변에 있으면 사람들은 아기를 원하게 됩니다. 우리는 이 관찰을 공감 채널로 공식화합니다. 즉, 사회적 환경에서 유아에 대한 노출은 부모가 되고자 하는 욕구를 증가시키는 신경생물학적 메커니즘을 활성화합니다. 아이들이 점점 적어짐에 따라 이러한 정서적 자극은 약화됩니다."
+      "koSummary": "이 연구는 방글라데시 시골 지역의 여학생을 위한 중등학교 급여 프로그램의 외생적 변화를 활용하여 유아기 발달에 대한 어머니 교육의 인과 효과를 추정합니다. 2019년 방글라데시 다중 지표 클러스터 설문조사의 데이터를 사용하여 우리는…"
     },
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "Profit Regulation and Strategic Transfer Pricing by Vertically Integrated Firms: Evidence from Health Care -- by Pragya Kakani, Eric Yde, Genevieve P. Kanter, Richard G. Frank, Amelia M. Bond",
+      "title": "Tariffs and the Term Structure of Inflation Expectations -- by Stéphane Auray, Michael B. Devereux, Anthony M. Diercks, Aurélien Eyquem, Joon Kim",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35043#fromrss",
-      "summary": "We provide evidence of strategic transfer pricing by vertically integrated health care firms in response to insurer profit regulations. Insurers increased prices at vertically integrated pharmacies by 9.5% following the introduction of caps on insurer profits in Medicare Part D.…",
+      "url": "https://www.nber.org/papers/w35076#fromrss",
+      "summary": "Inflation expectations derived from financial markets exhibited unprecedented dynamics in 2025: the correlation between one-year inflation swaps and one-year-ahead one-year forward rates turned significantly negative for the first time on record. We show that this decoupling occ…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1456,7 +1514,7 @@
         "연구",
         "stable"
       ],
-      "koSummary": "우리는 보험사 이익 규제에 대응하여 수직 통합된 의료 회사의 전략적 이전 가격에 대한 증거를 제공합니다. 보험사는 메디케어 파트 D에 보험사 이익 상한선을 도입한 후 수직 통합 약국의 가격을 9.5% 인상했습니다.…"
+      "koSummary": "금융 시장에서 파생된 인플레이션 기대는 2025년에 전례 없는 역동성을 보였습니다. 1년 인플레이션 스왑과 1년 앞으로의 1년 선도 금리 사이의 상관관계는 사상 처음으로 크게 음의 상관관계를 보였습니다. 우리는 이러한 디커플링 현상이 발생한다는 것을 보여줍니다."
     }
   ]
 }
