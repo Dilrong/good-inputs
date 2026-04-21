@@ -578,5 +578,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.16304v1 발표 유형: new 개요: 제품 팀은 LLM 기반 제품을 어떻게 평가합니까? 조직이 대규모 언어 모델(LLM)을 디지털 제품에 통합함에 따라 예측할 수 없는 특성으로 인해 기존 평가 접근 방식이 부적절해졌지만 이에 대해 알려진 바는 거의 없습니다."
+  },
+  "https://blog.cloudflare.com/past-bots-and-humans/|summary": {
+    "input": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "AI 비서와 개인 정보 보호 프록시가 기존 봇 탐지 기능에 도전함에 따라 웹에는 책임에 대한 새로운 모델이 필요합니다. 우리는 통제권이 고객에게 있어야 하며 익명 자격 증명의 개방형 생태계가 사용자 개인정보 보호의 핵심이라고 믿습니다…"
   }
 }
