@@ -560,5 +560,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "Databricks 워크로드를 실행하는 경우 다음과 같은 질문을 스스로에게 물어봤을 것입니다. 비용이 얼마나 드나요? 어젯밤에 그 일이 왜 실패했나요? 대시보드 쿼리가 갑자기 느려지는 이유는 무엇입니까?"
+  },
+  "https://opentelemetry.io/blog/2026/devex-skyscanner/|summary": {
+    "input": "The Developer Experience SIG is publishing a series of blog posts featuring real-world OpenTelemetry deployments from companies across different industries and scales. This post features Skyscanner , a global travel search platform based in Edinburgh, Scotland. With 1,400 employ…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "개발자 경험 SIG는 다양한 업계와 규모의 회사에서 제공하는 실제 OpenTelemetry 배포를 다루는 일련의 블로그 게시물을 게시하고 있습니다. 이 게시물에는 스코틀랜드 에딘버러에 본사를 둔 글로벌 여행 검색 플랫폼인 Skyscanner가 포함되어 있습니다. 직원 1,400명…"
+  },
+  "https://arxiv.org/abs/2604.16303|summary": {
+    "input": "arXiv:2604.16303v1 Announce Type: new Abstract: Software engineering researchers repeatedly argue that the impact of their research on industrial practice, while desired and intended, is rarely achieved. We believe that a possible explanation of this phenomenon is the opposition…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.16303v1 발표 유형: 새로운 개요: 소프트웨어 공학 연구자들은 자신의 연구가 산업 현장에 미치는 영향이 원하고 의도한 바이지만 거의 달성되지 않는다고 반복해서 주장합니다. 우리는 이 현상에 대한 가능한 설명이 반대라고 믿습니다…"
+  },
+  "https://arxiv.org/abs/2604.16304|summary": {
+    "input": "arXiv:2604.16304v1 Announce Type: new Abstract: How do product teams evaluate LLM-powered products? As organizations integrate large language models (LLMs) into digital products, their unpredictable nature makes traditional evaluation approaches inadequate, yet little is known a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.16304v1 발표 유형: new 개요: 제품 팀은 LLM 기반 제품을 어떻게 평가합니까? 조직이 대규모 언어 모델(LLM)을 디지털 제품에 통합함에 따라 예측할 수 없는 특성으로 인해 기존 평가 접근 방식이 부적절해졌지만 이에 대해 알려진 바는 거의 없습니다."
   }
 }
