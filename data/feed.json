@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-20T19:34:36.744Z",
+  "generatedAt": "2026-04-21T03:47:09.348Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "국토정책Brief",
+      "category": "정책",
+      "title": "[국토정책Brief 제1059호] 분쟁 취약국 대상 국토·도시 부문 개발협력 방안",
+      "authors": "양은모, 이병재, 유희연, 이소영, 박혜정, 조정우, 정윤희",
+      "date": "2026-04-20",
+      "url": "https://library.krihs.re.kr/library/10120/contents/7732787",
+      "summary": "➊ 분쟁 취약국에 대한 지원은 전통적인 ‘단기 인도적 지원’ 중심에서 ‘인도주의-개발-평화 연계(이하 HDP Nexus)’에 기반한 통합적 재건과 회복력 강화로 전환되고 있으나, 현장에서는 여전히 제도적·재정적·운영적 제약이 누적되어 구호-재건-개발 간 단절이 반복 - 이러한 맥락에서 국토·도시 부문은 토지·자원 배분, 사회기반시설 재구축, 지역경제 회복 등 공간적 의사결정을 수반하는 재건 과정의 핵심 매개로 기능할 수 있으며, 특히 사회통합 촉진, 고용 창출, 도시회복력 제고를 동시에 달성할…",
+      "score": "new",
+      "tags": [
+        "정책",
+        "국토정책Brief",
+        "new"
+      ]
+    },
     {
       "source": "Cloudflare Architecture",
       "category": "개발",
@@ -159,6 +174,23 @@
         "국립중앙박물관",
         "테마전",
         "현재전시",
+        "new"
+      ]
+    },
+    {
+      "source": "EBS",
+      "category": "교양",
+      "title": "다큐프라임 - 백세부자 | 백세부자 2부",
+      "authors": "다큐프라임 - 백세부자",
+      "date": "2026-04-20",
+      "url": "https://www.ebs.co.kr/tv/show?prodId=452818&lectId=60711016&new",
+      "summary": "결혼, 출산, 직업 선택, 부동산 매매 등 생애 주기별돈이 어떻게 흐르고 사라졌는지를 추적하고, 어떤 선택이 자산 형성에 기여했으며 어떤 변수가 지금의 재정 위기를 불러왔는지 분석한다. 재정 문제 이면의 가족 갈등, 부부 관계, 자녀 문제까지 함께 짚는다.",
+      "program": "다큐프라임 - 백세부자",
+      "score": "new",
+      "tags": [
+        "교양",
+        "EBS",
+        "다큐프라임 - 백세부자",
         "new"
       ]
     },
@@ -387,11 +419,11 @@
       "date": "2026-04-13",
       "url": "https://library.krihs.re.kr/library/10120/contents/7731633",
       "summary": "➊ ‘5극3특’ 국정과제를 실효성 있게 추진하기 위해 분산·중첩적으로 운영되는 현행 특구 체계를 5극3특 초광역권별로 연계·재편하는 정책 방향을 도출하고자 하였음 ➋ 연계·재편 방향의 핵심은 기존처럼 ‘특정 구역에 세제·규제 특례를 부여’하는 방식에서 벗어나, 해당 특구가 산업생태계 가치사슬에서 감당하는 역할을 유형화함으로써 특구 간 기능적 융합을 통해 ‘혁신-실증-생산’으로 이어지는 산업생태계 연계를 구현하는 데 주안점을 둠 ➌ 수도권이 아닌 지방 4극3특 지역에 정체되어 있는 성장유망산업을…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "정책",
         "국토정책Brief",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -402,7 +434,7 @@
       "date": "2026-04-13",
       "url": "https://slack.engineering/managing-context-in-long-run-agentic-applications/",
       "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Slack Engineering",
@@ -411,7 +443,7 @@
         "development",
         "security",
         "software-engineering",
-        "new"
+        "fresh"
       ],
       "koSummary": "장기 실행 에이전트 애플리케이션에서 컨텍스트 관리"
     },
@@ -423,13 +455,13 @@
       "date": "2026-04-13",
       "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260413~78ef6fe470.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "ECB Blog",
         "글로벌",
         "중앙은행",
-        "new"
+        "fresh"
       ],
       "koSummary": "큰 충격 이후 통화정책이 더 어려워지는 이유"
     },
@@ -837,11 +869,11 @@
       "date": "2026-03-30",
       "url": "https://library.krihs.re.kr/library/10120/contents/7728932",
       "summary": "➊ 「노후계획도시 정비 및 지원에 관한 특별법」은 노후계획도시의 도시기능 향상, 정주여건 개선, 미래도시로의 전환을 통해 국민 생활의 질적 향상을 도모하기 위해 2023년 12월 제정되었으며, 2026년 2월 기준 경기도 산본(군포), 중동(부천), 평촌(안양), 일산(고양), 분당(성남) 등 5개 1기 신도시가 「노후계획도시정비기본계획」을 수립함 ➋ 노후계획도시정비제도의 주요 목적은 ‘도시기능의 향상’임에도 불구하고 기수립된 5개 「노후계획도시정비기본계획」의 특별정비예정구역 182개소 중 단…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "정책",
         "국토정책Brief",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -852,12 +884,12 @@
       "date": "2026-03-30",
       "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
       "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Kubernetes Blog",
         "글로벌",
-        "fresh"
+        "stable"
       ],
       "koSummary": "Kubernetes v1.36은 2026년 4월 말에 출시됩니다. 이 릴리스에는 제거 및 지원 중단이 포함되며 인상적인 여러 가지 향상된 기능이 포함되어 있습니다. 이번 주기에서 가장 기대되는 기능은 다음과 같습니다! 이 정보에는 다음 사항이 반영되어 있습니다."
     },
@@ -870,12 +902,12 @@
       "url": "https://www.ebs.co.kr/tv/show?prodId=452665&lectId=60705986&new",
       "summary": "뻐꾸기와 붉은머리오목눈이 및 딱새 등 숙주새와의 진화적 군비경쟁을 보여준다. 알색과 무늬를 바꾸는 치열한 생존 경쟁을 기록한다",
       "program": "다큐프라임 - 자연다큐 죽음",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "교양",
         "EBS",
         "다큐프라임 - 자연다큐 죽음",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -995,21 +1027,6 @@
       ]
     },
     {
-      "source": "국토정책Brief",
-      "category": "정책",
-      "title": "[국토정책Brief 제1054호] 스마트도시 확산을 위한 성과관리체계 구축 방안",
-      "authors": "김익회, 노원준, 구형수, 방설아, 신서경, 최경아",
-      "date": "2026-03-16",
-      "url": "https://library.krihs.re.kr/library/10120/contents/7708419",
-      "summary": "➊ 스마트도시 정책의 본격 추진에도 불구하고 성과관리 미흡으로 제도 개선 필요성이 제기됨 - (스마트도시 인증제의 한계) 스마트도시 성과관리를 위해 인증제가 도입되었으나, 신청 지자체의 자체 수준진단에 머물러 정책·사업 전반의 체계적 성과관리 기능을 수행하기에는 한계가 있음 ➋ 스마트도시 성과관리의 개념과 필요성을 정립하고, 정부업무평가·R&D평가·도시재생 등 공공 성과관리제도의 구조를 비교하여 스마트도시 성과관리의 체계적 근거를 마련함 ➌ 스마트도시계획 문서의 텍스트 분석, 지자체 설문 및 전…",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "국토정책Brief",
-        "stable"
-      ]
-    },
-    {
       "source": "EBS",
       "category": "교양",
       "title": "다큐프라임 - 자연모사 | 자연모사 2부",
@@ -1060,23 +1077,6 @@
         "stable"
       ],
       "koSummary": "pnpm 10.32에서는 대화형 프롬프트 없이 보류 중인 모든 빌드를 승인하기 위해 pnpm recognition-builds에 --all 플래그를 추가합니다."
-    },
-    {
-      "source": "EBS",
-      "category": "교양",
-      "title": "다큐프라임 - 자연모사 | 자연모사 1부",
-      "authors": "다큐프라임 - 자연모사",
-      "date": "2026-03-09",
-      "url": "https://www.ebs.co.kr/tv/show?prodId=452610&lectId=60696352&new",
-      "summary": "자연을 모사한 인류문명",
-      "program": "다큐프라임 - 자연모사",
-      "score": "stable",
-      "tags": [
-        "교양",
-        "EBS",
-        "다큐프라임 - 자연모사",
-        "stable"
-      ]
     },
     {
       "source": "자본시장연구원",
