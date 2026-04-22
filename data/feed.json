@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T14:10:20.509Z",
+  "generatedAt": "2026-04-22T19:40:08.131Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,51 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Kubernetes v1.36: ハル (Haru)",
+      "authors": "",
+      "date": "2026-04-22",
+      "url": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/",
+      "summary": "Editors: Chad M. Crowell, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Utkarsh Umre Similar to previous releases, the release of Kubernetes v1.36 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our devel…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
+        "new"
+      ]
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
+      "authors": "Kevin S. Ridolfi",
+      "date": "2026-04-22",
+      "url": "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/",
+      "summary": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable environmental impact and…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Amazon Cognito",
+        "Amazon Elastic Container Service",
+        "Amazon RDS",
+        "Amazon Simple Storage Service (S3)",
+        "Amazon VPC",
+        "AWS Fargate",
+        "AWS Identity and Access Management (IAM)",
+        "AWS Secrets Manager",
+        "AWS Security Token Service",
+        "Compute",
+        "Foundational (100)",
+        "new"
+      ],
+      "koSummary": "PACIFIC은 AWS를 사용하여 Catena-X 데이터 공간에서 다중 테넌트, 주권 제품 탄소 발자국 교환을 지원합니다."
     },
     {
       "source": "Cloudflare Architecture",
@@ -85,23 +130,6 @@
         "new"
       ],
       "koSummary": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Gateway API v1.5: Moving features to Stable",
-      "authors": "",
-      "date": "2026-04-21",
-      "url": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
-      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already av…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "Kubernetes SIG Network 커뮤니티에서 Gateway API(v1.5) 출시를 발표합니다! 2026년 3월 14일에 출시된 버전 1.5는 역대 최대 규모의 릴리스이며 기존 실험 기능을 표준(안정 버전)으로 이동하는 데 중점을 둡니다. Gateway API v1.5.1 패치 릴리스가 이미 정식 출시되었습니다."
     },
     {
       "source": "Meta Engineering",
@@ -624,33 +652,6 @@
         "fresh"
       ],
       "koSummary": "CPython용 Rust 프로젝트 상태 업데이트 2026년 4월"
-    },
-    {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "Build a multi-tenant configuration system with tagged storage patterns",
-      "authors": "Koshal Agrawal",
-      "date": "2026-04-08",
-      "url": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
-      "summary": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appro…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Advanced (300)",
-        "Amazon Cognito",
-        "Amazon DynamoDB",
-        "Amazon EventBridge",
-        "AWS Lambda",
-        "AWS Systems Manager",
-        "Financial Services",
-        "Industries",
-        "Technical How-to",
-        "fresh"
-      ],
-      "koSummary": "이 게시물에서는 태그된 스토리지 패턴을 사용하여 확장 가능한 다중 테넌트 구성 서비스를 구축하는 방법을 보여줍니다. 이는 주요 접두사(예:tenant_config_ 또는 param_config_)를 사용하여 구성 요청을 가장 적합한 경로로 자동 라우팅하는 아키텍처 접근 방식입니다."
     },
     {
       "source": "Martin Fowler",

@@ -632,5 +632,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes SIG Network 커뮤니티에서 Gateway API(v1.5) 출시를 발표합니다! 2026년 3월 14일에 출시된 버전 1.5는 역대 최대 규모의 릴리스이며 기존 실험 기능을 표준(안정 버전)으로 이동하는 데 중점을 둡니다. Gateway API v1.5.1 패치 릴리스가 이미 정식 출시되었습니다."
+  },
+  "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/|summary": {
+    "input": "Editors: Chad M. Crowell, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Utkarsh Umre Similar to previous releases, the release of Kubernetes v1.36 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our devel…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/|title": {
+    "input": "Kubernetes v1.36: ハル (Haru)",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/|summary": {
+    "input": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable environmental impact and…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/|title": {
+    "input": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
+    "approved": true,
+    "mode": "title",
+    "koText": "PACIFIC은 AWS를 사용하여 Catena-X 데이터 공간에서 다중 테넌트, 주권 제품 탄소 발자국 교환을 지원합니다."
   }
 }
