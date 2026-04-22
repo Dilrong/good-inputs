@@ -1,12 +1,51 @@
 {
-  "generatedAt": "2026-04-22T03:43:52.857Z",
+  "generatedAt": "2026-04-22T08:06:50.726Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "From Business Problems to AI Solutions: Where Does Transformation Support Fail",
+      "authors": "Abir Trabelsi, Imen Benzarti, Hafedh Mili, Darine Ameyed",
+      "date": "2026-04-22",
+      "url": "https://arxiv.org/abs/2604.18770",
+      "summary": "arXiv:2604.18770v1 Announce Type: new Abstract: Translating business problems into well-specified machine learning solutions is a prerequisite for successful AI systems, yet this upstream translation is still one of the least supported steps in existing methodologies. We conduct…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.18770v1 발표 유형: 새로운 개요: 비즈니스 문제를 잘 지정된 기계 학습 솔루션으로 변환하는 것은 성공적인 AI 시스템의 전제 조건이지만, 이 업스트림 변환은 여전히 ​​기존 방법론에서 가장 적게 지원되는 단계 중 하나입니다. 우리는…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Tractable Verification of Model Transformations: A Cutoff-Theorem Approach for DSLTrans",
+      "authors": "Levi Lucio",
+      "date": "2026-04-22",
+      "url": "https://arxiv.org/abs/2604.18792",
+      "summary": "arXiv:2604.18792v1 Announce Type: new Abstract: Model transformations are central to MDE, but formal verification is difficult because mainstream transformation languages are undecidable. DSLTrans was designed to be Turing-incomplete to improve verifiability, yet earlier verific…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.SC",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
+    },
     {
       "source": "MMCA",
       "category": "전시",
       "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 80여 명",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
       "date": "2026-04-22",
       "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
       "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
@@ -23,7 +62,7 @@
       "source": "MMCA",
       "category": "전시",
       "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 70명",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
       "date": "2026-04-22",
       "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
       "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
@@ -152,46 +191,6 @@
         "new"
       ],
       "koSummary": "개발자 경험 SIG는 다양한 업계와 규모의 회사에서 제공하는 실제 OpenTelemetry 배포를 다루는 일련의 블로그 게시물을 게시하고 있습니다. 이 게시물에는 스코틀랜드 에딘버러에 본사를 둔 글로벌 여행 검색 플랫폼인 Skyscanner가 포함되어 있습니다. 직원 1,400명…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Ethics of Care for Software Engineering",
-      "authors": "Alexander Serebrenik, Sebastian Baltes",
-      "date": "2026-04-21",
-      "url": "https://arxiv.org/abs/2604.16303",
-      "summary": "arXiv:2604.16303v1 Announce Type: new Abstract: Software engineering researchers repeatedly argue that the impact of their research on industrial practice, while desired and intended, is rarely achieved. We believe that a possible explanation of this phenomenon is the opposition…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.16303v1 발표 유형: 새로운 개요: 소프트웨어 공학 연구자들은 자신의 연구가 산업 현장에 미치는 영향이 원하고 의도한 바이지만 거의 달성되지 않는다고 반복해서 주장합니다. 우리는 이 현상에 대한 가능한 설명이 반대라고 믿습니다…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Results-Actionability Gap: Understanding How Practitioners Evaluate LLM Products in the Wild",
-      "authors": "Willem van der Maden, Malak Sadek, Ziang Xiao, Aske Mottelson, Q. Vera Liao, Jichen Zhu",
-      "date": "2026-04-21",
-      "url": "https://arxiv.org/abs/2604.16304",
-      "summary": "arXiv:2604.16304v1 Announce Type: new Abstract: How do product teams evaluate LLM-powered products? As organizations integrate large language models (LLMs) into digital products, their unpredictable nature makes traditional evaluation approaches inadequate, yet little is known a…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.HC",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.16304v1 발표 유형: new 개요: 제품 팀은 LLM 기반 제품을 어떻게 평가합니까? 조직이 대규모 언어 모델(LLM)을 디지털 제품에 통합함에 따라 예측할 수 없는 특성으로 인해 기존 평가 접근 방식이 부적절해졌지만 이에 대해 알려진 바는 거의 없습니다."
     },
     {
       "source": "국토정책Brief",

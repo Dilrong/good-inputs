@@ -608,5 +608,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "에이전트를 평가하는 것은 어렵습니다. 관찰 가능성 작업을 확인하는 것이 더 어렵습니다. 예, AI 에이전트는 코딩 및 도구 사용 분야에서 극적으로, 정량적으로 향상되었지만 관찰 가능성은 다른 종류의 과제를 제시합니다. 실제 사건에서 어려운 부분은 쿼리를 작성하는 것뿐인 경우가 거의 없습니다.…"
+  },
+  "https://arxiv.org/abs/2604.18770|summary": {
+    "input": "arXiv:2604.18770v1 Announce Type: new Abstract: Translating business problems into well-specified machine learning solutions is a prerequisite for successful AI systems, yet this upstream translation is still one of the least supported steps in existing methodologies. We conduct…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.18770v1 발표 유형: 새로운 개요: 비즈니스 문제를 잘 지정된 기계 학습 솔루션으로 변환하는 것은 성공적인 AI 시스템의 전제 조건이지만, 이 업스트림 변환은 여전히 ​​기존 방법론에서 가장 적게 지원되는 단계 중 하나입니다. 우리는…"
+  },
+  "https://arxiv.org/abs/2604.18792|summary": {
+    "input": "arXiv:2604.18792v1 Announce Type: new Abstract: Model transformations are central to MDE, but formal verification is difficult because mainstream transformation languages are undecidable. DSLTrans was designed to be Turing-incomplete to improve verifiability, yet earlier verific…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
   }
 }
