@@ -1,7 +1,52 @@
 {
-  "generatedAt": "2026-04-22T08:06:50.726Z",
+  "generatedAt": "2026-04-22T14:10:20.509Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "네이버 D2",
+      "category": "개발",
+      "title": "네이버 검색의 대규모 메트릭 저장소, VictoriaMetrics 운영기",
+      "authors": "",
+      "date": "2026-04-22",
+      "url": "https://d2.naver.com/helloworld/6475419",
+      "summary": "12.5억 개의 시계열과 555조 개의 데이터포인트를 다루는 VictoriaMetrics 아키텍처와 무중단 장비 전환 네이버 검색 서비스를 안정적으로 운영하려면, 수만 대의 물리 서버와 수백만 개의 컨테이너에서 발생하는 메트릭을 실시간으로 수집·저장·조회할 수 있는 대규모 시계열 데이터베이스(TSDB)가 필요합니다. 저희 팀은 이 요구사항을 충족하기 위해 오픈소스 TSDB인 VictoriaMetrics 를 선택했습니다. VictoriaMetrics는 Prometheus 호환 API를 제공하면서도…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "네이버 D2",
+        "국내",
+        "hello world",
+        "new"
+      ]
+    },
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+      "authors": "Guy Bedford",
+      "date": "2026-04-22",
+      "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+      "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Cloudflare Workers",
+        "Rust",
+        "Rust Workers",
+        "WebAssembly",
+        "WASM",
+        "Reliability",
+        "Engineering",
+        "Open Source",
+        "Developer Platform",
+        "Developers",
+        "new"
+      ],
+      "koSummary": "Rust Workers의 패닉은 역사적으로 치명적이어서 전체 인스턴스를 중독시켰습니다. wasm‑bindgen 프로젝트에서 업스트림 협업을 통해 Rust Workers는 이제 WebAssembly 예외 처리를 사용한 패닉 해제를 포함하여 탄력적인 중요 오류 복구를 지원합니다."
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -42,38 +87,21 @@
       "koSummary": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Gateway API v1.5: Moving features to Stable",
+      "authors": "",
+      "date": "2026-04-21",
+      "url": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/",
+      "summary": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already av…",
       "score": "new",
       "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
         "new"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "new"
-      ]
+      ],
+      "koSummary": "Kubernetes SIG Network 커뮤니티에서 Gateway API(v1.5) 출시를 발표합니다! 2026년 3월 14일에 출시된 버전 1.5는 역대 최대 규모의 릴리스이며 기존 실험 기능을 표준(안정 버전)으로 이동하는 데 중점을 둡니다. Gateway API v1.5.1 패치 릴리스가 이미 정식 출시되었습니다."
     },
     {
       "source": "Meta Engineering",
@@ -208,42 +236,6 @@
       ]
     },
     {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-      "authors": "Ming Lu",
-      "date": "2026-04-20",
-      "url": "https://blog.cloudflare.com/agents-week-in-review/",
-      "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Agents Week",
-        "Agents",
-        "AI",
-        "Durable Objects",
-        "Cloudflare Workers",
-        "SDK",
-        "Browser Run",
-        "Cloudflare Access",
-        "Browser Rendering",
-        "MCP",
-        "Developer Platform",
-        "Developers",
-        "Sandbox",
-        "LLM",
-        "Cloudflare Gateway",
-        "Workers AI",
-        "Product News",
-        "API",
-        "new"
-      ],
-      "koSummary": "2026년 에이전트 주간이 끝났습니다. 컴퓨팅과 보안부터 에이전트 도구 상자, 플랫폼 도구, 새로운 에이전트 웹까지 우리가 발표한 모든 내용을 살펴보겠습니다. 에이전트 클라우드를 위해 우리가 배송한 모든 것."
-    },
-    {
       "source": "FRED Blog",
       "category": "경제",
       "title": "Revisions to 2025 state employment",
@@ -331,23 +323,6 @@
         "new"
       ],
       "koSummary": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "new"
-      ]
     },
     {
       "source": "KIEP",
@@ -878,40 +853,6 @@
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "데이미언 허스트와 YBA",
-      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
-      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 다원예술 2026: 탐정의 시간",
-      "authors": "료지 이케다/앙상블 모데른, 마말리안 다이빙 리플렉스, 엘 콘데 데 토레필, 마테오 마랑고니/디터 반도렌, 신서, 위성희, 리타 후프와이크, 살로메 무이, 샘 소이어만, 박민희, 크리스토퍼 놀란, 정여름",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002024",
-      "summary": "“분열자의 산책. 이것은 소파에 누운 신경증자보다 나은 모델이다.” (질 들뢰즈·펠릭스 과타리, 『안티 오이디푸스』) 인공지능에게 즉각적인 연산과 답변을 기대하는 동시대의 흐름 속에서, 이 프로젝트는 오랫동안 관찰하는 몇몇 이들, 예술가들, 그리고 아이들을 ‘탐정’으로 호명합니다. 누군가를 유심히 살펴보고 그 사람의 흔적을 의아하게 생각하는 존재는 이제 탐정 외에는 많지 않습니다. 이러한 집요한 관찰은 단순히 정보를 모으는 행위가 아닙니다. 비밀과 진실을 알아낼 수 있다고 믿고, 누군가를 의심하…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "Agent-driven development in Copilot Applied Science",
@@ -949,23 +890,6 @@
         "국토정책Brief",
         "stable"
       ]
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Kubernetes v1.36 Sneak Peek",
-      "authors": "",
-      "date": "2026-03-30",
-      "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/",
-      "summary": "Kubernetes v1.36 is coming at the end of April 2026. This release will include removals and deprecations, and it is packed with an impressive number of enhancements. Here are some of the features we are most excited about in this cycle! Please note that this information reflects…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "stable"
-      ],
-      "koSummary": "Kubernetes v1.36은 2026년 4월 말에 출시됩니다. 이 릴리스에는 제거 및 지원 중단이 포함되며 인상적인 여러 가지 향상된 기능이 포함되어 있습니다. 이번 주기에서 가장 기대되는 기능은 다음과 같습니다! 이 정보에는 다음 사항이 반영되어 있습니다."
     },
     {
       "source": "EBS",
@@ -1010,23 +934,6 @@
       "date": "2026-03-26",
       "url": "https://d2.naver.com/helloworld/7997284",
       "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "네이버 D2",
-        "국내",
-        "hello world",
-        "stable"
-      ]
-    },
-    {
-      "source": "네이버 D2",
-      "category": "개발",
-      "title": "C++ std::bit_cast와 reinterpret_cast — 언제 어떤 것을 써야 하는가",
-      "authors": "",
-      "date": "2026-03-25",
-      "url": "https://d2.naver.com/helloworld/1155434",
-      "summary": "저희 팀은 네이버의 고성능 검색 엔진 기술을 계승한 분산 데이터베이스인 Dot을 개발하고 있습니다. 스토리지 계층을 직접 다루다 보니 디스크에서 읽어 온 바이트 패턴을 uint64_t , float , 혹은 사용자 정의 구조체로 해석하는 일이 일상이고, 코드 리뷰에서 reinterpret_cast 를 마주치는 일도 잦습니다. 볼 때마다 느끼는 불안함, 즉 '이것은 되도록 쓰지 말라고 배웠는데 괜찮을까?' 하는 감정은 C++ 개발자라면 공감하실 것입니다. C++20에서 등장한 std::bit_ca…",
       "score": "stable",
       "tags": [
         "개발",

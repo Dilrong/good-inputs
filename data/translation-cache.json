@@ -620,5 +620,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
+  },
+  "https://blog.cloudflare.com/making-rust-workers-reliable/|summary": {
+    "input": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Rust Workers의 패닉은 역사적으로 치명적이어서 전체 인스턴스를 중독시켰습니다. wasm‑bindgen 프로젝트에서 업스트림 협업을 통해 Rust Workers는 이제 WebAssembly 예외 처리를 사용한 패닉 해제를 포함하여 탄력적인 중요 오류 복구를 지원합니다."
+  },
+  "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/|summary": {
+    "input": "The Kubernetes SIG Network community presents the release of Gateway API (v1.5)! Released on March 14, 2026, version 1.5 is our biggest release yet, and concentrates on moving existing Experimental features to Standard (Stable). The Gateway API v1.5.1 patch release is already av…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Kubernetes SIG Network 커뮤니티에서 Gateway API(v1.5) 출시를 발표합니다! 2026년 3월 14일에 출시된 버전 1.5는 역대 최대 규모의 릴리스이며 기존 실험 기능을 표준(안정 버전)으로 이동하는 데 중점을 둡니다. Gateway API v1.5.1 패치 릴리스가 이미 정식 출시되었습니다."
   }
 }
