@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T08:11:56.006Z",
+  "generatedAt": "2026-04-23T14:12:48.335Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -33,6 +33,27 @@
         "국내",
         "new"
       ]
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
+      "authors": "Neeraj Kaushik",
+      "date": "2026-04-23",
+      "url": "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/",
+      "summary": "This post extends IBM's approach to real-time KYC validation using generative AI, as previously discussed in the post IBM Digital KYC on AWS uses Generative AI to transform Client Onboarding and KYC Operations. It transforms compliance operations through autonomous decision-maki…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Financial Services",
+        "Intermediate (200)",
+        "Partner solutions",
+        "new"
+      ],
+      "koSummary": "이 게시물은 이전에 AWS의 IBM Digital KYC가 Generative AI를 사용하여 클라이언트 온보딩 및 KYC 운영을 혁신한 게시물에서 논의한 것처럼 생성 AI를 사용하여 실시간 KYC 검증에 대한 IBM의 접근 방식을 확장합니다. 자율적인 의사결정을 통해 규정 준수 운영을 혁신합니다."
     },
     {
       "source": "OpenTelemetry",
@@ -93,6 +114,24 @@
         "new"
       ],
       "koSummary": "arXiv:2604.19818v1 발표 유형: 새로운 개요: Agentic AI 시스템은 외부 효과를 통해 계획, 도구 사용, 상태 유지 및 다단계 워크플로에 걸쳐 작동합니다. 즉, 신뢰할 수 있는 배포는 더 이상 작업 완료만으로 판단할 수 없습니다. 현재 문헌은 파편으로 남아 있습니다…"
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Consumer Credit Health after the 2025 St. Louis Tornado",
+      "authors": "",
+      "date": "2026-04-23",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/consumer-credit-health-after-2025-st-louis-tornado",
+      "summary": "Consumer credit conditions, as measured by credit card balances and delinquency, weakened in lower-income areas affected by the May 2025 St. Louis tornado.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "new"
+      ],
+      "koSummary": "신용카드 잔액 및 연체로 측정한 소비자 신용 상태는 2025년 5월 세인트루이스 토네이도의 영향을 받은 저소득 지역에서 약화되었습니다."
     },
     {
       "source": "네이버 D2",
@@ -236,27 +275,6 @@
         "new"
       ],
       "koSummary": "우리는 Facebook 그룹 검색을 근본적으로 변화시켜 사람들이 자신과 가장 관련성이 높은 커뮤니티 콘텐츠를 더욱 확실하게 찾고, 분류하고, 확인할 수 있도록 했습니다. 우리는 새로운 하이브리드 검색 아키텍처를 채택하고 자동화된 모델 기반 평가를 구현하여 다음 문제를 해결했습니다."
-    },
-    {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
-      "authors": "Avdhesh Paliwal",
-      "date": "2026-04-21",
-      "url": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
-      "summary": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy real-time dashboards…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Amazon Aurora",
-        "Amazon Quick Sight",
-        "Customer Solutions",
-        "new"
-      ],
-      "koSummary": "이 게시물에서는 Oldcastle이 Infor ERP를 Amazon Aurora 및 Amazon Quick Sight와 통합하여 AWS 서비스를 사용하여 분석 및 AI 기능을 혁신한 방법을 살펴봅니다. 실시간 대시보드를 배포하기 위해 기존 클라우드 ERP 보고의 한계를 어떻게 극복했는지 논의합니다."
     },
     {
       "source": "Cloudflare Architecture",
@@ -653,24 +671,6 @@
         "국내",
         "fresh"
       ]
-    },
-    {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "Banking Analytics: Credit and Debit Card Fees Collected by Banks Rose in 2025",
-      "authors": "",
-      "date": "2026-04-09",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/banking-analytics-credit-debit-card-fees-collected-banks-rose-2025",
-      "summary": "The interchange, or ‘swipe,’ fees collected by U.S. banks grew to $66 billion in 2025 as debit and credit card purchase volumes and values increased.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "fresh"
-      ],
-      "koSummary": "직불카드 및 신용카드 구매량과 가치가 증가함에 따라 미국 은행이 징수하는 교환 또는 '스와이프' 수수료는 2025년에 660억 달러로 증가했습니다."
     },
     {
       "source": "ECB Blog",

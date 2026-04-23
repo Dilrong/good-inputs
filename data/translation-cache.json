@@ -680,5 +680,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.19818v1 발표 유형: 새로운 개요: Agentic AI 시스템은 외부 효과를 통해 계획, 도구 사용, 상태 유지 및 다단계 워크플로에 걸쳐 작동합니다. 즉, 신뢰할 수 있는 배포는 더 이상 작업 완료만으로 판단할 수 없습니다. 현재 문헌은 파편으로 남아 있습니다…"
+  },
+  "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/|summary": {
+    "input": "This post extends IBM's approach to real-time KYC validation using generative AI, as previously discussed in the post IBM Digital KYC on AWS uses Generative AI to transform Client Onboarding and KYC Operations. It transforms compliance operations through autonomous decision-maki…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물은 이전에 AWS의 IBM Digital KYC가 Generative AI를 사용하여 클라이언트 온보딩 및 KYC 운영을 혁신한 게시물에서 논의한 것처럼 생성 AI를 사용하여 실시간 KYC 검증에 대한 IBM의 접근 방식을 확장합니다. 자율적인 의사결정을 통해 규정 준수 운영을 혁신합니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/apr/consumer-credit-health-after-2025-st-louis-tornado|summary": {
+    "input": "Consumer credit conditions, as measured by credit card balances and delinquency, weakened in lower-income areas affected by the May 2025 St. Louis tornado.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "신용카드 잔액 및 연체로 측정한 소비자 신용 상태는 2025년 5월 세인트루이스 토네이도의 영향을 받은 저소득 지역에서 약화되었습니다."
   }
 }
