@@ -656,5 +656,11 @@
     "approved": true,
     "mode": "title",
     "koText": "PACIFIC은 AWS를 사용하여 Catena-X 데이터 공간에서 다중 테넌트, 주권 제품 탄소 발자국 교환을 지원합니다."
+  },
+  "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/|summary": {
+    "input": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depe…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "적용 모드에서 SELinux를 사용하여 Linux에서 Kubernetes를 실행하는 경우 미리 계획하세요. 향후 릴리스(v1.37로 예상)에서는 기본적으로 SELinuxMount 기능 게이트를 켤 것으로 예상됩니다. 이렇게 하면 대부분의 워크로드에서 볼륨 설정이 더 빨라지지만 여전히 의존하는 애플리케이션이 중단될 수 있습니다."
   }
 }

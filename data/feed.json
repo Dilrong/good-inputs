@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-04-22T19:40:08.131Z",
+  "generatedAt": "2026-04-23T03:48:10.738Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "토스플레이스 데이터봇 ‘판다(PANDA)’를 소개합니다 : 모든 팀원이 데이터 전문가처럼 일하는 방법",
+      "authors": "",
+      "date": "2026-04-23",
+      "url": "https://toss.tech/article/da-assistant-panda",
+      "summary": "질문 하나로 시작하는 데이터 문화 혁신",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "양자컴퓨터 시대에 대비한 양자내성암호 적용, 왜 10년 먼저 서비스에 적용했을까?",
+      "authors": "",
+      "date": "2026-04-23",
+      "url": "https://toss.tech/article/post-quantum-cryptography",
+      "summary": "오랜 기간에 걸쳐 진행된 보안 프로토콜 고도화, 그리고 그 여정의 최종 결과물인 양자내성암호 도입 이야기를 들려드려요.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
     {
       "source": "네이버 D2",
       "category": "개발",
@@ -22,18 +54,19 @@
     {
       "source": "Kubernetes Blog",
       "category": "개발",
-      "title": "Kubernetes v1.36: ハル (Haru)",
+      "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
       "authors": "",
       "date": "2026-04-22",
-      "url": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/",
-      "summary": "Editors: Chad M. Crowell, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Utkarsh Umre Similar to previous releases, the release of Kubernetes v1.36 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our devel…",
+      "url": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/",
+      "summary": "If you run Kubernetes on Linux with SELinux in enforcing mode, plan ahead: a future release (anticipated to be v1.37) is expected to turn the SELinuxMount feature gate on by default. This makes volume setup faster for most workloads, but it can break applications that still depe…",
       "score": "new",
       "tags": [
         "개발",
         "Kubernetes Blog",
         "글로벌",
         "new"
-      ]
+      ],
+      "koSummary": "적용 모드에서 SELinux를 사용하여 Linux에서 Kubernetes를 실행하는 경우 미리 계획하세요. 향후 릴리스(v1.37로 예상)에서는 기본적으로 SELinuxMount 기능 게이트를 켤 것으로 예상됩니다. 이렇게 하면 대부분의 워크로드에서 볼륨 설정이 더 빨라지지만 여전히 의존하는 애플리케이션이 중단될 수 있습니다."
     },
     {
       "source": "AWS Architecture Blog",
@@ -130,6 +163,40 @@
         "new"
       ],
       "koSummary": "arXiv:2604.18792v1 발표 유형: new 개요: 모델 변환은 MDE의 핵심이지만 주류 변환 언어를 결정할 수 없기 때문에 공식적인 검증이 어렵습니다. DSLTrans는 검증 가능성을 높이기 위해 Turing-incomplete로 설계되었지만 초기 검증은…"
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "new"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "new"
+      ]
     },
     {
       "source": "Meta Engineering",
@@ -353,6 +420,23 @@
       "koSummary": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "그래도 해보던 날들",
+      "authors": "양정욱",
+      "date": "2026-04-17",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
+      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "new"
+      ]
+    },
+    {
       "source": "KIEP",
       "category": "경제",
       "title": "노동수급 불균형 해소를 위한 국가간 인력교류 활성화 방안 연구",
@@ -364,22 +448,6 @@
       "tags": [
         "경제",
         "KIEP",
-        "국내",
-        "new"
-      ]
-    },
-    {
-      "source": "토스 테크",
-      "category": "개발",
-      "title": "Apache Flink + RocksDB 튜닝으로 광고 Frequency Capping 실시간 집계를 일주일까지 확장하기",
-      "authors": "",
-      "date": "2026-04-16",
-      "url": "https://toss.tech/article/flink-realtime-frequency-capping",
-      "summary": "1분부터 7일까지 슬라이딩 윈도우 Frequency Capping을 세 Flink 앱으로 분리하고 각각의 병목을 해결한 기록을 공유합니다.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "토스 테크",
         "국내",
         "new"
       ]
@@ -446,14 +514,14 @@
       "date": "2026-04-15",
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/04/the-r-labor-share-nexus/",
       "summary": "Over the past quarter century, the U.S. economy has experienced significant declines in both the labor share of income and the natural rate of interest, referred to as R*. Existing research has largely analyzed these two developments in isolation. In this post, we provide a simp…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "NY Fed Liberty Street",
         "글로벌",
         "연준",
         "Macroeconomics",
-        "new"
+        "fresh"
       ],
       "koSummary": "지난 25년 동안 미국 경제는 노동소득분배율과 자연이자율(R*) 모두에서 상당한 하락을 경험했습니다. 기존 연구에서는 이 두 가지 발전을 개별적으로 분석해 왔습니다. 이 게시물에서는 간단한 내용을 제공합니다…"
     },
@@ -465,13 +533,13 @@
       "date": "2026-04-15",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260415~868b59bca9.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "ECB Press",
         "글로벌",
         "중앙은행",
-        "new"
+        "fresh"
       ],
       "koSummary": "Piero Cipollone: ​​금융 변혁의 촉발: 토큰화와 중앙은행의 역할"
     },
@@ -579,22 +647,6 @@
       "tags": [
         "경제",
         "KIEP",
-        "국내",
-        "fresh"
-      ]
-    },
-    {
-      "source": "토스 테크",
-      "category": "개발",
-      "title": "하마터면 못생겨질 뻔했다 - 토스 프론트 2 제작기",
-      "authors": "",
-      "date": "2026-04-09",
-      "url": "https://toss.tech/article/toss_front",
-      "summary": "아름다우면서 사용성까지 챙긴 토스 프론트 2, 그 뒤에는 “이게 정말 최선일까?”를 끝까지 놓지 않았던 집요한 고민이 있었어요.",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "토스 테크",
         "국내",
         "fresh"
       ]
@@ -852,6 +904,40 @@
         "fresh"
       ],
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "데이미언 허스트와 YBA",
+      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
+      "date": "2026-04-01",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
+      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 다원예술 2026: 탐정의 시간",
+      "authors": "료지 이케다/앙상블 모데른, 마말리안 다이빙 리플렉스, 엘 콘데 데 토레필, 마테오 마랑고니/디터 반도렌, 신서, 위성희, 리타 후프와이크, 살로메 무이, 샘 소이어만, 박민희, 크리스토퍼 놀란, 정여름",
+      "date": "2026-04-01",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002024",
+      "summary": "“분열자의 산책. 이것은 소파에 누운 신경증자보다 나은 모델이다.” (질 들뢰즈·펠릭스 과타리, 『안티 오이디푸스』) 인공지능에게 즉각적인 연산과 답변을 기대하는 동시대의 흐름 속에서, 이 프로젝트는 오랫동안 관찰하는 몇몇 이들, 예술가들, 그리고 아이들을 ‘탐정’으로 호명합니다. 누군가를 유심히 살펴보고 그 사람의 흔적을 의아하게 생각하는 존재는 이제 탐정 외에는 많지 않습니다. 이러한 집요한 관찰은 단순히 정보를 모으는 행위가 아닙니다. 비밀과 진실을 알아낼 수 있다고 믿고, 누군가를 의심하…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "stable"
+      ]
     },
     {
       "source": "GitHub Engineering",
