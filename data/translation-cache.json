@@ -692,5 +692,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "신용카드 잔액 및 연체로 측정한 소비자 신용 상태는 2025년 5월 세인트루이스 토네이도의 영향을 받은 저소득 지역에서 약화되었습니다."
+  },
+  "https://aws.amazon.com/blogs/developer/create-minimal-reproductions-for-aws-sdk-javascript-v3-with-create-aws-sdk-repro/|summary": {
+    "input": "We’re excited to announce create-aws-sdk-repro, an open source tool that generates ready-to-run AWS SDK for JavaScript v3 projects. You answer a few prompts, pick a service, an operation, environment, and the tool generates a project with everything wired up. With AWS credential…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "바로 실행 가능한 JavaScript v3용 AWS SDK 프로젝트를 생성하는 오픈 소스 도구인 create-aws-sdk-repro를 발표하게 되어 기쁘게 생각합니다. 몇 가지 프롬프트에 응답하고 서비스, 작업, 환경을 선택하면 도구가 모든 것이 연결된 프로젝트를 생성합니다. AWS 자격 증명으로…"
   }
 }
