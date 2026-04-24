@@ -710,5 +710,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.20926v1 발표 유형: new 개요: 대규모 언어 모델은 직렬 코드 생성에서 놀라운 능력을 보여줬지만 훈련 데이터가 상대적으로 부족한 병렬 코드로는 여전히 어려움을 겪고 있습니다. 일반적인 해결 방법은 전자와 상호 작용하는 코딩 에이전트를 사용하는 것입니다."
+  },
+  "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/|summary": {
+    "input": "After several years of development, User Namespaces support in Kubernetes reached General Availability (GA) with the v1.36 release. This is a Linux-only feature. For those of us working on low level container runtimes and rootless technologies, this has been a long awaited miles…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "수년간의 개발 끝에 Kubernetes의 사용자 네임스페이스 지원은 v1.36 릴리스를 통해 일반 공급(GA)에 도달했습니다. 이는 Linux 전용 기능입니다. 낮은 수준의 컨테이너 런타임과 뿌리 없는 기술을 연구하는 우리에게는 이것이 오랫동안 기다려온 일이었습니다…"
   }
 }
