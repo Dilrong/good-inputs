@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T19:42:13.823Z",
+  "generatedAt": "2026-04-24T03:51:52.992Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -453,12 +453,12 @@
       "date": "2026-04-16",
       "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12366&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
       "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "KIEP",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -469,12 +469,12 @@
       "date": "2026-04-16",
       "url": "https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/",
       "summary": "The Rust team is happy to announce a new version of Rust, 1.95.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.95.0 with: $ rustup update stable If you don…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Rust Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "Rust 팀은 Rust의 새 버전인 1.95.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.95.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면..."
     },
@@ -486,14 +486,14 @@
       "date": "2026-04-16",
       "url": "https://fredblog.stlouisfed.org/2026/04/early-signals-about-retail-sales/",
       "summary": "More data from the Chicago Fed’s Advance Retail Trade Summary (CARTS) release are now in FRED. These estimates of retail and food service sales (excluding some motor vehicles and parts) track the U.S. Census Bureau’s Monthly Retail Trade Survey (MRTS) … Continue reading →",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "FRED Blog",
         "글로벌",
         "데이터",
         "Uncategorized",
-        "new"
+        "fresh"
       ],
       "koSummary": "시카고 연준의 CARTS(Advanced Retail Trade Summary) 발표에서 더 많은 데이터가 이제 FRED에 있습니다. 이러한 소매 및 식품 서비스 판매 추정치(일부 자동차 및 부품 제외)는 미국 인구 조사국의 월별 소매 무역 조사(MRTS)를 추적합니다. … 계속 읽기 →"
     },
@@ -792,14 +792,14 @@
       "date": "2026-04-02",
       "url": "https://www.kcmi.re.kr/flexer/view?fid=28838&fgu=002002&fty=004003",
       "summary": "본 보고서는 우리나라의 이사 자격 제한 제도와 이사 후보자 정보 공개 제도의 현황을 분석하고, 이를 일본‧영국‧호주‧미국‧홍콩‧싱가포르 등 주요국의 제도와 비교하여 국내 제도의 개선 방향을 제안한다. 국내 상법은 독립이사(사외이사)에 대해서만 결격사유를 규정하고 사내이사에 대한 적격성 기준을 두지 않는 비대칭적 구조를 갖고 있다. 반면 해외 주요국은 사내‧사외이사를 구분하지 않고 모든 이사에게 동일한 적격성 요건을 적용하며, 이사의 결격사유 또한 우리나라에 비해 폭넓게 규정한 경우가 많다. 우리…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "경제",
         "자본시장연구원",
         "국내",
         "이슈보고서",
         "자본시장",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -810,12 +810,12 @@
       "date": "2026-04-02",
       "url": "https://nodejs.org/en/blog/announcements/discontinuing-security-bug-bounties",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Node.js Blog",
         "글로벌",
-        "fresh"
+        "stable"
       ],
       "koSummary": "자금 손실로 인해 보안 버그 포상금 프로그램이 일시 중지되었습니다."
     },
@@ -827,7 +827,7 @@
       "date": "2026-04-02",
       "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
       "summary": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Dropbox Tech",
@@ -835,7 +835,7 @@
         "Magic Pocket",
         "storage",
         "Infrastructure",
-        "fresh"
+        "stable"
       ],
       "koSummary": "압축을 계층화된 적응형 파이프라인으로 전환하고 모니터링 및 제어를 강화함으로써 Magic Pocket이 워크로드 변화에 더욱 탄력적으로 대응할 수 있게 되었습니다."
     },
@@ -847,13 +847,13 @@
       "date": "2026-04-02",
       "url": "https://martinfowler.com/articles/harness-engineering.html",
       "summary": "Last month Birgitta Böckeler wrote some initial thoughts about the recently developed notion of Harness Engineering. She's been researching and thinking more about this in the weeks since and has now written a thoughtful mental model for understanding harness engineering that we…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Martin Fowler",
         "글로벌",
         "아키텍처",
-        "fresh"
+        "stable"
       ],
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
     },
@@ -880,6 +880,24 @@
         "stable"
       ],
       "koSummary": "저는 코딩 에이전트를 사용하여 작업의 일부를 자동화하는 에이전트를 구축했습니다. 코딩 에이전트를 사용하여 더 효과적으로 작업하는 방법에 대해 배운 내용은 다음과 같습니다. Copilot Applied Science의 에이전트 기반 개발 포스트는 GitHub 블로그에 처음으로 게재되었습니다."
+    },
+    {
+      "source": "국립중앙박물관",
+      "category": "전시",
+      "title": "아카이브, 박물관의 시간",
+      "authors": "",
+      "date": "2026-03-31",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3511373&listType=gallery",
+      "summary": "생성형 AI로 탐색하는 반가사유상과 상형청자 아카이브 디지털 전시",
+      "type": "테마전",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "국립중앙박물관",
+        "테마전",
+        "현재전시",
+        "stable"
+      ]
     },
     {
       "source": "국토정책Brief",
@@ -1417,24 +1435,6 @@
         "stable"
       ],
       "koSummary": "설문조사에 참여한 글로벌 비즈니스 리더 중 84%는 가격을 신속하게 조정하는 것이 주요 경쟁 우위가 될 것이라는 점에 동의했습니다. Stripe Billing을 위한 새로운 실시간 분석 시스템은 고객 동향이 나타나는 즉시 이를 파악하는 데 도움이 됩니다."
-    },
-    {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "각角진 백자 이야기",
-      "authors": "",
-      "date": "2025-08-26",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3056031&listType=gallery",
-      "summary": "조선 17세기부터 등장하여 18세기를 중심으로 유행한, 외면을 모깎기한 백자에 대해 그 제작기법과 의미를 살펴봄.",
-      "type": "테마전",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "테마전",
-        "현재전시",
-        "stable"
-      ]
     },
     {
       "source": "국토이슈리포트",
