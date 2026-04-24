@@ -698,5 +698,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "바로 실행 가능한 JavaScript v3용 AWS SDK 프로젝트를 생성하는 오픈 소스 도구인 create-aws-sdk-repro를 발표하게 되어 기쁘게 생각합니다. 몇 가지 프롬프트에 응답하고 서비스, 작업, 환경을 선택하면 도구가 모든 것이 연결된 프로젝트를 생성합니다. AWS 자격 증명으로…"
+  },
+  "https://arxiv.org/abs/2604.20906|summary": {
+    "input": "arXiv:2604.20906v1 Announce Type: new Abstract: The rapid growth of scientific software has created practical barriers for bioinformatics research. Although powerful statistical, artificial intelligence (AI)-based methods are now widely available, their effective use is often hi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.20906v1 발표 유형: new 개요: 과학 소프트웨어의 급속한 성장은 생물정보학 연구에 실질적인 장벽을 만들었습니다. 강력한 통계적 인공지능(AI) 기반 방법이 현재 널리 사용 가능하지만 효과적인 사용이 가능한 경우가 많습니다."
+  },
+  "https://arxiv.org/abs/2604.20926|summary": {
+    "input": "arXiv:2604.20926v1 Announce Type: new Abstract: Large language models have shown remarkable ability in serial code generation, but they still struggle with parallel code for which training data is comparatively scarce. A common remedy is to use coding agents that interact with e…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.20926v1 발표 유형: new 개요: 대규모 언어 모델은 직렬 코드 생성에서 놀라운 능력을 보여줬지만 훈련 데이터가 상대적으로 부족한 병렬 코드로는 여전히 어려움을 겪고 있습니다. 일반적인 해결 방법은 전자와 상호 작용하는 코딩 에이전트를 사용하는 것입니다."
   }
 }

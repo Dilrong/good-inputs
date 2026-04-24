@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-04-24T03:51:52.992Z",
+  "generatedAt": "2026-04-24T08:24:03.188Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "글로벌 관세장벽 확산의 경제적 영향과 시사점",
+      "authors": "조문희 외",
+      "date": "2026-04-24",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12377&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Biomedical systems biology workflow orchestration and execution with PoSyMed",
+      "authors": "Simon S\\\"uwer, Zoe Chervontseva, Kester Bagemihl, Jan Baumbach, Olga Tsoy, Andreas Maier",
+      "date": "2026-04-24",
+      "url": "https://arxiv.org/abs/2604.20906",
+      "summary": "arXiv:2604.20906v1 Announce Type: new Abstract: The rapid growth of scientific software has created practical barriers for bioinformatics research. Although powerful statistical, artificial intelligence (AI)-based methods are now widely available, their effective use is often hi…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.20906v1 발표 유형: new 개요: 과학 소프트웨어의 급속한 성장은 생물정보학 연구에 실질적인 장벽을 만들었습니다. 강력한 통계적 인공지능(AI) 기반 방법이 현재 널리 사용 가능하지만 효과적인 사용이 가능한 경우가 많습니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Learning Reasoning World Models for Parallel Code",
+      "authors": "Gautam Singh, Arjun Guha, Bhavya Kailkhura, Harshitha Menon",
+      "date": "2026-04-24",
+      "url": "https://arxiv.org/abs/2604.20926",
+      "summary": "arXiv:2604.20926v1 Announce Type: new Abstract: Large language models have shown remarkable ability in serial code generation, but they still struggle with parallel code for which training data is comparatively scarce. A common remedy is to use coding agents that interact with e…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.20926v1 발표 유형: new 개요: 대규모 언어 모델은 직렬 코드 생성에서 놀라운 능력을 보여줬지만 훈련 데이터가 상대적으로 부족한 병렬 코드로는 여전히 어려움을 겪고 있습니다. 일반적인 해결 방법은 전자와 상호 작용하는 코딩 에이전트를 사용하는 것입니다."
+    },
     {
       "source": "토스 테크",
       "category": "개발",
@@ -93,48 +148,6 @@
         "new"
       ],
       "koSummary": "2026년 3월 19일에 OpenTelemetry 사양 프로젝트는 PR #4938을 병합하여 사양에서 OpenTracing 호환성 요구 사항을 더 이상 사용하지 않습니다. 이 변경 사항은 생태계가 이미 있는 위치와 일치하도록 사양을 업데이트합니다. OpenTracing은 수년간 보관되었으며 새로운 i…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Coding with Eyes: Visual Feedback Unlocks Reliable GUI Code Generating and Debugging",
-      "authors": "Zhilin Liu, Ye Huang, Ting Xie, Ruizhi Zhang, Wen Li, Lixin Duan",
-      "date": "2026-04-23",
-      "url": "https://arxiv.org/abs/2604.19750",
-      "summary": "arXiv:2604.19750v1 Announce Type: new Abstract: Recent advances in Large Language Model (LLM)-based agents have shown remarkable progress in code generation. However, current agent methods mainly rely on text-output-based feedback (e.g. command-line outputs) for multi-round debu…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.HC",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.19750v1 발표 유형: 새로운 개요: LLM(Large Language Model) 기반 에이전트의 최근 발전으로 코드 생성에서 놀라운 발전이 나타났습니다. 그러나 현재 에이전트 방법은 다단계 디버거를 위해 주로 텍스트 출력 기반 피드백(예: 명령줄 출력)에 의존합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Beyond Task Success: An Evidence-Synthesis Framework for Evaluating, Governing, and Orchestrating Agentic AI",
-      "authors": "Christopher Koch, Joshua Andreas Wellbrock",
-      "date": "2026-04-23",
-      "url": "https://arxiv.org/abs/2604.19818",
-      "summary": "arXiv:2604.19818v1 Announce Type: new Abstract: Agentic AI systems plan, use tools, maintain state, and act across multi-step workflows with external effects, meaning trustworthy deployment can no longer be judged by task completion alone. The current literature remains fragment…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.HC",
-        "cs.MA",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.19818v1 발표 유형: 새로운 개요: Agentic AI 시스템은 외부 효과를 통해 계획, 도구 사용, 상태 유지 및 다단계 워크플로에 걸쳐 작동합니다. 즉, 신뢰할 수 있는 배포는 더 이상 작업 완료만으로 판단할 수 없습니다. 현재 문헌은 파편으로 남아 있습니다…"
     },
     {
       "source": "St. Louis Fed",
@@ -726,22 +739,6 @@
       "tags": [
         "정책",
         "국토정책Brief",
-        "fresh"
-      ]
-    },
-    {
-      "source": "KIEP",
-      "category": "경제",
-      "title": "글로벌 인구구조 변화의 거시경제적 영향과 시사점",
-      "authors": "윤상하 외",
-      "date": "2026-04-06",
-      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12343&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
-      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "KIEP",
-        "국내",
         "fresh"
       ]
     },
@@ -1406,8 +1403,8 @@
       "title": "보존과학, 새로운 시작 함께하는 미래",
       "authors": "",
       "date": "2025-10-28",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0403010000.do?schM=view&type=type1&typeCode=culture&showId=3509853&cp=",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3511373",
+      "summary": "생성형 AI로 탐색하는 반가사유상과 상형청자 아카이브 디지털 전시",
       "type": "특별전",
       "score": "stable",
       "tags": [
