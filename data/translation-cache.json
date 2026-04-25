@@ -716,5 +716,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "수년간의 개발 끝에 Kubernetes의 사용자 네임스페이스 지원은 v1.36 릴리스를 통해 일반 공급(GA)에 도달했습니다. 이는 Linux 전용 기능입니다. 낮은 수준의 컨테이너 런타임과 뿌리 없는 기술을 연구하는 우리에게는 이것이 오랫동안 기다려온 일이었습니다…"
+  },
+  "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/|summary": {
+    "input": "On behalf of Kubernetes SIG Auth and SIG Node, we are pleased to announce the graduation of fine-grained kubelet API authorization to General Availability (GA) in Kubernetes v1.36! The KubeletFineGrainedAuthz feature gate was introduced as an opt-in alpha feature in Kubernetes v…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/|title": {
+    "input": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
   }
 }
