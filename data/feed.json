@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T03:33:08.907Z",
+  "generatedAt": "2026-04-25T07:46:26.851Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -31,62 +31,6 @@
         "개발",
         "Kubernetes Blog",
         "글로벌",
-        "new"
-      ]
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Biomedical systems biology workflow orchestration and execution with PoSyMed",
-      "authors": "Simon S\\\"uwer, Zoe Chervontseva, Kester Bagemihl, Jan Baumbach, Olga Tsoy, Andreas Maier",
-      "date": "2026-04-24",
-      "url": "https://arxiv.org/abs/2604.20906",
-      "summary": "arXiv:2604.20906v1 Announce Type: new Abstract: The rapid growth of scientific software has created practical barriers for bioinformatics research. Although powerful statistical, artificial intelligence (AI)-based methods are now widely available, their effective use is often hi…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.20906v1 발표 유형: new 개요: 과학 소프트웨어의 급속한 성장은 생물정보학 연구에 실질적인 장벽을 만들었습니다. 강력한 통계적 인공지능(AI) 기반 방법이 현재 널리 사용 가능하지만 효과적인 사용이 가능한 경우가 많습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Learning Reasoning World Models for Parallel Code",
-      "authors": "Gautam Singh, Arjun Guha, Bhavya Kailkhura, Harshitha Menon",
-      "date": "2026-04-24",
-      "url": "https://arxiv.org/abs/2604.20926",
-      "summary": "arXiv:2604.20926v1 Announce Type: new Abstract: Large language models have shown remarkable ability in serial code generation, but they still struggle with parallel code for which training data is comparatively scarce. A common remedy is to use coding agents that interact with e…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.20926v1 발표 유형: new 개요: 대규모 언어 모델은 직렬 코드 생성에서 놀라운 능력을 보여줬지만 훈련 데이터가 상대적으로 부족한 병렬 코드로는 여전히 어려움을 겪고 있습니다. 일반적인 해결 방법은 전자와 상호 작용하는 코딩 에이전트를 사용하는 것입니다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
         "new"
       ]
     },
@@ -273,40 +217,6 @@
         "new"
       ],
       "koSummary": "Rust Workers의 패닉은 역사적으로 치명적이어서 전체 인스턴스를 중독시켰습니다. wasm‑bindgen 프로젝트에서 업스트림 협업을 통해 Rust Workers는 이제 WebAssembly 예외 처리를 사용한 패닉 해제를 포함하여 탄력적인 중요 오류 복구를 지원합니다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "new"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "new"
-      ]
     },
     {
       "source": "Meta Engineering",
@@ -507,23 +417,6 @@
         "fresh"
       ],
       "koSummary": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
     },
     {
       "source": "KIEP",
@@ -920,23 +813,6 @@
         "stable"
       ],
       "koSummary": "지난 달 Birgitta Böckeler는 최근 개발된 하네스 엔지니어링 개념에 대한 몇 가지 초기 생각을 썼습니다. 그녀는 그 이후로 몇 주 동안 이에 대해 더 많이 연구하고 생각해 왔으며 이제 하네스 엔지니어링을 이해하기 위한 사려 깊은 정신 모델을 작성했습니다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "데이미언 허스트와 YBA",
-      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
-      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "stable"
-      ]
     },
     {
       "source": "GitHub Engineering",
