@@ -728,5 +728,17 @@
     "approved": false,
     "mode": "title",
     "koText": ""
+  },
+  "https://arxiv.org/abs/2604.21950|summary": {
+    "input": "arXiv:2604.21950v1 Announce Type: new Abstract: Small language models (1-3B) are practical to run locally, but individually limited on harder code generation tasks. We ask whether composing them into pipelines can recover some of that lost capability. We study code generation pi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.21950v1 발표 유형: new 개요: 소규모 언어 모델(1-3B)은 로컬에서 실행하는 데 실용적이지만 더 어려운 코드 생성 작업에서는 개별적으로 제한됩니다. 우리는 이를 파이프라인으로 구성하면 손실된 기능 중 일부를 복구할 수 있는지 묻습니다. 우리는 코드 생성 파이를 연구합니다…"
+  },
+  "https://arxiv.org/abs/2604.21958|summary": {
+    "input": "arXiv:2604.21958v1 Announce Type: new Abstract: This paper aims to synthesize current knowledge on generative AI in IT project management using the PRISMA methodology to provide researchers with a comprehensive perspective on techniques, applications, adoption trends, limitation…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.21958v1 발표 유형: 새로운 개요: 이 문서는 PRISMA 방법론을 사용하여 IT 프로젝트 관리에서 생성 AI에 대한 현재 지식을 종합하여 연구원에게 기술, 응용 프로그램, 채택 추세, 제한 사항에 대한 포괄적인 관점을 제공하는 것을 목표로 합니다."
   }
 }

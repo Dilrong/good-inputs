@@ -1,7 +1,48 @@
 {
-  "generatedAt": "2026-04-26T19:15:06.896Z",
+  "generatedAt": "2026-04-27T04:01:14.899Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Feedback Over Form: Why Execution Feedback Matters More Than Pipeline Topology in 1-3B Code Generation",
+      "authors": "Charles Junichi McAndrews",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.21950",
+      "summary": "arXiv:2604.21950v1 Announce Type: new Abstract: Small language models (1-3B) are practical to run locally, but individually limited on harder code generation tasks. We ask whether composing them into pipelines can recover some of that lost capability. We study code generation pi…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "cs.LG",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.21950v1 발표 유형: new 개요: 소규모 언어 모델(1-3B)은 로컬에서 실행하는 데 실용적이지만 더 어려운 코드 생성 작업에서는 개별적으로 제한됩니다. 우리는 이를 파이프라인으로 구성하면 손실된 기능 중 일부를 복구할 수 있는지 묻습니다. 우리는 코드 생성 파이를 연구합니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "A systematic review of generative AI usage for IT project management",
+      "authors": "Ionut Anghel, Tudor Cioara",
+      "date": "2026-04-27",
+      "url": "https://arxiv.org/abs/2604.21958",
+      "summary": "arXiv:2604.21958v1 Announce Type: new Abstract: This paper aims to synthesize current knowledge on generative AI in IT project management using the PRISMA methodology to provide researchers with a comprehensive perspective on techniques, applications, adoption trends, limitation…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.21958v1 발표 유형: 새로운 개요: 이 문서는 PRISMA 방법론을 사용하여 IT 프로젝트 관리에서 생성 AI에 대한 현재 지식을 종합하여 연구원에게 기술, 응용 프로그램, 채택 추세, 제한 사항에 대한 포괄적인 관점을 제공하는 것을 목표로 합니다."
+    },
     {
       "source": "KIEP",
       "category": "경제",
@@ -442,12 +483,12 @@
       "date": "2026-04-19",
       "url": "https://www.djangoproject.com/weblog/2026/apr/19/dsf-member-of-the-month-rob-hudson/",
       "summary": "For April 2026, we welcome Rob Hudson as our DSF member of the month! ⭐ Rob is the creator of django-debug-toolbar (DDT), a tool used by more than 100 000 folks in the world. He introduces Content-Security-Policy (CSP) support in Django and contribute to many open source package…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Django Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "2026년 4월에는 Rob Hudson을 이달의 DSF 회원으로 환영합니다! ⭐ Rob은 전 세계 10만 명이 넘는 사람들이 사용하는 도구인 DDT(django-debug-toolbar)의 창시자입니다. 그는 Django에서 CSP(Content-Security-Policy) 지원을 소개하고 많은 오픈 소스 패키지에 기여합니다."
     },
@@ -1448,8 +1489,8 @@
       "title": "보존과학, 새로운 시작 함께하는 미래",
       "authors": "",
       "date": "2025-10-28",
-      "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3511373",
-      "summary": "생성형 AI로 탐색하는 반가사유상과 상형청자 아카이브 디지털 전시",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0403010000.do?schM=view&type=type1&typeCode=culture&showId=3509853&cp=",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
       "type": "특별전",
       "score": "stable",
       "tags": [
