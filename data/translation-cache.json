@@ -752,5 +752,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "전 세계적으로 기대 수명이 가장 높은 나라 중 하나이고 인구 노령화 속도가 빠른 스페인은 연금, 의료, 장기 요양 시스템을 유지하는 데 점점 더 많은 어려움을 겪고 있습니다. 이 연구는 2004년부터 2022년까지 은퇴한 스페인 사람들의 건강 불평등 추세를 조사합니다."
+  },
+  "https://toss.tech/article/post-quantum-cryptography-eng|summary": {
+    "input": "*This is the English version of a previously published article . Hello, Toss Tech readers. I'm Tae-ho Ha, Head of Technology at Toss Payments. Ever since we started the Legacy Overhaul Series, one question has followed us everywhere: \"What was the biggest challenge in overhaulin…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "*이 기사는 이전에 게재된 기사의 영어 버전입니다. 안녕하세요, 토스테크 독자 여러분. 토스페이먼트 기술실장 하태호 입니다. 레거시 오버홀 시리즈를 시작한 이후로 어디에서나 한 가지 질문이 우리를 따라다녔습니다. \"오버홀 작업에서 가장 큰 과제는 무엇이었습니까…"
   }
 }
