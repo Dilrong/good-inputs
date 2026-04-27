@@ -740,5 +740,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2604.21958v1 발표 유형: 새로운 개요: 이 문서는 PRISMA 방법론을 사용하여 IT 프로젝트 관리에서 생성 AI에 대한 현재 지식을 종합하여 연구원에게 기술, 응용 프로그램, 채택 추세, 제한 사항에 대한 포괄적인 관점을 제공하는 것을 목표로 합니다."
+  },
+  "https://www.nber.org/papers/w35015#fromrss|summary": {
+    "input": "Despite intense competition among mortgage lenders, borrowers face substantial price dispersion. We argue that realtor–loan officer referral networks are a key source of lender market power: by steering homebuyers toward a small set of loan officers, these networks restrict effe…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "모기지 대출 기관 간의 치열한 경쟁에도 불구하고 차용인은 상당한 가격 차이에 직면해 있습니다. 우리는 부동산업자-대출 담당자 추천 네트워크가 대출 시장 지배력의 주요 원천이라고 주장합니다. 주택 구입자를 소수의 대출 담당자에게로 유도함으로써 이러한 네트워크는 효율성을 제한합니다."
+  },
+  "https://www.nber.org/papers/w35105#fromrss|summary": {
+    "input": "Spain, with one of the highest life expectancies globally and a rapidly ageing population, faces growing challenges in sustaining its pension, healthcare, and long-term care systems. This study examines trends in health inequalities among retired Spaniards from 2004 to 2022, usi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "전 세계적으로 기대 수명이 가장 높은 나라 중 하나이고 인구 노령화 속도가 빠른 스페인은 연금, 의료, 장기 요양 시스템을 유지하는 데 점점 더 많은 어려움을 겪고 있습니다. 이 연구는 2004년부터 2022년까지 은퇴한 스페인 사람들의 건강 불평등 추세를 조사합니다."
   }
 }
