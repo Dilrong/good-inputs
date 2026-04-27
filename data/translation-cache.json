@@ -758,5 +758,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "*이 기사는 이전에 게재된 기사의 영어 버전입니다. 안녕하세요, 토스테크 독자 여러분. 토스페이먼트 기술실장 하태호 입니다. 레거시 오버홀 시리즈를 시작한 이후로 어디에서나 한 가지 질문이 우리를 따라다녔습니다. \"오버홀 작업에서 가장 큰 과제는 무엇이었습니까…"
+  },
+  "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/|summary": {
+    "input": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 Deloitte가 Amazon EKS 및 vCluster를 사용하여 테스트 인프라를 혁신한 방법을 살펴봅니다."
   }
 }

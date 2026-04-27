@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T14:28:16.301Z",
+  "generatedAt": "2026-04-27T19:49:48.088Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,26 @@
         "new"
       ],
       "koSummary": "*이 기사는 이전에 게재된 기사의 영어 버전입니다. 안녕하세요, 토스테크 독자 여러분. 토스페이먼트 기술실장 하태호 입니다. 레거시 오버홀 시리즈를 시작한 이후로 어디에서나 한 가지 질문이 우리를 따라다녔습니다. \"오버홀 작업에서 가장 큰 과제는 무엇이었습니까…"
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster",
+      "authors": "Samuel Lefki",
+      "date": "2026-04-27",
+      "url": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/",
+      "summary": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Amazon Elastic Kubernetes Service",
+        "Customer Solutions",
+        "new"
+      ],
+      "koSummary": "이 게시물에서는 Deloitte가 Amazon EKS 및 vCluster를 사용하여 테스트 인프라를 혁신한 방법을 살펴봅니다."
     },
     {
       "source": "arXiv cs.SE",
@@ -202,35 +222,6 @@
         "hello world",
         "new"
       ]
-    },
-    {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
-      "authors": "Kevin S. Ridolfi",
-      "date": "2026-04-22",
-      "url": "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/",
-      "summary": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable environmental impact and…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Amazon Cognito",
-        "Amazon Elastic Container Service",
-        "Amazon RDS",
-        "Amazon Simple Storage Service (S3)",
-        "Amazon VPC",
-        "AWS Fargate",
-        "AWS Identity and Access Management (IAM)",
-        "AWS Secrets Manager",
-        "AWS Security Token Service",
-        "Compute",
-        "Foundational (100)",
-        "new"
-      ],
-      "koSummary": "PACIFIC은 AWS를 사용하여 Catena-X 데이터 공간에서 다중 테넌트, 주권 제품 탄소 발자국 교환을 지원합니다."
     },
     {
       "source": "Cloudflare Architecture",
