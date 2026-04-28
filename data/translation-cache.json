@@ -788,5 +788,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "Grafana Cloud의 Cloud Provider Observability가 정말 유용한 이유 중 하나는 AWS, Azure 및 Google Cloud에 대해 사전 구축된 대시보드와 드릴다운을 제공한다는 것입니다. 즉시 사용 가능한 서비스 개요, 인스턴스 수준 보기, 데이터 탐색을 위한 빠른 링크가 제공됩니다."
+  },
+  "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260428~6b156107c1.en.html|title": {
+    "input": "April 2026 euro area bank lending survey",
+    "approved": true,
+    "mode": "title",
+    "koText": "2026년 4월 유로지역 은행 대출 조사"
   }
 }
