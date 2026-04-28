@@ -794,5 +794,23 @@
     "approved": true,
     "mode": "title",
     "koText": "2026년 4월 유로지역 은행 대출 조사"
+  },
+  "https://pnpm.io/blog/releases/11.0|summary": {
+    "input": "pnpm 11 is here! This release tightens the security defaults introduced throughout the v10 cycle, drops the npm CLI fallback for publishing in favor of a native implementation, replaces the JSON-per-package store index with a single SQLite database, and isolates global installs…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "pnpm 11이 왔습니다! 이 릴리스는 v10 주기 전반에 걸쳐 도입된 보안 기본값을 강화하고, 기본 구현을 위해 게시에 대한 npm CLI 폴백을 삭제하고, 패키지당 JSON 저장소 인덱스를 단일 SQLite 데이터베이스로 대체하고, 전역 설치를 격리합니다."
+  },
+  "https://martinfowler.com/articles/structured-prompt-driven/|summary": {
+    "input": "LLM programming assistants have demonstrated considerable value, but mostly with individual developers. The internal IT organization in Thoughtworks has been using them for their teams and have developed a method and workflow called Structured Prompt-Driven Development (SPDD). W…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "LLM 프로그래밍 보조원은 상당한 가치를 입증했지만 대부분 개인 개발자에게 해당됩니다. Thoughtworks의 내부 IT 조직은 팀을 위해 이를 사용해 왔으며 SPDD(구조적 프롬프트 중심 개발)라는 방법과 워크플로를 개발했습니다. 와…"
+  },
+  "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/|summary": {
+    "input": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2026년 1분기에는 우간다와 이란의 전국적인 폐쇄부터 클라우드 인프라에 대한 전례 없는 드론 공격까지 인터넷 중단이 급증했습니다. 우리는 Cloudflare Radar를 사용하여 이러한 이벤트 뒤에 숨겨진 데이터를 탐색합니다."
   }
 }
