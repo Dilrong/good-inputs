@@ -764,5 +764,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 게시물에서는 Deloitte가 Amazon EKS 및 vCluster를 사용하여 테스트 인프라를 혁신한 방법을 살펴봅니다."
+  },
+  "https://arxiv.org/abs/2604.23048|summary": {
+    "input": "arXiv:2604.23048v1 Announce Type: new Abstract: Automated testing is crucial for maintaining open-source software quality. However, motivating contributors to include tests for code changes remains a challenge. While existing interventions, such as code coverage metrics and revi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.23048v1 발표 유형: new 개요: 자동화된 테스트는 오픈 소스 소프트웨어 품질을 유지하는 데 중요합니다. 그러나 기여자가 코드 변경 테스트를 포함하도록 동기를 부여하는 것은 여전히 ​​어려운 일입니다. 코드 적용 범위 측정 및 개정과 같은 기존 개입은…"
+  },
+  "https://arxiv.org/abs/2604.23088|summary": {
+    "input": "arXiv:2604.23088v1 Announce Type: new Abstract: We present Code Broker, a multi agent system built with Google Agent Development Kit ADK that analyses Python code from files, local directories, or GitHub repositories and generates actionable quality assessment reports. The syste…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.23088v1 발표 유형: 새로운 개요: 파일, 로컬 디렉터리 또는 GitHub 저장소에서 Python 코드를 분석하고 실행 가능한 품질 평가 보고서를 생성하는 Google Agent Development Kit ADK로 구축된 다중 에이전트 시스템인 Code Broker를 소개합니다. 시스템은…"
+  },
+  "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/|summary": {
+    "input": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended re…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Kubernetes v1.36은 일시 중지된 작업의 포드 템플릿에서 컨테이너 리소스 요청 및 제한을 수정하는 기능을 베타 버전으로 승격합니다. v1.35에서 알파 버전으로 처음 도입된 이 기능을 통해 대기열 컨트롤러와 클러스터 관리자는 CPU, 메모리, GPU 및 확장된 리소스를 조정할 수 있습니다."
+  },
+  "https://grafana.com/blog/customize-preconfigured-views-for-aws-azure-and-google-cloud-with-cloud-provider-observability-in-grafana-cloud/|summary": {
+    "input": "Part of what makes Cloud Provider Observability in Grafana Cloud really useful is that it gives you prebuilt dashboards and drill-downs for AWS, Azure, and Google Cloud. Out of the box you get service overviews, instance-level views, and quick links to explore your data.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Grafana Cloud의 Cloud Provider Observability가 정말 유용한 이유 중 하나는 AWS, Azure 및 Google Cloud에 대해 사전 구축된 대시보드와 드릴다운을 제공한다는 것입니다. 즉시 사용 가능한 서비스 개요, 인스턴스 수준 보기, 데이터 탐색을 위한 빠른 링크가 제공됩니다."
   }
 }
