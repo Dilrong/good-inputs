@@ -812,5 +812,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "2026년 1분기에는 우간다와 이란의 전국적인 폐쇄부터 클라우드 인프라에 대한 전례 없는 드론 공격까지 인터넷 중단이 급증했습니다. 우리는 Cloudflare Radar를 사용하여 이러한 이벤트 뒤에 숨겨진 데이터를 탐색합니다."
+  },
+  "https://arxiv.org/abs/2604.24814|summary": {
+    "input": "arXiv:2604.24814v1 Announce Type: new Abstract: In this paper, we introduce SWE-QA, a text and code corpus aimed at benchmarking multi-hop code comprehension, addressing the gap between simplified evaluation tasks and the complex reasoning required in real-world software develop…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.24814v1 발표 유형: 새로운 개요: 이 문서에서는 멀티 홉 코드 이해를 벤치마킹하는 것을 목표로 하는 텍스트 및 코드 코퍼스인 SWE-QA를 소개하고, 단순화된 평가 작업과 실제 소프트웨어 개발에 필요한 복잡한 추론 간의 격차를 해결합니다."
+  },
+  "https://arxiv.org/abs/2604.24819|summary": {
+    "input": "arXiv:2604.24819v1 Announce Type: new Abstract: Reliably transferring specialized human knowledge from text into large language models remains a fundamental challenge in artificial intelligence. Fine-tuning on domain corpora has enabled substantial capability gains, but the proc…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.24819v1 발표 유형: 새로운 개요: 전문적인 인간 지식을 텍스트에서 대규모 언어 모델로 안정적으로 전달하는 것은 인공 지능의 근본적인 과제로 남아 있습니다. 도메인 코퍼스의 미세 조정을 통해 상당한 역량 향상이 가능했지만 프로세스는…"
+  },
+  "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/|summary": {
+    "input": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Kubernetes 컨트롤러의 비활성은 많은 컨트롤러에 영향을 미치는 문제이며 미묘한 방식으로 컨트롤러 동작에 영향을 미칠 수 있습니다. 일반적으로 생산 중인 컨트롤러가 이미 잘못된 조치를 취했을 때 너무 늦을 때까지는 부실함이 발견되지 않습니다."
   }
 }

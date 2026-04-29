@@ -1,7 +1,64 @@
 {
-  "generatedAt": "2026-04-28T19:58:02.909Z",
+  "generatedAt": "2026-04-29T04:03:59.930Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "네이버 D2",
+      "category": "개발",
+      "title": "비개발자의 AI 협업 도전기 — 생산성 측정하려다 서버까지 띄운 9일",
+      "authors": "",
+      "date": "2026-04-29",
+      "url": "https://d2.naver.com/helloworld/2017402",
+      "summary": "\"조직이 잘하고 있는지 어떻게 알 수 있을까?\" 이 질문에서 출발해 사내 가이드 문서와 AI를 붙들고 직접 측정 도구를 완성하기까지 9일이 걸렸습니다. 그 과정을 기록으로 남깁니다. 사내 생산성 측정에 관한 고민 기술 PM으로 일하면서 조직과 프로젝트의 생산성을 어떻게 측정할지는 늘 풀리지 않는 과제였습니다. 스프린트를 원활하게 진행하는 것 같아도 막상 이를 수치로 보여달라고 하면 난감했습니다. 속도가 빨라지는지, 병목이 어디서 발생하는지, 지난 분기보다 나아지고 있는지 감각적으로는 알 수 있었…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "네이버 D2",
+        "국내",
+        "hello world",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "SWE-QA: A Dataset and Benchmark for Complex Code Understanding",
+      "authors": "La\\\"ila Elkoussy (LRE, EPITA), Julien Perez (EPITA, LRE)",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.24814",
+      "summary": "arXiv:2604.24814v1 Announce Type: new Abstract: In this paper, we introduce SWE-QA, a text and code corpus aimed at benchmarking multi-hop code comprehension, addressing the gap between simplified evaluation tasks and the complex reasoning required in real-world software develop…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.24814v1 발표 유형: 새로운 개요: 이 문서에서는 멀티 홉 코드 이해를 벤치마킹하는 것을 목표로 하는 텍스트 및 코드 코퍼스인 SWE-QA를 소개하고, 단순화된 평가 작업과 실제 소프트웨어 개발에 필요한 복잡한 추론 간의 격차를 해결합니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora",
+      "authors": "Chenkai Pan, Xinglong Xu, Yuhang Xu, Yujun Wu, Siyuan Li, Jintao Chen, Conghui He, Jingxuan Wei, Cheng Tan",
+      "date": "2026-04-29",
+      "url": "https://arxiv.org/abs/2604.24819",
+      "summary": "arXiv:2604.24819v1 Announce Type: new Abstract: Reliably transferring specialized human knowledge from text into large language models remains a fundamental challenge in artificial intelligence. Fine-tuning on domain corpora has enabled substantial capability gains, but the proc…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.24819v1 발표 유형: 새로운 개요: 전문적인 인간 지식을 텍스트에서 대규모 언어 모델로 안정적으로 전달하는 것은 인공 지능의 근본적인 과제로 남아 있습니다. 도메인 코퍼스의 미세 조정을 통해 상당한 역량 향상이 가능했지만 프로세스는…"
+    },
     {
       "source": "pnpm Blog",
       "category": "개발",
@@ -19,6 +76,23 @@
         "new"
       ],
       "koSummary": "pnpm 11이 왔습니다! 이 릴리스는 v10 주기 전반에 걸쳐 도입된 보안 기본값을 강화하고, 기본 구현을 위해 게시에 대한 npm CLI 폴백을 삭제하고, 패키지당 JSON 저장소 인덱스를 단일 SQLite 데이터베이스로 대체하고, 전역 설치를 격리합니다."
+    },
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
+      "authors": "",
+      "date": "2026-04-28",
+      "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
+      "summary": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
+        "new"
+      ],
+      "koSummary": "Kubernetes 컨트롤러의 비활성은 많은 컨트롤러에 영향을 미치는 문제이며 미묘한 방식으로 컨트롤러 동작에 영향을 미칠 수 있습니다. 일반적으로 생산 중인 컨트롤러가 이미 잘못된 조치를 취했을 때 너무 늦을 때까지는 부실함이 발견되지 않습니다."
     },
     {
       "source": "Martin Fowler",
@@ -63,47 +137,6 @@
         "new"
       ],
       "koSummary": "2026년 1분기에는 우간다와 이란의 전국적인 폐쇄부터 클라우드 인프라에 대한 전례 없는 드론 공격까지 인터넷 중단이 급증했습니다. 우리는 Cloudflare Radar를 사용하여 이러한 이벤트 뒤에 숨겨진 데이터를 탐색합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "The Impact of Documentation on Test Engagement in Pull Requests in OSS",
-      "authors": "Teal Amore, Nathan Berman, Siyuan Jiang",
-      "date": "2026-04-28",
-      "url": "https://arxiv.org/abs/2604.23048",
-      "summary": "arXiv:2604.23048v1 Announce Type: new Abstract: Automated testing is crucial for maintaining open-source software quality. However, motivating contributors to include tests for code changes remains a challenge. While existing interventions, such as code coverage metrics and revi…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.23048v1 발표 유형: new 개요: 자동화된 테스트는 오픈 소스 소프트웨어 품질을 유지하는 데 중요합니다. 그러나 기여자가 코드 변경 테스트를 포함하도록 동기를 부여하는 것은 여전히 ​​어려운 일입니다. 코드 적용 범위 측정 및 개정과 같은 기존 개입은…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Code Broker: A Multi-Agent System for Automated Code Quality Assessment",
-      "authors": "Samer Attrah",
-      "date": "2026-04-28",
-      "url": "https://arxiv.org/abs/2604.23088",
-      "summary": "arXiv:2604.23088v1 Announce Type: new Abstract: We present Code Broker, a multi agent system built with Google Agent Development Kit ADK that analyses Python code from files, local directories, or GitHub repositories and generates actionable quality assessment reports. The syste…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.CL",
-        "cs.PL",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.23088v1 발표 유형: 새로운 개요: 파일, 로컬 디렉터리 또는 GitHub 저장소에서 Python 코드를 분석하고 실행 가능한 품질 평가 보고서를 생성하는 Google Agent Development Kit ADK로 구축된 다중 에이전트 시스템인 Code Broker를 소개합니다. 시스템은…"
     },
     {
       "source": "ECB Press",
@@ -154,23 +187,6 @@
         "new"
       ],
       "koSummary": "*이 기사는 이전에 게재된 기사의 영어 버전입니다. 안녕하세요, 토스테크 독자 여러분. 토스페이먼트 기술실장 하태호 입니다. 레거시 오버홀 시리즈를 시작한 이후로 어디에서나 한 가지 질문이 우리를 따라다녔습니다. \"오버홀 작업에서 가장 큰 과제는 무엇이었습니까…"
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
-      "authors": "",
-      "date": "2026-04-27",
-      "url": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/",
-      "summary": "Kubernetes v1.36 promotes the ability to modify container resource requests and limits in the pod template of a suspended Job to beta. First introduced as alpha in v1.35, this feature allows queue controllers and cluster administrators to adjust CPU, memory, GPU, and extended re…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "Kubernetes v1.36은 일시 중지된 작업의 포드 템플릿에서 컨테이너 리소스 요청 및 제한을 수정하는 기능을 베타 버전으로 승격합니다. v1.35에서 알파 버전으로 처음 도입된 이 기능을 통해 대기열 컨트롤러와 클러스터 관리자는 CPU, 메모리, GPU 및 확장된 리소스를 조정할 수 있습니다."
     },
     {
       "source": "AWS Architecture Blog",
@@ -424,13 +440,13 @@
       "date": "2026-04-21",
       "url": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
       "summary": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture and implemented automated model-based evaluation to address…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Meta Engineering",
         "글로벌",
         "ML Applications",
-        "new"
+        "fresh"
       ],
       "koSummary": "우리는 Facebook 그룹 검색을 근본적으로 변화시켜 사람들이 자신과 가장 관련성이 높은 커뮤니티 콘텐츠를 더욱 확실하게 찾고, 분류하고, 확인할 수 있도록 했습니다. 우리는 새로운 하이브리드 검색 아키텍처를 채택하고 자동화된 모델 기반 평가를 구현하여 다음 문제를 해결했습니다."
     },
@@ -442,13 +458,13 @@
       "date": "2026-04-21",
       "url": "https://grafana.com/blog/pyroscope-2-0-release/",
       "summary": "Continuous profiling is becoming a standard part of the observability stack, and for good reason. It's the only signal that tells you why your code is slow or expensive, not just that it is. Metrics tell you CPU usage is high. Logs tell you a request was slow. Traces tell you wh…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Grafana Blog",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "지속적인 프로파일링은 관찰 가능성 스택의 표준 부분이 되고 있으며 그럴 만한 이유가 있습니다. 이는 단지 코드가 느리거나 비용이 많이 드는 이유를 알려주는 유일한 신호입니다. 측정항목을 보면 CPU 사용량이 높다는 것을 알 수 있습니다. 로그는 요청이 느리다고 알려줍니다. 흔적은 당신에게 무엇을 말해줍니다…"
     },
@@ -460,13 +476,13 @@
       "date": "2026-04-21",
       "url": "https://opentelemetry.io/blog/2026/devex-skyscanner/",
       "summary": "The Developer Experience SIG is publishing a series of blog posts featuring real-world OpenTelemetry deployments from companies across different industries and scales. This post features Skyscanner , a global travel search platform based in Edinburgh, Scotland. With 1,400 employ…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "OpenTelemetry",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "개발자 경험 SIG는 다양한 업계와 규모의 회사에서 제공하는 실제 OpenTelemetry 배포를 다루는 일련의 블로그 게시물을 게시하고 있습니다. 이 게시물에는 스코틀랜드 에딘버러에 본사를 둔 글로벌 여행 검색 플랫폼인 Skyscanner가 포함되어 있습니다. 직원 1,400명…"
     },
@@ -831,13 +847,13 @@
       "date": "2026-04-07",
       "url": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
       "summary": "Modern hardware is remarkably fast, but software often fails to leverage it. Caer Sanders has found it valuable to guide their work with mechanical sympathy - the practice of creating software that is sympathetic to its underlying hardware. They distill this practice into everyd…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Martin Fowler",
         "글로벌",
         "아키텍처",
-        "fresh"
+        "stable"
       ],
       "koSummary": "최신 하드웨어는 놀라울 정도로 빠르지만 소프트웨어는 이를 활용하지 못하는 경우가 많습니다. Caer Sanders는 기계적인 공감, 즉 기본 하드웨어에 공감하는 소프트웨어를 만드는 관행을 바탕으로 작업을 안내하는 것이 중요하다는 것을 알았습니다. 그들은 이 관행을 모든…"
     },
@@ -850,13 +866,13 @@
       "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3465083&listType=gallery",
       "summary": "국립중앙박물관이 개최하는 스무 번째 괘불전으로 보물 을 전시",
       "type": "테마전",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "전시",
         "국립중앙박물관",
         "테마전",
         "현재전시",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -1074,23 +1090,6 @@
         "국내",
         "연구보고서",
         "자본시장",
-        "stable"
-      ]
-    },
-    {
-      "source": "네이버 D2",
-      "category": "개발",
-      "title": "C++ 객체 수명과 암묵적 객체 생성",
-      "authors": "",
-      "date": "2026-03-26",
-      "url": "https://d2.naver.com/helloworld/7997284",
-      "summary": "이전 글 에서는 엄격한 앨리어싱 규칙의 관점에서 reinterpret_cast 를 안전하게 사용하는 방법을 알아보았습니다. 이번 글에서는 한 걸음 더 나아가, 디스크나 네트워크에서 읽어 온 바이트 표현을 특정 타입으로 해석할 때 reinterpret_cast 를 사용하는 패턴을 C++의 엄격한 표준에 비추어 살펴보겠습니다. 결론부터 말씀드리면, 이런 패턴의 상당수는 엄밀히 따지면 미정의 동작(UB, undefined behavior)에 해당합니다. 예를 들어 malloc() 으로 할당받은 메모리…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "네이버 D2",
-        "국내",
-        "hello world",
         "stable"
       ]
     },
