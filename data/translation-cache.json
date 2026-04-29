@@ -842,5 +842,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "실제 사용자 행동을 시뮬레이션하기 위해 성능 테스트에서는 API 키, 토큰 또는 자격 증명을 사용하여 실제 시스템과 상호 작용하는 경우가 많습니다. 그러나 테스트 제품군이 성장함에 따라 이 민감한 데이터가 스크립트, 구성 및 환경 전체에 퍼지기 시작하여 노출 위험이 증가하고…"
+  },
+  "https://blog.cloudflare.com/agents-stripe-projects/|summary": {
+    "input": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashbo…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "오늘부터 상담원은 Cloudflare 고객이 될 수 있습니다. Cloudflare 계정을 만들고, 유료 구독을 시작하고, 도메인을 등록하고, API 토큰을 받아 코드를 즉시 배포할 수 있습니다. 사람이 루프에 참여하여 권한을 부여할 수 있지만 Dashbo로 이동할 필요는 없습니다."
   }
 }
