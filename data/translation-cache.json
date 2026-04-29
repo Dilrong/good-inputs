@@ -830,5 +830,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes 컨트롤러의 비활성은 많은 컨트롤러에 영향을 미치는 문제이며 미묘한 방식으로 컨트롤러 동작에 영향을 미칠 수 있습니다. 일반적으로 생산 중인 컨트롤러가 이미 잘못된 조치를 취했을 때 너무 늦을 때까지는 부실함이 발견되지 않습니다."
+  },
+  "https://grafana.com/blog/get-observability-in-the-terminal-for-you-and-your-agents-with-the-gcx-cli-tool/|summary": {
+    "input": "The way you write code is changing, which means the way you observe your systems and respond to issues needs to change, too. Engineers today spend much of their day working via command line, as agentic tools like Cursor and Claude Code have become highly effective at handling ma…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "코드 작성 방식이 바뀌고 있습니다. 즉, 시스템을 관찰하고 문제에 대응하는 방식도 바뀌어야 합니다. 커서(Cursor) 및 클로드 코드(Claude Code)와 같은 에이전트 도구가 작업 처리에 매우 효과적이기 때문에 오늘날 엔지니어는 명령줄을 통해 작업하는 데 하루의 대부분을 보냅니다."
+  },
+  "https://grafana.com/blog/introducing-secrets-management-for-grafana-cloud-k6/|summary": {
+    "input": "To simulate real user behavior, performance tests often rely on API keys, tokens, or credentials to interact with real systems. But as your testing suite grows, this sensitive data can start to sprawl across scripts, configs, and environments, increasing the risk of exposure and…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "실제 사용자 행동을 시뮬레이션하기 위해 성능 테스트에서는 API 키, 토큰 또는 자격 증명을 사용하여 실제 시스템과 상호 작용하는 경우가 많습니다. 그러나 테스트 제품군이 성장함에 따라 이 민감한 데이터가 스크립트, 구성 및 환경 전체에 퍼지기 시작하여 노출 위험이 증가하고…"
   }
 }

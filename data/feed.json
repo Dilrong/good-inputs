@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-04-29T04:03:59.930Z",
+  "generatedAt": "2026-04-29T08:34:50.259Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "KIEP",
+      "category": "경제",
+      "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
+      "authors": "이은석 외",
+      "date": "2026-04-29",
+      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12385&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
+      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "KIEP",
+        "국내",
+        "new"
+      ]
+    },
     {
       "source": "네이버 D2",
       "category": "개발",
@@ -139,6 +155,42 @@
       "koSummary": "2026년 1분기에는 우간다와 이란의 전국적인 폐쇄부터 클라우드 인프라에 대한 전례 없는 드론 공격까지 인터넷 중단이 급증했습니다. 우리는 Cloudflare Radar를 사용하여 이러한 이벤트 뒤에 숨겨진 데이터를 탐색합니다."
     },
     {
+      "source": "Grafana Blog",
+      "category": "개발",
+      "title": "Get observability in the terminal, for you and your agents, with the gcx CLI tool",
+      "authors": "Ward Bekker",
+      "date": "2026-04-28",
+      "url": "https://grafana.com/blog/get-observability-in-the-terminal-for-you-and-your-agents-with-the-gcx-cli-tool/",
+      "summary": "The way you write code is changing, which means the way you observe your systems and respond to issues needs to change, too. Engineers today spend much of their day working via command line, as agentic tools like Cursor and Claude Code have become highly effective at handling ma…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Grafana Blog",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "코드 작성 방식이 바뀌고 있습니다. 즉, 시스템을 관찰하고 문제에 대응하는 방식도 바뀌어야 합니다. 커서(Cursor) 및 클로드 코드(Claude Code)와 같은 에이전트 도구가 작업 처리에 매우 효과적이기 때문에 오늘날 엔지니어는 명령줄을 통해 작업하는 데 하루의 대부분을 보냅니다."
+    },
+    {
+      "source": "Grafana Blog",
+      "category": "개발",
+      "title": "Secure performance testing at scale: Introducing secrets management for Grafana Cloud k6",
+      "authors": "Facundo Batista",
+      "date": "2026-04-28",
+      "url": "https://grafana.com/blog/introducing-secrets-management-for-grafana-cloud-k6/",
+      "summary": "To simulate real user behavior, performance tests often rely on API keys, tokens, or credentials to interact with real systems. But as your testing suite grows, this sensitive data can start to sprawl across scripts, configs, and environments, increasing the risk of exposure and…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Grafana Blog",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "실제 사용자 행동을 시뮬레이션하기 위해 성능 테스트에서는 API 키, 토큰 또는 자격 증명을 사용하여 실제 시스템과 상호 작용하는 경우가 많습니다. 그러나 테스트 제품군이 성장함에 따라 이 민감한 데이터가 스크립트, 구성 및 환경 전체에 퍼지기 시작하여 노출 위험이 증가하고…"
+    },
+    {
       "source": "ECB Press",
       "category": "경제",
       "title": "April 2026 euro area bank lending survey",
@@ -209,24 +261,6 @@
       "koSummary": "이 게시물에서는 Deloitte가 Amazon EKS 및 vCluster를 사용하여 테스트 인프라를 혁신한 방법을 살펴봅니다."
     },
     {
-      "source": "Grafana Blog",
-      "category": "개발",
-      "title": "Customize preconfigured views for AWS, Azure, and Google Cloud with Cloud Provider Observability in Grafana Cloud",
-      "authors": "Ana Ivanov",
-      "date": "2026-04-27",
-      "url": "https://grafana.com/blog/customize-preconfigured-views-for-aws-azure-and-google-cloud-with-cloud-provider-observability-in-grafana-cloud/",
-      "summary": "Part of what makes Cloud Provider Observability in Grafana Cloud really useful is that it gives you prebuilt dashboards and drill-downs for AWS, Azure, and Google Cloud. Out of the box you get service overviews, instance-level views, and quick links to explore your data.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Grafana Blog",
-        "글로벌",
-        "관측성",
-        "new"
-      ],
-      "koSummary": "Grafana Cloud의 Cloud Provider Observability가 정말 유용한 이유 중 하나는 AWS, Azure 및 Google Cloud에 대해 사전 구축된 대시보드와 드릴다운을 제공한다는 것입니다. 즉시 사용 가능한 서비스 개요, 인스턴스 수준 보기, 데이터 탐색을 위한 빠른 링크가 제공됩니다."
-    },
-    {
       "source": "KIEP",
       "category": "경제",
       "title": "글로벌 관세장벽 확산의 경제적 영향과 시사점",
@@ -239,23 +273,6 @@
         "경제",
         "KIEP",
         "국내",
-        "new"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
         "new"
       ]
     },
@@ -399,40 +416,6 @@
       "koSummary": "Rust Workers의 패닉은 역사적으로 치명적이어서 전체 인스턴스를 중독시켰습니다. wasm‑bindgen 프로젝트에서 업스트림 협업을 통해 Rust Workers는 이제 WebAssembly 예외 처리를 사용한 패닉 해제를 포함하여 탄력적인 중요 오류 복구를 지원합니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "new"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "new"
-      ]
-    },
-    {
       "source": "Meta Engineering",
       "category": "개발",
       "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
@@ -449,24 +432,6 @@
         "fresh"
       ],
       "koSummary": "우리는 Facebook 그룹 검색을 근본적으로 변화시켜 사람들이 자신과 가장 관련성이 높은 커뮤니티 콘텐츠를 더욱 확실하게 찾고, 분류하고, 확인할 수 있도록 했습니다. 우리는 새로운 하이브리드 검색 아키텍처를 채택하고 자동화된 모델 기반 평가를 구현하여 다음 문제를 해결했습니다."
-    },
-    {
-      "source": "Grafana Blog",
-      "category": "개발",
-      "title": "Introducing Pyroscope 2.0: faster, more cost-effective continuous profiling at scale",
-      "authors": "Christian Simon",
-      "date": "2026-04-21",
-      "url": "https://grafana.com/blog/pyroscope-2-0-release/",
-      "summary": "Continuous profiling is becoming a standard part of the observability stack, and for good reason. It's the only signal that tells you why your code is slow or expensive, not just that it is. Metrics tell you CPU usage is high. Logs tell you a request was slow. Traces tell you wh…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "Grafana Blog",
-        "글로벌",
-        "관측성",
-        "fresh"
-      ],
-      "koSummary": "지속적인 프로파일링은 관찰 가능성 스택의 표준 부분이 되고 있으며 그럴 만한 이유가 있습니다. 이는 단지 코드가 느리거나 비용이 많이 드는 이유를 알려주는 유일한 신호입니다. 측정항목을 보면 CPU 사용량이 높다는 것을 알 수 있습니다. 로그는 요청이 느리다고 알려줍니다. 흔적은 당신에게 무엇을 말해줍니다…"
     },
     {
       "source": "OpenTelemetry",
@@ -589,23 +554,6 @@
         "fresh"
       ],
       "koSummary": "미국 상업은행이 보유한 총 예금 대비 비보험 예금 비율은 2025년 4분기에 소폭 증가한 43.3%를 기록했다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
     },
     {
       "source": "KIEP",
@@ -784,22 +732,6 @@
         "한국은행",
         "국내",
         "중앙은행",
-        "fresh"
-      ]
-    },
-    {
-      "source": "KIEP",
-      "category": "경제",
-      "title": "중국의 해외 생산ㆍ공급 거점 다변화와 한ㆍ중 경쟁력 분석",
-      "authors": "정지현 외",
-      "date": "2026-04-09",
-      "url": "https://www.kiep.go.kr/gallery.es?mid=a10101020000&bid=0002&tag=&b_list=10&act=view&list_no=12353&nPage=1&vlist_no_npage=0&keyField=&keyWord=&orderby=",
-      "summary": "대외경제, 공급망, 통상, 성장구조 관련 연구보고서.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "KIEP",
-        "국내",
         "fresh"
       ]
     },
@@ -985,23 +917,6 @@
       "koSummary": "압축을 계층화된 적응형 파이프라인으로 전환하고 모니터링 및 제어를 강화함으로써 Magic Pocket이 워크로드 변화에 더욱 탄력적으로 대응할 수 있게 되었습니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "데이미언 허스트와 YBA",
-      "authors": "크리스 킹, 샘 홉킨스, 제랄드 폭스, 질리언 웨어링",
-      "date": "2026-04-01",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002025",
-      "summary": "국립현대미술관은 «데이미언 허스트: 진실은 없어 그러나 모든 것은 가능하지» 전시와 연계하여, 작가의 작업 세계를 보다 입체적으로 조망하고 그가 속했던 동시대 미술의 맥락을 함께 살펴보는 다큐멘터리 상영 프로그램을 마련한다. 본 프로그램은 허스트의 작업 과정과 예술적 태도를 중심으로, 그가 속했던 1990년대 영국 현대미술의 흐름인 YBA(Young British Artists)를 함께 조망하며, 동시대 미술이 형성되는 조건과 이미지 생산 방식을 탐색하는 데 목적을 둔다. 상영작 ‹생각, 작업…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "GitHub Engineering",
       "category": "개발",
       "title": "Agent-driven development in Copilot Applied Science",
@@ -1090,6 +1005,21 @@
         "국내",
         "연구보고서",
         "자본시장",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI FOCUS",
+      "category": "정책",
+      "title": "기업의 성공적 스케일업을 위한 정책 지원체계 재구축 방안",
+      "authors": "",
+      "date": "2026-03-24",
+      "url": "https://www.kdi.re.kr/research/focusView?pub_no=19131",
+      "summary": "기업의 성장 병목을 정밀 진단하여 맞춤형 패키지를 지원하고, 고성장 전환 등 실질적 성과 중심의 지원 체계를 확립해야 함",
+      "score": "stable",
+      "tags": [
+        "정책",
+        "KDI FOCUS",
         "stable"
       ]
     },
