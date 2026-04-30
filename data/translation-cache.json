@@ -880,7 +880,7 @@
     "koText": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
   },
   "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html|title": {
-    "input": "Christine Lagarde, Luis de Guindos: Monetary policy statement",
+    "input": "Christine Lagarde, Luis de Guindos: Monetary policy statement (with Q&A)",
     "approved": false,
     "mode": "title",
     "koText": ""
