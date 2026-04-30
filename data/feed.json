@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T19:55:14.732Z",
+  "generatedAt": "2026-04-30T04:05:21.923Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -24,6 +24,47 @@
         "new"
       ],
       "koSummary": "오늘부터 상담원은 Cloudflare 고객이 될 수 있습니다. Cloudflare 계정을 만들고, 유료 구독을 시작하고, 도메인을 등록하고, API 토큰을 받아 코드를 즉시 배포할 수 있습니다. 사람이 루프에 참여하여 권한을 부여할 수 있지만 Dashbo로 이동할 필요는 없습니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Large Language Models for Multilingual Code Intelligence: A Survey",
+      "authors": "Chao Jiang, Dugang Liu, Cheng Wen, Zhiwu Xu, Hua Zheng, Muhammad Sadiq, Jawwad Ahmed Shamsi, Shengchao Qin, Zhong Ming",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.25960",
+      "summary": "arXiv:2604.25960v1 Announce Type: new Abstract: Large language models have transformed AI-assisted software engineering, but current research remains biased toward high-resource languages such as Python, with weaker performance in languages like Rust and OCaml. Since real-world…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.LG",
+        "cs.PL",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.25960v1 발표 유형: 새로운 개요: 대규모 언어 모델은 AI 지원 소프트웨어 엔지니어링을 변화시켰지만 현재 연구는 여전히 Python과 같은 고자원 언어에 편향되어 있으며 Rust 및 OCaml과 같은 언어에서는 성능이 낮습니다. 현실 세계 이후로…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent",
+      "authors": "Yikai Zhang, Jiaxin Pei, Kenan Li, Maoquan Wang, Jin Pan, Yu Kang, Shengyu Fu, Elsie Nallipogu, Junjie Hu, Yufan Huang, Zijian Jin",
+      "date": "2026-04-30",
+      "url": "https://arxiv.org/abs/2604.26102",
+      "summary": "arXiv:2604.26102v1 Announce Type: new Abstract: Large language model agents have achieved remarkable progress on software engineering tasks, yet current approaches suffer from a fundamental context coupling problem: the standard code editing interface conflates code inspection,…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.CL",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.26102v1 발표 유형: 새로운 개요: 대규모 언어 모델 에이전트는 소프트웨어 엔지니어링 작업에서 놀라운 진전을 이루었지만 현재 접근 방식은 근본적인 컨텍스트 결합 문제로 어려움을 겪고 있습니다. 표준 코드 편집 인터페이스는 코드 검사를 통합하고…"
     },
     {
       "source": "MMCA",
@@ -76,44 +117,21 @@
       ]
     },
     {
-      "source": "arXiv cs.SE",
+      "source": "Kubernetes Blog",
       "category": "개발",
-      "title": "SWE-QA: A Dataset and Benchmark for Complex Code Understanding",
-      "authors": "La\\\"ila Elkoussy (LRE, EPITA), Julien Perez (EPITA, LRE)",
+      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
+      "authors": "",
       "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.24814",
-      "summary": "arXiv:2604.24814v1 Announce Type: new Abstract: In this paper, we introduce SWE-QA, a text and code corpus aimed at benchmarking multi-hop code comprehension, addressing the gap between simplified evaluation tasks and the complex reasoning required in real-world software develop…",
+      "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
+      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v…",
       "score": "new",
       "tags": [
         "개발",
-        "arXiv cs.SE",
+        "Kubernetes Blog",
         "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
         "new"
       ],
-      "koSummary": "arXiv:2604.24814v1 발표 유형: 새로운 개요: 이 문서에서는 멀티 홉 코드 이해를 벤치마킹하는 것을 목표로 하는 텍스트 및 코드 코퍼스인 SWE-QA를 소개하고, 단순화된 평가 작업과 실제 소프트웨어 개발에 필요한 복잡한 추론 간의 격차를 해결합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora",
-      "authors": "Chenkai Pan, Xinglong Xu, Yuhang Xu, Yujun Wu, Siyuan Li, Jintao Chen, Conghui He, Jingxuan Wei, Cheng Tan",
-      "date": "2026-04-29",
-      "url": "https://arxiv.org/abs/2604.24819",
-      "summary": "arXiv:2604.24819v1 Announce Type: new Abstract: Reliably transferring specialized human knowledge from text into large language models remains a fundamental challenge in artificial intelligence. Fine-tuning on domain corpora has enabled substantial capability gains, but the proc…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.24819v1 발표 유형: 새로운 개요: 전문적인 인간 지식을 텍스트에서 대규모 언어 모델로 안정적으로 전달하는 것은 인공 지능의 근본적인 과제로 남아 있습니다. 도메인 코퍼스의 미세 조정을 통해 상당한 역량 향상이 가능했지만 프로세스는…"
+      "koSummary": "SIG Node를 대신하여 Kubernetes v1.36의 메모리 QoS 기능(알파)에 대한 업데이트를 발표하게 된 것을 기쁘게 생각합니다. 메모리 QoS는 cgroup v2 메모리 컨트롤러를 사용하여 컨테이너 메모리 처리 방법에 대한 더 나은 지침을 커널에 제공합니다. v1.22에서 처음 소개되었고 v1.22에서 업데이트되었습니다."
     },
     {
       "source": "pnpm Blog",
@@ -132,23 +150,6 @@
         "new"
       ],
       "koSummary": "pnpm 11이 왔습니다! 이 릴리스는 v10 주기 전반에 걸쳐 도입된 보안 기본값을 강화하고, 기본 구현을 위해 게시에 대한 npm CLI 폴백을 삭제하고, 패키지당 JSON 저장소 인덱스를 단일 SQLite 데이터베이스로 대체하고, 전역 설치를 격리합니다."
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
-      "authors": "",
-      "date": "2026-04-28",
-      "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/",
-      "summary": "Staleness in Kubernetes controllers is a problem that affects many controllers, and is something may affect controller behavior in subtle ways. It is usually not until it is too late, when a controller in production has already taken incorrect action, that staleness is found to…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "Kubernetes 컨트롤러의 비활성은 많은 컨트롤러에 영향을 미치는 문제이며 미묘한 방식으로 컨트롤러 동작에 영향을 미칠 수 있습니다. 일반적으로 생산 중인 컨트롤러가 이미 잘못된 조치를 취했을 때 너무 늦을 때까지는 부실함이 발견되지 않습니다."
     },
     {
       "source": "Martin Fowler",
@@ -435,13 +436,13 @@
       "date": "2026-04-22",
       "url": "https://d2.naver.com/helloworld/6475419",
       "summary": "12.5억 개의 시계열과 555조 개의 데이터포인트를 다루는 VictoriaMetrics 아키텍처와 무중단 장비 전환 네이버 검색 서비스를 안정적으로 운영하려면, 수만 대의 물리 서버와 수백만 개의 컨테이너에서 발생하는 메트릭을 실시간으로 수집·저장·조회할 수 있는 대규모 시계열 데이터베이스(TSDB)가 필요합니다. 저희 팀은 이 요구사항을 충족하기 위해 오픈소스 TSDB인 VictoriaMetrics 를 선택했습니다. VictoriaMetrics는 Prometheus 호환 API를 제공하면서도…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "네이버 D2",
         "국내",
         "hello world",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -452,13 +453,13 @@
       "date": "2026-04-22",
       "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
       "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "전시",
         "MMCA",
         "과천",
         "현재전시",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -469,13 +470,13 @@
       "date": "2026-04-22",
       "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
       "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "전시",
         "MMCA",
         "과천",
         "현재전시",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -841,13 +842,13 @@
       "date": "2026-04-08",
       "url": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
       "summary": "Rust for CPython project status update April 2026",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Python Insider",
         "글로벌",
         "Rust",
-        "fresh"
+        "stable"
       ],
       "koSummary": "CPython용 Rust 프로젝트 상태 업데이트 2026년 4월"
     },

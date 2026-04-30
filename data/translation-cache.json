@@ -848,5 +848,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "오늘부터 상담원은 Cloudflare 고객이 될 수 있습니다. Cloudflare 계정을 만들고, 유료 구독을 시작하고, 도메인을 등록하고, API 토큰을 받아 코드를 즉시 배포할 수 있습니다. 사람이 루프에 참여하여 권한을 부여할 수 있지만 Dashbo로 이동할 필요는 없습니다."
+  },
+  "https://arxiv.org/abs/2604.25960|summary": {
+    "input": "arXiv:2604.25960v1 Announce Type: new Abstract: Large language models have transformed AI-assisted software engineering, but current research remains biased toward high-resource languages such as Python, with weaker performance in languages like Rust and OCaml. Since real-world…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.25960v1 발표 유형: 새로운 개요: 대규모 언어 모델은 AI 지원 소프트웨어 엔지니어링을 변화시켰지만 현재 연구는 여전히 Python과 같은 고자원 언어에 편향되어 있으며 Rust 및 OCaml과 같은 언어에서는 성능이 낮습니다. 현실 세계 이후로…"
+  },
+  "https://arxiv.org/abs/2604.26102|summary": {
+    "input": "arXiv:2604.26102v1 Announce Type: new Abstract: Large language model agents have achieved remarkable progress on software engineering tasks, yet current approaches suffer from a fundamental context coupling problem: the standard code editing interface conflates code inspection,…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.26102v1 발표 유형: 새로운 개요: 대규모 언어 모델 에이전트는 소프트웨어 엔지니어링 작업에서 놀라운 진전을 이루었지만 현재 접근 방식은 근본적인 컨텍스트 결합 문제로 어려움을 겪고 있습니다. 표준 코드 편집 인터페이스는 코드 검사를 통합하고…"
+  },
+  "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/|summary": {
+    "input": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "SIG Node를 대신하여 Kubernetes v1.36의 메모리 QoS 기능(알파)에 대한 업데이트를 발표하게 된 것을 기쁘게 생각합니다. 메모리 QoS는 cgroup v2 메모리 컨트롤러를 사용하여 컨테이너 메모리 처리 방법에 대한 더 나은 지침을 커널에 제공합니다. v1.22에서 처음 소개되었고 v1.22에서 업데이트되었습니다."
   }
 }
