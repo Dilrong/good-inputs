@@ -866,5 +866,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "SIG Node를 대신하여 Kubernetes v1.36의 메모리 QoS 기능(알파)에 대한 업데이트를 발표하게 된 것을 기쁘게 생각합니다. 메모리 QoS는 cgroup v2 메모리 컨트롤러를 사용하여 컨테이너 메모리 처리 방법에 대한 더 나은 지침을 커널에 제공합니다. v1.22에서 처음 소개되었고 v1.22에서 업데이트되었습니다."
+  },
+  "https://blog.cloudflare.com/post-quantum-ipsec/|summary": {
+    "input": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Cloudflare IPsec은 이제 하이브리드 ML-KEM을 통해 양자 후 암호화를 일반적으로 지원합니다. Cisco 및 Fortinet과의 상호 운용성을 확인했습니다."
+  },
+  "https://opentelemetry.io/blog/2026/introducing-the-ecosystem-explorer/|summary": {
+    "input": "OpenTelemetry is vast. The Java agent alone includes over 240 different auto-instrumentations. The Collector has hundreds of components. Python, JavaScript, Go, and .NET each have their own ecosystems of instrumentation libraries, each with its own patterns and conventions. In o…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
+  },
+  "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html|title": {
+    "input": "Christine Lagarde, Luis de Guindos: Monetary policy statement",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
   }
 }

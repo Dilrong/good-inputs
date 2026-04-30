@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-04-30T08:37:27.612Z",
+  "generatedAt": "2026-04-30T14:25:07.860Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+      "authors": "Sharon Goldberg",
+      "date": "2026-04-30",
+      "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
+      "summary": "Cloudflare IPsec now has generally available support for post-quantum encryption via hybrid ML-KEM. We’ve confirmed interoperability with Cisco and Fortinet.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Post-Quantum",
+        "IPsec",
+        "Cryptography",
+        "Security",
+        "Magic WAN",
+        "Networking",
+        "new"
+      ],
+      "koSummary": "Cloudflare IPsec은 이제 하이브리드 ML-KEM을 통해 양자 후 암호화를 일반적으로 지원합니다. Cisco 및 Fortinet과의 상호 운용성을 확인했습니다."
+    },
     {
       "source": "Cloudflare Architecture",
       "category": "개발",
@@ -24,6 +48,24 @@
         "new"
       ],
       "koSummary": "오늘부터 상담원은 Cloudflare 고객이 될 수 있습니다. Cloudflare 계정을 만들고, 유료 구독을 시작하고, 도메인을 등록하고, API 토큰을 받아 코드를 즉시 배포할 수 있습니다. 사람이 루프에 참여하여 권한을 부여할 수 있지만 Dashbo로 이동할 필요는 없습니다."
+    },
+    {
+      "source": "OpenTelemetry",
+      "category": "개발",
+      "title": "Introducing the Ecosystem Explorer Project",
+      "authors": "",
+      "date": "2026-04-30",
+      "url": "https://opentelemetry.io/blog/2026/introducing-the-ecosystem-explorer/",
+      "summary": "OpenTelemetry is vast. The Java agent alone includes over 240 different auto-instrumentations. The Collector has hundreds of components. Python, JavaScript, Go, and .NET each have their own ecosystems of instrumentation libraries, each with its own patterns and conventions. In o…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "OpenTelemetry",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
     },
     {
       "source": "arXiv cs.SE",
@@ -65,6 +107,23 @@
         "new"
       ],
       "koSummary": "arXiv:2604.26102v1 발표 유형: 새로운 개요: 대규모 언어 모델 에이전트는 소프트웨어 엔지니어링 작업에서 놀라운 진전을 이루었지만 현재 접근 방식은 근본적인 컨텍스트 결합 문제로 어려움을 겪고 있습니다. 표준 코드 편집 인터페이스는 코드 검사를 통합하고…"
+    },
+    {
+      "source": "ECB Press",
+      "category": "경제",
+      "title": "Christine Lagarde, Luis de Guindos: Monetary policy statement",
+      "authors": "",
+      "date": "2026-04-30",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Press",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ]
     },
     {
       "source": "MMCA",
@@ -170,32 +229,6 @@
       "koSummary": "LLM 프로그래밍 보조원은 상당한 가치를 입증했지만 대부분 개인 개발자에게 해당됩니다. Thoughtworks의 내부 IT 조직은 팀을 위해 이를 사용해 왔으며 SPDD(구조적 프롬프트 중심 개발)라는 방법과 워크플로를 개발했습니다. 와…"
     },
     {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
-      "authors": "David Belson",
-      "date": "2026-04-28",
-      "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
-      "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Radar",
-        "Internet Shutdown",
-        "Internet Traffic",
-        "Outage",
-        "Internet Trends",
-        "AWS",
-        "BGP",
-        "IPv6",
-        "new"
-      ],
-      "koSummary": "2026년 1분기에는 우간다와 이란의 전국적인 폐쇄부터 클라우드 인프라에 대한 전례 없는 드론 공격까지 인터넷 중단이 급증했습니다. 우리는 Cloudflare Radar를 사용하여 이러한 이벤트 뒤에 숨겨진 데이터를 탐색합니다."
-    },
-    {
       "source": "Grafana Blog",
       "category": "개발",
       "title": "Get observability in the terminal, for you and your agents, with the gcx CLI tool",
@@ -230,24 +263,6 @@
         "new"
       ],
       "koSummary": "실제 사용자 행동을 시뮬레이션하기 위해 성능 테스트에서는 API 키, 토큰 또는 자격 증명을 사용하여 실제 시스템과 상호 작용하는 경우가 많습니다. 그러나 테스트 제품군이 성장함에 따라 이 민감한 데이터가 스크립트, 구성 및 환경 전체에 퍼지기 시작하여 노출 위험이 증가하고…"
-    },
-    {
-      "source": "ECB Press",
-      "category": "경제",
-      "title": "April 2026 euro area bank lending survey",
-      "authors": "",
-      "date": "2026-04-28",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260428~6b156107c1.en.html",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
-      "tags": [
-        "경제",
-        "ECB Press",
-        "글로벌",
-        "중앙은행",
-        "new"
-      ],
-      "koSummary": "2026년 4월 유로지역 은행 대출 조사"
     },
     {
       "source": "국토정책Brief",
@@ -496,24 +511,6 @@
         "fresh"
       ],
       "koSummary": "우리는 Facebook 그룹 검색을 근본적으로 변화시켜 사람들이 자신과 가장 관련성이 높은 커뮤니티 콘텐츠를 더욱 확실하게 찾고, 분류하고, 확인할 수 있도록 했습니다. 우리는 새로운 하이브리드 검색 아키텍처를 채택하고 자동화된 모델 기반 평가를 구현하여 다음 문제를 해결했습니다."
-    },
-    {
-      "source": "OpenTelemetry",
-      "category": "개발",
-      "title": "How Skyscanner scales OpenTelemetry: managing collectors across 24 production clusters",
-      "authors": "",
-      "date": "2026-04-21",
-      "url": "https://opentelemetry.io/blog/2026/devex-skyscanner/",
-      "summary": "The Developer Experience SIG is publishing a series of blog posts featuring real-world OpenTelemetry deployments from companies across different industries and scales. This post features Skyscanner , a global travel search platform based in Edinburgh, Scotland. With 1,400 employ…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "OpenTelemetry",
-        "글로벌",
-        "관측성",
-        "fresh"
-      ],
-      "koSummary": "개발자 경험 SIG는 다양한 업계와 규모의 회사에서 제공하는 실제 OpenTelemetry 배포를 다루는 일련의 블로그 게시물을 게시하고 있습니다. 이 게시물에는 스코틀랜드 에딘버러에 본사를 둔 글로벌 여행 검색 플랫폼인 Skyscanner가 포함되어 있습니다. 직원 1,400명…"
     },
     {
       "source": "국토정책Brief",
@@ -1494,8 +1491,8 @@
       "title": "보존과학, 새로운 시작 함께하는 미래",
       "authors": "",
       "date": "2025-10-28",
-      "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3465083",
-      "summary": "국립중앙박물관이 개최하는 스무 번째 괘불전으로 보물 을 전시",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0403010000.do?schM=view&type=type1&typeCode=culture&showId=3509853&cp=",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
       "type": "특별전",
       "score": "stable",
       "tags": [
