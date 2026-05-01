@@ -902,5 +902,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "v1.34에서 포드 수준 리소스가 베타로 전환되고 v1.35에서 내부 포드 수직 확장이 정식 출시(GA)된 후, Kubernetes 커뮤니티는 내부 포드 수준 리소스 수직 확장이 v1.36에서 베타로 전환되었음을 발표하게 되어 기쁘게 생각합니다! 이것…"
+  },
+  "https://grafana.com/blog/how-grafana-assistant-learns-your-infrastructure-before-you-even-ask/|summary": {
+    "input": "When an unexpected alert fires these days, most engineers' first move is to ask their AI assistant for help.You ask why your checkout service is slow and the assistant gets to work, but it can't get any meaningful insights—at least not quickly—without the proper guidance. So, th…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "요즘 예상치 못한 경고가 발생하면 대부분의 엔지니어는 AI 비서에게 도움을 요청하는 것입니다. 결제 서비스가 느린 이유를 묻고 비서가 작동하지만 적절한 지침 없이는 적어도 빠르지는 않지만 의미 있는 통찰력을 얻을 수 없습니다. 그래서, 그…"
   }
 }

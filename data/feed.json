@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T04:18:42.093Z",
+  "generatedAt": "2026-05-01T08:28:10.597Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -105,6 +105,24 @@
         "new"
       ],
       "koSummary": "오늘부터 상담원은 Cloudflare 고객이 될 수 있습니다. Cloudflare 계정을 만들고, 유료 구독을 시작하고, 도메인을 등록하고, API 토큰을 받아 코드를 즉시 배포할 수 있습니다. 사람이 루프에 참여하여 권한을 부여할 수 있지만 Dashbo로 이동할 필요는 없습니다."
+    },
+    {
+      "source": "Grafana Blog",
+      "category": "개발",
+      "title": "Faster fixes, less context sharing: how Grafana Assistant learns your infrastructure before you even ask",
+      "authors": "William Dumont",
+      "date": "2026-04-30",
+      "url": "https://grafana.com/blog/how-grafana-assistant-learns-your-infrastructure-before-you-even-ask/",
+      "summary": "When an unexpected alert fires these days, most engineers' first move is to ask their AI assistant for help.You ask why your checkout service is slow and the assistant gets to work, but it can't get any meaningful insights—at least not quickly—without the proper guidance. So, th…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Grafana Blog",
+        "글로벌",
+        "관측성",
+        "new"
+      ],
+      "koSummary": "요즘 예상치 못한 경고가 발생하면 대부분의 엔지니어는 AI 비서에게 도움을 요청하는 것입니다. 결제 서비스가 느린 이유를 묻고 비서가 작동하지만 적절한 지침 없이는 적어도 빠르지는 않지만 의미 있는 통찰력을 얻을 수 없습니다. 그래서, 그…"
     },
     {
       "source": "OpenTelemetry",
@@ -227,24 +245,6 @@
         "new"
       ],
       "koSummary": "코드 작성 방식이 바뀌고 있습니다. 즉, 시스템을 관찰하고 문제에 대응하는 방식도 바뀌어야 합니다. 커서(Cursor) 및 클로드 코드(Claude Code)와 같은 에이전트 도구가 작업 처리에 매우 효과적이기 때문에 오늘날 엔지니어는 명령줄을 통해 작업하는 데 하루의 대부분을 보냅니다."
-    },
-    {
-      "source": "Grafana Blog",
-      "category": "개발",
-      "title": "Secure performance testing at scale: Introducing secrets management for Grafana Cloud k6",
-      "authors": "Facundo Batista",
-      "date": "2026-04-28",
-      "url": "https://grafana.com/blog/introducing-secrets-management-for-grafana-cloud-k6/",
-      "summary": "To simulate real user behavior, performance tests often rely on API keys, tokens, or credentials to interact with real systems. But as your testing suite grows, this sensitive data can start to sprawl across scripts, configs, and environments, increasing the risk of exposure and…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Grafana Blog",
-        "글로벌",
-        "관측성",
-        "new"
-      ],
-      "koSummary": "실제 사용자 행동을 시뮬레이션하기 위해 성능 테스트에서는 API 키, 토큰 또는 자격 증명을 사용하여 실제 시스템과 상호 작용하는 경우가 많습니다. 그러나 테스트 제품군이 성장함에 따라 이 민감한 데이터가 스크립트, 구성 및 환경 전체에 퍼지기 시작하여 노출 위험이 증가하고…"
     },
     {
       "source": "국토정책Brief",
@@ -476,24 +476,6 @@
         "fresh"
       ],
       "koSummary": "2026년 4월 초, 노동통계국(BLS)은 2025년 주 고용 데이터에 대한 연간 벤치마크 개정판을 발표했습니다. 이 벤치마크 개정 이전에 데이터는 미국 주의 3분의 2가 조금 넘는 지역에서 2025년에 긍정적인 일자리 증가를 보였습니다. … 계속 읽기 →"
-    },
-    {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "아름다움을 나누는 마음-새로 맞이한 기증유물전 1",
-      "authors": "",
-      "date": "2026-04-20",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3505270&listType=gallery",
-      "summary": "박물관에 새롭게 들어온 최신 기증 문화유산을 특별 공개하는 전시입니다.",
-      "type": "테마전",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "테마전",
-        "현재전시",
-        "fresh"
-      ]
     },
     {
       "source": "EBS",
@@ -782,24 +764,6 @@
       "koSummary": "최신 하드웨어는 놀라울 정도로 빠르지만 소프트웨어는 이를 활용하지 못하는 경우가 많습니다. Caer Sanders는 기계적인 공감, 즉 기본 하드웨어에 공감하는 소프트웨어를 만드는 관행을 바탕으로 작업을 안내하는 것이 중요하다는 것을 알았습니다. 그들은 이 관행을 모든…"
     },
     {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "깨달음으로 이끄는 부처 안동 봉정사 괘불",
-      "authors": "",
-      "date": "2026-04-07",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3465083&listType=gallery",
-      "summary": "국립중앙박물관이 개최하는 스무 번째 괘불전으로 보물 을 전시",
-      "type": "테마전",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "테마전",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "국토정책Brief",
       "category": "정책",
       "title": "[국토정책Brief 제1057호] 대전환 시대, 지역발전의 재설계: 대규모 개발의 성과와 한계를 넘어서",
@@ -931,24 +895,6 @@
         "stable"
       ],
       "koSummary": "저는 코딩 에이전트를 사용하여 작업의 일부를 자동화하는 에이전트를 구축했습니다. 코딩 에이전트를 사용하여 더 효과적으로 작업하는 방법에 대해 배운 내용은 다음과 같습니다. Copilot Applied Science의 에이전트 기반 개발 포스트는 GitHub 블로그에 처음으로 게재되었습니다."
-    },
-    {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "아카이브, 박물관의 시간",
-      "authors": "",
-      "date": "2026-03-31",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3511373&listType=gallery",
-      "summary": "생성형 AI로 탐색하는 반가사유상과 상형청자 아카이브 디지털 전시",
-      "type": "테마전",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "테마전",
-        "현재전시",
-        "stable"
-      ]
     },
     {
       "source": "국토정책Brief",
@@ -1398,24 +1344,6 @@
         "stable"
       ],
       "koSummary": "Prometheus의 대상 재지정 기능을 사용하면 발견된 대상의 레이블을 조정하거나 대상을 완전히 삭제할 수도 있습니다. 레이블 재지정 규칙은 강력하기는 하지만 이해하고 디버깅하기 어려울 수 있습니다. 규칙은 서비스 검색 메커니즘에서 예상되는 레이블과 일치해야 합니다."
-    },
-    {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "보존과학, 새로운 시작 함께하는 미래",
-      "authors": "",
-      "date": "2025-10-28",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0403010000.do?schM=view&type=type1&typeCode=culture&showId=3509853&cp=",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "type": "특별전",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "특별전",
-        "현재전시",
-        "stable"
-      ]
     },
     {
       "source": "Stripe Engineering",
