@@ -1,7 +1,64 @@
 {
-  "generatedAt": "2026-04-30T19:51:36.825Z",
+  "generatedAt": "2026-05-01T04:18:42.093Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Static Program Slicing Using Language Models With Dataflow-Aware Pretraining and Constrained Decoding",
+      "authors": "Pengfei He (Peter), Shaowei Wang (Peter), Tse-Hsun (Peter), Chen, Muhammad Asaduzzaman",
+      "date": "2026-05-01",
+      "url": "https://arxiv.org/abs/2604.26961",
+      "summary": "arXiv:2604.26961v1 Announce Type: new Abstract: Static program slicing is a fundamental software engineering technique for isolating code relevant to specific variables. While recent learning-based approaches using language models (LMs) show promise in automating slice predictio…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "cs.PL",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.26961v1 발표 유형: new 개요: 정적 프로그램 슬라이싱은 특정 변수와 관련된 코드를 분리하기 위한 기본적인 소프트웨어 엔지니어링 기술입니다. 언어 모델(LM)을 사용하는 최근 학습 기반 접근 방식은 슬라이스 예측 자동화에 대한 가능성을 보여주지만…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "UCSC-NLP at SemEval-2026 Task 13: Multi-View Generalization and Diagnostic Analysis of Machine-Generated Code Detection",
+      "authors": "Kargi Chauhan, Sadiba Nusrat Nur",
+      "date": "2026-05-01",
+      "url": "https://arxiv.org/abs/2604.26990",
+      "summary": "arXiv:2604.26990v1 Announce Type: new Abstract: With the rapid growth of large language models for code generation, distinguishing between human-written and AI-generated code has become increasingly critical for academic integrity, hiring evaluations, and software security. We p…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2604.26990v1 발표 유형: 새로운 개요: 코드 생성을 위한 대규모 언어 모델의 급속한 성장으로 인해 인간이 작성한 코드와 AI가 생성한 코드를 구별하는 것이 학문적 무결성, 채용 평가 및 소프트웨어 보안에 점점 더 중요해지고 있습니다. 우리는…"
+    },
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+      "authors": "",
+      "date": "2026-04-30",
+      "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
+      "summary": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
+        "new"
+      ],
+      "koSummary": "v1.34에서 포드 수준 리소스가 베타로 전환되고 v1.35에서 내부 포드 수직 확장이 정식 출시(GA)된 후, Kubernetes 커뮤니티는 내부 포드 수준 리소스 수직 확장이 v1.36에서 베타로 전환되었음을 발표하게 되어 기쁘게 생각합니다! 이것…"
+    },
     {
       "source": "Cloudflare Architecture",
       "category": "개발",
@@ -68,47 +125,6 @@
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
     },
     {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Large Language Models for Multilingual Code Intelligence: A Survey",
-      "authors": "Chao Jiang, Dugang Liu, Cheng Wen, Zhiwu Xu, Hua Zheng, Muhammad Sadiq, Jawwad Ahmed Shamsi, Shengchao Qin, Zhong Ming",
-      "date": "2026-04-30",
-      "url": "https://arxiv.org/abs/2604.25960",
-      "summary": "arXiv:2604.25960v1 Announce Type: new Abstract: Large language models have transformed AI-assisted software engineering, but current research remains biased toward high-resource languages such as Python, with weaker performance in languages like Rust and OCaml. Since real-world…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.LG",
-        "cs.PL",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.25960v1 발표 유형: 새로운 개요: 대규모 언어 모델은 AI 지원 소프트웨어 엔지니어링을 변화시켰지만 현재 연구는 여전히 Python과 같은 고자원 언어에 편향되어 있으며 Rust 및 OCaml과 같은 언어에서는 성능이 낮습니다. 현실 세계 이후로…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent",
-      "authors": "Yikai Zhang, Jiaxin Pei, Kenan Li, Maoquan Wang, Jin Pan, Yu Kang, Shengyu Fu, Elsie Nallipogu, Junjie Hu, Yufan Huang, Zijian Jin",
-      "date": "2026-04-30",
-      "url": "https://arxiv.org/abs/2604.26102",
-      "summary": "arXiv:2604.26102v1 Announce Type: new Abstract: Large language model agents have achieved remarkable progress on software engineering tasks, yet current approaches suffer from a fundamental context coupling problem: the standard code editing interface conflates code inspection,…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.CL",
-        "new"
-      ],
-      "koSummary": "arXiv:2604.26102v1 발표 유형: 새로운 개요: 대규모 언어 모델 에이전트는 소프트웨어 엔지니어링 작업에서 놀라운 진전을 이루었지만 현재 접근 방식은 근본적인 컨텍스트 결합 문제로 어려움을 겪고 있습니다. 표준 코드 편집 인터페이스는 코드 검사를 통합하고…"
-    },
-    {
       "source": "ECB Press",
       "category": "경제",
       "title": "Christine Lagarde, Luis de Guindos: Monetary policy statement (with Q&A)",
@@ -157,23 +173,6 @@
         "hello world",
         "new"
       ]
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
-      "authors": "",
-      "date": "2026-04-29",
-      "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/",
-      "summary": "On behalf of SIG Node, we are pleased to announce updates to the Memory QoS feature (alpha) in Kubernetes v1.36. Memory QoS uses the cgroup v2 memory controller to give the kernel better guidance on how to treat container memory. It was first introduced in v1.22 and updated in v…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "SIG Node를 대신하여 Kubernetes v1.36의 메모리 QoS 기능(알파)에 대한 업데이트를 발표하게 된 것을 기쁘게 생각합니다. 메모리 QoS는 cgroup v2 메모리 컨트롤러를 사용하여 컨테이너 메모리 처리 방법에 대한 더 나은 지침을 커널에 제공합니다. v1.22에서 처음 소개되었고 v1.22에서 업데이트되었습니다."
     },
     {
       "source": "pnpm Blog",
@@ -323,12 +322,12 @@
       "date": "2026-04-23",
       "url": "https://toss.tech/article/operating-starrocks-1",
       "summary": "서비스 쿼리가 밀리기 시작했을 때, 우리가 선택한 격리 전략",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "토스 테크",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -339,7 +338,7 @@
       "date": "2026-04-23",
       "url": "https://aws.amazon.com/blogs/developer/create-minimal-reproductions-for-aws-sdk-javascript-v3-with-create-aws-sdk-repro/",
       "summary": "We’re excited to announce create-aws-sdk-repro, an open source tool that generates ready-to-run AWS SDK for JavaScript v3 projects. You answer a few prompts, pick a service, an operation, environment, and the tool generates a project with everything wired up. With AWS credential…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "AWS Developer",
@@ -348,7 +347,7 @@
         "AWS SDK for JavaScript in Node.js",
         "Developer Tools",
         "Open Source",
-        "new"
+        "fresh"
       ],
       "koSummary": "바로 실행 가능한 JavaScript v3용 AWS SDK 프로젝트를 생성하는 오픈 소스 도구인 create-aws-sdk-repro를 발표하게 되어 기쁘게 생각합니다. 몇 가지 프롬프트에 응답하고 서비스, 작업, 환경을 선택하면 도구가 모든 것이 연결된 프로젝트를 생성합니다. AWS 자격 증명으로…"
     },
@@ -360,7 +359,7 @@
       "date": "2026-04-23",
       "url": "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/",
       "summary": "This post extends IBM's approach to real-time KYC validation using generative AI, as previously discussed in the post IBM Digital KYC on AWS uses Generative AI to transform Client Onboarding and KYC Operations. It transforms compliance operations through autonomous decision-maki…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "AWS Architecture Blog",
@@ -369,7 +368,7 @@
         "Financial Services",
         "Intermediate (200)",
         "Partner solutions",
-        "new"
+        "fresh"
       ],
       "koSummary": "이 게시물은 이전에 AWS의 IBM Digital KYC가 Generative AI를 사용하여 클라이언트 온보딩 및 KYC 운영을 혁신한 게시물에서 논의한 것처럼 생성 AI를 사용하여 실시간 KYC 검증에 대한 IBM의 접근 방식을 확장합니다. 자율적인 의사결정을 통해 규정 준수 운영을 혁신합니다."
     },
@@ -381,13 +380,13 @@
       "date": "2026-04-23",
       "url": "https://opentelemetry.io/blog/2026/deprecating-opentracing-compatibility/",
       "summary": "On March 19, 2026, the OpenTelemetry Specification project merged PR #4938 , deprecating OpenTracing compatibility requirements in the specification. This change updates the specification to match where the ecosystem already is: OpenTracing has been archived for years, and new i…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "OpenTelemetry",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "2026년 3월 19일에 OpenTelemetry 사양 프로젝트는 PR #4938을 병합하여 사양에서 OpenTracing 호환성 요구 사항을 더 이상 사용하지 않습니다. 이 변경 사항은 생태계가 이미 있는 위치와 일치하도록 사양을 업데이트합니다. OpenTracing은 수년간 보관되었으며 새로운 i…"
     },
@@ -399,13 +398,13 @@
       "date": "2026-04-23",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/consumer-credit-health-after-2025-st-louis-tornado",
       "summary": "Consumer credit conditions, as measured by credit card balances and delinquency, weakened in lower-income areas affected by the May 2025 St. Louis tornado.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "new"
+        "fresh"
       ],
       "koSummary": "신용카드 잔액 및 연체로 측정한 소비자 신용 상태는 2025년 5월 세인트루이스 토네이도의 영향을 받은 저소득 지역에서 약화되었습니다."
     },
@@ -736,13 +735,13 @@
       "date": "2026-04-09",
       "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260409~cc951a0d29.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "경제",
         "ECB Blog",
         "글로벌",
         "중앙은행",
-        "fresh"
+        "stable"
       ],
       "koSummary": "불가리아의 유로 채택 및 가격 인상: 사실과 신화 분리"
     },

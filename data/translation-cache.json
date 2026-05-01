@@ -884,5 +884,23 @@
     "approved": false,
     "mode": "title",
     "koText": ""
+  },
+  "https://arxiv.org/abs/2604.26961|summary": {
+    "input": "arXiv:2604.26961v1 Announce Type: new Abstract: Static program slicing is a fundamental software engineering technique for isolating code relevant to specific variables. While recent learning-based approaches using language models (LMs) show promise in automating slice predictio…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.26961v1 발표 유형: new 개요: 정적 프로그램 슬라이싱은 특정 변수와 관련된 코드를 분리하기 위한 기본적인 소프트웨어 엔지니어링 기술입니다. 언어 모델(LM)을 사용하는 최근 학습 기반 접근 방식은 슬라이스 예측 자동화에 대한 가능성을 보여주지만…"
+  },
+  "https://arxiv.org/abs/2604.26990|summary": {
+    "input": "arXiv:2604.26990v1 Announce Type: new Abstract: With the rapid growth of large language models for code generation, distinguishing between human-written and AI-generated code has become increasingly critical for academic integrity, hiring evaluations, and software security. We p…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2604.26990v1 발표 유형: 새로운 개요: 코드 생성을 위한 대규모 언어 모델의 급속한 성장으로 인해 인간이 작성한 코드와 AI가 생성한 코드를 구별하는 것이 학문적 무결성, 채용 평가 및 소프트웨어 보안에 점점 더 중요해지고 있습니다. 우리는…"
+  },
+  "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/|summary": {
+    "input": "Following the graduation of Pod-Level Resources to Beta in v1.34 and the General Availability (GA) of In-Place Pod Vertical Scaling in v1.35, the Kubernetes community is thrilled to announce that In-Place Pod-Level Resources Vertical Scaling has graduated to Beta in v1.36! This…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "v1.34에서 포드 수준 리소스가 베타로 전환되고 v1.35에서 내부 포드 수직 확장이 정식 출시(GA)된 후, Kubernetes 커뮤니티는 내부 포드 수준 리소스 수직 확장이 v1.36에서 베타로 전환되었음을 발표하게 되어 기쁘게 생각합니다! 이것…"
   }
 }
