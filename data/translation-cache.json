@@ -908,5 +908,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "요즘 예상치 못한 경고가 발생하면 대부분의 엔지니어는 AI 비서에게 도움을 요청하는 것입니다. 결제 서비스가 느린 이유를 묻고 비서가 작동하지만 적절한 지침 없이는 적어도 빠르지는 않지만 의미 있는 통찰력을 얻을 수 없습니다. 그래서, 그…"
+  },
+  "https://blog.cloudflare.com/dynamic-workflows/|summary": {
+    "input": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "동적 워크플로는 지속 가능한 실행을 테넌트 제공 코드로 즉시 라우팅할 수 있는 라이브러리입니다. Dynamic Workers를 기반으로 구축된 이 플랫폼을 사용하면 플랫폼이 거의 0에 가까운 유휴 비용으로 수백만 개의 고유한 워크플로를 제공할 수 있습니다."
   }
 }
