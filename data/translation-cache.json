@@ -926,5 +926,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "총 실질 소비자 지출은 2023년 이후 확고하게 증가했습니다. 그러나 이러한 개선이 사회 모든 부문에서 얼마나 널리 공유되었는지는 확실하지 않습니다. 이는 체계적인 이질성이 상대적으로 작은 규모에 대한 총체적인 성장의 의존성을 가릴 수 있기 때문에 중요합니다."
+  },
+  "https://blog.cloudflare.com/code-orange-fail-small-complete/|summary": {
+    "input": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 인프라의 탄력성을 높이기 위해 대규모 엔지니어링 노력을 완료했습니다. Snapstone 및 Engineering Codex와 같은 새로운 도구를 통해 우리는 향후 사고를 방지하기 위해 보다 안전한 구성 변경과 자동화된 모범 사례를 구현했습니다."
   }
 }
