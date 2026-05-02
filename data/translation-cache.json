@@ -932,5 +932,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "우리는 인프라의 탄력성을 높이기 위해 대규모 엔지니어링 노력을 완료했습니다. Snapstone 및 Engineering Codex와 같은 새로운 도구를 통해 우리는 향후 사고를 방지하기 위해 보다 안전한 구성 변경과 자동화된 모범 사례를 구현했습니다."
+  },
+  "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/|summary": {
+    "input": "Kubernetes v1.36 introduces Pod-Level Resource Managers as an alpha feature, bringing a more flexible and powerful resource management model to performance-sensitive workloads. This enhancement extends the kubelet's Topology, CPU, and Memory Managers to support pod-level resourc…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Kubernetes v1.36은 포드 수준 리소스 관리자를 알파 기능으로 도입하여 성능에 민감한 워크로드에 보다 유연하고 강력한 리소스 관리 모델을 제공합니다. 이 개선 사항은 kubelet의 토폴로지, CPU 및 메모리 관리자를 확장하여 포드 수준 리소스를 지원합니다."
   }
 }
