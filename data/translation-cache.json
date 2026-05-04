@@ -938,5 +938,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes v1.36은 포드 수준 리소스 관리자를 알파 기능으로 도입하여 성능에 민감한 워크로드에 보다 유연하고 강력한 리소스 관리 모델을 제공합니다. 이 개선 사항은 kubelet의 토폴로지, CPU 및 메모리 관리자를 확장하여 포드 수준 리소스를 지원합니다."
+  },
+  "https://arxiv.org/abs/2605.00179|summary": {
+    "input": "arXiv:2605.00179v1 Announce Type: new Abstract: Open-source software (OSS) dependencies introduce systemic risks that are difficult to manage at scale. Existing Software Composition Analysis (SCA) and reachability tools generate severe alert fatigue by treating risk as an intrin…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.00179v1 발표 유형: 새로운 개요: 오픈 소스 소프트웨어(OSS) 종속성으로 인해 대규모로 관리하기 어려운 시스템적 위험이 발생합니다. 기존 SCA(소프트웨어 구성 분석) 및 도달 가능성 도구는 위험을 본질적으로 처리하여 심각한 경고 피로를 유발합니다."
+  },
+  "https://arxiv.org/abs/2605.00191|summary": {
+    "input": "arXiv:2605.00191v1 Announce Type: new Abstract: Context: Leadership has been extensively studied in management and agile software development; however, prior research predominantly focuses on formal roles and predefined leadership models, offering limited insight into how leader…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.00191v1 발표 유형: 새로운 개요: 맥락: 리더십은 관리 및 민첩한 소프트웨어 개발 분야에서 광범위하게 연구되었습니다. 그러나 이전 연구는 주로 공식적인 역할과 사전 정의된 리더십 모델에 중점을 두어 리더가 어떻게…"
+  },
+  "https://www.nber.org/papers/w35124#fromrss|summary": {
+    "input": "The Rent of Primary Residence (RoPR) series constructed by the Bureau of Labor Statistics (BLS) implies that nominal rental prices increased by just 2.6% per year from 1914 to 2006 while overall prices grew by 3.3%. We show that this “falling real rents” puzzle can be explained…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "노동통계청(BLS)이 구축한 RoPR(Rent of Primary Residence) 시리즈는 명목 임대 가격이 1914년부터 2006년까지 연간 2.6% 증가한 반면 전체 가격은 3.3% 증가했음을 나타냅니다. 우리는 이 \"실질 임대료 하락\" 퍼즐이 설명될 수 있음을 보여줍니다…"
+  },
+  "https://www.nber.org/papers/w35125#fromrss|summary": {
+    "input": "This chapter reviews the growing literature on the origin, persistence and evolution of cultural norms. I begin by examining the deep historical forces that shape the formation of cultural norms, with particular attention to the role of geography, pre-industrial societal charact…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 장에서는 문화적 규범의 기원, 지속성, 진화에 관한 증가하는 문헌을 검토합니다. 나는 지리의 역할, 산업화 이전 사회 특성에 특별한 관심을 가지고 문화적 규범의 형성을 형성하는 깊은 역사적 힘을 조사하는 것부터 시작합니다."
   }
 }

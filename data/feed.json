@@ -1,7 +1,63 @@
 {
-  "generatedAt": "2026-05-03T19:19:35.477Z",
+  "generatedAt": "2026-05-04T04:09:55.206Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "title": "애널리스트의 낙관성, 정확성, 정보성",
+      "authors": "선임연구위원 김준석",
+      "date": "2026-05-04",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28894&fgu=002002&fty=004003",
+      "summary": "국내 주식시장 애널리스트는 구조적 위축과 신뢰성 위기에 봉착해 있다. 2010년대 초반 이후 상장기업 분석보고서를 발간하는 증권사 수와 애널리스트 수는 지속적으로 감소하고 있으며, 애널리스트 투자의견의 90% 이상이 매수의견으로 편중되어 낙관적 편향에 대한 우려가 지속적으로 제기되는 상황이다. 애널리스트가 주식시장 효율성과 상장기업 투명성에 미치는 영향을 고려할 때 애널리스트 업무의 위축과 신뢰성 위기는 한국 주식시장이 반드시 극복해야 할 과제라 할 수 있다. 본고는 2000년부터 25년간 축적…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "자본시장연구원",
+        "국내",
+        "연구보고서",
+        "금융산업",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "DEPTEX: Organization-First, Open Source Dependency Risk Monitoring",
+      "authors": "Henry Ruckman-Utting, Vrushal Nedungadi, Taiga Okuma, LeTian Wang, Stephen Ehebald, Mohammad A. Tayebi",
+      "date": "2026-05-04",
+      "url": "https://arxiv.org/abs/2605.00179",
+      "summary": "arXiv:2605.00179v1 Announce Type: new Abstract: Open-source software (OSS) dependencies introduce systemic risks that are difficult to manage at scale. Existing Software Composition Analysis (SCA) and reachability tools generate severe alert fatigue by treating risk as an intrin…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.00179v1 발표 유형: 새로운 개요: 오픈 소스 소프트웨어(OSS) 종속성으로 인해 대규모로 관리하기 어려운 시스템적 위험이 발생합니다. 기존 SCA(소프트웨어 구성 분석) 및 도달 가능성 도구는 위험을 본질적으로 처리하여 심각한 경고 피로를 유발합니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "What Characterizes a Software Leader? Identifying Leadership Practices from Practitioners Social Media",
+      "authors": "Murilo Coelho, Denivan Campos, Mariana Maia Bezerra, Matheus Paixao, Allysson Allex Araujo, Savio Freire",
+      "date": "2026-05-04",
+      "url": "https://arxiv.org/abs/2605.00191",
+      "summary": "arXiv:2605.00191v1 Announce Type: new Abstract: Context: Leadership has been extensively studied in management and agile software development; however, prior research predominantly focuses on formal roles and predefined leadership models, offering limited insight into how leader…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.00191v1 발표 유형: 새로운 개요: 맥락: 리더십은 관리 및 민첩한 소프트웨어 개발 분야에서 광범위하게 연구되었습니다. 그러나 이전 연구는 주로 공식적인 역할과 사전 정의된 리더십 모델에 중점을 두어 리더가 어떻게…"
+    },
     {
       "source": "국립중앙박물관",
       "category": "전시",
@@ -1043,24 +1099,6 @@
       "koSummary": "Go 1.26의 소스 수준 인라이너 작동 방식과 셀프 서비스 API 마이그레이션에 어떻게 도움이 되는지 알아보세요."
     },
     {
-      "source": "자본시장연구원",
-      "category": "경제",
-      "title": "TDF의 동향과 개선 과제",
-      "authors": "연구위원 홍원구",
-      "date": "2026-03-05",
-      "url": "https://www.kcmi.re.kr/flexer/view?fid=28777&fgu=002002&fty=004003",
-      "summary": "목표일펀드(Target Date Fund: TDF) 시장은 2016년 672억원에서 2024년 16.6조원으로 확대되었으며, 현재 TDF 적립액의 대부분은 퇴직연금 자산으로 구성되어 있다. 특히 IRP와 DC형 퇴직연금이 TDF의 핵심 활용 기반을 형성하고 있어, TDF는 그간 퇴직연금 자산운용 과정에서 일정한 역할을 수행해 온 것으로 평가된다. 다만 2023년 도입된 사전지정운용제도는 초기 기대와 달리 TDF 활용 확대에 미치는 영향이 제한적인 것으로 나타나고 있으며, 최근에는 ETF, 로보어…",
-      "score": "stable",
-      "tags": [
-        "경제",
-        "자본시장연구원",
-        "국내",
-        "이슈보고서",
-        "자산운용/연금",
-        "stable"
-      ]
-    },
-    {
       "source": "Stripe Engineering",
       "category": "개발",
       "title": "Can AI agents build real Stripe integrations? We built a benchmark to find out",
@@ -1446,11 +1484,11 @@
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "Market Power in Mortgage Pricing: the Role of Referral Lending -- by Dayin Zhang, Panle Jia Barwick, Lu Han, Jonathan Kroah",
+      "title": "Rental Prices and the Cost of Living in the United States, 1914–2006 -- by Ronan C. Lyons, Allison Shertzer",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35015#fromrss",
-      "summary": "Despite intense competition among mortgage lenders, borrowers face substantial price dispersion. We argue that realtor–loan officer referral networks are a key source of lender market power: by steering homebuyers toward a small set of loan officers, these networks restrict effe…",
+      "url": "https://www.nber.org/papers/w35124#fromrss",
+      "summary": "The Rent of Primary Residence (RoPR) series constructed by the Bureau of Labor Statistics (BLS) implies that nominal rental prices increased by just 2.6% per year from 1914 to 2006 while overall prices grew by 3.3%. We show that this “falling real rents” puzzle can be explained…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1459,16 +1497,16 @@
         "연구",
         "stable"
       ],
-      "koSummary": "모기지 대출 기관 간의 치열한 경쟁에도 불구하고 차용인은 상당한 가격 차이에 직면해 있습니다. 우리는 부동산업자-대출 담당자 추천 네트워크가 대출 시장 지배력의 주요 원천이라고 주장합니다. 주택 구입자를 소수의 대출 담당자에게로 유도함으로써 이러한 네트워크는 효율성을 제한합니다."
+      "koSummary": "노동통계청(BLS)이 구축한 RoPR(Rent of Primary Residence) 시리즈는 명목 임대 가격이 1914년부터 2006년까지 연간 2.6% 증가한 반면 전체 가격은 3.3% 증가했음을 나타냅니다. 우리는 이 \"실질 임대료 하락\" 퍼즐이 설명될 수 있음을 보여줍니다…"
     },
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "Trends in Health Inequalities among Spanish Retirees -- by Cristina Bellés-Obrero, Manuel Flores Mallo, Pilar García-Gómez, Sergi Jimenez-Martin, Judit Vall Castelló",
+      "title": "Sticky Traditions: Origin, Persistence, and Evolution of Cultural Norms -- by Paola Giuliano",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35105#fromrss",
-      "summary": "Spain, with one of the highest life expectancies globally and a rapidly ageing population, faces growing challenges in sustaining its pension, healthcare, and long-term care systems. This study examines trends in health inequalities among retired Spaniards from 2004 to 2022, usi…",
+      "url": "https://www.nber.org/papers/w35125#fromrss",
+      "summary": "This chapter reviews the growing literature on the origin, persistence and evolution of cultural norms. I begin by examining the deep historical forces that shape the formation of cultural norms, with particular attention to the role of geography, pre-industrial societal charact…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1477,7 +1515,7 @@
         "연구",
         "stable"
       ],
-      "koSummary": "전 세계적으로 기대 수명이 가장 높은 나라 중 하나이고 인구 노령화 속도가 빠른 스페인은 연금, 의료, 장기 요양 시스템을 유지하는 데 점점 더 많은 어려움을 겪고 있습니다. 이 연구는 2004년부터 2022년까지 은퇴한 스페인 사람들의 건강 불평등 추세를 조사합니다."
+      "koSummary": "이 장에서는 문화적 규범의 기원, 지속성, 진화에 관한 증가하는 문헌을 검토합니다. 나는 지리의 역할, 산업화 이전 사회 특성에 특별한 관심을 가지고 문화적 규범의 형성을 형성하는 깊은 역사적 힘을 조사하는 것부터 시작합니다."
     }
   ]
 }
