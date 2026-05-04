@@ -962,5 +962,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 장에서는 문화적 규범의 기원, 지속성, 진화에 관한 증가하는 문헌을 검토합니다. 나는 지리의 역할, 산업화 이전 사회 특성에 특별한 관심을 가지고 문화적 규범의 형성을 형성하는 깊은 역사적 힘을 조사하는 것부터 시작합니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/may/comparing-fomc-estimate-r-star-alternative-estimates|summary": {
+    "input": "The neutral real interest rate—also called r-star—is the theoretical rate prevailing when maximum employment and 2% inflation are reached. How is this 'unobservable' rate estimated?",
+    "approved": true,
+    "mode": "summary",
+    "koText": "r-star라고도 불리는 중립 실질이자율은 최대 고용과 2% 인플레이션에 도달했을 때 적용되는 이론적 이자율입니다. 이 '관찰할 수 없는' 비율은 어떻게 추정됩니까?"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/in-what-ways-has-u-s-trade-with-china-changed/|summary": {
+    "input": "Over the past year, U.S. trade policy with China has undergone enormous changes, but with surprisingly little effect on overall trade balances. In fact, the U.S.’s twelve-month trade deficit, while highly volatile due to import front-running early in the year, ended 2025 at $1.2…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "지난 1년 동안 미국의 대중 무역 정책은 엄청난 변화를 겪었지만 놀랍게도 전체 무역 수지에는 거의 영향을 미치지 않았습니다. 실제로 미국의 12개월간 무역 적자는 연초 수입 선제거래로 인해 변동성이 크긴 했지만 2025년을 1.2달러로 마감했습니다."
+  },
+  "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260504~07dc9bac72.en.html|title": {
+    "input": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "approved": true,
+    "mode": "title",
+    "koText": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
   }
 }
