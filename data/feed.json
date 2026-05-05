@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-05-05T08:30:06.976Z",
+  "generatedAt": "2026-05-05T14:25:44.279Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "Slack Engineering",
+      "category": "개발",
+      "title": "From SSH to REST: A Security-Driven Modernization of Slack’s EMR Data Pipelines",
+      "authors": "Mahendran Vasagam",
+      "date": "2026-05-05",
+      "url": "https://slack.engineering/from-ssh-to-rest-a-security-driven-modernization-of-slacks-emr-data-pipelines/",
+      "summary": "Excerpt By 2024, Slack’s data platform had accumulated 700+ SSH-based operators orchestrating critical data pipelines. We’re talking daily search indexing that processed terabytes of data, analytics jobs powering business intelligence, the whole shebang. Every single one of thes…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Slack Engineering",
+        "글로벌",
+        "Uncategorized",
+        "airflow",
+        "aws",
+        "big-data",
+        "data-engineering",
+        "data-infrastructure",
+        "security",
+        "new"
+      ],
+      "koSummary": "SSH에서 REST까지: Slack EMR 데이터 파이프라인의 보안 중심 현대화"
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -41,6 +65,24 @@
         "new"
       ],
       "koSummary": "arXiv:2605.00932v1 발표 유형: 새로운 개요: 이 보고서는 Meta의 코드 생성 및 코드 추론을 위한 모델인 CWM(Code World Model)의 준비 상태 평가를 문서화합니다. 우리는 Frontier AI 프레임워크에서 식별된 도메인에 대해 출시 전 테스트를 수행했습니다."
+    },
+    {
+      "source": "ECB Press",
+      "category": "경제",
+      "title": "Christine Lagarde: Climate, nature and monetary policy",
+      "authors": "",
+      "date": "2026-05-05",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260505~936c9c11b5.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Press",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ],
+      "koSummary": "크리스틴 라가르드: 기후, 자연, 통화 정책"
     },
     {
       "source": "자본시장연구원",
@@ -168,24 +210,6 @@
         "new"
       ],
       "koSummary": "지난 1년 동안 미국의 대중 무역 정책은 엄청난 변화를 겪었지만 놀랍게도 전체 무역 수지에는 거의 영향을 미치지 않았습니다. 실제로 미국의 12개월간 무역 적자는 연초 수입 선제거래로 인해 변동성이 크긴 했지만 2025년을 1.2달러로 마감했습니다."
-    },
-    {
-      "source": "ECB Press",
-      "category": "경제",
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "authors": "",
-      "date": "2026-05-04",
-      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260504~07dc9bac72.en.html",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
-      "tags": [
-        "경제",
-        "ECB Press",
-        "글로벌",
-        "중앙은행",
-        "new"
-      ],
-      "koSummary": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
     },
     {
       "source": "국립중앙박물관",
@@ -340,23 +364,6 @@
         "new"
       ],
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "오~감각미술관",
-      "authors": "깪, 엄정순, 함진",
-      "date": "2026-04-30",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
-      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "어린이미술관",
-        "현재전시",
-        "new"
-      ]
     },
     {
       "source": "KIEP",
@@ -514,23 +521,6 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "토스 테크",
       "category": "개발",
       "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
@@ -617,40 +607,6 @@
         "네이버 D2",
         "국내",
         "hello world",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
         "fresh"
       ]
     },
@@ -759,23 +715,6 @@
       "koSummary": "2026년 4월에는 Rob Hudson을 이달의 DSF 회원으로 환영합니다! ⭐ Rob은 전 세계 10만 명이 넘는 사람들이 사용하는 도구인 DDT(django-debug-toolbar)의 창시자입니다. 그는 Django에서 CSP(Content-Security-Policy) 지원을 소개하고 많은 오픈 소스 패키지에 기여합니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "KIEP",
       "category": "경제",
       "title": "노동수급 불균형 해소를 위한 국가간 인력교류 활성화 방안 연구",
@@ -824,27 +763,6 @@
         "국토정책Brief",
         "stable"
       ]
-    },
-    {
-      "source": "Slack Engineering",
-      "category": "개발",
-      "title": "Managing context in long-run agentic applications",
-      "authors": "Dominic Marks",
-      "date": "2026-04-13",
-      "url": "https://slack.engineering/managing-context-in-long-run-agentic-applications/",
-      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "Slack Engineering",
-        "글로벌",
-        "Uncategorized",
-        "development",
-        "security",
-        "software-engineering",
-        "stable"
-      ],
-      "koSummary": "장기 실행 에이전트 애플리케이션에서 컨텍스트 관리"
     },
     {
       "source": "ECB Blog",
