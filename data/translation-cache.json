@@ -1004,5 +1004,17 @@
     "approved": false,
     "mode": "title",
     "koText": ""
+  },
+  "https://arxiv.org/abs/2605.00922|summary": {
+    "input": "arXiv:2605.00922v1 Announce Type: new Abstract: There has been intense debate among qualitative researchers about whether generative AI is suitable for qualitative research. In this paper, we summarize the broader ongoing discussion of generative AI in qualitative research and i…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.00922v1 발표 유형: new 개요: 생성 AI가 질적 연구에 적합한지에 대해 질적 연구자들 사이에서 격렬한 논쟁이 있어 왔습니다. 이 논문에서 우리는 질적 연구에서 생성 AI에 관해 진행 중인 광범위한 논의를 요약하고…"
+  },
+  "https://arxiv.org/abs/2605.00932|summary": {
+    "input": "arXiv:2605.00932v1 Announce Type: new Abstract: This report documents the preparedness assessment of Code World Model (CWM), a model for code generation and reasoning about code from Meta. We conducted pre-release testing across domains identified in our Frontier AI Framework as…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.00932v1 발표 유형: 새로운 개요: 이 보고서는 Meta의 코드 생성 및 코드 추론을 위한 모델인 CWM(Code World Model)의 준비 상태 평가를 문서화합니다. 우리는 Frontier AI 프레임워크에서 식별된 도메인에 대해 출시 전 테스트를 수행했습니다."
   }
 }

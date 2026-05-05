@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-05-05T03:52:35.050Z",
+  "generatedAt": "2026-05-05T08:30:06.976Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "To Vibe Research or Not to Vibe Research? Generative AI in Qualitative Research",
+      "authors": "Katja Karhu, Kari Smolander, Jussi Kasurinen",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.00922",
+      "summary": "arXiv:2605.00922v1 Announce Type: new Abstract: There has been intense debate among qualitative researchers about whether generative AI is suitable for qualitative research. In this paper, we summarize the broader ongoing discussion of generative AI in qualitative research and i…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.00922v1 발표 유형: new 개요: 생성 AI가 질적 연구에 적합한지에 대해 질적 연구자들 사이에서 격렬한 논쟁이 있어 왔습니다. 이 논문에서 우리는 질적 연구에서 생성 AI에 관해 진행 중인 광범위한 논의를 요약하고…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Code World Model Preparedness Report",
+      "authors": "Daniel Song, Peter Ney, Cristina Menghini, Faizan Ahmad, Aidan Boyd, Nathaniel Li, Ziwen Han, Jean-Christophe Testud, Saisuke Okabayashi, Maeve Ryan, Jinpeng Miao, Hamza Kwisaba, Felix Binder, Spencer Whitman, Jim Gust, Esteban Arcaute, Dhaval Kapil, Jacob Kahn, Ayaz Minhas, Tristan Goodman, Lauren Deason, Alexander Vaughan, Shengjia Zhao, Summer Yue",
+      "date": "2026-05-05",
+      "url": "https://arxiv.org/abs/2605.00932",
+      "summary": "arXiv:2605.00932v1 Announce Type: new Abstract: This report documents the preparedness assessment of Code World Model (CWM), a model for code generation and reasoning about code from Meta. We conducted pre-release testing across domains identified in our Frontier AI Framework as…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.00932v1 발표 유형: 새로운 개요: 이 보고서는 Meta의 코드 생성 및 코드 추론을 위한 모델인 CWM(Code World Model)의 준비 상태 평가를 문서화합니다. 우리는 Frontier AI 프레임워크에서 식별된 도메인에 대해 출시 전 테스트를 수행했습니다."
+    },
     {
       "source": "자본시장연구원",
       "category": "경제",
@@ -90,44 +130,6 @@
         "AWS SDK for Swift",
         "new"
       ]
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "DEPTEX: Organization-First, Open Source Dependency Risk Monitoring",
-      "authors": "Henry Ruckman-Utting, Vrushal Nedungadi, Taiga Okuma, LeTian Wang, Stephen Ehebald, Mohammad A. Tayebi",
-      "date": "2026-05-04",
-      "url": "https://arxiv.org/abs/2605.00179",
-      "summary": "arXiv:2605.00179v1 Announce Type: new Abstract: Open-source software (OSS) dependencies introduce systemic risks that are difficult to manage at scale. Existing Software Composition Analysis (SCA) and reachability tools generate severe alert fatigue by treating risk as an intrin…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.00179v1 발표 유형: 새로운 개요: 오픈 소스 소프트웨어(OSS) 종속성으로 인해 대규모로 관리하기 어려운 시스템적 위험이 발생합니다. 기존 SCA(소프트웨어 구성 분석) 및 도달 가능성 도구는 위험을 본질적으로 처리하여 심각한 경고 피로를 유발합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "What Characterizes a Software Leader? Identifying Leadership Practices from Practitioners Social Media",
-      "authors": "Murilo Coelho, Denivan Campos, Mariana Maia Bezerra, Matheus Paixao, Allysson Allex Araujo, Savio Freire",
-      "date": "2026-05-04",
-      "url": "https://arxiv.org/abs/2605.00191",
-      "summary": "arXiv:2605.00191v1 Announce Type: new Abstract: Context: Leadership has been extensively studied in management and agile software development; however, prior research predominantly focuses on formal roles and predefined leadership models, offering limited insight into how leader…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.00191v1 발표 유형: 새로운 개요: 맥락: 리더십은 관리 및 민첩한 소프트웨어 개발 분야에서 광범위하게 연구되었습니다. 그러나 이전 연구는 주로 공식적인 역할과 사전 정의된 리더십 모델에 중점을 두어 리더가 어떻게…"
     },
     {
       "source": "St. Louis Fed",
