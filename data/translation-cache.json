@@ -980,5 +980,29 @@
     "approved": true,
     "mode": "title",
     "koText": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
+  },
+  "https://blog.python.org/2026/05/python-3145rc1/|summary": {
+    "input": "A special release candidate with a new (old) garbage collector.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "새로운(이전) 가비지 수집기를 갖춘 특별 릴리스 후보입니다."
+  },
+  "https://blog.rust-lang.org/2026/05/04/outreachy-2026-may/|summary": {
+    "input": "The Rust Project has been building up a good history of participating in various open-source mentorship programs, including Google Summer of Code for three years (including this year) and previously OSPP . We're happy to announce that this year we are also participating in Outre…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "러스트 프로젝트는 지난 3년간(올해 포함) 구글 서머 오브 코드(Google Summer of Code)와 이전 OSPP 등 다양한 오픈소스 멘토링 프로그램에 참여하며 좋은 역사를 쌓아왔다. 올해도 Outre에 참여하게 되었음을 알려드리게 되어 기쁘게 생각합니다."
+  },
+  "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-amazon-s3-transfer-manager-for-swift/|summary": {
+    "input": "We are pleased to announce the general availability of the Amazon S3 Transfer Manager&nbsp;for Swift – a high level file and directory transfer utility for the Amazon Simple Storage Service (Amazon S3) built with the AWS SDK for Swift. Using Transfer Manager’s simple API, you ca…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-amazon-s3-transfer-manager-for-swift/|title": {
+    "input": "Announcing the general availability of Amazon S3 Transfer Manager for Swift",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
   }
 }
