@@ -1064,5 +1064,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes v1.36에서는 Kubernetes 기본 유형에 대한 선언적 유효성 검사가 일반 공급(GA)에 도달했습니다. 사용자에게 이는 더 안정적이고 예측 가능하며 더 잘 문서화된 API를 의미합니다. 선언적 모델로 전환함으로써 프로젝트는 향후 vP 게시 기능도 제공합니다."
+  },
+  "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260506~586ab63f08.en.html|title": {
+    "input": "Why apps matter: digital banks pass on monetary policy differently",
+    "approved": true,
+    "mode": "title",
+    "koText": "앱이 중요한 이유: 디지털 은행은 통화 정책을 다르게 전달합니다."
+  },
+  "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260506~1bbd4ed780.en.html|title": {
+    "input": "Piero Cipollone: The new energy shock: economic scenarios and policy implications",
+    "approved": true,
+    "mode": "title",
+    "koText": "Piero Cipollone: ​​새로운 에너지 충격: 경제 시나리오 및 정책 시사점"
   }
 }
