@@ -1000,7 +1000,7 @@
     "koText": ""
   },
   "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-amazon-s3-transfer-manager-for-swift/|title": {
-    "input": "Announcing the general availability of Amazon S3 Transfer Manager for Swift",
+    "input": "Announcing AWS SDK for Swift’s Transfer Manager for Amazon S3",
     "approved": false,
     "mode": "title",
     "koText": ""
@@ -1076,5 +1076,23 @@
     "approved": true,
     "mode": "title",
     "koText": "Piero Cipollone: ​​새로운 에너지 충격: 경제 시나리오 및 정책 시사점"
+  },
+  "https://blog.cloudflare.com/de-tld-outage-dnssec/|summary": {
+    "input": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2026년 5월 5일, DENIC는 .de TLD에 대해 손상된 DNSSEC 서명을 게시하여 수백만 개의 도메인에 연결할 수 없게 되었습니다. 다음은 1.1.1.1에서 확인한 내용, 오래된 서비스가 영향을 완화하는 방법, 해상도를 복원한 방법입니다."
+  },
+  "https://grafana.com/blog/troubleshoot-performance-issues-faster-with-the-new-grafana-assistant-integration-for-database-observability/|summary": {
+    "input": "So your database is slow. Now what? Grafana Cloud Database Observability already gives you visibility into your SQL queries with RED metrics, individual execution samples, wait event breakdowns, table schemas, and visual explain plans. But visibility is just the starting point.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "따라서 데이터베이스가 느립니다. 이제 어쩌지? Grafana Cloud Database Observability는 이미 RED 지표, 개별 실행 샘플, 대기 이벤트 분석, 테이블 스키마 및 시각적 설명 계획을 통해 SQL 쿼리에 대한 가시성을 제공합니다. 그러나 가시성은 단지 시작점일 뿐입니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/same-shock-different-roads-a-k-shaped-pattern-at-the-pump/|summary": {
+    "input": "In March 2026, energy prices surged to a four-year high, driven by the Iranian closure of the Strait of Hormuz amid the ongoing conflict in the Middle East. In this Liberty Street Economics post, we use the new consumer spending module of the Economic Heterogeneity Indicators to…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2026년 3월, 중동 분쟁이 지속되는 가운데 이란이 호르무즈 해협을 폐쇄하면서 에너지 가격이 4년 만에 최고치로 급등했습니다. 이 Liberty Street Economics 게시물에서 우리는 경제적 이질성 지표의 새로운 소비자 지출 모듈을 사용하여…"
   }
 }
