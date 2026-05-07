@@ -1118,5 +1118,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "중요한 Linux 커널 권한 상승이 공개되었을 때 Cloudflare의 보안 및 엔지니어링 팀은 전 세계에서 위협을 감지, 조사 및 완화하여 고객에게 영향을 주지 않고 악의적인 악용이 없음을 확인했습니다."
+  },
+  "https://blog.python.org/2026/05/python-3150-beta-1/|summary": {
+    "input": "The propreantepenultimate 3.15 beta is out!",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://blog.python.org/2026/05/python-3150-beta-1/|title": {
+    "input": "Python 3.15.0 beta 1 is here!",
+    "approved": true,
+    "mode": "title",
+    "koText": "Python 3.15.0 베타 1이 출시되었습니다!"
+  },
+  "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260507_1~d5ae988ece.en.html|title": {
+    "input": "Isabel Schnabel: The quiet erosion of central bank independence",
+    "approved": true,
+    "mode": "title",
+    "koText": "이사벨 슈나벨: 중앙은행 독립성의 조용한 침식"
   }
 }
