@@ -1112,5 +1112,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes 클러스터가 수만 개의 노드로 성장함에 따라 Pod와 같이 카디널리티가 높은 리소스를 감시하는 컨트롤러는 확장 벽에 직면하게 됩니다. 수평으로 확장된 컨트롤러의 모든 복제본은 API 서버로부터 전체 이벤트 스트림을 수신하여 CPU, 메모리 및 네트워크 비용을 지불합니다."
+  },
+  "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/|summary": {
+    "input": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "중요한 Linux 커널 권한 상승이 공개되었을 때 Cloudflare의 보안 및 엔지니어링 팀은 전 세계에서 위협을 감지, 조사 및 완화하여 고객에게 영향을 주지 않고 악의적인 악용이 없음을 확인했습니다."
   }
 }
