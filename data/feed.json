@@ -1,7 +1,46 @@
 {
-  "generatedAt": "2026-05-08T03:55:12.301Z",
+  "generatedAt": "2026-05-08T07:58:51.535Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "DADL: A Declarative Description Language for Enterprise Tool Libraries in LLM Agent Systems",
+      "authors": "Axel Dunkel",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.05247",
+      "summary": "arXiv:2605.05247v1 Announce Type: new Abstract: The Model Context Protocol (MCP) is the standard interface between large language model (LLM) agents and external tools. At organizational scale, however, it exposes two structural problems. First, every API integration is shipped…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.05247v1 발표 유형: 새로운 개요: MCP(모델 컨텍스트 프로토콜)는 LLM(대형 언어 모델) 에이전트와 외부 도구 간의 표준 인터페이스입니다. 그러나 조직 규모에서는 두 가지 구조적 문제가 드러납니다. 첫째, 모든 API 통합이 배송됩니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Automated Population-Level Audit Assurance via AI-Based Document Intelligence",
+      "authors": "Santosh Vasudevan, Velu Natarajan",
+      "date": "2026-05-08",
+      "url": "https://arxiv.org/abs/2605.05252",
+      "summary": "arXiv:2605.05252v1 Announce Type: new Abstract: Audit transaction testing validates accuracy and completeness of customer-facing statements against internal systems of record. Traditional manual, sample-based review of unstructured PDF statements is labor-intensive and does not…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.05252v1 발표 유형: 새로운 개요: 감사 거래 테스트는 내부 기록 시스템에 대해 고객이 접하는 진술의 정확성과 완전성을 검증합니다. 구조화되지 않은 PDF 문에 대한 기존의 수동 샘플 기반 검토는 노동 집약적이며 다음과 같은 작업을 수행하지 않습니다."
+    },
     {
       "source": "Python Insider",
       "category": "개발",
@@ -82,45 +121,22 @@
       "koSummary": "중요한 Linux 커널 권한 상승이 공개되었을 때 Cloudflare의 보안 및 엔지니어링 팀은 전 세계에서 위협을 감지, 조사 및 완화하여 고객에게 영향을 주지 않고 악의적인 악용이 없음을 확인했습니다."
     },
     {
-      "source": "arXiv cs.SE",
+      "source": "Grafana Blog",
       "category": "개발",
-      "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
-      "authors": "Furkan Sakizli",
+      "title": "Eliminate noisy log lines with Adaptive Logs drop rules",
+      "authors": "Steven Dungan",
       "date": "2026-05-07",
-      "url": "https://arxiv.org/abs/2605.04107",
-      "summary": "arXiv:2605.04107v1 Announce Type: new Abstract: Production agent frameworks (OpenAI Function Calling, Anthropic Tool Use, MCP) transmit tool schemas as JSON, a format designed for machine parsing, not for interpretation by language models. For small models (4B-14B), this protoco…",
+      "url": "https://grafana.com/blog/eliminate-noisy-log-lines-with-adaptive-logs-drop-rules/",
+      "summary": "Most platform and observability teams have logs they know are noise. These could be throwaway health check logs, forgotten DEBUG logs, or verbose INFO logs from little used services that only serve to inflate your bill.",
       "score": "new",
       "tags": [
         "개발",
-        "arXiv cs.SE",
+        "Grafana Blog",
         "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.CL",
+        "관측성",
         "new"
       ],
-      "koSummary": "arXiv:2605.04107v1 발표 유형: 새로운 개요: 프로덕션 에이전트 프레임워크(OpenAI Function Calling, Anthropic Tool Use, MCP)는 도구 스키마를 언어 모델에 의한 해석이 아닌 기계 구문 분석용으로 설계된 형식인 JSON으로 전송합니다. 소형 모델(4B-14B)의 경우 이 프로토콜은…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Semantic Reverse Engineering Legacy Software Applications with ChatGPT, Gemini AI, and Claude AI",
-      "authors": "Christian Mancas, Diana Christina Mancas",
-      "date": "2026-05-07",
-      "url": "https://arxiv.org/abs/2605.04114",
-      "summary": "arXiv:2605.04114v1 Announce Type: new Abstract: This research paper describes our research results on using ChatGPT, Gemini, and Claude AI to semantically reverse engineer legacy database software applications.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.DB",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.04114v1 발표 유형: 새로운 개요: 이 연구 논문은 ChatGPT, Gemini 및 Claude AI를 사용하여 레거시 데이터베이스 소프트웨어 애플리케이션을 의미론적으로 리버스 엔지니어링하는 것에 대한 연구 결과를 설명합니다."
+      "koSummary": "대부분의 플랫폼 및 관측 가능성 팀은 노이즈라는 것을 알고 있는 로그를 보유하고 있습니다. 이는 일회용 상태 점검 로그, 잊혀진 DEBUG 로그 또는 청구서를 부풀리기만 하는 거의 사용되지 않는 서비스의 자세한 INFO 로그일 수 있습니다."
     },
     {
       "source": "ECB Press",
@@ -380,24 +396,6 @@
       ]
     },
     {
-      "source": "Grafana Blog",
-      "category": "개발",
-      "title": "Faster fixes, less context sharing: how Grafana Assistant learns your infrastructure before you even ask",
-      "authors": "William Dumont",
-      "date": "2026-04-30",
-      "url": "https://grafana.com/blog/how-grafana-assistant-learns-your-infrastructure-before-you-even-ask/",
-      "summary": "When an unexpected alert fires these days, most engineers' first move is to ask their AI assistant for help.You ask why your checkout service is slow and the assistant gets to work, but it can't get any meaningful insights—at least not quickly—without the proper guidance. So, th…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "Grafana Blog",
-        "글로벌",
-        "관측성",
-        "fresh"
-      ],
-      "koSummary": "요즘 예상치 못한 경고가 발생하면 대부분의 엔지니어는 AI 비서에게 도움을 요청하는 것입니다. 결제 서비스가 느린 이유를 묻고 비서가 작동하지만 적절한 지침 없이는 적어도 빠르지는 않지만 의미 있는 통찰력을 얻을 수 없습니다. 그래서, 그…"
-    },
-    {
       "source": "OpenTelemetry",
       "category": "개발",
       "title": "Introducing the Ecosystem Explorer Project",
@@ -414,6 +412,23 @@
         "fresh"
       ],
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
+        "fresh"
+      ]
     },
     {
       "source": "KIEP",
@@ -553,6 +568,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "토스 테크",
       "category": "개발",
       "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
@@ -643,6 +675,40 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "Meta Engineering",
       "category": "개발",
       "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
@@ -726,6 +792,23 @@
         "교양",
         "EBS",
         "다큐프라임 - 백세부자",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "그래도 해보던 날들",
+      "authors": "양정욱",
+      "date": "2026-04-17",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
+      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
         "fresh"
       ]
     },

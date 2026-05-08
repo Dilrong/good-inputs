@@ -1148,5 +1148,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "오늘 오후에 우리는 글로벌 팀에 다음과 같은 이메일을 보냈습니다. Cloudflare의 핵심 가치 중 하나는 투명성이며, 이는 Cloudflare의 중요한 순간이기 때문에 여러분이 우리로부터 직접 이 내용을 듣는 것이 중요하다고 믿습니다."
+  },
+  "https://arxiv.org/abs/2605.05247|summary": {
+    "input": "arXiv:2605.05247v1 Announce Type: new Abstract: The Model Context Protocol (MCP) is the standard interface between large language model (LLM) agents and external tools. At organizational scale, however, it exposes two structural problems. First, every API integration is shipped…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.05247v1 발표 유형: 새로운 개요: MCP(모델 컨텍스트 프로토콜)는 LLM(대형 언어 모델) 에이전트와 외부 도구 간의 표준 인터페이스입니다. 그러나 조직 규모에서는 두 가지 구조적 문제가 드러납니다. 첫째, 모든 API 통합이 배송됩니다…"
+  },
+  "https://arxiv.org/abs/2605.05252|summary": {
+    "input": "arXiv:2605.05252v1 Announce Type: new Abstract: Audit transaction testing validates accuracy and completeness of customer-facing statements against internal systems of record. Traditional manual, sample-based review of unstructured PDF statements is labor-intensive and does not…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.05252v1 발표 유형: 새로운 개요: 감사 거래 테스트는 내부 기록 시스템에 대해 고객이 접하는 진술의 정확성과 완전성을 검증합니다. 구조화되지 않은 PDF 문에 대한 기존의 수동 샘플 기반 검토는 노동 집약적이며 다음과 같은 작업을 수행하지 않습니다."
+  },
+  "https://grafana.com/blog/eliminate-noisy-log-lines-with-adaptive-logs-drop-rules/|summary": {
+    "input": "Most platform and observability teams have logs they know are noise. These could be throwaway health check logs, forgotten DEBUG logs, or verbose INFO logs from little used services that only serve to inflate your bill.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "대부분의 플랫폼 및 관측 가능성 팀은 노이즈라는 것을 알고 있는 로그를 보유하고 있습니다. 이는 일회용 상태 점검 로그, 잊혀진 DEBUG 로그 또는 청구서를 부풀리기만 하는 거의 사용되지 않는 서비스의 자세한 INFO 로그일 수 있습니다."
   }
 }
