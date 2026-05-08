@@ -1136,5 +1136,17 @@
     "approved": true,
     "mode": "title",
     "koText": "이사벨 슈나벨: 중앙은행 독립성의 조용한 침식"
+  },
+  "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/|summary": {
+    "input": "Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "DRA(동적 리소스 할당)는 플랫폼 관리자가 Kubernetes에서 하드웨어 가속기와 특수 리소스를 처리하는 방식을 근본적으로 변경했습니다. v1.36 릴리스에서 DRA는 계속해서 발전하여 기능 등급화, 중요한 유용성 개선, 다양한 기능을 제공합니다."
+  },
+  "https://blog.cloudflare.com/building-for-the-future/|summary": {
+    "input": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "오늘 오후에 우리는 글로벌 팀에 다음과 같은 이메일을 보냈습니다. Cloudflare의 핵심 가치 중 하나는 투명성이며, 이는 Cloudflare의 중요한 순간이기 때문에 여러분이 우리로부터 직접 이 내용을 듣는 것이 중요하다고 믿습니다."
   }
 }
