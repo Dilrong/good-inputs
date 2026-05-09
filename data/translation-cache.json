@@ -1166,5 +1166,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "대부분의 플랫폼 및 관측 가능성 팀은 노이즈라는 것을 알고 있는 로그를 보유하고 있습니다. 이는 일회용 상태 점검 로그, 잊혀진 DEBUG 로그 또는 청구서를 부풀리기만 하는 거의 사용되지 않는 서비스의 자세한 INFO 로그일 수 있습니다."
+  },
+  "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/|summary": {
+    "input": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availabili…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "볼륨 그룹 스냅샷은 Kubernetes v1.27 릴리스에서 알파 기능으로 도입되었으며 v1.32에서는 베타로, v1.34에서는 두 번째 베타로 이동되었습니다. Kubernetes v1.36 릴리스에서 볼륨 그룹 스냅샷에 대한 지원이 정식 출시되었음을 발표하게 되어 기쁘게 생각합니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/may/flash-report-headline-unemployment-steady-april-job-separations-rise|summary": {
+    "input": "An analysis breaks down how changes in people moving into and out of unemployment and the labor force helped keep the April jobless rate stable at 4.3%.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "한 분석에서는 실업자 및 노동력의 변화가 4월 실업률을 4.3%로 안정적으로 유지하는 데 어떻게 도움이 되었는지 분석합니다."
   }
 }

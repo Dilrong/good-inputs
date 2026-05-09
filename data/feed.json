@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2026-05-08T19:46:16.419Z",
+  "generatedAt": "2026-05-09T03:57:19.985Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "Kubernetes Blog",
+      "category": "개발",
+      "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
+      "authors": "",
+      "date": "2026-05-08",
+      "url": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
+      "summary": "Volume group snapshots were introduced as an Alpha feature with the Kubernetes v1.27 release, moved to Beta in v1.32, and to a second Beta in v1.34. We are excited to announce that in the Kubernetes v1.36 release, support for volume group snapshots has reached General Availabili…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Kubernetes Blog",
+        "글로벌",
+        "new"
+      ],
+      "koSummary": "볼륨 그룹 스냅샷은 Kubernetes v1.27 릴리스에서 알파 기능으로 도입되었으며 v1.32에서는 베타로, v1.34에서는 두 번째 베타로 이동되었습니다. Kubernetes v1.36 릴리스에서 볼륨 그룹 스냅샷에 대한 지원이 정식 출시되었음을 발표하게 되어 기쁘게 생각합니다."
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -42,6 +59,24 @@
       "koSummary": "arXiv:2605.05252v1 발표 유형: 새로운 개요: 감사 거래 테스트는 내부 기록 시스템에 대해 고객이 접하는 진술의 정확성과 완전성을 검증합니다. 구조화되지 않은 PDF 문에 대한 기존의 수동 샘플 기반 검토는 노동 집약적이며 다음과 같은 작업을 수행하지 않습니다."
     },
     {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Flash Report: Headline Unemployment Steady in April, but Job Separations Rise",
+      "authors": "",
+      "date": "2026-05-08",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/may/flash-report-headline-unemployment-steady-april-job-separations-rise",
+      "summary": "An analysis breaks down how changes in people moving into and out of unemployment and the labor force helped keep the April jobless rate stable at 4.3%.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "new"
+      ],
+      "koSummary": "한 분석에서는 실업자 및 노동력의 변화가 4월 실업률을 4.3%로 안정적으로 유지하는 데 어떻게 도움이 되었는지 분석합니다."
+    },
+    {
       "source": "Python Insider",
       "category": "개발",
       "title": "Python 3.15.0 beta 1 is here!",
@@ -58,23 +93,6 @@
         "new"
       ],
       "koSummary": "Python 3.15.0 베타 1이 출시되었습니다!"
-    },
-    {
-      "source": "Kubernetes Blog",
-      "category": "개발",
-      "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
-      "authors": "",
-      "date": "2026-05-07",
-      "url": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/",
-      "summary": "Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, a…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Kubernetes Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "DRA(동적 리소스 할당)는 플랫폼 관리자가 Kubernetes에서 하드웨어 가속기와 특수 리소스를 처리하는 방식을 근본적으로 변경했습니다. v1.36 릴리스에서 DRA는 계속해서 발전하여 기능 등급화, 중요한 유용성 개선, 다양한 기능을 제공합니다."
     },
     {
       "source": "Cloudflare Architecture",
@@ -640,24 +658,6 @@
       "koSummary": "2026년 3월 19일에 OpenTelemetry 사양 프로젝트는 PR #4938을 병합하여 사양에서 OpenTracing 호환성 요구 사항을 더 이상 사용하지 않습니다. 이 변경 사항은 생태계가 이미 있는 위치와 일치하도록 사양을 업데이트합니다. OpenTracing은 수년간 보관되었으며 새로운 i…"
     },
     {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "Consumer Credit Health after the 2025 St. Louis Tornado",
-      "authors": "",
-      "date": "2026-04-23",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/apr/consumer-credit-health-after-2025-st-louis-tornado",
-      "summary": "Consumer credit conditions, as measured by credit card balances and delinquency, weakened in lower-income areas affected by the May 2025 St. Louis tornado.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "fresh"
-      ],
-      "koSummary": "신용카드 잔액 및 연체로 측정한 소비자 신용 상태는 2025년 5월 세인트루이스 토네이도의 영향을 받은 저소득 지역에서 약화되었습니다."
-    },
-    {
       "source": "네이버 D2",
       "category": "개발",
       "title": "네이버 검색의 대규모 메트릭 저장소, VictoriaMetrics 운영기",
@@ -803,13 +803,13 @@
       "date": "2026-04-17",
       "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
       "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "전시",
         "MMCA",
         "서울",
         "현재전시",
-        "fresh"
+        "stable"
       ]
     },
     {
