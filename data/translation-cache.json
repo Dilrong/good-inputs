@@ -1178,5 +1178,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "한 분석에서는 실업자 및 노동력의 변화가 4월 실업률을 4.3%로 안정적으로 유지하는 데 어떻게 도움이 되었는지 분석합니다."
+  },
+  "https://blog.python.org/2026/05/python-3145-is-out/|summary": {
+    "input": "A special release with a new (old) garbage collector.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "새로운(이전) 가비지 수집기가 포함된 특별 릴리스입니다."
+  },
+  "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260510~e8a674e2fb.en.html|title": {
+    "input": "European Central Bank and Reserve Bank of India sign Memorandum of Understanding on cooperation",
+    "approved": true,
+    "mode": "title",
+    "koText": "유럽중앙은행과 인도중앙은행이 협력 양해각서 체결"
   }
 }
