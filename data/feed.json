@@ -1,7 +1,46 @@
 {
-  "generatedAt": "2026-05-10T19:34:35.703Z",
+  "generatedAt": "2026-05-11T04:37:32.409Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "EMRGF: A Practitioner Framework for Governance-Driven Enterprise Technology Modernization",
+      "authors": "Harveen Punihani",
+      "date": "2026-05-11",
+      "url": "https://arxiv.org/abs/2605.06703",
+      "summary": "arXiv:2605.06703v1 Announce Type: new Abstract: Enterprise technology modernization programs fail at a documented and costly rate, yet the dominant explanation -- inadequate engineering capability -- is incorrect. The primary failure mode is a governance deficit: the absence of…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.06703v1 발표 유형: new 개요: 기업 기술 현대화 프로그램은 문서화되고 비용이 많이 드는 속도로 실패하지만 지배적인 설명인 부적절한 엔지니어링 능력은 올바르지 않습니다. 주요 실패 모드는 거버넌스 부족입니다."
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "The Single-File Test: A Longitudinal Public-Interface Evaluation of First-Output LLM Web Generation with Social Reach Tracking",
+      "authors": "Diego Cabezas Palacios",
+      "date": "2026-05-11",
+      "url": "https://arxiv.org/abs/2605.06707",
+      "summary": "arXiv:2605.06707v1 Announce Type: new Abstract: This paper presents an eight-week observational comparison of 68 single-file HTML generations collected across 17 public experiments in the \"HTML AI Battle\" project between December 10, 2025 and February 4, 2026. Four reasoning mod…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.06707v1 발표 유형: 새로운 개요: 이 문서는 2025년 12월 10일부터 2026년 2월 4일까지 \"HTML AI Battle\" 프로젝트의 17개 공개 실험에서 수집된 68개의 단일 파일 HTML 세대에 대한 8주간의 관찰 비교를 제시합니다. 4가지 추론 모드…"
+    },
     {
       "source": "Python Insider",
       "category": "개발",
@@ -393,23 +432,6 @@
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "오~감각미술관",
-      "authors": "깪, 엄정순, 함진",
-      "date": "2026-04-30",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
-      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "어린이미술관",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -547,23 +569,6 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "토스 테크",
       "category": "개발",
       "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
@@ -632,40 +637,6 @@
         "네이버 D2",
         "국내",
         "hello world",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
         "fresh"
       ]
     },
@@ -754,23 +725,6 @@
         "EBS",
         "다큐프라임 - 백세부자",
         "fresh"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "그래도 해보던 날들",
-      "authors": "양정욱",
-      "date": "2026-04-17",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
-      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "서울",
-        "현재전시",
-        "stable"
       ]
     },
     {
@@ -1280,11 +1234,11 @@
     {
       "source": "KDI 연구보고서",
       "category": "연구",
-      "title": "공교육 특성이 학생에게 미치는 영향 분석: 학군 내 고등학교 배정의 인과적 효과를 중심으로",
-      "authors": "최규성",
+      "title": "장기요양보험제도의 효과성 제고를 위한 연구",
+      "authors": "김도헌",
       "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19123",
-      "summary": "본 연구는 2010년 서울의 고교 평준화 정책을 이용하여 학교 간 학업 성취도 차이가 개별 학생에 대한 학교 효과로 어떻게 이어지는지 실증적으로 분석하였다. ‘한국교육종단연구’ 2005년 데이터와 2010년 서울시 내 고등학교 단위 국가수준 학업성취도 평가 결과 자료를 연결하여 학생이 ‘우연히’ 평균 학업성취도 수준이 높은 학교로 진학했을 때의 효과를 추정하였다. 개별 학군 내 무작위 고교 배정이라는 가정을 보완하기 위해 학군 내 인접 고교를 묶는 클러스터링 작업을 거쳐 지리적으로 가까운 학교…",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19167",
+      "summary": "우리나라는 고령화의 진전에 따라 노인 의료비 지출이 증가하고 있으며, 특히 의료적 필요도는 낮지만 요양 필요도가 높은 노인이 고비용의 의료기관에 장기간 입원하는 이른바 사회적 입원 현상이 중요한 정책 과제로 지적되고 있다. 이러한 노인의 돌봄 수요 증가와 삶의 질 개선의 필요성, 그리고 비효율적인 의료비 지출 문제에 대응하기 위해 정부는 2008년에 노인장기요양보험제도를 도입하였다. 제도 도입 이후 장기요양 서비스의 대상과 범위는 지속적으로 확대되었으며, 도입 초기의 3등급 체계에서 경증 치매…",
       "label": "정책연구시리즈",
       "score": "stable",
       "tags": [
@@ -1297,11 +1251,11 @@
     {
       "source": "KDI 연구보고서",
       "category": "연구",
-      "title": "경기변동과 인구 고령화를 고려한 재정준칙 분석",
-      "authors": "신승룡",
+      "title": "모바일 생태계의 경쟁에 대한 연구: 앱마켓의 시장지배력을 중심으로",
+      "authors": "김민정 외",
       "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19136",
-      "summary": "본 연구는 경기변동이 존재하는 환경에서 재정준칙의 완화규정이 거시경제에 미치는 일반균형 효과를 평가한다. 폐쇄경제 중첩세대(OLG) 모형에 AR(1) 총요소생산성(TFP) 공급 충격을 도입하고, 통계청 장래인구추계의 향후 70년간 인구구조와 사망률 변화를 반영한 이행경로 분석을 수행한다. 분석 모형의 해법은 Krusell·Smith(1998) 방식의 선형 근사를 활용하되, 인구구조의 연도별 변화를 반영하는 동시에 전망 함수를 연도별로 별도 추정 및 적용하여 높은 예측 정확도를 유지하도록 구성하였…",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19166",
+      "summary": "본 연구는 자세한 데이터를 기반으로 앱마켓 관련 시장에 대해서 심층적으로 분석하고, 앱마켓 플랫폼의 시장지배력에 대한 함의를 도출하고자 했다. 구체적으로는 구글과 애플의 앱마켓 간 그리고 앱마켓 내 주요 앱들의 경쟁 상황을 다각도로 분석하되, 해외 주요국의 시장과 구별되는 차이점이 있는지도 살펴보았다. 먼저 제2장에서는 구글플레이와 앱스토어의 전반적인 시장 규모를 무료앱/유료앱, 일반앱/게임앱, 카테고리별 등 다양한 측면에서 분석했다. 국가별로 어느 앱마켓이 더 우세한지에 있어서는 꽤 큰 차이가…",
       "label": "정책연구시리즈",
       "score": "stable",
       "tags": [
@@ -1528,11 +1482,11 @@
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "Rental Prices and the Cost of Living in the United States, 1914–2006 -- by Ronan C. Lyons, Allison Shertzer",
+      "title": "Building Opportunity: The Intergenerational Effects of Chilean School Construction -- by Adrienne Lucas, Patrick McEwan",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35124#fromrss",
-      "summary": "The Rent of Primary Residence (RoPR) series constructed by the Bureau of Labor Statistics (BLS) implies that nominal rental prices increased by just 2.6% per year from 1914 to 2006 while overall prices grew by 3.3%. We show that this “falling real rents” puzzle can be explained…",
+      "url": "https://www.nber.org/papers/w35042#fromrss",
+      "summary": "In 1965–1966, Chile built and staffed thousands of new primary classrooms in supply-constrained communities. Using a quasi-experimental design and large census samples, we show that childhood exposure to school construction substantially improved the schooling and labor market o…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1541,16 +1495,16 @@
         "연구",
         "stable"
       ],
-      "koSummary": "노동통계청(BLS)이 구축한 RoPR(Rent of Primary Residence) 시리즈는 명목 임대 가격이 1914년부터 2006년까지 연간 2.6% 증가한 반면 전체 가격은 3.3% 증가했음을 나타냅니다. 우리는 이 \"실질 임대료 하락\" 퍼즐이 설명될 수 있음을 보여줍니다…"
+      "koSummary": "1965~1966년에 칠레는 공급이 제한된 지역사회에 수천 개의 새로운 초등학교 교실을 건설하고 직원을 배치했습니다. 준실험 설계와 대규모 인구 조사 표본을 사용하여 우리는 어린 시절 학교 건설에 대한 노출이 학교 교육 및 노동 시장을 실질적으로 개선했음을 보여줍니다."
     },
     {
       "source": "NBER Working Papers",
       "category": "경제",
-      "title": "Sticky Traditions: Origin, Persistence, and Evolution of Cultural Norms -- by Paola Giuliano",
+      "title": "Health Inequalities Among Danish Retirees 2004-2022 -- by Paul Bingley, Nabanita Datta Gupta, Malene Kallestrup-Lamb, Alexander O.K. Marin",
       "authors": "",
       "date": "",
-      "url": "https://www.nber.org/papers/w35125#fromrss",
-      "summary": "This chapter reviews the growing literature on the origin, persistence and evolution of cultural norms. I begin by examining the deep historical forces that shape the formation of cultural norms, with particular attention to the role of geography, pre-industrial societal charact…",
+      "url": "https://www.nber.org/papers/w35165#fromrss",
+      "summary": "Using Danish SHARE data from 2004–2022, we examine income gradients in health among retirees ages 60–79 across functional, diagnosed, comprehensive, mental, and cognitive domains. Higher-income retirees are healthier across all dimensions, but the evolution of inequality differs…",
       "score": "stable",
       "tags": [
         "경제",
@@ -1559,7 +1513,7 @@
         "연구",
         "stable"
       ],
-      "koSummary": "이 장에서는 문화적 규범의 기원, 지속성, 진화에 관한 증가하는 문헌을 검토합니다. 나는 지리의 역할, 산업화 이전 사회 특성에 특별한 관심을 가지고 문화적 규범의 형성을 형성하는 깊은 역사적 힘을 조사하는 것부터 시작합니다."
+      "koSummary": "2004년부터 2022년까지의 덴마크 SHARE 데이터를 사용하여 우리는 기능적, 진단적, 종합적, 정신적, 인지적 영역에 걸쳐 60~79세 퇴직자의 건강 소득 변화를 조사합니다. 고소득 퇴직자는 모든 측면에서 더 건강하지만 불평등의 진화는 다릅니다."
     }
   ]
 }

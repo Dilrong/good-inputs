@@ -1190,5 +1190,29 @@
     "approved": true,
     "mode": "title",
     "koText": "유럽중앙은행과 인도중앙은행이 협력 양해각서 체결"
+  },
+  "https://arxiv.org/abs/2605.06703|summary": {
+    "input": "arXiv:2605.06703v1 Announce Type: new Abstract: Enterprise technology modernization programs fail at a documented and costly rate, yet the dominant explanation -- inadequate engineering capability -- is incorrect. The primary failure mode is a governance deficit: the absence of…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.06703v1 발표 유형: new 개요: 기업 기술 현대화 프로그램은 문서화되고 비용이 많이 드는 속도로 실패하지만 지배적인 설명인 부적절한 엔지니어링 능력은 올바르지 않습니다. 주요 실패 모드는 거버넌스 부족입니다."
+  },
+  "https://arxiv.org/abs/2605.06707|summary": {
+    "input": "arXiv:2605.06707v1 Announce Type: new Abstract: This paper presents an eight-week observational comparison of 68 single-file HTML generations collected across 17 public experiments in the \"HTML AI Battle\" project between December 10, 2025 and February 4, 2026. Four reasoning mod…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.06707v1 발표 유형: 새로운 개요: 이 문서는 2025년 12월 10일부터 2026년 2월 4일까지 \"HTML AI Battle\" 프로젝트의 17개 공개 실험에서 수집된 68개의 단일 파일 HTML 세대에 대한 8주간의 관찰 비교를 제시합니다. 4가지 추론 모드…"
+  },
+  "https://www.nber.org/papers/w35042#fromrss|summary": {
+    "input": "In 1965–1966, Chile built and staffed thousands of new primary classrooms in supply-constrained communities. Using a quasi-experimental design and large census samples, we show that childhood exposure to school construction substantially improved the schooling and labor market o…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "1965~1966년에 칠레는 공급이 제한된 지역사회에 수천 개의 새로운 초등학교 교실을 건설하고 직원을 배치했습니다. 준실험 설계와 대규모 인구 조사 표본을 사용하여 우리는 어린 시절 학교 건설에 대한 노출이 학교 교육 및 노동 시장을 실질적으로 개선했음을 보여줍니다."
+  },
+  "https://www.nber.org/papers/w35165#fromrss|summary": {
+    "input": "Using Danish SHARE data from 2004–2022, we examine income gradients in health among retirees ages 60–79 across functional, diagnosed, comprehensive, mental, and cognitive domains. Higher-income retirees are healthier across all dimensions, but the evolution of inequality differs…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2004년부터 2022년까지의 덴마크 SHARE 데이터를 사용하여 우리는 기능적, 진단적, 종합적, 정신적, 인지적 영역에 걸쳐 60~79세 퇴직자의 건강 소득 변화를 조사합니다. 고소득 퇴직자는 모든 측면에서 더 건강하지만 불평등의 진화는 다릅니다."
   }
 }
