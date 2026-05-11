@@ -1226,5 +1226,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "위의 FRED 그래프는 실업률이 거의 항상 두 가지 중 하나를 수행한다는 것을 보여줍니다. (1) 경기 확장 중에 천천히 감소하거나 (2) 경기 침체 중에 급격히 증가합니다. Friedman(1964, 1993)은 이러한 행동을 악기 연주에 비유하면서 다음과 같이 설명했습니다. 계속 읽으세요…"
+  },
+  "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/|summary": {
+    "input": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of both approaches and…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "조직은 다음과 같이 향후 수년간 운영에 영향을 미칠 수 있는 중요한 아키텍처 결정에 직면해 있습니다. 단일 조직을 유지하는 것이 더 낫습니까, 아니면 여러 조직을 구현하는 것이 더 낫습니까? 이 게시물에서는 두 접근 방식의 주요 장점과 단점을 설명합니다."
   }
 }
