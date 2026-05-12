@@ -1,7 +1,50 @@
 {
-  "generatedAt": "2026-05-11T20:04:42.053Z",
+  "generatedAt": "2026-05-12T04:06:43.317Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Context-Augmented Code Generation: How Product Context Improves AI Coding Agent Decision Compliance by 49%",
+      "authors": "Drew Dillon, Kasyap Varanasi",
+      "date": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.08112",
+      "summary": "arXiv:2605.08112v1 Announce Type: new Abstract: AI coding agents powered by large language models can read codebases and produce functional code, but they routinely violate team-specific product decisions that are invisible in the source code alone. We introduce a controlled ben…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "cs.CE",
+        "cs.LG",
+        "cs.LO",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.08112v1 발표 유형: 새로운 개요: 대규모 언어 모델로 구동되는 AI 코딩 에이전트는 코드베이스를 읽고 기능 코드를 생성할 수 있지만 소스 코드만으로는 보이지 않는 팀별 제품 결정을 일상적으로 위반합니다. 우리는 제어된 벤을 소개합니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Computer Use at the Edge of the Statistical Precipice",
+      "authors": "Pierluca D'Oro, Sneha Silwal, William Wong, Yuxuan Sun, Fanyi Xiao, Manchen Wang, Eric Gan, Allen Bolourchi, Joseph Tighe",
+      "date": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.08261",
+      "summary": "arXiv:2605.08261v1 Announce Type: new Abstract: Evaluating Computer Use Agents (CUAs) on interactive environments is fraught with methodological pitfalls that the field has yet to systematically address. We show that a 1MB replay script that blindly executes a recorded action se…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.08261v1 발표 유형: 새로운 개요: 대화형 환경에서 컴퓨터 사용 에이전트(CUA)를 평가하는 것은 해당 분야가 아직 체계적으로 해결하지 못한 방법론적 함정으로 가득 차 있습니다. 우리는 기록된 동작을 맹목적으로 실행하는 1MB 재생 스크립트를 보여줍니다."
+    },
     {
       "source": "AWS Architecture Blog",
       "category": "개발",
@@ -21,45 +64,6 @@
         "new"
       ],
       "koSummary": "조직은 다음과 같이 향후 수년간 운영에 영향을 미칠 수 있는 중요한 아키텍처 결정에 직면해 있습니다. 단일 조직을 유지하는 것이 더 낫습니까, 아니면 여러 조직을 구현하는 것이 더 낫습니까? 이 게시물에서는 두 접근 방식의 주요 장점과 단점을 설명합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "EMRGF: A Practitioner Framework for Governance-Driven Enterprise Technology Modernization",
-      "authors": "Harveen Punihani",
-      "date": "2026-05-11",
-      "url": "https://arxiv.org/abs/2605.06703",
-      "summary": "arXiv:2605.06703v1 Announce Type: new Abstract: Enterprise technology modernization programs fail at a documented and costly rate, yet the dominant explanation -- inadequate engineering capability -- is incorrect. The primary failure mode is a governance deficit: the absence of…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.06703v1 발표 유형: new 개요: 기업 기술 현대화 프로그램은 문서화되고 비용이 많이 드는 속도로 실패하지만 지배적인 설명인 부적절한 엔지니어링 능력은 올바르지 않습니다. 주요 실패 모드는 거버넌스 부족입니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "The Single-File Test: A Longitudinal Public-Interface Evaluation of First-Output LLM Web Generation with Social Reach Tracking",
-      "authors": "Diego Cabezas Palacios",
-      "date": "2026-05-11",
-      "url": "https://arxiv.org/abs/2605.06707",
-      "summary": "arXiv:2605.06707v1 Announce Type: new Abstract: This paper presents an eight-week observational comparison of 68 single-file HTML generations collected across 17 public experiments in the \"HTML AI Battle\" project between December 10, 2025 and February 4, 2026. Four reasoning mod…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.06707v1 발표 유형: 새로운 개요: 이 문서는 2025년 12월 10일부터 2026년 2월 4일까지 \"HTML AI Battle\" 프로젝트의 17개 공개 실험에서 수집된 68개의 단일 파일 HTML 세대에 대한 8주간의 관찰 비교를 제시합니다. 4가지 추론 모드…"
     },
     {
       "source": "NY Fed Liberty Street",
@@ -99,6 +103,23 @@
         "new"
       ],
       "koSummary": "위의 FRED 그래프는 실업률이 거의 항상 두 가지 중 하나를 수행한다는 것을 보여줍니다. (1) 경기 확장 중에 천천히 감소하거나 (2) 경기 침체 중에 급격히 증가합니다. Friedman(1964, 1993)은 이러한 행동을 악기 연주에 비유하면서 다음과 같이 설명했습니다. 계속 읽으세요…"
+    },
+    {
+      "source": "EBS",
+      "category": "교양",
+      "title": "다큐프라임 - 아이의 시간 | 아이의 시간_2부 으랏차차! 씨름소년단",
+      "authors": "다큐프라임 - 아이의 시간",
+      "date": "2026-05-11",
+      "url": "https://www.ebs.co.kr/tv/show?prodId=452973&lectId=60719607&new",
+      "summary": "경남 창원의 교방초등학교 씨름부를 6개월간 밀착 기록하며, 몸을 통해 세상을 익히는 아이들의 시간 조명. 씨름 소년들의 부단한 도전이 이끄는 변화를 통해, 우리 사회가 지켜내야 할 가치-실패의 경험, 회복탄력성, 지지와 연대-에 대해 깊은 울림을 주는 스포츠 다큐 영화.",
+      "program": "다큐프라임 - 아이의 시간",
+      "score": "new",
+      "tags": [
+        "교양",
+        "EBS",
+        "다큐프라임 - 아이의 시간",
+        "new"
+      ]
     },
     {
       "source": "Python Insider",
@@ -338,11 +359,11 @@
       "date": "2026-05-04",
       "url": "https://library.krihs.re.kr/library/10120/contents/7735515",
       "summary": "➊ AI는 도시 서비스 고도화를 넘어 도시 운영체계와 공간구조를 재편하는 정책 변수로 부상하였으며, 에이전틱 AI는 도시 운영의 자율적 판단·실행 주체로, 피지컬 AI는 도시 공간에서의 물리적 행위 주체(자율주행차·드론·로봇 등)로 각각 확장 ➋ AI 확산은 도시 혁신과 함께 AI 산업·핵심 인프라의 도심 집적에 따른 공간 양극화, 자율주행·로봇 확산에 따른 이동체계와 도로 공간의 재구조화, 지역 불균형과 인프라 갈등 등 새로운 도시 문제를 동반 ➌ AI 도시 구현의 핵심은 기술 보급을 넘어 제…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "정책",
         "국토정책Brief",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -353,14 +374,14 @@
       "date": "2026-05-04",
       "url": "https://www.kcmi.re.kr/flexer/view?fid=28903&fgu=002002&fty=004003",
       "summary": "본 연구는 우리나라의 세계국채지수(WGBI) 편입 이후의 주요 리스크 요인과 관리 방향에 대해 논의한다. WGBI 편입으로 대규모 자본유입과 국채금리 하락, 국채 수요 기반 확대, 국채ㆍ외환시장 참가자 다변화 등 다수의 긍정적 효과가 예상된다. 단, 새로운 체제가 안착하고 그 편익이 극대화되기 위해서는 편입 이후의 리스크에 대한 다각적인 점검과 효과적인 관리가 필요하다. 첫째, ‘지위 변화 리스크’ 측면에서 해외 사례를 분석한 결과, 편입 이후에도 시장 접근성 악화로 인한 하향 평가 위험이나 기…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "자본시장연구원",
         "국내",
         "이슈보고서",
         "거시금융",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -371,14 +392,14 @@
       "date": "2026-05-04",
       "url": "https://www.kcmi.re.kr/flexer/view?fid=28894&fgu=002002&fty=004003",
       "summary": "국내 주식시장 애널리스트는 구조적 위축과 신뢰성 위기에 봉착해 있다. 2010년대 초반 이후 상장기업 분석보고서를 발간하는 증권사 수와 애널리스트 수는 지속적으로 감소하고 있으며, 애널리스트 투자의견의 90% 이상이 매수의견으로 편중되어 낙관적 편향에 대한 우려가 지속적으로 제기되는 상황이다. 애널리스트가 주식시장 효율성과 상장기업 투명성에 미치는 영향을 고려할 때 애널리스트 업무의 위축과 신뢰성 위기는 한국 주식시장이 반드시 극복해야 할 과제라 할 수 있다. 본고는 2000년부터 25년간 축적…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "자본시장연구원",
         "국내",
         "연구보고서",
         "금융산업",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -389,12 +410,12 @@
       "date": "2026-05-04",
       "url": "https://blog.rust-lang.org/2026/05/04/outreachy-2026-may/",
       "summary": "The Rust Project has been building up a good history of participating in various open-source mentorship programs, including Google Summer of Code for three years (including this year) and previously OSPP . We're happy to announce that this year we are also participating in Outre…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Rust Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "러스트 프로젝트는 지난 3년간(올해 포함) 구글 서머 오브 코드(Google Summer of Code)와 이전 OSPP 등 다양한 오픈소스 멘토링 프로그램에 참여하며 좋은 역사를 쌓아왔다. 올해도 Outre에 참여하게 되었음을 알려드리게 되어 기쁘게 생각합니다."
     },
@@ -406,14 +427,14 @@
       "date": "2026-05-04",
       "url": "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-amazon-s3-transfer-manager-for-swift/",
       "summary": "We are pleased to announce the general availability of the Amazon S3 Transfer Manager&nbsp;for Swift – a high level file and directory transfer utility for the Amazon Simple Storage Service (Amazon S3) built with the AWS SDK for Swift. Using Transfer Manager’s simple API, you ca…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "AWS Developer",
         "글로벌",
         "Announcements",
         "AWS SDK for Swift",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -424,13 +445,13 @@
       "date": "2026-05-04",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/may/comparing-fomc-estimate-r-star-alternative-estimates",
       "summary": "The neutral real interest rate—also called r-star—is the theoretical rate prevailing when maximum employment and 2% inflation are reached. How is this 'unobservable' rate estimated?",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "new"
+        "fresh"
       ],
       "koSummary": "r-star라고도 불리는 중립 실질이자율은 최대 고용과 2% 인플레이션에 도달했을 때 적용되는 이론적 이자율입니다. 이 '관찰할 수 없는' 비율은 어떻게 추정됩니까?"
     },
@@ -443,13 +464,13 @@
       "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3515965&listType=gallery",
       "summary": "김홍도의 예술 세계를 집약적으로 조명하는 전시",
       "type": "테마전",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "전시",
         "국립중앙박물관",
         "테마전",
         "현재전시",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -469,6 +490,23 @@
         "fresh"
       ],
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
+        "fresh"
+      ]
     },
     {
       "source": "KIEP",
@@ -608,6 +646,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "토스 테크",
       "category": "개발",
       "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
@@ -659,6 +714,40 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "Meta Engineering",
       "category": "개발",
       "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
@@ -684,11 +773,11 @@
       "date": "2026-04-20",
       "url": "https://library.krihs.re.kr/library/10120/contents/7732787",
       "summary": "➊ 분쟁 취약국에 대한 지원은 전통적인 ‘단기 인도적 지원’ 중심에서 ‘인도주의-개발-평화 연계(이하 HDP Nexus)’에 기반한 통합적 재건과 회복력 강화로 전환되고 있으나, 현장에서는 여전히 제도적·재정적·운영적 제약이 누적되어 구호-재건-개발 간 단절이 반복 - 이러한 맥락에서 국토·도시 부문은 토지·자원 배분, 사회기반시설 재구축, 지역경제 회복 등 공간적 의사결정을 수반하는 재건 과정의 핵심 매개로 기능할 수 있으며, 특히 사회통합 촉진, 고용 창출, 도시회복력 제고를 동시에 달성할…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "정책",
         "국토정책Brief",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -699,14 +788,14 @@
       "date": "2026-04-20",
       "url": "https://fredblog.stlouisfed.org/2026/04/revisions-to-2025-state-employment/",
       "summary": "In early April 2026, the Bureau of Labor Statistics (BLS) released the annual benchmark revision to state employment data for 2025. Before this benchmark revision, the data showed positive job growth in 2025 in just over two-thirds of US states: … Continue reading →",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "경제",
         "FRED Blog",
         "글로벌",
         "데이터",
         "Uncategorized",
-        "fresh"
+        "stable"
       ],
       "koSummary": "2026년 4월 초, 노동통계국(BLS)은 2025년 주 고용 데이터에 대한 연간 벤치마크 개정판을 발표했습니다. 이 벤치마크 개정 이전에 데이터는 미국 주의 3분의 2가 조금 넘는 지역에서 2025년에 긍정적인 일자리 증가를 보였습니다. … 계속 읽기 →"
     },
@@ -719,13 +808,13 @@
       "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3505270&listType=gallery",
       "summary": "박물관에 새롭게 들어온 최신 기증 문화유산을 특별 공개하는 전시입니다.",
       "type": "테마전",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "전시",
         "국립중앙박물관",
         "테마전",
         "현재전시",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -737,12 +826,29 @@
       "url": "https://www.ebs.co.kr/tv/show?prodId=452818&lectId=60711016&new",
       "summary": "결혼, 출산, 직업 선택, 부동산 매매 등 생애 주기별돈이 어떻게 흐르고 사라졌는지를 추적하고, 어떤 선택이 자산 형성에 기여했으며 어떤 변수가 지금의 재정 위기를 불러왔는지 분석한다. 재정 문제 이면의 가족 갈등, 부부 관계, 자녀 문제까지 함께 짚는다.",
       "program": "다큐프라임 - 백세부자",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "교양",
         "EBS",
         "다큐프라임 - 백세부자",
-        "fresh"
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "그래도 해보던 날들",
+      "authors": "양정욱",
+      "date": "2026-04-17",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
+      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
+        "stable"
       ]
     },
     {
@@ -1045,23 +1151,6 @@
         "stable"
       ],
       "koSummary": "Go 1.26은 유형 구성을 단순화하고 특정 종류의 재귀 유형에 대한 주기 감지를 향상시킵니다."
-    },
-    {
-      "source": "EBS",
-      "category": "교양",
-      "title": "다큐프라임 - 자연다큐 죽음 | 자연다큐 죽음 1부 생명에서 생명으로",
-      "authors": "다큐프라임 - 자연다큐 죽음",
-      "date": "2026-03-23",
-      "url": "https://www.ebs.co.kr/tv/show?prodId=452665&lectId=60701486&new",
-      "summary": "홍배조롱박벌, 얼룩꼬마거미맵시벌 등 기생 곤충을 통해 포식과 기생이라는 잔혹한 생존 전략 속에 숨겨진 생명 순환의 원리를 밀착 관찰한다.",
-      "program": "다큐프라임 - 자연다큐 죽음",
-      "score": "stable",
-      "tags": [
-        "교양",
-        "EBS",
-        "다큐프라임 - 자연다큐 죽음",
-        "stable"
-      ]
     },
     {
       "source": "국토이슈리포트",

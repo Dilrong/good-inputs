@@ -1232,5 +1232,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "조직은 다음과 같이 향후 수년간 운영에 영향을 미칠 수 있는 중요한 아키텍처 결정에 직면해 있습니다. 단일 조직을 유지하는 것이 더 낫습니까, 아니면 여러 조직을 구현하는 것이 더 낫습니까? 이 게시물에서는 두 접근 방식의 주요 장점과 단점을 설명합니다."
+  },
+  "https://arxiv.org/abs/2605.08112|summary": {
+    "input": "arXiv:2605.08112v1 Announce Type: new Abstract: AI coding agents powered by large language models can read codebases and produce functional code, but they routinely violate team-specific product decisions that are invisible in the source code alone. We introduce a controlled ben…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.08112v1 발표 유형: 새로운 개요: 대규모 언어 모델로 구동되는 AI 코딩 에이전트는 코드베이스를 읽고 기능 코드를 생성할 수 있지만 소스 코드만으로는 보이지 않는 팀별 제품 결정을 일상적으로 위반합니다. 우리는 제어된 벤을 소개합니다…"
+  },
+  "https://arxiv.org/abs/2605.08261|summary": {
+    "input": "arXiv:2605.08261v1 Announce Type: new Abstract: Evaluating Computer Use Agents (CUAs) on interactive environments is fraught with methodological pitfalls that the field has yet to systematically address. We show that a 1MB replay script that blindly executes a recorded action se…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.08261v1 발표 유형: 새로운 개요: 대화형 환경에서 컴퓨터 사용 에이전트(CUA)를 평가하는 것은 해당 분야가 아직 체계적으로 해결하지 못한 방법론적 함정으로 가득 차 있습니다. 우리는 기록된 동작을 맹목적으로 실행하는 1MB 재생 스크립트를 보여줍니다."
   }
 }
