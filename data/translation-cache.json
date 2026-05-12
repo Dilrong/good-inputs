@@ -1262,5 +1262,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "CUBIC의 정체창이 최소층에 고정되어 성능이 급락하는 버그를 조사했습니다. 수정에는 RTT 대기 시간과 실제 애플리케이션 유휴 시간을 구별하기 위해 유휴 기간을 올바르게 측정하는 것이 포함되었습니다."
+  },
+  "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/|summary": {
+    "input": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale. Moving from our legacy system to our new architecture required a large-scale migratio…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "엔지니어링 팀이 소셜 그래프의 최신 스냅샷을 위해 활용하는 Meta의 데이터 수집 시스템은 최근 규모에 따른 신뢰성을 향상시키기 위해 대대적인 개편을 거쳤습니다. 기존 시스템에서 새로운 아키텍처로 이동하려면 대규모 마이그레이션이 필요했습니다."
+  },
+  "https://opentelemetry.io/blog/2026/blueprints-intro/|summary": {
+    "input": "It&rsquo;s not uncommon for end users adopting OpenTelemetry to, at some point in their journey, ask themselves: &ldquo;Why is this stuff so complex?&rdquo; . Full adoption normally requires understanding the different ways of configuring SDKs, multiple Collector deployments, da…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "OpenTelemetry를 채택하는 최종 사용자가 여정의 어느 시점에서 \"이게 왜 그렇게 복잡한가?\"라고 자문하는 것은 드문 일이 아닙니다. . 완전히 채택하려면 일반적으로 SDK 구성, 다중 Collector 배포, 데이터 구성 등 다양한 방법을 이해해야 합니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/federal-student-loan-defaults-return-after-pandemic-pause/|summary": {
+    "input": "During 2026:Q1, household debt balances increased slightly, by $18 billion, to reach $18.8 trillion, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed’s Center for Microeconomic Data . Amid upticks in mortgage, HELOC, and auto balances a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "뉴욕 연준 미시 경제 데이터 센터의 최근 가계 부채 및 신용에 관한 분기별 보고서에 따르면 2026년 1분기 동안 가계 부채 잔액은 180억 달러 증가해 18조 8000억 달러에 달했습니다. 모기지, HELOC 및 자동차 잔액이 상승하는 가운데…"
   }
 }
