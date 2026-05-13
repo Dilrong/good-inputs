@@ -1292,5 +1292,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.11006v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)이 테스트를 통과하는 코드만 생성하는 것이 아니라 실행 관련 프로그램 구조를 복구할 수 있는지 여부를 평가하는 것은 아직 해결되지 않은 문제로 남아 있습니다. 기존 코드 벤치마크는 테스트 통과 출력을 강조합니다."
+  },
+  "https://grafana.com/blog/k6-2-0-release/|summary": {
+    "input": "For years, teams have relied on k6 to take a more proactive approach to performance testing, ensuring they can catch issues early and deliver more reliable user experiences. That approach has helped make k6 one of the most widely used performance testing tools in the open source…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "수년 동안 팀은 성능 테스트에 대한 보다 적극적인 접근 방식을 취하여 문제를 조기에 파악하고 보다 안정적인 사용자 경험을 제공하기 위해 k6에 의존해 왔습니다. 이러한 접근 방식은 k6를 오픈 소스에서 가장 널리 사용되는 성능 테스트 도구 중 하나로 만드는 데 도움이 되었습니다."
   }
 }
