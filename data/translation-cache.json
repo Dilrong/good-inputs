@@ -1280,5 +1280,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "뉴욕 연준 미시 경제 데이터 센터의 최근 가계 부채 및 신용에 관한 분기별 보고서에 따르면 2026년 1분기 동안 가계 부채 잔액은 180억 달러 증가해 18조 8000억 달러에 달했습니다. 모기지, HELOC 및 자동차 잔액이 상승하는 가운데…"
+  },
+  "https://arxiv.org/abs/2605.10990|summary": {
+    "input": "arXiv:2605.10990v1 Announce Type: new Abstract: LLM agents increasingly rely on reusable skill libraries, but these skills silently decay as the external services, packages, APIs, and configurations they reference evolve. Existing monitors detect such changes at the wrong granul…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.10990v1 발표 유형: 새로운 개요: LLM 에이전트는 재사용 가능한 기술 라이브러리에 점점 더 의존하지만 이러한 기술은 그들이 참조하는 외부 서비스, 패키지, API 및 구성이 발전함에 따라 자동으로 쇠퇴합니다. 기존 모니터는 잘못된 granul에서 이러한 변화를 감지합니다…"
+  },
+  "https://arxiv.org/abs/2605.11006|summary": {
+    "input": "arXiv:2605.11006v1 Announce Type: new Abstract: Evaluating whether large language models (LLMs) can recover execution-relevant program structure, rather than only produce code that passes tests, remains an open problem. Existing code benchmarks emphasize test-passing outputs, fr…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.11006v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)이 테스트를 통과하는 코드만 생성하는 것이 아니라 실행 관련 프로그램 구조를 복구할 수 있는지 여부를 평가하는 것은 아직 해결되지 않은 문제로 남아 있습니다. 기존 코드 벤치마크는 테스트 통과 출력을 강조합니다."
   }
 }

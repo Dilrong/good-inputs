@@ -1,7 +1,65 @@
 {
-  "generatedAt": "2026-05-12T20:09:05.428Z",
+  "generatedAt": "2026-05-13T04:13:27.915Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "자본시장연구원",
+      "category": "경제",
+      "title": "외환시장 거래시간 연장이 환율 변동성에 미친 영향",
+      "authors": "선임연구위원 강현주",
+      "date": "2026-05-13",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28934&fgu=002002&fty=004003",
+      "summary": "최근 정부는 MSCI 선진국 지수 편입을 위해 2026년 하반기부터 외환시장을 24시간 운영 체제로 확대할 계획을 추진하고 있으나, 야간 유동성이 제한된 상황에서 환율 변동성이 확대될 수 있다는 우려도 제기되고 있다. 본 연구는 이러한 정책 논의에 대한 시사점을 제공하기 위해 2024년 7월 시행된 외환시장 거래시간 연장 조치(마감시간: 오후 3시 30분 → 다음 날 새벽 2시)가 원/달러 환율의 변동성과 시장 안정성에 미친 영향을 분석하였다. 주요 분석 결과는 다음과 같다. 첫째, 동일한 야간…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "자본시장연구원",
+        "국내",
+        "이슈보고서",
+        "거시금융",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Skill Drift Is Contract Violation: Proactive Maintenance for LLM Agent Skill Libraries",
+      "authors": "Linfeng Fan, Yuan Tian, Ziwei Li, Zhiwu Lu",
+      "date": "2026-05-13",
+      "url": "https://arxiv.org/abs/2605.10990",
+      "summary": "arXiv:2605.10990v1 Announce Type: new Abstract: LLM agents increasingly rely on reusable skill libraries, but these skills silently decay as the external services, packages, APIs, and configurations they reference evolve. Existing monitors detect such changes at the wrong granul…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.10990v1 발표 유형: 새로운 개요: LLM 에이전트는 재사용 가능한 기술 라이브러리에 점점 더 의존하지만 이러한 기술은 그들이 참조하는 외부 서비스, 패키지, API 및 구성이 발전함에 따라 자동으로 쇠퇴합니다. 기존 모니터는 잘못된 granul에서 이러한 변화를 감지합니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "An Execution-Verified Multi-Language Benchmark for Code Semantic Reasoning",
+      "authors": "Yikun Li, Jinfeng Jiang, Ting Zhang, Chengran Yang, Chenxing Zhong, Yin Yide, Leow Wen Bin, Eng Lieh Ouh, Lwin Khin Shar, David Lo",
+      "date": "2026-05-13",
+      "url": "https://arxiv.org/abs/2605.11006",
+      "summary": "arXiv:2605.11006v1 Announce Type: new Abstract: Evaluating whether large language models (LLMs) can recover execution-relevant program structure, rather than only produce code that passes tests, remains an open problem. Existing code benchmarks emphasize test-passing outputs, fr…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.11006v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)이 테스트를 통과하는 코드만 생성하는 것이 아니라 실행 관련 프로그램 구조를 복구할 수 있는지 여부를 평가하는 것은 아직 해결되지 않은 문제로 남아 있습니다. 기존 코드 벤치마크는 테스트 통과 출력을 강조합니다."
+    },
     {
       "source": "Meta Engineering",
       "category": "개발",
@@ -87,49 +145,6 @@
       "koSummary": "OpenTelemetry를 채택하는 최종 사용자가 여정의 어느 시점에서 \"이게 왜 그렇게 복잡한가?\"라고 자문하는 것은 드문 일이 아닙니다. . 완전히 채택하려면 일반적으로 SDK 구성, 다중 Collector 배포, 데이터 구성 등 다양한 방법을 이해해야 합니다."
     },
     {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Context-Augmented Code Generation: How Product Context Improves AI Coding Agent Decision Compliance by 49%",
-      "authors": "Drew Dillon, Kasyap Varanasi",
-      "date": "2026-05-12",
-      "url": "https://arxiv.org/abs/2605.08112",
-      "summary": "arXiv:2605.08112v1 Announce Type: new Abstract: AI coding agents powered by large language models can read codebases and produce functional code, but they routinely violate team-specific product decisions that are invisible in the source code alone. We introduce a controlled ben…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.CE",
-        "cs.LG",
-        "cs.LO",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.08112v1 발표 유형: 새로운 개요: 대규모 언어 모델로 구동되는 AI 코딩 에이전트는 코드베이스를 읽고 기능 코드를 생성할 수 있지만 소스 코드만으로는 보이지 않는 팀별 제품 결정을 일상적으로 위반합니다. 우리는 제어된 벤을 소개합니다…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Computer Use at the Edge of the Statistical Precipice",
-      "authors": "Pierluca D'Oro, Sneha Silwal, William Wong, Yuxuan Sun, Fanyi Xiao, Manchen Wang, Eric Gan, Allen Bolourchi, Joseph Tighe",
-      "date": "2026-05-12",
-      "url": "https://arxiv.org/abs/2605.08261",
-      "summary": "arXiv:2605.08261v1 Announce Type: new Abstract: Evaluating Computer Use Agents (CUAs) on interactive environments is fraught with methodological pitfalls that the field has yet to systematically address. We show that a 1MB replay script that blindly executes a recorded action se…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.08261v1 발표 유형: 새로운 개요: 대화형 환경에서 컴퓨터 사용 에이전트(CUA)를 평가하는 것은 해당 분야가 아직 체계적으로 해결하지 못한 방법론적 함정으로 가득 차 있습니다. 우리는 기록된 동작을 맹목적으로 실행하는 1MB 재생 스크립트를 보여줍니다."
-    },
-    {
       "source": "NY Fed Liberty Street",
       "category": "경제",
       "title": "Federal Student Loan Defaults Return After Pandemic Pause",
@@ -147,6 +162,21 @@
         "new"
       ],
       "koSummary": "뉴욕 연준 미시 경제 데이터 센터의 최근 가계 부채 및 신용에 관한 분기별 보고서에 따르면 2026년 1분기 동안 가계 부채 잔액은 180억 달러 증가해 18조 8000억 달러에 달했습니다. 모기지, HELOC 및 자동차 잔액이 상승하는 가운데…"
+    },
+    {
+      "source": "국토정책Brief",
+      "category": "정책",
+      "title": "[국토정책Brief 제1062호] 도시 내 문화접근성 격차와 청년층 주거지의 공간 분포: 한국과 독일의 비교 연구",
+      "authors": "이소영, 이영주, 홍사흠, 박혜정",
+      "date": "2026-05-11",
+      "url": "https://library.krihs.re.kr/library/10120/contents/7737662",
+      "summary": "➊ 15분 도시 등 근접성 중심의 계획 패러다임이 강조되고 있으며, 문화시설은 청년층의 정주 의향과 생활만족도를 결정짓는 필수 공공서비스이자 핵심 어메니티로 인식되고 있음 ➋ 문화시설 공급 전략을 비교해 보면 서울은 시간 기준 접근성과 보행 일상권을 통해 생활권 내 접근성을 높이려는 반면, 베를린은 중심지 이론(Central Place Theory)에 기반하여 위계별로 문화서비스를 배분하는 다핵적 공급 체계를 지향하고 있음 ➌ E2SFCA 지수로 문화접근성을 비교한 결과, 서울은 영화관을 제외하…",
+      "score": "new",
+      "tags": [
+        "정책",
+        "국토정책Brief",
+        "new"
+      ]
     },
     {
       "source": "pnpm Blog",
@@ -394,12 +424,12 @@
       "date": "2026-05-05",
       "url": "https://www.djangoproject.com/weblog/2026/may/05/security-releases/",
       "summary": "In accordance with our security release policy , the Django team is issuing releases for Django 6.0.5 and Django 5.2.14 . These releases address the security issues detailed below. We encourage all users of Django to upgrade as soon as possible. CVE-2026-5766: Potential denial-o…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Django Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "우리의 보안 릴리스 정책에 따라 Django 팀은 Django 6.0.5 및 Django 5.2.14용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. CVE-2026-5766: 잠재적인 거부…"
     },
@@ -411,7 +441,7 @@
       "date": "2026-05-05",
       "url": "https://slack.engineering/from-ssh-to-rest-a-security-driven-modernization-of-slacks-emr-data-pipelines/",
       "summary": "Excerpt By 2024, Slack’s data platform had accumulated 700+ SSH-based operators orchestrating critical data pipelines. We’re talking daily search indexing that processed terabytes of data, analytics jobs powering business intelligence, the whole shebang. Every single one of thes…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Slack Engineering",
@@ -423,7 +453,7 @@
         "data-engineering",
         "data-infrastructure",
         "security",
-        "new"
+        "fresh"
       ],
       "koSummary": "SSH에서 REST까지: Slack EMR 데이터 파이프라인의 보안 중심 현대화"
     },
@@ -568,6 +598,23 @@
       "koSummary": "OpenTelemetry는 방대합니다. Java 에이전트에만 240개 이상의 다양한 자동 계측 기능이 포함되어 있습니다. Collector에는 수백 개의 구성 요소가 있습니다. Python, JavaScript, Go 및 .NET에는 각각 고유한 패턴과 규칙이 있는 고유한 계측 라이브러리 생태계가 있습니다. 오에…"
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -667,6 +714,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "토스 테크",
       "category": "개발",
       "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
@@ -696,6 +760,40 @@
         "네이버 D2",
         "국내",
         "hello world",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
         "fresh"
       ]
     },
@@ -765,6 +863,23 @@
         "교양",
         "EBS",
         "다큐프라임 - 백세부자",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "그래도 해보던 날들",
+      "authors": "양정욱",
+      "date": "2026-04-17",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603300002070",
+      "summary": "현대미술 작품과 작품 연계 상시 교육프로그램으로 작품의 창작 과정에 대한 이해와 시도를 통해 '예술-창작-실패-시도-자기효능감'에 대한 경험을 유기적으로 형성할 수 있는 교육전시 개인 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/520) 단체 예약 바로가기 ( https://booking.mmca.go.kr/product/ko/performance/390)",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "서울",
+        "현재전시",
         "stable"
       ]
     },
@@ -903,21 +1018,6 @@
       ]
     },
     {
-      "source": "국토정책Brief",
-      "category": "정책",
-      "title": "[국토정책Brief 제1057호] 대전환 시대, 지역발전의 재설계: 대규모 개발의 성과와 한계를 넘어서",
-      "authors": "홍사흠, 유현아, 김찬용",
-      "date": "2026-04-06",
-      "url": "https://library.krihs.re.kr/library/10120/contents/7730246",
-      "summary": "➊ 인구감소, 산업구조 변화, 초연결성 확대 등 대전환기를 맞아 과거의 물리적 확장 중심 대규모 개발 방식은 성장의 한계점에 도달함 ➋ 본 연구에서는 세 가지 유형(택지개발, 산단조성, 광역교통인프라)의 대규모 개발사업을 토대로 이들이 지역발전에 미치는 영향을 계량모형으로 실증 분석함 ➌ 택지개발은 2000년대에 인구·경제효과가 뚜렷했으나 2010년대 이후 전반적으로 약화되었으며, 산업단지는 직접적 고용 창출보다 인적 자본 유입에 의한 매개 효과가 큰 것으로 드러남 ➍ 공간적 파급효과를 미시적으…",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "국토정책Brief",
-        "stable"
-      ]
-    },
-    {
       "source": "EBS",
       "category": "교양",
       "title": "다큐프라임 - 베이비부머 은퇴 없는 세대 | 베이비부머, 은퇴 없는 세대",
@@ -955,24 +1055,6 @@
         "stable"
       ],
       "koSummary": "더 나은 성능을 향한 길은 종종 단순함에서 발견됩니다. diff 라인을 성능 좋게 만드는 오르막 오르막 게시물이 The GitHub Blog 에 처음 나타났습니다."
-    },
-    {
-      "source": "자본시장연구원",
-      "category": "경제",
-      "title": "이사 자격 제한 및 정보 공개 제도의 국제 비교와 개선 과제",
-      "authors": "연구위원 정수민",
-      "date": "2026-04-02",
-      "url": "https://www.kcmi.re.kr/flexer/view?fid=28838&fgu=002002&fty=004003",
-      "summary": "본 보고서는 우리나라의 이사 자격 제한 제도와 이사 후보자 정보 공개 제도의 현황을 분석하고, 이를 일본‧영국‧호주‧미국‧홍콩‧싱가포르 등 주요국의 제도와 비교하여 국내 제도의 개선 방향을 제안한다. 국내 상법은 독립이사(사외이사)에 대해서만 결격사유를 규정하고 사내이사에 대한 적격성 기준을 두지 않는 비대칭적 구조를 갖고 있다. 반면 해외 주요국은 사내‧사외이사를 구분하지 않고 모든 이사에게 동일한 적격성 요건을 적용하며, 이사의 결격사유 또한 우리나라에 비해 폭넓게 규정한 경우가 많다. 우리…",
-      "score": "stable",
-      "tags": [
-        "경제",
-        "자본시장연구원",
-        "국내",
-        "이슈보고서",
-        "자본시장",
-        "stable"
-      ]
     },
     {
       "source": "Node.js Blog",
