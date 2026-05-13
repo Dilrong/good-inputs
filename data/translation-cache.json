@@ -1298,5 +1298,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "수년 동안 팀은 성능 테스트에 대한 보다 적극적인 접근 방식을 취하여 문제를 조기에 파악하고 보다 안정적인 사용자 경험을 제공하기 위해 k6에 의존해 왔습니다. 이러한 접근 방식은 k6를 오픈 소스에서 가장 널리 사용되는 성능 테스트 도구 중 하나로 만드는 데 도움이 되었습니다."
+  },
+  "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/|summary": {
+    "input": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering work. On this episode of the Meta Tech Podcast, Pascal Hart…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "새로운 Friend Bubbles 기능은 겉보기에 매우 단순해 보입니다. 친구들이 시청하고 반응한 Reels를 강조합니다. 그러나 때로는 가장 간단해 보이는 기능에 가장 심층적인 엔지니어링 작업이 필요한 경우도 있습니다. Meta Tech Podcast의 이번 에피소드에서 Pascal Hart는…"
+  },
+  "https://blog.cloudflare.com/browser-run-containers/|summary": {
+    "input": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Cloudflare의 컨테이너를 기반으로 재구축하여 Browser Run 제품의 사용 제한을 높이고, 성능을 높이고, 안정성을 높이고, 배송 속도를 높였습니다. 방법은 다음과 같습니다."
   }
 }
