@@ -1,7 +1,76 @@
 {
-  "generatedAt": "2026-05-13T20:14:25.042Z",
+  "generatedAt": "2026-05-14T04:13:31.307Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "국토이슈리포트",
+      "category": "이슈",
+      "title": "[국토이슈리포트 제93호] 최근 주택임대차시장 구조변화 분석과 정책적 시사점",
+      "authors": "박진백, 박천규, 전성제",
+      "date": "2026-05-14",
+      "url": "https://library.krihs.re.kr/library/10120/contents/5951146?checkinId=4036049&articleId=1942976",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "이슈",
+        "국토이슈리포트",
+        "new"
+      ]
+    },
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "AI 시대, 성과 내는 조직일수록 토스식 TPM이 필요한 이유",
+      "authors": "",
+      "date": "2026-05-14",
+      "url": "https://toss.tech/article/toss-tpm",
+      "summary": "모두가 열심히 해도 계속 비는 문제, 토스가 그 회색지대를 해결하는 법",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Fine-Tuning Models for Automated Code Review Feedback",
+      "authors": "Smitha S Kumar, Michael A Lones, Manuel Maarek, Hind Zantout",
+      "date": "2026-05-14",
+      "url": "https://arxiv.org/abs/2605.12610",
+      "summary": "arXiv:2605.12610v1 Announce Type: new Abstract: Large Language Models have introduced new possibilities for programming education through personalized support, content creation, and automated feedback. While recent studies have demonstrated the potential for feedback generation,…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.12610v1 발표 유형: 새로운 개요: 대규모 언어 모델은 맞춤형 지원, 콘텐츠 생성 및 자동화된 피드백을 통해 프로그래밍 교육에 대한 새로운 가능성을 도입했습니다. 최근 연구에서는 피드백 생성의 가능성이 입증되었지만…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "User Reviews as a Source for Usability Requirements: A Precursor Study on Using Large Language Models",
+      "authors": "Cedric Wellhausen, Laura Reinhardt, Kurt Schneider",
+      "date": "2026-05-14",
+      "url": "https://arxiv.org/abs/2605.12657",
+      "summary": "arXiv:2605.12657v1 Announce Type: new Abstract: It is known that user-centered approaches to requirements engineering in general lead to a better suited product for the end-users. LLM4RE provides promising approaches to support the requirements elicitation process (e.g. classifi…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.12657v1 발표 유형: 새로운 개요: 일반적으로 요구사항 엔지니어링에 대한 사용자 중심 접근 방식이 최종 사용자에게 더 적합한 제품으로 이어지는 것으로 알려져 있습니다. LLM4RE는 요구사항 도출 프로세스(예: 분류)를 지원하는 유망한 접근 방식을 제공합니다."
+    },
     {
       "source": "자본시장연구원",
       "category": "경제",
@@ -107,46 +176,6 @@
         "new"
       ],
       "koSummary": "Cloudflare의 컨테이너를 기반으로 재구축하여 Browser Run 제품의 사용 제한을 높이고, 성능을 높이고, 안정성을 높이고, 배송 속도를 높였습니다. 방법은 다음과 같습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Skill Drift Is Contract Violation: Proactive Maintenance for LLM Agent Skill Libraries",
-      "authors": "Linfeng Fan, Yuan Tian, Ziwei Li, Zhiwu Lu",
-      "date": "2026-05-13",
-      "url": "https://arxiv.org/abs/2605.10990",
-      "summary": "arXiv:2605.10990v1 Announce Type: new Abstract: LLM agents increasingly rely on reusable skill libraries, but these skills silently decay as the external services, packages, APIs, and configurations they reference evolve. Existing monitors detect such changes at the wrong granul…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.10990v1 발표 유형: 새로운 개요: LLM 에이전트는 재사용 가능한 기술 라이브러리에 점점 더 의존하지만 이러한 기술은 그들이 참조하는 외부 서비스, 패키지, API 및 구성이 발전함에 따라 자동으로 쇠퇴합니다. 기존 모니터는 잘못된 granul에서 이러한 변화를 감지합니다…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "An Execution-Verified Multi-Language Benchmark for Code Semantic Reasoning",
-      "authors": "Yikun Li, Jinfeng Jiang, Ting Zhang, Chengran Yang, Chenxing Zhong, Yin Yide, Leow Wen Bin, Eng Lieh Ouh, Lwin Khin Shar, David Lo",
-      "date": "2026-05-13",
-      "url": "https://arxiv.org/abs/2605.11006",
-      "summary": "arXiv:2605.11006v1 Announce Type: new Abstract: Evaluating whether large language models (LLMs) can recover execution-relevant program structure, rather than only produce code that passes tests, remains an open problem. Existing code benchmarks emphasize test-passing outputs, fr…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.11006v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)이 테스트를 통과하는 코드만 생성하는 것이 아니라 실행 관련 프로그램 구조를 복구할 수 있는지 여부를 평가하는 것은 아직 해결되지 않은 문제로 남아 있습니다. 기존 코드 벤치마크는 테스트 통과 출력을 강조합니다."
     },
     {
       "source": "AWS Architecture Blog",
@@ -420,13 +449,13 @@
       "date": "2026-05-06",
       "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260506~586ab63f08.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "ECB Blog",
         "글로벌",
         "중앙은행",
-        "new"
+        "fresh"
       ],
       "koSummary": "앱이 중요한 이유: 디지털 은행은 통화 정책을 다르게 전달합니다."
     },
@@ -492,7 +521,7 @@
       "title": "WGBI 편입 이후의 리스크 평가 및 관리 방향",
       "authors": "선임연구위원 강현주 외",
       "date": "2026-05-04",
-      "url": "https://www.kcmi.re.kr/flexer/view?fid=28903&fgu=002002&fty=004003",
+      "url": "https://www.kcmi.re.kr/flexer/view?fid=28936&fgu=002002&fty=004003",
       "summary": "본 연구는 우리나라의 세계국채지수(WGBI) 편입 이후의 주요 리스크 요인과 관리 방향에 대해 논의한다. WGBI 편입으로 대규모 자본유입과 국채금리 하락, 국채 수요 기반 확대, 국채ㆍ외환시장 참가자 다변화 등 다수의 긍정적 효과가 예상된다. 단, 새로운 체제가 안착하고 그 편익이 극대화되기 위해서는 편입 이후의 리스크에 대한 다각적인 점검과 효과적인 관리가 필요하다. 첫째, ‘지위 변화 리스크’ 측면에서 해외 사례를 분석한 결과, 편입 이후에도 시장 접근성 악화로 인한 하향 평가 위험이나 기…",
       "score": "fresh",
       "tags": [
@@ -711,22 +740,6 @@
       ]
     },
     {
-      "source": "토스 테크",
-      "category": "개발",
-      "title": "StarRocks 운영기: Resource Group으로 멀티테넌트 워크로드 격리하기",
-      "authors": "",
-      "date": "2026-04-23",
-      "url": "https://toss.tech/article/operating-starrocks-1",
-      "summary": "서비스 쿼리가 밀리기 시작했을 때, 우리가 선택한 격리 전략",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "토스 테크",
-        "국내",
-        "fresh"
-      ]
-    },
-    {
       "source": "네이버 D2",
       "category": "개발",
       "title": "네이버 검색의 대규모 메트릭 저장소, VictoriaMetrics 운영기",
@@ -734,13 +747,13 @@
       "date": "2026-04-22",
       "url": "https://d2.naver.com/helloworld/6475419",
       "summary": "12.5억 개의 시계열과 555조 개의 데이터포인트를 다루는 VictoriaMetrics 아키텍처와 무중단 장비 전환 네이버 검색 서비스를 안정적으로 운영하려면, 수만 대의 물리 서버와 수백만 개의 컨테이너에서 발생하는 메트릭을 실시간으로 수집·저장·조회할 수 있는 대규모 시계열 데이터베이스(TSDB)가 필요합니다. 저희 팀은 이 요구사항을 충족하기 위해 오픈소스 TSDB인 VictoriaMetrics 를 선택했습니다. VictoriaMetrics는 Prometheus 호환 API를 제공하면서도…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "네이버 D2",
         "국내",
         "hello world",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -809,21 +822,6 @@
         "교양",
         "EBS",
         "다큐프라임 - 백세부자",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI FOCUS",
-      "category": "정책",
-      "title": "노인돌봄서비스 인력의 전망과 정책방향",
-      "authors": "",
-      "date": "2026-04-16",
-      "url": "https://www.kdi.re.kr/research/focusView?pub_no=19161",
-      "summary": "고령화로 인한 노인 돌봄 인력난 해소를 위해 국내 인력의 처우 개선, 외국인 인력 비자 개방, 그리고 돌봄 로봇 기술 활용이라는 다각적 대응책 마련이 필요함",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "KDI FOCUS",
         "stable"
       ]
     },
@@ -1182,23 +1180,6 @@
       ]
     },
     {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "기업 연구개발 조세지원 방식의 국제 비교와 정책 시사점",
-      "authors": "김학수",
-      "date": "2026-01-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19154",
-      "summary": "현대 경제에서 연구개발 활동은 내재되어 있는 불확실성이 크고 결과물이 공공재적 성격을 지니기 때문에, 민간기업의 자발적인 투자 수준은 사회적으로 바람직한 수준에 미치지 못하는 경향이 있다. 각국 정부는 이러한 시장 실패를 보완하기 위해 특허권 보호, 직접 보조금 지원, 그리고 연구개발 투자의 조세부담을 낮춰주는 조세지원 제도를 활용한다. 한국의 연구개발 조세지원의 주된 특징은 기업규모별 차등지원과 특정 기술유형(신성장·원천기술, 국가전략기술)에 대한 파격적인 지원이다. 그러나 2024년 기준 연…",
-      "label": "정책연구시리즈",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "정책연구시리즈",
-        "stable"
-      ]
-    },
-    {
       "source": "워킹페이퍼",
       "category": "연구",
       "title": "언론기사에서 나타나는 국유지 관리 갈등 및 쟁점 분석",
@@ -1246,40 +1227,6 @@
         "stable"
       ],
       "koSummary": "우리는 devalue , svelte , @sveltejs/kit 및 @sveltejs/adapter-node 전반에 걸쳐 5개 취약점에 대한 패치를 출시했습니다. 알아야 할 사항은 다음과 같습니다. 지금 업그레이드하세요. 이러한 패키지를 사용하는 경우 해당 패키지를 취약하지 않은 버전으로 업그레이드하세요. devalue : 5.6.2 svelt…"
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "장기요양보험제도의 효과성 제고를 위한 연구",
-      "authors": "김도헌",
-      "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19167",
-      "summary": "우리나라는 고령화의 진전에 따라 노인 의료비 지출이 증가하고 있으며, 특히 의료적 필요도는 낮지만 요양 필요도가 높은 노인이 고비용의 의료기관에 장기간 입원하는 이른바 사회적 입원 현상이 중요한 정책 과제로 지적되고 있다. 이러한 노인의 돌봄 수요 증가와 삶의 질 개선의 필요성, 그리고 비효율적인 의료비 지출 문제에 대응하기 위해 정부는 2008년에 노인장기요양보험제도를 도입하였다. 제도 도입 이후 장기요양 서비스의 대상과 범위는 지속적으로 확대되었으며, 도입 초기의 3등급 체계에서 경증 치매…",
-      "label": "정책연구시리즈",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "정책연구시리즈",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "모바일 생태계의 경쟁에 대한 연구: 앱마켓의 시장지배력을 중심으로",
-      "authors": "김민정 외",
-      "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19166",
-      "summary": "본 연구는 자세한 데이터를 기반으로 앱마켓 관련 시장에 대해서 심층적으로 분석하고, 앱마켓 플랫폼의 시장지배력에 대한 함의를 도출하고자 했다. 구체적으로는 구글과 애플의 앱마켓 간 그리고 앱마켓 내 주요 앱들의 경쟁 상황을 다각도로 분석하되, 해외 주요국의 시장과 구별되는 차이점이 있는지도 살펴보았다. 먼저 제2장에서는 구글플레이와 앱스토어의 전반적인 시장 규모를 무료앱/유료앱, 일반앱/게임앱, 카테고리별 등 다양한 측면에서 분석했다. 국가별로 어느 앱마켓이 더 우세한지에 있어서는 꽤 큰 차이가…",
-      "label": "정책연구시리즈",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "정책연구시리즈",
-        "stable"
-      ]
     },
     {
       "source": "워킹페이퍼",
@@ -1455,38 +1402,6 @@
       "authors": "전성제, 최진, 박천규",
       "date": "2025-07-09",
       "url": "https://library.krihs.re.kr/library/10120/contents/5951146?checkinId=3666169&articleId=1856456",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "stable",
-      "tags": [
-        "이슈",
-        "국토이슈리포트",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "노인돌봄 인력의 전망과 정책 대응",
-      "authors": "권정현",
-      "date": "2025-03-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=18941",
-      "summary": "노인돌봄 일자리는 노동집약적이며 감정 소모적인 동시에 저숙련자가 비교적 쉽게 진입할 수 있는 저임금 일자리이다. 이런 이유로 전 세계적으로 노인돌봄 일자리는 선호도가 낮으며, 고령화가 진행된 선진국들은 서비스 인력 부족 문제를 겪고 있다. 우리나라는 2024년 12월 65세 이상 고령인구가 전체 인구의 20% 이상을 차지하는 초고령사회로 진입하였다. 또한 베이비붐 세대가 75세 이상 후기 고령자로 진입하는 2030년 이후에는 노인돌봄서비스가 필요한 초고령인구 규모가 빠른 증가세를 나타내면서 노인…",
-      "label": "연구보고서",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "연구보고서",
-        "stable"
-      ]
-    },
-    {
-      "source": "국토이슈리포트",
-      "category": "이슈",
-      "title": "[국토이슈리포트 제88호] 우리나라 중소·중견기업은 해외건설시장 진출에 대해 어떻게 생각하는가?",
-      "authors": "안예현, 심준호, 김지원",
-      "date": "2024-11-12",
-      "url": "https://library.krihs.re.kr/library/10120/contents/5951146?checkinId=3096570&articleId=1789236",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
       "score": "stable",
       "tags": [

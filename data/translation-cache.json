@@ -1322,5 +1322,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 게시물에서는 Amazon CloudWatch 지표를 VPC 내에서 실행되는 내부 OpenTelemetry 수집기로 직접 스트리밍하는 AWS Lambda 변환 기능을 구현하여 고객이 이 문제를 해결하는 데 사용한 접근 방식을 보여줍니다."
+  },
+  "https://arxiv.org/abs/2605.12610|summary": {
+    "input": "arXiv:2605.12610v1 Announce Type: new Abstract: Large Language Models have introduced new possibilities for programming education through personalized support, content creation, and automated feedback. While recent studies have demonstrated the potential for feedback generation,…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.12610v1 발표 유형: 새로운 개요: 대규모 언어 모델은 맞춤형 지원, 콘텐츠 생성 및 자동화된 피드백을 통해 프로그래밍 교육에 대한 새로운 가능성을 도입했습니다. 최근 연구에서는 피드백 생성의 가능성이 입증되었지만…"
+  },
+  "https://arxiv.org/abs/2605.12657|summary": {
+    "input": "arXiv:2605.12657v1 Announce Type: new Abstract: It is known that user-centered approaches to requirements engineering in general lead to a better suited product for the end-users. LLM4RE provides promising approaches to support the requirements elicitation process (e.g. classifi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.12657v1 발표 유형: 새로운 개요: 일반적으로 요구사항 엔지니어링에 대한 사용자 중심 접근 방식이 최종 사용자에게 더 적합한 제품으로 이어지는 것으로 알려져 있습니다. LLM4RE는 요구사항 도출 프로세스(예: 분류)를 지원하는 유망한 접근 방식을 제공합니다."
   }
 }
