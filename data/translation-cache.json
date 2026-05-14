@@ -1358,5 +1358,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "생성적 AI 도구가 더욱 널리 사용됨에 따라 핵심 문제는 기술이 노동 수요에 미치는 영향입니다. 그러한 영향에 대한 증거는 어디에서 찾을 수 있습니까? 이 게시물에서는 AI가 노동 시장에 미치는 영향에 대한 초기 증거가 기업의 채용 공고에 나타나는지 조사합니다. 우리는 O를 결합합니다…"
+  },
+  "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/|summary": {
+    "input": "How the GitHub Issues team used client-side caching, smart prefetching, and service workers to make navigation feel instant. The post From latency to instant: Modernizing GitHub Issues navigation performance appeared first on The GitHub Blog .",
+    "approved": true,
+    "mode": "summary",
+    "koText": "GitHub Issues 팀이 클라이언트 측 캐싱, 스마트 프리페칭, 서비스 워커를 사용하여 탐색이 즉각적으로 느껴지도록 만든 방법입니다. 대기 시간에서 즉시로: GitHub 문제 현대화 탐색 성능 게시물이 GitHub 블로그에 처음 게재되었습니다."
+  },
+  "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/|summary": {
+    "input": "The .spec.externalIPs field for Service was an early attempt to provide cloud-load-balancer-like functionality for non-cloud clusters. Unfortunately, the API assumes that every user in the cluster is fully trusted, and in any situation where that is not the case, it enables vari…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "서비스의 .spec.externalIPs 필드는 비클라우드 클러스터에 클라우드 로드 밸런서와 유사한 기능을 제공하려는 초기 시도였습니다. 불행하게도 API는 클러스터의 모든 사용자가 완전히 신뢰할 수 있다고 가정하고 그렇지 않은 상황에서는 다양한…"
+  },
+  "https://opentelemetry.io/blog/2026/genai-observability/|summary": {
+    "input": "Your AI agent just took 45 seconds to answer a simple question. Was it the model? A slow tool call? A retry loop? Every time an application calls an LLM, a chain of model calls, tool invocations, and token exchanges happens behind the scenes — and without observability, you are…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "AI 에이전트가 간단한 질문에 답변하는 데 45초가 걸렸습니다. 모델이었나? 느린 도구 호출? 재시도 루프? 애플리케이션이 LLM을 호출할 때마다 일련의 모델 호출, 도구 호출 및 토큰 교환이 배후에서 발생합니다. 관찰할 수 없으면…"
   }
 }
