@@ -1334,5 +1334,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.12657v1 발표 유형: 새로운 개요: 일반적으로 요구사항 엔지니어링에 대한 사용자 중심 접근 방식이 최종 사용자에게 더 적합한 제품으로 이어지는 것으로 알려져 있습니다. LLM4RE는 요구사항 도출 프로세스(예: 분류)를 지원하는 유망한 접근 방식을 제공합니다."
+  },
+  "https://blog.cloudflare.com/clickhouse-query-plan-contention/|summary": {
+    "input": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "페타바이트 규모의 ClickHouse 클러스터에 대한 파티셔닝 변경으로 인해 중요한 청구 작업이 중단되었을 때 표준 메트릭에는 명백한 오류가 표시되지 않았습니다. 이 게시물에서는 ClickHouse의 쿼리 플래너에서 심각한 잠금 경합을 식별하고 이를 해결하기 위해 업스트림 패치를 구축한 방법을 살펴봅니다."
+  },
+  "https://www.postgresql.org/about/news/postgresql-184-1710-1614-1518-and-1423-released-3297/|summary": {
+    "input": "The PostgreSQL Global Development Group has released an update to all supported versions of PostgreSQL, including 18.4, 17.10, 16.14, 15.18, and 14.23 . This release fixes 11 security vulnerabilities and over 60 bugs reported over the last several months.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "PostgreSQL 글로벌 개발 그룹은 18.4, 17.10, 16.14, 15.18 및 14.23을 포함하여 지원되는 모든 버전의 PostgreSQL에 대한 업데이트를 출시했습니다. 이번 릴리스에서는 지난 몇 달 동안 보고된 11개의 보안 취약점과 60개 이상의 버그가 수정되었습니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/may/banking-analytics-banks-experience-asset-growth-ongoing-consolidation|summary": {
+    "input": "From 2020 to 2025, the number of U.S. banks declined by 13% while average asset size per institution grew by 33% to $5.8 billion.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/do-job-postings-show-early-labor-market-effects-of-ai/|summary": {
+    "input": "As generative AI tools become more widely used, a key issue is the technology’s impact on labor demand. Where might we find evidence of that impact? In this post, we examine whether early evidence of AI’s effect on the labor market appears in firms’ job postings. We combine an o…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "생성적 AI 도구가 더욱 널리 사용됨에 따라 핵심 문제는 기술이 노동 수요에 미치는 영향입니다. 그러한 영향에 대한 증거는 어디에서 찾을 수 있습니까? 이 게시물에서는 AI가 노동 시장에 미치는 영향에 대한 초기 증거가 기업의 채용 공고에 나타나는지 조사합니다. 우리는 O를 결합합니다…"
   }
 }
