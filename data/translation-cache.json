@@ -1388,5 +1388,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.13898v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 생성적, 확률적, 개방형 특성으로 인해 소프트웨어 품질 보증에 상당한 문제를 제기했습니다. 이는 Oracle 문제를 심화시키고 T의 적용 가능성을 제한합니다."
+  },
+  "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260515~969ddfcf06.en.html|title": {
+    "input": "How cross-border flows via non-bank financial institutions constrain financing for euro area firms",
+    "approved": true,
+    "mode": "title",
+    "koText": "비은행 금융 기관을 통한 국경 간 흐름이 유로 지역 기업의 자금 조달을 제한하는 방법"
   }
 }
