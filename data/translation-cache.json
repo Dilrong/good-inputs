@@ -1394,5 +1394,11 @@
     "approved": true,
     "mode": "title",
     "koText": "비은행 금융 기관을 통한 국경 간 흐름이 유로 지역 기업의 자금 조달을 제한하는 방법"
+  },
+  "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/|summary": {
+    "input": "This article was originally published with the wrong date. It was later republished, dated the 15th of May 2026. Kubernetes v1.36 introduces a new alpha counter metric route_controller_route_sync_total to the Cloud Controller Manager (CCM) route controller implementation at k8s.…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 기사는 원래 잘못된 날짜로 게시되었습니다. 나중에 2026년 5월 15일에 다시 게시되었습니다. Kubernetes v1.36은 k8s의 CCM(클라우드 컨트롤러 관리자) 경로 컨트롤러 구현에 새로운 알파 카운터 메트릭인 Route_controller_route_sync_total을 도입합니다.…"
   }
 }
