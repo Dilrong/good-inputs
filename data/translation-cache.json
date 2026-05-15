@@ -1376,5 +1376,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "AI 에이전트가 간단한 질문에 답변하는 데 45초가 걸렸습니다. 모델이었나? 느린 도구 호출? 재시도 루프? 애플리케이션이 LLM을 호출할 때마다 일련의 모델 호출, 도구 호출 및 토큰 교환이 배후에서 발생합니다. 관찰할 수 없으면…"
+  },
+  "https://arxiv.org/abs/2605.13896|summary": {
+    "input": "arXiv:2605.13896v1 Announce Type: new Abstract: Automatic translation between programming languages remains a challenging problem, particularly when the source language is highly concise and specialized. This paper investigates the translation of APL into C# using large language…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.13896v1 발표 유형: new 개요: 프로그래밍 언어 간의 자동 번역은 여전히 ​​어려운 문제로 남아 있으며, 특히 소스 언어가 매우 간결하고 전문화된 경우 더욱 그렇습니다. 이 논문에서는 대규모 언어를 사용하여 APL을 C#으로 번역하는 방법을 조사합니다."
+  },
+  "https://arxiv.org/abs/2605.13898|summary": {
+    "input": "arXiv:2605.13898v1 Announce Type: new Abstract: Large language models (LLMs) have introduced substantial challenges to software quality assurance due to their generative, probabilistic, and open-ended nature, which intensifies the oracle problem and limits the applicability of t…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.13898v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 생성적, 확률적, 개방형 특성으로 인해 소프트웨어 품질 보증에 상당한 문제를 제기했습니다. 이는 Oracle 문제를 심화시키고 T의 적용 가능성을 제한합니다."
   }
 }
