@@ -1400,5 +1400,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 기사는 원래 잘못된 날짜로 게시되었습니다. 나중에 2026년 5월 15일에 다시 게시되었습니다. Kubernetes v1.36은 k8s의 CCM(클라우드 컨트롤러 관리자) 경로 컨트롤러 구현에 새로운 알파 카운터 메트릭인 Route_controller_route_sync_total을 도입합니다.…"
+  },
+  "https://arxiv.org/abs/2605.15221|summary": {
+    "input": "arXiv:2605.15221v1 Announce Type: new Abstract: AlphaEvolve and FunSearch have demonstrated the potential of combining large language models (LLMs) with evolutionary search for automated algorithm discovery. However, discovery success is shaped not only by model capability but a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.15221v1 발표 유형: 새로운 개요: AlphaEvolve와 FunSearch는 대규모 언어 모델(LLM)과 자동화된 알고리즘 검색을 위한 진화적 검색을 결합하는 잠재력을 보여주었습니다. 그러나 발견의 성공은 모델 기능뿐만 아니라…"
+  },
+  "https://arxiv.org/abs/2605.15222|summary": {
+    "input": "arXiv:2605.15222v1 Announce Type: new Abstract: Large language models (LLMs) can often generate functionally correct code, but their ability to produce efficient implementations for performance-critical systems tasks remains limited. Existing code benchmarks mainly emphasize cor…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.15222v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 기능적으로 올바른 코드를 생성할 수 있는 경우가 많지만 성능이 중요한 시스템 작업을 효율적으로 구현하는 능력은 여전히 ​​제한적입니다. 기존 코드 벤치마크는 주로 Cor…"
+  },
+  "https://www.nber.org/papers/w35195#fromrss|summary": {
+    "input": "We adapt attention-based neural networks and reinforcement learning to direct portfolio construction, allowing broader portfolio-management objectives (including non-time-additively separable ones) and in a data-driven way, searching over a much richer policy/strategy space than…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 포트폴리오 구성을 지시하기 위해 주의 기반 신경망과 강화 학습을 적용하여 더 광범위한 포트폴리오 관리 목표(시간 추가로 분리할 수 없는 목표 포함)를 허용하고 데이터 기반 방식으로 이전보다 훨씬 더 풍부한 정책/전략 공간을 검색합니다."
+  },
+  "https://www.nber.org/papers/w35196#fromrss|summary": {
+    "input": "Interpreting real-time labor market conditions is challenging because commonly used indicators are noisy, revised over time, and often send conflicting signals. In practice, policymakers and market participants describe labor market developments using a shared narrative language…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "일반적으로 사용되는 지표는 잡음이 많고 시간이 지남에 따라 수정되며 종종 상충되는 신호를 보내기 때문에 실시간 노동 시장 상황을 해석하는 것은 어렵습니다. 실제로 정책 입안자와 시장 참가자는 공유된 서술 언어를 사용하여 노동 시장 발전을 설명합니다."
   }
 }
