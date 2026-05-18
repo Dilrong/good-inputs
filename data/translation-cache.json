@@ -1424,5 +1424,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "일반적으로 사용되는 지표는 잡음이 많고 시간이 지남에 따라 수정되며 종종 상충되는 신호를 보내기 때문에 실시간 노동 시장 상황을 해석하는 것은 어렵습니다. 실제로 정책 입안자와 시장 참가자는 공유된 서술 언어를 사용하여 노동 시장 발전을 설명합니다."
+  },
+  "https://blog.cloudflare.com/cyber-frontier-models/|summary": {
+    "input": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "최근 몇 주 동안 우리는 인프라의 중요한 부분에 걸쳐 라이브 코드에서 Mythos 및 기타 보안 중심 LLM을 지적했습니다. 우리는 관찰한 내용, 모델의 강점과 약점, 확장에 앞서 해당 모델을 둘러싼 작업이 어떤 모습이어야 하는지 공유합니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/honey-who-shrunk-the-u-s-income-surplus/|summary": {
+    "input": "Foreign holdings of U.S. financial assets are immense, with official estimates putting their current market value at $69 trillion. U.S. holdings of foreign assets are also impressive but much smaller, at $41 trillion. The shortfall in U.S. foreign assets relative to foreign liab…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "미국 금융 자산의 외국인 보유량은 엄청나며, 공식 추산에 따르면 현재 시장 가치는 69조 달러에 달합니다. 미국의 해외 자산 보유량도 인상적이지만 그 규모는 41조 달러로 훨씬 적습니다. 외국 부채 대비 미국 해외 자산 부족…"
   }
 }

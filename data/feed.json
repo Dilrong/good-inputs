@@ -1,7 +1,52 @@
 {
-  "generatedAt": "2026-05-18T10:42:31.605Z",
+  "generatedAt": "2026-05-18T15:58:02.961Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "국립중앙박물관",
+      "category": "전시",
+      "title": "[지역 공립박물관 순회전시] 국보순회전, 우리 동네에서 만나는 보물",
+      "authors": "",
+      "date": "2026-05-19",
+      "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3515965",
+      "summary": "김홍도의 예술 세계를 집약적으로 조명하는 전시",
+      "type": "특별전",
+      "score": "new",
+      "tags": [
+        "전시",
+        "국립중앙박물관",
+        "특별전",
+        "현재전시",
+        "new"
+      ]
+    },
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Project Glasswing: what Mythos showed us",
+      "authors": "Grant Bourzikas",
+      "date": "2026-05-18",
+      "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+      "summary": "In recent weeks, we pointed Mythos and other security-focused LLMs at live code across critical parts of our infrastructure. We share what we observed, the models’ strengths and weaknesses, and what the work around them needs to look like before any of it can scale.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Security",
+        "AI",
+        "Agents",
+        "Threat Intelligence",
+        "LLM",
+        "Risk Management",
+        "Threat Operations",
+        "Automation",
+        "Engineering",
+        "new"
+      ],
+      "koSummary": "최근 몇 주 동안 우리는 인프라의 중요한 부분에 걸쳐 라이브 코드에서 Mythos 및 기타 보안 중심 LLM을 지적했습니다. 우리는 관찰한 내용, 모델의 강점과 약점, 확장에 앞서 해당 모델을 둘러싼 작업이 어떤 모습이어야 하는지 공유합니다."
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -43,6 +88,26 @@
         "new"
       ],
       "koSummary": "arXiv:2605.15222v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 기능적으로 올바른 코드를 생성할 수 있는 경우가 많지만 성능이 중요한 시스템 작업을 효율적으로 구현하는 능력은 여전히 ​​제한적입니다. 기존 코드 벤치마크는 주로 Cor…"
+    },
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "title": "Honey, Who Shrunk the U.S. Income Surplus?",
+      "authors": "",
+      "date": "2026-05-18",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/honey-who-shrunk-the-u-s-income-surplus/",
+      "summary": "Foreign holdings of U.S. financial assets are immense, with official estimates putting their current market value at $69 trillion. U.S. holdings of foreign assets are also impressive but much smaller, at $41 trillion. The shortfall in U.S. foreign assets relative to foreign liab…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "NY Fed Liberty Street",
+        "글로벌",
+        "연준",
+        "Balance of Payments",
+        "International Economics",
+        "new"
+      ],
+      "koSummary": "미국 금융 자산의 외국인 보유량은 엄청나며, 공식 추산에 따르면 현재 시장 가치는 69조 달러에 달합니다. 미국의 해외 자산 보유량도 인상적이지만 그 규모는 41조 달러로 훨씬 적습니다. 외국 부채 대비 미국 해외 자산 부족…"
     },
     {
       "source": "Kubernetes Blog",
@@ -292,32 +357,6 @@
       "koSummary": "이 게시물에서는 Amazon CloudWatch 지표를 VPC 내에서 실행되는 내부 OpenTelemetry 수집기로 직접 스트리밍하는 AWS Lambda 변환 기능을 구현하여 고객이 이 문제를 해결하는 데 사용한 접근 방식을 보여줍니다."
     },
     {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
-      "authors": "Ruskin Constant",
-      "date": "2026-05-13",
-      "url": "https://blog.cloudflare.com/browser-run-containers/",
-      "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Developers",
-        "Developer Platform",
-        "Browser Run",
-        "Containers",
-        "Cloudflare Workers",
-        "Chrome",
-        "Agents",
-        "Browser Rendering",
-        "new"
-      ],
-      "koSummary": "Cloudflare의 컨테이너를 기반으로 재구축하여 Browser Run 제품의 사용 제한을 높이고, 성능을 높이고, 안정성을 높이고, 배송 속도를 높였습니다. 방법은 다음과 같습니다."
-    },
-    {
       "source": "AWS Architecture Blog",
       "category": "개발",
       "title": "Building hybrid multi-tenant architecture for stateful services on AWS",
@@ -375,25 +414,6 @@
         "new"
       ],
       "koSummary": "OpenTelemetry를 채택하는 최종 사용자가 여정의 어느 시점에서 \"이게 왜 그렇게 복잡한가?\"라고 자문하는 것은 드문 일이 아닙니다. . 완전히 채택하려면 일반적으로 SDK 구성, 다중 Collector 배포, 데이터 구성 등 다양한 방법을 이해해야 합니다."
-    },
-    {
-      "source": "NY Fed Liberty Street",
-      "category": "경제",
-      "title": "Federal Student Loan Defaults Return After Pandemic Pause",
-      "authors": "",
-      "date": "2026-05-12",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/federal-student-loan-defaults-return-after-pandemic-pause/",
-      "summary": "During 2026:Q1, household debt balances increased slightly, by $18 billion, to reach $18.8 trillion, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed’s Center for Microeconomic Data . Amid upticks in mortgage, HELOC, and auto balances a…",
-      "score": "new",
-      "tags": [
-        "경제",
-        "NY Fed Liberty Street",
-        "글로벌",
-        "연준",
-        "Student Loans",
-        "new"
-      ],
-      "koSummary": "뉴욕 연준 미시 경제 데이터 센터의 최근 가계 부채 및 신용에 관한 분기별 보고서에 따르면 2026년 1분기 동안 가계 부채 잔액은 180억 달러 증가해 18조 8000억 달러에 달했습니다. 모기지, HELOC 및 자동차 잔액이 상승하는 가운데…"
     },
     {
       "source": "국토정책Brief",
@@ -983,24 +1003,6 @@
       "koSummary": "최신 하드웨어는 놀라울 정도로 빠르지만 소프트웨어는 이를 활용하지 못하는 경우가 많습니다. Caer Sanders는 기계적인 공감, 즉 기본 하드웨어에 공감하는 소프트웨어를 만드는 관행을 바탕으로 작업을 안내하는 것이 중요하다는 것을 알았습니다. 그들은 이 관행을 모든…"
     },
     {
-      "source": "국립중앙박물관",
-      "category": "전시",
-      "title": "깨달음으로 이끄는 부처 안동 봉정사 괘불",
-      "authors": "",
-      "date": "2026-04-07",
-      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3465083&listType=gallery",
-      "summary": "국립중앙박물관이 개최하는 스무 번째 괘불전으로 보물 을 전시",
-      "type": "테마전",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "국립중앙박물관",
-        "테마전",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "EBS",
       "category": "교양",
       "title": "다큐프라임 - 베이비부머 은퇴 없는 세대 | 베이비부머, 은퇴 없는 세대",
@@ -1429,8 +1431,8 @@
       "title": "보존과학, 새로운 시작 함께하는 미래",
       "authors": "",
       "date": "2025-10-28",
-      "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3515965",
-      "summary": "김홍도의 예술 세계를 집약적으로 조명하는 전시",
+      "url": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?schM=view&menuId=current&exhiSpThemId=3181575&listType=gallery",
+      "summary": "국립중앙박물관 보존과학센터 개관 기념: 국립중앙박물관 보존과학의 과거, 현재, 미래 조명",
       "type": "특별전",
       "score": "stable",
       "tags": [
