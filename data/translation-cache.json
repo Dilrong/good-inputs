@@ -1448,5 +1448,41 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.16517v1 발표 유형: new 개요: 엔터프라이즈 소프트웨어 개발은 ​​점진적인 추가, 아키텍처 수정, 프로덕션 배포 및 엄격한 유지 관리를 특징으로 하는 지속적인 진화 프로세스입니다. 이러한 활동은 더 많은 가치 있는 데이터를 생성합니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/|summary": {
+    "input": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/|title": {
+    "input": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/|summary": {
+    "input": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute, device-to-host (D2H) data…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 Synthesia Research Engineering 팀과 협력하여 고안한 비동기 프레임 생성 파이프라인이라는 비디오 디코딩 최적화 기술을 소개합니다. 이 기술을 채택하면 GPU 컴퓨팅, D2H(장치-호스트) 데이터를 중첩할 수 있습니다."
+  },
+  "https://blog.cloudflare.com/claude-managed-agents/|summary": {
+    "input": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing th…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Cloudflare는 Anthropic의 Claude Managed Agents와 통합되어 자율 코드 전달을 위한 빠르고 격리된 실행 환경을 제공합니다. 즉, 빌더는 프라이빗 백엔드에 대한 액세스를 엄격하게 제어하고 쉽게 사용자 정의하는 동시에 에이전트 워크플로를 전 세계적으로 확장할 수 있습니다."
+  },
+  "https://opentelemetry.io/blog/2026/security-legacy-environments/|summary": {
+    "input": "OpenTelemetry is gaining traction in manufacturing and other legacy environments as organizations explore modern observability approaches. However, applying these practices in traditional systems introduces a different set of security challenges. The constraints of legacy infras…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "OpenTelemetry는 조직이 최신 관찰 접근 방식을 탐색함에 따라 제조 및 기타 레거시 환경에서 주목을 받고 있습니다. 그러나 이러한 방식을 기존 시스템에 적용하면 다른 보안 문제가 발생합니다. 레거시 인프라의 제약…"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/the-global-credit-cycle-in-corporate-bond-returns/|summary": {
+    "input": "The global corporate nonfinancial bond market is both a large investment asset class and a vital source of funding for nonfinancial firms. With $19 trillion outstanding at the end of 2024, a broad portfolio of corporate bonds would be expected to be well diversified. Yet, in 37…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "글로벌 기업 비금융 채권 시장은 대규모 투자 자산군이자 비금융 기업의 중요한 자금 조달원입니다. 2024년 말 미결제 금액이 19조 달러에 달해 광범위한 회사채 포트폴리오가 다양화될 것으로 예상됩니다. 그런데 37년에…"
   }
 }
