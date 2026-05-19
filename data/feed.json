@@ -1,7 +1,46 @@
 {
-  "generatedAt": "2026-05-18T20:01:39.141Z",
+  "generatedAt": "2026-05-19T04:34:47.400Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "ACE: Self-Evolving LLM Coding Framework via Adversarial Unit Test Generation and Preference Optimization",
+      "authors": "Yixu Huang, Xinglei Yu, Zhongyu Wei",
+      "date": "2026-05-19",
+      "url": "https://arxiv.org/abs/2605.16299",
+      "summary": "arXiv:2605.16299v1 Announce Type: new Abstract: Large Language Models (LLMs) excel at code generation but remain heavily reliant on large-scale annotated solutions and verification-based supervision, which constrains scalability and hinders sustained self-improvement. Recent sol…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.16299v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 코드 생성에 탁월하지만 대규모 주석이 달린 솔루션과 검증 기반 감독에 크게 의존하므로 확장성을 제한하고 지속적인 자기 개선을 방해합니다. 최근 솔…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Customizing an LLM for Enterprise Software Engineering",
+      "authors": "Aditya Kini, Satish Chandra, Milad Hashemi, Saksham Thakur, Aditya Pandey, Vincent Nguyen, Marc Brockschmidt, Franjo Ivan\\v{c}i\\'c, Danny Tarlow, Parthasarathy Ranganathan, Petros Maniatis, Ahmed Omran, Zaheer Abbas, Anita Gergely, Martin Sevenich, Gufeng Zhang, Amy Hua, Alexander Fr\\\"ommgen Ranganathan",
+      "date": "2026-05-19",
+      "url": "https://arxiv.org/abs/2605.16517",
+      "summary": "arXiv:2605.16517v1 Announce Type: new Abstract: Enterprise software development is a continuous evolutionary process, characterized by incremental additions, architectural revisions, production deployments and rigorous maintenance. These activities generate valuable data that mo…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.16517v1 발표 유형: new 개요: 엔터프라이즈 소프트웨어 개발은 ​​점진적인 추가, 아키텍처 수정, 프로덕션 배포 및 엄격한 유지 관리를 특징으로 하는 지속적인 진화 프로세스입니다. 이러한 활동은 더 많은 가치 있는 데이터를 생성합니다."
+    },
     {
       "source": "국립중앙박물관",
       "category": "전시",
@@ -17,6 +56,21 @@
         "국립중앙박물관",
         "특별전",
         "현재전시",
+        "new"
+      ]
+    },
+    {
+      "source": "국토정책Brief",
+      "category": "정책",
+      "title": "[국토정책Brief 제1063호] 인구구조 전환에 따른 부동산시장 영향과 향후 과제",
+      "authors": "박진백, 김승훈, 최경아, 조미향, 오민준, 권건우",
+      "date": "2026-05-18",
+      "url": "https://library.krihs.re.kr/library/10120/contents/7738540",
+      "summary": "➊ (인구구조 전환의 특징과 경제적 의미 분석) 저출산·고령화로 인구 자연감소가 시작되고 생산가능인구 감소 및 노년부양비 상승이 진행되며, 기대수명 증가에 따라 소비 축소, 저축 확대, 주택 등 자산 수요 증가가 동시에 진행되는 것으로 분석 ➋ (인구·가구 구조 변화 분석) 수도권·충청권 인구 집중과 비수도권 감소 지속, 1~2인 가구 및 고령 1인가구 확대, 청년 도심·중장년 직주·고령 원도심 집중으로 분석 ➌ (인구구조 전환의 경제적 영향 분석) 기대수명 증가로 주택자산 선호 확대, 생산가능…",
+      "score": "new",
+      "tags": [
+        "정책",
+        "국토정책Brief",
         "new"
       ]
     },
@@ -46,48 +100,6 @@
         "new"
       ],
       "koSummary": "최근 몇 주 동안 우리는 인프라의 중요한 부분에 걸쳐 라이브 코드에서 Mythos 및 기타 보안 중심 LLM을 지적했습니다. 우리는 관찰한 내용, 모델의 강점과 약점, 확장에 앞서 해당 모델을 둘러싼 작업이 어떤 모습이어야 하는지 공유합니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Effective Harness Engineering for Algorithm Discovery with Coding Agents",
-      "authors": "Yoichi Ishibashi, Taro Yano, Masafumi Oyamada",
-      "date": "2026-05-18",
-      "url": "https://arxiv.org/abs/2605.15221",
-      "summary": "arXiv:2605.15221v1 Announce Type: new Abstract: AlphaEvolve and FunSearch have demonstrated the potential of combining large language models (LLMs) with evolutionary search for automated algorithm discovery. However, discovery success is shaped not only by model capability but a…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "cs.CL",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.15221v1 발표 유형: 새로운 개요: AlphaEvolve와 FunSearch는 대규모 언어 모델(LLM)과 자동화된 알고리즘 검색을 위한 진화적 검색을 결합하는 잠재력을 보여주었습니다. 그러나 발견의 성공은 모델 기능뿐만 아니라…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "PerfCodeBench: Benchmarking LLMs for System-Level High-Performance Code Optimization",
-      "authors": "Huihao Jing, Wenbin Hu, Haochen Shi, Hanyu Yang, Sirui Zhang, Shaojin Chen, Haoran Li, Yangqiu Song",
-      "date": "2026-05-18",
-      "url": "https://arxiv.org/abs/2605.15222",
-      "summary": "arXiv:2605.15222v1 Announce Type: new Abstract: Large language models (LLMs) can often generate functionally correct code, but their ability to produce efficient implementations for performance-critical systems tasks remains limited. Existing code benchmarks mainly emphasize cor…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.CL",
-        "cs.PL",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.15222v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 기능적으로 올바른 코드를 생성할 수 있는 경우가 많지만 성능이 중요한 시스템 작업을 효율적으로 구현하는 능력은 여전히 ​​제한적입니다. 기존 코드 벤치마크는 주로 Cor…"
     },
     {
       "source": "NY Fed Liberty Street",
@@ -439,12 +451,12 @@
       "authors": "이소영, 이영주, 홍사흠, 박혜정",
       "date": "2026-05-11",
       "url": "https://library.krihs.re.kr/library/10120/contents/7737662",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "summary": "➊ 15분 도시 등 근접성 중심의 계획 패러다임이 강조되고 있으며, 문화시설은 청년층의 정주 의향과 생활만족도를 결정짓는 필수 공공서비스이자 핵심 어메니티로 인식되고 있음 ➋ 문화시설 공급 전략을 비교해 보면 서울은 시간 기준 접근성과 보행 일상권을 통해 생활권 내 접근성을 높이려는 반면, 베를린은 중심지 이론(Central Place Theory)에 기반하여 위계별로 문화서비스를 배분하는 다핵적 공급 체계를 지향하고 있음 ➌ E2SFCA 지수로 문화접근성을 비교한 결과, 서울은 영화관을 제외하…",
+      "score": "fresh",
       "tags": [
         "정책",
         "국토정책Brief",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -455,13 +467,13 @@
       "date": "2026-05-11",
       "url": "https://pnpm.io/blog/releases/11.1",
       "summary": "pnpm 11.1 adds a few new commands — pnpm audit signatures, pnpm bugs, and pnpm owner — alongside support for installing from arbitrary named registries (including a built-in alias for the GitHub Packages npm registry), the ability to skip runtime installation in CI, and several…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "pnpm Blog",
         "글로벌",
         "release",
-        "new"
+        "fresh"
       ],
       "koSummary": "pnpm 11.1에는 pnpm 감사 서명, pnpm 버그 및 pnpm 소유자와 같은 몇 가지 새로운 명령이 추가되었으며, 임의의 명명된 레지스트리(GitHub 패키지 npm 레지스트리에 대한 내장 별칭 포함)에서 설치 지원, CI에서 런타임 설치를 건너뛰는 기능 등이 추가되었습니다."
     },
@@ -473,14 +485,14 @@
       "date": "2026-05-11",
       "url": "https://fredblog.stlouisfed.org/2026/05/the-peculiar-recent-behavior-of-unemployment/",
       "summary": "Our FRED graph above shows that unemployment is almost always doing one of two things: (1) declining slowly during expansions or (2) rising rapidly during recessions. Friedman (1964, 1993) compared this behavior to playing a musical instrument, describing it as … Continue readin…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "FRED Blog",
         "글로벌",
         "데이터",
         "Uncategorized",
-        "new"
+        "fresh"
       ],
       "koSummary": "위의 FRED 그래프는 실업률이 거의 항상 두 가지 중 하나를 수행한다는 것을 보여줍니다. (1) 경기 확장 중에 천천히 감소하거나 (2) 경기 침체 중에 급격히 증가합니다. Friedman(1964, 1993)은 이러한 행동을 악기 연주에 비유하면서 다음과 같이 설명했습니다. 계속 읽으세요…"
     },
@@ -493,12 +505,12 @@
       "url": "https://www.ebs.co.kr/tv/show?prodId=452973&lectId=60719607&new",
       "summary": "경남 창원의 교방초등학교 씨름부를 6개월간 밀착 기록하며, 몸을 통해 세상을 익히는 아이들의 시간 조명. 씨름 소년들의 부단한 도전이 이끄는 변화를 통해, 우리 사회가 지켜내야 할 가치-실패의 경험, 회복탄력성, 지지와 연대-에 대해 깊은 울림을 주는 스포츠 다큐 영화.",
       "program": "다큐프라임 - 아이의 시간",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "교양",
         "EBS",
         "다큐프라임 - 아이의 시간",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -639,7 +651,7 @@
       "authors": "김익회, 노원준",
       "date": "2026-05-04",
       "url": "https://library.krihs.re.kr/library/10120/contents/7735515",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "summary": "➊ AI는 도시 서비스 고도화를 넘어 도시 운영체계와 공간구조를 재편하는 정책 변수로 부상하였으며, 에이전틱 AI는 도시 운영의 자율적 판단·실행 주체로, 피지컬 AI는 도시 공간에서의 물리적 행위 주체(자율주행차·드론·로봇 등)로 각각 확장 ➋ AI 확산은 도시 혁신과 함께 AI 산업·핵심 인프라의 도심 집적에 따른 공간 양극화, 자율주행·로봇 확산에 따른 이동체계와 도로 공간의 재구조화, 지역 불균형과 인프라 갈등 등 새로운 도시 문제를 동반 ➌ AI 도시 구현의 핵심은 기술 보급을 넘어 제…",
       "score": "fresh",
       "tags": [
         "정책",
@@ -737,6 +749,23 @@
       ]
     },
     {
+      "source": "EBS",
+      "category": "교양",
+      "title": "다큐프라임 - 아이의 시간 | 아이의 시간_1부 부모님을 칭찬한 적 있나요?",
+      "authors": "다큐프라임 - 아이의 시간",
+      "date": "2026-05-04",
+      "url": "https://www.ebs.co.kr/tv/show?prodId=452973&lectId=60718089&new",
+      "summary": "아이가 부모를 칭찬하고 네 줄 일기로 기록하는 역발상 프로젝트를 통해, 혐오와 부정적 감정에 취약한 시대 ‘말의 회복력’과 ‘정서적 문해력’이 지닌 교육적 가치를 탐색하는 다큐",
+      "program": "다큐프라임 - 아이의 시간",
+      "score": "fresh",
+      "tags": [
+        "교양",
+        "EBS",
+        "다큐프라임 - 아이의 시간",
+        "fresh"
+      ]
+    },
+    {
       "source": "MMCA",
       "category": "전시",
       "title": "오~감각미술관",
@@ -811,12 +840,12 @@
       "authors": "김광호",
       "date": "2026-04-27",
       "url": "https://library.krihs.re.kr/library/10120/contents/7734174",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
+      "summary": "➊ 국내 도로에 존재하는 교량과 터널 중 준공 후 30년 이상 된 노후시설의 비율은 각각 22.2%와 5.8%에 달하며 전반적인 도로 유지보수 비용도 최근 증가 추세임 ➋ 특히 지자체 소관 도로시설의 노후화 및 기능 저하가 심각하지만 도로관리와 관련된 예산 여건이 좋지 않고, 정보화 수준은 낮음(예: 기초지자체의 도로대장 전산화 비율은 약 38.7%) ➌ 지자체 도로관리에 대한 디지털 전환은 업무방식, 조직문화 등을 개선하고 ‘유지관리 비용 절감’, ‘자동화 수준 제고’ 등의 측면에서 긍정적인…",
+      "score": "stable",
       "tags": [
         "정책",
         "국토정책Brief",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -827,12 +856,12 @@
       "date": "2026-04-27",
       "url": "https://toss.tech/article/post-quantum-cryptography-eng",
       "summary": "*This is the English version of a previously published article . Hello, Toss Tech readers. I'm Tae-ho Ha, Head of Technology at Toss Payments. Ever since we started the Legacy Overhaul Series, one question has followed us everywhere: \"What was the biggest challenge in overhaulin…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "토스 테크",
         "국내",
-        "fresh"
+        "stable"
       ],
       "koSummary": "*이 기사는 이전에 게재된 기사의 영어 버전입니다. 안녕하세요, 토스테크 독자 여러분. 토스페이먼트 기술실장 하태호 입니다. 레거시 오버홀 시리즈를 시작한 이후로 어디에서나 한 가지 질문이 우리를 따라다녔습니다. \"오버홀 작업에서 가장 큰 과제는 무엇이었습니까…"
     },
@@ -927,7 +956,7 @@
       "authors": "양은모, 이병재, 유희연, 이소영, 박혜정, 조정우, 정윤희",
       "date": "2026-04-20",
       "url": "https://library.krihs.re.kr/library/10120/contents/7732787",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "summary": "➊ 분쟁 취약국에 대한 지원은 전통적인 ‘단기 인도적 지원’ 중심에서 ‘인도주의-개발-평화 연계(이하 HDP Nexus)’에 기반한 통합적 재건과 회복력 강화로 전환되고 있으나, 현장에서는 여전히 제도적·재정적·운영적 제약이 누적되어 구호-재건-개발 간 단절이 반복 - 이러한 맥락에서 국토·도시 부문은 토지·자원 배분, 사회기반시설 재구축, 지역경제 회복 등 공간적 의사결정을 수반하는 재건 과정의 핵심 매개로 기능할 수 있으며, 특히 사회통합 촉진, 고용 창출, 도시회복력 제고를 동시에 달성할…",
       "score": "stable",
       "tags": [
         "정책",
@@ -1017,21 +1046,6 @@
         "경제",
         "KIEP",
         "국내",
-        "stable"
-      ]
-    },
-    {
-      "source": "국토정책Brief",
-      "category": "정책",
-      "title": "[국토정책Brief 제1058호] 5극3특 성장유망산업 육성을 위한 국내 특구의 연계 방향",
-      "authors": "유현아, 조은주",
-      "date": "2026-04-13",
-      "url": "https://library.krihs.re.kr/library/10120/contents/7731633",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "국토정책Brief",
         "stable"
       ]
     },
@@ -1162,23 +1176,6 @@
         "stable"
       ],
       "koSummary": "압축을 계층화된 적응형 파이프라인으로 전환하고 모니터링 및 제어를 강화함으로써 Magic Pocket이 워크로드 변화에 더욱 탄력적으로 대응할 수 있게 되었습니다."
-    },
-    {
-      "source": "EBS",
-      "category": "교양",
-      "title": "다큐프라임 - 자연다큐 죽음 | 자연다큐 죽음 2부 군비경쟁",
-      "authors": "다큐프라임 - 자연다큐 죽음",
-      "date": "2026-03-30",
-      "url": "https://www.ebs.co.kr/tv/show?prodId=452665&lectId=60705986&new",
-      "summary": "뻐꾸기와 붉은머리오목눈이 및 딱새 등 숙주새와의 진화적 군비경쟁을 보여준다. 알색과 무늬를 바꾸는 치열한 생존 경쟁을 기록한다",
-      "program": "다큐프라임 - 자연다큐 죽음",
-      "score": "stable",
-      "tags": [
-        "교양",
-        "EBS",
-        "다큐프라임 - 자연다큐 죽음",
-        "stable"
-      ]
     },
     {
       "source": "Go Blog",

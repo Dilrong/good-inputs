@@ -1436,5 +1436,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "미국 금융 자산의 외국인 보유량은 엄청나며, 공식 추산에 따르면 현재 시장 가치는 69조 달러에 달합니다. 미국의 해외 자산 보유량도 인상적이지만 그 규모는 41조 달러로 훨씬 적습니다. 외국 부채 대비 미국 해외 자산 부족…"
+  },
+  "https://arxiv.org/abs/2605.16299|summary": {
+    "input": "arXiv:2605.16299v1 Announce Type: new Abstract: Large Language Models (LLMs) excel at code generation but remain heavily reliant on large-scale annotated solutions and verification-based supervision, which constrains scalability and hinders sustained self-improvement. Recent sol…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.16299v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 코드 생성에 탁월하지만 대규모 주석이 달린 솔루션과 검증 기반 감독에 크게 의존하므로 확장성을 제한하고 지속적인 자기 개선을 방해합니다. 최근 솔…"
+  },
+  "https://arxiv.org/abs/2605.16517|summary": {
+    "input": "arXiv:2605.16517v1 Announce Type: new Abstract: Enterprise software development is a continuous evolutionary process, characterized by incremental additions, architectural revisions, production deployments and rigorous maintenance. These activities generate valuable data that mo…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.16517v1 발표 유형: new 개요: 엔터프라이즈 소프트웨어 개발은 ​​점진적인 추가, 아키텍처 수정, 프로덕션 배포 및 엄격한 유지 관리를 특징으로 하는 지속적인 진화 프로세스입니다. 이러한 활동은 더 많은 가치 있는 데이터를 생성합니다."
   }
 }
