@@ -1508,5 +1508,11 @@
     "approved": true,
     "mode": "title",
     "koText": "유로화 증권 금융 및 장외 파생상품 시장(SESFOD)의 신용 조건에 관한 2026년 3월 조사 결과"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/ais-macroeconomic-challenges-and-promises/|summary": {
+    "input": "In the third quarter of 2025, America's largest tech firms for the first time spent more on capital investment than they earned from operations. The implication is that AI, a technology with the potential to make the economy more productive, is, for now, absorbing resources fast…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "2025년 3분기에 미국 최대 기술 기업은 처음으로 운영으로 얻은 것보다 자본 투자에 더 많은 돈을 지출했습니다. 이는 경제를 더욱 생산적으로 만들 수 있는 잠재력을 가진 기술인 AI가 현재로서는 자원을 빠르게 흡수하고 있다는 의미입니다."
   }
 }
