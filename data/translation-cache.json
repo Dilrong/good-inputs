@@ -1514,5 +1514,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "2025년 3분기에 미국 최대 기술 기업은 처음으로 운영으로 얻은 것보다 자본 투자에 더 많은 돈을 지출했습니다. 이는 경제를 더욱 생산적으로 만들 수 있는 잠재력을 가진 기술인 AI가 현재로서는 자원을 빠르게 흡수하고 있다는 의미입니다."
+  },
+  "https://www.djangoproject.com/weblog/2026/may/20/django-61-alpha-1-released/|summary": {
+    "input": "Django 6.1 alpha 1 is now available. It represents the first stage in the 6.1 release cycle and is an opportunity to try out the changes coming in Django 6.1. Django 6.1 offers a harmonious mélange of new features and usability improvements, which you can read about in the in-de…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이제 Django 6.1 알파 1을 사용할 수 있습니다. 이는 6.1 릴리스 주기의 첫 번째 단계를 나타내며 Django 6.1의 변경 사항을 시험해 볼 수 있는 기회입니다. Django 6.1은 새로운 기능과 유용성 개선 사항이 조화롭게 혼합된 기능을 제공합니다. 자세한 내용은 in-de…"
+  },
+  "https://aws.amazon.com/blogs/developer/announcing-updated-retry-behavior-for-aws-sdks-and-tools/|summary": {
+    "input": "When your application calls an AWS service and the request fails with a retryable error, the AWS SDK retries it automatically. The retry behavior controls how long the SDK waits between attempts and when it gives up. Most of this happens in the background, but it directly affect…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "애플리케이션이 AWS 서비스를 호출하고 재시도 가능 오류로 인해 요청이 실패하면 AWS SDK가 자동으로 이를 재시도합니다. 재시도 동작은 SDK가 시도 간 대기 시간과 포기 시점을 제어합니다. 대부분의 작업은 백그라운드에서 발생하지만 직접적인 영향을 미칩니다..."
+  },
+  "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/|summary": {
+    "input": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a trustworthy environm…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "사이버 탄력성은 공격자가 환경에 영향을 미친 후 워크로드를 알려진 양호한 상태로 복구하는 능력입니다. 예방 작업은 위협 행위자를 차단하고 탐지 작업은 이를 신속하게 찾아냅니다. 사이버 탄력성은 복구에 중점을 두고 있습니다. 즉, 신뢰할 수 있는 환경을 복원하는 것입니다."
   }
 }
