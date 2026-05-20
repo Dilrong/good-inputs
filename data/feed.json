@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T04:37:40.187Z",
+  "generatedAt": "2026-05-20T09:55:13.023Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -39,6 +39,24 @@
         "new"
       ],
       "koSummary": "arXiv:2605.19174v1 발표 유형: new 개요: 온보딩 문서는 오픈 소스 소프트웨어(OSS)에 신규 사용자를 유치하고 유지하는 데 매우 중요합니다. 그러나 이는 종종 이해하기 어려운 조밀하고 일관되지 않은 구조, 단편화된 프레젠테이션으로 제시됩니다."
+    },
+    {
+      "source": "ECB Press",
+      "category": "경제",
+      "title": "Results of the March 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+      "authors": "",
+      "date": "2026-05-20",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260520~feb373ad0d.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Press",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ],
+      "koSummary": "유로화 증권 금융 및 장외 파생상품 시장(SESFOD)의 신용 조건에 관한 2026년 3월 조사 결과"
     },
     {
       "source": "AWS Architecture Blog",
@@ -533,24 +551,6 @@
         "fresh"
       ],
       "koSummary": "새로운(이전) 가비지 수집기가 포함된 특별 릴리스입니다."
-    },
-    {
-      "source": "ECB Press",
-      "category": "경제",
-      "title": "European Central Bank and Reserve Bank of India sign Memorandum of Understanding on cooperation",
-      "authors": "",
-      "date": "2026-05-10",
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260510~e8a674e2fb.en.html",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "ECB Press",
-        "글로벌",
-        "중앙은행",
-        "fresh"
-      ],
-      "koSummary": "유럽중앙은행과 인도중앙은행이 협력 양해각서 체결"
     },
     {
       "source": "St. Louis Fed",

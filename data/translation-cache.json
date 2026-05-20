@@ -1502,5 +1502,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.19174v1 발표 유형: new 개요: 온보딩 문서는 오픈 소스 소프트웨어(OSS)에 신규 사용자를 유치하고 유지하는 데 매우 중요합니다. 그러나 이는 종종 이해하기 어려운 조밀하고 일관되지 않은 구조, 단편화된 프레젠테이션으로 제시됩니다."
+  },
+  "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260520~feb373ad0d.en.html|title": {
+    "input": "Results of the March 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+    "approved": true,
+    "mode": "title",
+    "koText": "유로화 증권 금융 및 장외 파생상품 시장(SESFOD)의 신용 조건에 관한 2026년 3월 조사 결과"
   }
 }
