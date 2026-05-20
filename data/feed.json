@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-05-19T20:04:51.942Z",
+  "generatedAt": "2026-05-20T04:37:40.187Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Prompt Optimization for LLM Code Generation via Reinforcement Learning",
+      "authors": "Ali Mohammadi Esfahani, Nafiseh Kahani, Samuel A. Ajila",
+      "date": "2026-05-20",
+      "url": "https://arxiv.org/abs/2605.19102",
+      "summary": "arXiv:2605.19102v1 Announce Type: new Abstract: Large Language Models (LLMs) can generate code from natural language, but their performance is highly sensitive to prompt formulation. We propose a reinforcement-learning-based framework that models prompt refinement as a sequentia…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.19102v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 자연어에서 코드를 생성할 수 있지만 성능은 신속한 공식화에 매우 민감합니다. 우리는 순차적인 개선을 모델로 삼는 강화 학습 기반 프레임워크를 제안합니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Restructure This: Using AI to Restructure Onboarding Documents to Reduce Cognitive Overload",
+      "authors": "Zixuan Feng, Prashant Tandan, Igor Steinmacher, Marco Aurelio Gerosa, Anita Sarma",
+      "date": "2026-05-20",
+      "url": "https://arxiv.org/abs/2605.19174",
+      "summary": "arXiv:2605.19174v1 Announce Type: new Abstract: Onboarding documentation is critical for attracting and retaining newcomers in open source software (OSS). However, it is often presented as dense, inconsistently structured, and fragmented presentations that are difficult to under…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.19174v1 발표 유형: new 개요: 온보딩 문서는 오픈 소스 소프트웨어(OSS)에 신규 사용자를 유치하고 유지하는 데 매우 중요합니다. 그러나 이는 종종 이해하기 어려운 조밀하고 일관되지 않은 구조, 단편화된 프레젠테이션으로 제시됩니다."
+    },
     {
       "source": "AWS Architecture Blog",
       "category": "개발",
@@ -108,45 +146,6 @@
         "new"
       ],
       "koSummary": "OpenTelemetry는 조직이 최신 관찰 접근 방식을 탐색함에 따라 제조 및 기타 레거시 환경에서 주목을 받고 있습니다. 그러나 이러한 방식을 기존 시스템에 적용하면 다른 보안 문제가 발생합니다. 레거시 인프라의 제약…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "ACE: Self-Evolving LLM Coding Framework via Adversarial Unit Test Generation and Preference Optimization",
-      "authors": "Yixu Huang, Xinglei Yu, Zhongyu Wei",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.16299",
-      "summary": "arXiv:2605.16299v1 Announce Type: new Abstract: Large Language Models (LLMs) excel at code generation but remain heavily reliant on large-scale annotated solutions and verification-based supervision, which constrains scalability and hinders sustained self-improvement. Recent sol…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.16299v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 코드 생성에 탁월하지만 대규모 주석이 달린 솔루션과 검증 기반 감독에 크게 의존하므로 확장성을 제한하고 지속적인 자기 개선을 방해합니다. 최근 솔…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Customizing an LLM for Enterprise Software Engineering",
-      "authors": "Aditya Kini, Satish Chandra, Milad Hashemi, Saksham Thakur, Aditya Pandey, Vincent Nguyen, Marc Brockschmidt, Franjo Ivan\\v{c}i\\'c, Danny Tarlow, Parthasarathy Ranganathan, Petros Maniatis, Ahmed Omran, Zaheer Abbas, Anita Gergely, Martin Sevenich, Gufeng Zhang, Amy Hua, Alexander Fr\\\"ommgen Ranganathan",
-      "date": "2026-05-19",
-      "url": "https://arxiv.org/abs/2605.16517",
-      "summary": "arXiv:2605.16517v1 Announce Type: new Abstract: Enterprise software development is a continuous evolutionary process, characterized by incremental additions, architectural revisions, production deployments and rigorous maintenance. These activities generate valuable data that mo…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.16517v1 발표 유형: new 개요: 엔터프라이즈 소프트웨어 개발은 ​​점진적인 추가, 아키텍처 수정, 프로덕션 배포 및 엄격한 유지 관리를 특징으로 하는 지속적인 진화 프로세스입니다. 이러한 활동은 더 많은 가치 있는 데이터를 생성합니다."
     },
     {
       "source": "NY Fed Liberty Street",
@@ -438,13 +437,13 @@
       "date": "2026-05-12",
       "url": "https://grafana.com/blog/k6-2-0-release/",
       "summary": "For years, teams have relied on k6 to take a more proactive approach to performance testing, ensuring they can catch issues early and deliver more reliable user experiences. That approach has helped make k6 one of the most widely used performance testing tools in the open source…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Grafana Blog",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "수년 동안 팀은 성능 테스트에 대한 보다 적극적인 접근 방식을 취하여 문제를 조기에 파악하고 보다 안정적인 사용자 경험을 제공하기 위해 k6에 의존해 왔습니다. 이러한 접근 방식은 k6를 오픈 소스에서 가장 널리 사용되는 성능 테스트 도구 중 하나로 만드는 데 도움이 되었습니다."
     },
@@ -810,13 +809,13 @@
       "date": "2026-04-28",
       "url": "https://martinfowler.com/articles/structured-prompt-driven/",
       "summary": "LLM programming assistants have demonstrated considerable value, but mostly with individual developers. The internal IT organization in Thoughtworks has been using them for their teams and have developed a method and workflow called Structured Prompt-Driven Development (SPDD). W…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Martin Fowler",
         "글로벌",
         "아키텍처",
-        "fresh"
+        "stable"
       ],
       "koSummary": "LLM 프로그래밍 보조원은 상당한 가치를 입증했지만 대부분 개인 개발자에게 해당됩니다. Thoughtworks의 내부 IT 조직은 팀을 위해 이를 사용해 왔으며 SPDD(구조적 프롬프트 중심 개발)라는 방법과 워크플로를 개발했습니다. 와…"
     },
