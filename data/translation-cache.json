@@ -1550,5 +1550,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "SIG-Etcd는 etcd v3.7.0의 첫 번째 베타 릴리스 출시를 발표했습니다. 인기 있는 분산 데이터베이스 및 핵심 Kubernetes 구성 요소의 이 새 버전에는 오랫동안 요청된 RangeStream 기능은 물론 여러 레거시 구성 요소의 리팩토링 및 정리 기능이 포함되어 있습니다."
+  },
+  "https://opentelemetry.io/blog/2026/otel-graduates/|summary": {
+    "input": "Today, the Cloud Native Computing Foundation (CNCF) announced that OpenTelemetry has graduated. Graduation is an important milestone for the project and reflects the strength of the OpenTelemetry community and ecosystem. Since the merger of OpenTracing and OpenCensus, thousands…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://opentelemetry.io/blog/2026/otel-graduates/|title": {
+    "input": "OpenTelemetry is a CNCF Graduated Project",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
   }
 }
