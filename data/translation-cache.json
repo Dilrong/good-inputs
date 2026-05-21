@@ -1562,5 +1562,23 @@
     "approved": false,
     "mode": "title",
     "koText": ""
+  },
+  "https://blog.cloudflare.com/casb-anthropic-integration/|summary": {
+    "input": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://blog.cloudflare.com/casb-anthropic-integration/|title": {
+    "input": "Announcing Claude Compliance API support with Cloudflare CASB",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
+  },
+  "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260521~ccae6782e3.en.pdf|title": {
+    "input": "Frank Elderson: A central banker’s perspective on climate change and nature degradation",
+    "approved": true,
+    "mode": "title",
+    "koText": "프랭크 엘더슨(Frank Elderson): 기후 변화와 자연 파괴에 대한 중앙은행가의 관점"
   }
 }
