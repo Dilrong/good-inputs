@@ -1532,5 +1532,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "사이버 탄력성은 공격자가 환경에 영향을 미친 후 워크로드를 알려진 양호한 상태로 복구하는 능력입니다. 예방 작업은 위협 행위자를 차단하고 탐지 작업은 이를 신속하게 찾아냅니다. 사이버 탄력성은 복구에 중점을 두고 있습니다. 즉, 신뢰할 수 있는 환경을 복원하는 것입니다."
+  },
+  "https://arxiv.org/abs/2605.20251|summary": {
+    "input": "arXiv:2605.20251v1 Announce Type: new Abstract: Existing benchmarks for LLM coding agents mainly evaluate final outcomes, such as task completion, compilation success, and test pass rates. While these metrics are useful for measuring end-task capability, they provide limited vis…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.20251v1 발표 유형: 새로운 개요: LLM 코딩 에이전트에 대한 기존 벤치마크는 주로 작업 완료, 컴파일 성공, 테스트 통과율과 같은 최종 결과를 평가합니다. 이러한 측정항목은 최종 작업 기능을 측정하는 데 유용하지만 제한된 시각을 제공합니다."
+  },
+  "https://arxiv.org/abs/2605.20310|summary": {
+    "input": "arXiv:2605.20310v1 Announce Type: new Abstract: Context. Since the eighties, the combination of program analysis techniques has been increasingly recognized as a promising approach to overcome the limitations of standalone methods. While individual techniques, based on either st…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.20310v1 발표 유형: 새로운 개요: 컨텍스트. 80년대 이후 프로그램 분석 기법의 결합은 독립형 방법의 한계를 극복할 수 있는 유망한 접근 방식으로 점점 더 인식되고 있습니다. 각각의 기술을 바탕으로 개별 기술을 사용하는 동안…"
+  },
+  "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/|summary": {
+    "input": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0 . This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components an…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "SIG-Etcd는 etcd v3.7.0의 첫 번째 베타 릴리스 출시를 발표했습니다. 인기 있는 분산 데이터베이스 및 핵심 Kubernetes 구성 요소의 이 새 버전에는 오랫동안 요청된 RangeStream 기능은 물론 여러 레거시 구성 요소의 리팩토링 및 정리 기능이 포함되어 있습니다."
   }
 }
