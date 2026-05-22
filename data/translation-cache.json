@@ -1592,5 +1592,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.21537v1 발표 유형: 새로운 개요: LLM(대형 언어 모델) 에이전트는 레거시 코드를 최신 스택으로 마이그레이션하는 데 점점 더 많이 사용되고 있습니다. 우리는 믿을 수 없을 정도로 간단한 질문을 던집니다. LLM이 레거시 코드를 현대화할 때 동일한 모델을 사용하여 자신의 코드가 언제 인식되는지 확인할 수 있습니까?"
+  },
+  "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260522~a4812a8f23.en.html|title": {
+    "input": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "approved": true,
+    "mode": "title",
+    "koText": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
   }
 }
