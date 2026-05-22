@@ -1580,5 +1580,17 @@
     "approved": true,
     "mode": "title",
     "koText": "프랭크 엘더슨(Frank Elderson): 기후 변화와 자연 파괴에 대한 중앙은행가의 관점"
+  },
+  "https://arxiv.org/abs/2605.21495|summary": {
+    "input": "arXiv:2605.21495v1 Announce Type: new Abstract: We sought to explore and compare the perspectives of three key stakeholder groups: older adults, caregivers (formal health providers and informal caregivers), and digital health software developers on key functional and non-functio…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.21495v1 발표 유형: 새로운 개요: 우리는 핵심 기능 및 비기능에 대한 노인, 간병인(공식 의료 제공자 및 비공식 간병인), 디지털 건강 소프트웨어 개발자 등 세 가지 주요 이해 관계자 그룹의 관점을 탐색하고 비교하려고 했습니다."
+  },
+  "https://arxiv.org/abs/2605.21537|summary": {
+    "input": "arXiv:2605.21537v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used to migrate legacy code to modern stacks. We ask a deceptively simple question: when an LLM modernizes legacy code, can the same model be relied upon to recognize when its own…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.21537v1 발표 유형: 새로운 개요: LLM(대형 언어 모델) 에이전트는 레거시 코드를 최신 스택으로 마이그레이션하는 데 점점 더 많이 사용되고 있습니다. 우리는 믿을 수 없을 정도로 간단한 질문을 던집니다. LLM이 레거시 코드를 현대화할 때 동일한 모델을 사용하여 자신의 코드가 언제 인식되는지 확인할 수 있습니까?"
   }
 }
