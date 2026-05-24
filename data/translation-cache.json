@@ -1598,5 +1598,11 @@
     "approved": true,
     "mode": "title",
     "koText": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
+  },
+  "https://pnpm.io/blog/releases/11.3|summary": {
+    "input": "pnpm 11.3 adds support for npm's staged publishing (pnpm stage), the new trustLockfile setting for skipping the supply-chain verification pass on already-trusted lockfiles, and native implementations of pnpm pkg, pnpm repo, and pnpm set-script. It also adds a --skip-manifest-obf…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "pnpm 11.3에는 npm의 단계적 게시(pnpm 단계)에 대한 지원, 이미 신뢰할 수 있는 잠금 파일에 대한 공급망 확인 패스를 건너뛰기 위한 새로운 trustLockfile 설정, pnpm pkg, pnpm repo 및 pnpm set-script의 기본 구현이 추가되었습니다. 또한 --skip-manifest-obf…를 추가합니다."
   }
 }
