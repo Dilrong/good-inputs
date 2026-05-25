@@ -1628,5 +1628,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "우리는 글로벌 공급망 중단이 통화 정책 전달에 어떤 영향을 미치는지 연구합니다. 팬데믹 이후의 증거는 운송 비용 급증, 상품 시장 불균형 및 가격 상승을 나타냅니다. 우리는 물류 병목 현상(업스트림 슬랙과 다운스트림이 공존하는 모델)을 개발합니다."
+  },
+  "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/|summary": {
+    "input": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Rust 보안 대응 팀은 Cargo가 제3자 레지스트리에서 다운로드한 크레이트 타르볼 내부의 심볼릭 링크를 잘못 처리하여 악성 크레이트가 동일한 레지스트리에 있는 다른 크레이트의 소스 코드를 무시할 수 있다는 통보를 받았습니다. 이 취약점은 다음과 같이 추적됩니다…"
   }
 }
