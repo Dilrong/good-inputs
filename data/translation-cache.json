@@ -1604,5 +1604,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "pnpm 11.3에는 npm의 단계적 게시(pnpm 단계)에 대한 지원, 이미 신뢰할 수 있는 잠금 파일에 대한 공급망 확인 패스를 건너뛰기 위한 새로운 trustLockfile 설정, pnpm pkg, pnpm repo 및 pnpm set-script의 기본 구현이 추가되었습니다. 또한 --skip-manifest-obf…를 추가합니다."
+  },
+  "https://arxiv.org/abs/2605.22976|summary": {
+    "input": "arXiv:2605.22976v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software systems for diverse purposes, due to their versatility, flexibility, and ability to simulate human reasoning to some extent. However, poor integration of LLM in…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.22976v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 다양성, 유연성 및 인간의 추론을 어느 정도 시뮬레이션할 수 있는 능력으로 인해 다양한 목적을 위해 소프트웨어 시스템에 점점 더 통합되고 있습니다. 그러나 LLM의 통합이 좋지 않습니다."
+  },
+  "https://arxiv.org/abs/2605.22992|summary": {
+    "input": "arXiv:2605.22992v1 Announce Type: new Abstract: Performance is a critical characteristic of fundamental systems, such as Database Management Systems (DBMSs). Both academia and industry have invested decades in exploring efficient optimization algorithms. Despite these efforts, D…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.22992v1 발표 유형: 새로운 개요: 성능은 데이터베이스 관리 시스템(DBMS)과 같은 기본 시스템의 중요한 특성입니다. 학계와 업계 모두 효율적인 최적화 알고리즘을 탐색하는 데 수십 년을 투자해 왔습니다. 이러한 노력에도 불구하고 D는…"
+  },
+  "https://www.nber.org/papers/w35164#fromrss|summary": {
+    "input": "We show that the optimal monetary policy and exchange rate framework depend critically on the economy’s commodity exposure. We develop a flexible but tractable model economy with commodity exports and imports, in which international financial conditions may vary with the commodi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 최적의 통화 정책과 환율 체계가 경제의 원자재 노출에 결정적으로 의존한다는 것을 보여줍니다. 우리는 국제 금융 상황이 상품에 따라 달라질 수 있는 상품 수출 및 수입을 통해 유연하지만 다루기 쉬운 모델 경제를 개발합니다."
+  },
+  "https://www.nber.org/papers/w35209#fromrss|summary": {
+    "input": "We study how global supply chain disruptions affect monetary policy transmission. Post-pandemic evidence indicates surging transportation costs, goods-market imbalances, and rising prices. We develop a model in which logistical bottlenecks (upstream slack coexisting with downstr…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 글로벌 공급망 중단이 통화 정책 전달에 어떤 영향을 미치는지 연구합니다. 팬데믹 이후의 증거는 운송 비용 급증, 상품 시장 불균형 및 가격 상승을 나타냅니다. 우리는 물류 병목 현상(업스트림 슬랙과 다운스트림이 공존하는 모델)을 개발합니다."
   }
 }
