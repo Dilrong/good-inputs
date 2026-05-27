@@ -1688,5 +1688,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "양분된 미국 경제에 관한 현재의 논의는 지출, 소득 증가 및 부 축적에 있어서 저소득층과 고소득층 사이의 경제적 격차가 증가하고 있음을 강조합니다. 많은 가구가 잘 지내고 전반적인 경제 활동이 확대되는 동안…"
+  },
+  "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/|summary": {
+    "input": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Cloudflare Radar 데이터는 서비스 종료가 시작된 지 거의 3개월 만에 이란에서 부분적인 인터넷 복원의 초기 징후를 확인했습니다. 트래픽 급증과 DNS 쿼리가 증가했지만 네트워크 활동은 현재 종료 전 수준의 40%에 불과합니다."
+  },
+  "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/|summary": {
+    "input": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compared to the state-of-the-art approaches. It’s also showing 20…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "통합 아키텍처에서 사용자 생성 콘텐츠에 대한 모든 검색 구성 요소를 통합하는 추천 시스템을 재구성한 SilverTorch를 소개합니다. SilverTorch는 최첨단 접근 방식에 비해 최대 23.7배 더 높은 처리량을 보여줍니다. 20개도 보여요..."
   }
 }
