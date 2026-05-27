@@ -1670,5 +1670,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.26144v1 발표 유형: 새로운 개요: LLM 기반 에이전트의 엔드 투 엔드 웹 앱 생성 기능을 평가하기 위한 벤치마크인 VISTA(VIsual Spec-To-App Benchmark)를 소개합니다. 알고리즘 작업에 초점을 맞춘 이전 코드 생성 벤치마크와 달리 VISTA의 목표는…"
+  },
+  "https://pnpm.io/blog/releases/11.4|summary": {
+    "input": "pnpm 11.4 closes a cluster of supply-chain holes around lockfile integrity, credential scoping, git resolutions, patch files, and dependency aliases, makes tarball-integrity mismatches a hard install failure by default (with a narrowly-scoped --update-checksums opt-in), and chan…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "pnpm 11.4는 잠금 파일 무결성, 자격 증명 범위 지정, git 확인, 패치 파일 및 종속성 별칭과 관련된 공급망 허점 클러스터를 닫고 기본적으로 tarball-integrity 불일치를 하드 설치 실패로 만들고(좁은 범위의 --update-checksums 옵트인 사용) chan…"
+  },
+  "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor|summary": {
+    "input": "Birgitta Böckeler finishes her post on sensors for coding agents by examining the role of a test suite as a regression sensor, focusing on the role mutation testing can play. more…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Birgitta Böckeler는 회귀 센서로서 테스트 스위트의 역할을 검토하고 돌연변이 테스트가 수행할 수 있는 역할에 초점을 맞춰 코딩 에이전트용 센서에 대한 게시물을 마쳤습니다. 더…"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/05/food-insecurity-and-consumer-pessimism/|summary": {
+    "input": "Current discussions regarding a bifurcated U.S. economy highlight the increasing economic divide between lower- and higher-income Americans in spending and earnings growth and wealth accumulation. While many households are doing fine and economic activity overall has been expand…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "양분된 미국 경제에 관한 현재의 논의는 지출, 소득 증가 및 부 축적에 있어서 저소득층과 고소득층 사이의 경제적 격차가 증가하고 있음을 강조합니다. 많은 가구가 잘 지내고 전반적인 경제 활동이 확대되는 동안…"
   }
 }
