@@ -1658,5 +1658,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "Kubernetes 프로젝트는 투명성을 기반으로 클러스터 관리자와 보안 연구원의 역량을 강화합니다. 이를 수행하는 한 가지 중요한 방법은 CVE 기록을 공통 취약성 및 노출 데이터베이스에 게시하는 것입니다. 공식 Kubern을 성숙시키기 위한 지속적인 노력의 일환으로…"
+  },
+  "https://arxiv.org/abs/2605.26117|summary": {
+    "input": "arXiv:2605.26117v1 Announce Type: new Abstract: For business process modeling, we can choose between graph-oriented and block-oriented languages. Block-oriented languages are more structured and therefore better understandable for domain experts, while graph-oriented languages a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.26117v1 발표 유형: new 개요: 비즈니스 프로세스 모델링의 경우 그래프 지향 언어와 블록 지향 언어 중에서 선택할 수 있습니다. 블록 지향 언어는 더 구조화되어 있으므로 도메인 전문가가 더 잘 이해할 수 있는 반면, 그래프 지향 언어는…"
+  },
+  "https://arxiv.org/abs/2605.26144|summary": {
+    "input": "arXiv:2605.26144v1 Announce Type: new Abstract: We present VISTA (VIsual Spec-To-App Benchmark), a benchmark for evaluating the end-to-end web-app generation capabilities of LLM-based agents. Unlike prior code generation benchmarks that focus on algorithmic tasks, VISTA targets…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.26144v1 발표 유형: 새로운 개요: LLM 기반 에이전트의 엔드 투 엔드 웹 앱 생성 기능을 평가하기 위한 벤치마크인 VISTA(VIsual Spec-To-App Benchmark)를 소개합니다. 알고리즘 작업에 초점을 맞춘 이전 코드 생성 벤치마크와 달리 VISTA의 목표는…"
   }
 }

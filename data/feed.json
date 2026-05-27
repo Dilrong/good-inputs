@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-05-26T20:26:19.629Z",
+  "generatedAt": "2026-05-27T04:50:26.439Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "From user-understandable to technical process model: a model-driven approach using cuta4bpm",
+      "authors": "Kathrin Kirchner (University Hospital Jena), Sini\\v{s}a Ne\\v{s}kovi\\'c (University of Belgrade, Faculty of Organizational Sciences), Dejan Stojimirovi\\'c (University of Belgrade, Faculty of Organizational Sciences)",
+      "date": "2026-05-27",
+      "url": "https://arxiv.org/abs/2605.26117",
+      "summary": "arXiv:2605.26117v1 Announce Type: new Abstract: For business process modeling, we can choose between graph-oriented and block-oriented languages. Block-oriented languages are more structured and therefore better understandable for domain experts, while graph-oriented languages a…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.26117v1 발표 유형: new 개요: 비즈니스 프로세스 모델링의 경우 그래프 지향 언어와 블록 지향 언어 중에서 선택할 수 있습니다. 블록 지향 언어는 더 구조화되어 있으므로 도메인 전문가가 더 잘 이해할 수 있는 반면, 그래프 지향 언어는…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents",
+      "authors": "JunJia Guo (Joe), Yuhang Yao (Joe), Jiawei (Joe), Zhou, Jingdi Chen",
+      "date": "2026-05-27",
+      "url": "https://arxiv.org/abs/2605.26144",
+      "summary": "arXiv:2605.26144v1 Announce Type: new Abstract: We present VISTA (VIsual Spec-To-App Benchmark), a benchmark for evaluating the end-to-end web-app generation capabilities of LLM-based agents. Unlike prior code generation benchmarks that focus on algorithmic tasks, VISTA targets…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "cs.CV",
+        "new"
+      ],
+      "koSummary": "arXiv:2605.26144v1 발표 유형: 새로운 개요: LLM 기반 에이전트의 엔드 투 엔드 웹 앱 생성 기능을 평가하기 위한 벤치마크인 VISTA(VIsual Spec-To-App Benchmark)를 소개합니다. 알고리즘 작업에 초점을 맞춘 이전 코드 생성 벤치마크와 달리 VISTA의 목표는…"
+    },
     {
       "source": "국토정책Brief",
       "category": "정책",
@@ -33,46 +73,6 @@
         "new"
       ],
       "koSummary": "Kubernetes 프로젝트는 투명성을 기반으로 클러스터 관리자와 보안 연구원의 역량을 강화합니다. 이를 수행하는 한 가지 중요한 방법은 CVE 기록을 공통 취약성 및 노출 데이터베이스에 게시하는 것입니다. 공식 Kubern을 성숙시키기 위한 지속적인 노력의 일환으로…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Code Smells in Clojure: Initial Findings from a Grey Literature Review",
-      "authors": "Walber Ara\\'ujo, Jos\\'e Truta, Lucas Vegi, Marco Tulio Valente, Jo\\~ao Brunet",
-      "date": "2026-05-26",
-      "url": "https://arxiv.org/abs/2605.24049",
-      "summary": "arXiv:2605.24049v1 Announce Type: new Abstract: Code smells are widely used indicators of poor code quality, revealing structural problems and areas where improvement can be made. Although extensively studied in object-oriented languages, functional programming languages remain…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.24049v1 발표 유형: 새로운 개요: 코드 냄새는 코드 품질이 좋지 않다는 지표로 널리 사용되며, 구조적 문제와 개선이 가능한 영역을 드러냅니다. 객체 지향 언어에서 광범위하게 연구되었지만 함수형 프로그래밍 언어는 여전히 남아 있습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "More Skills, Worse Agents? Skill Shadowing Degrades Performance When Expanding Skill Libraries",
-      "authors": "Hongwen Song (Vinson), Song (Vinson), Wei",
-      "date": "2026-05-26",
-      "url": "https://arxiv.org/abs/2605.24050",
-      "summary": "arXiv:2605.24050v1 Announce Type: new Abstract: Skill libraries allow LLM agents to load task-specific instructions on demand, letting non-expert users solve domain-specific tasks through natural language without knowing which skills exist or how they work. However, performance…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "stat.AP",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.24050v1 발표 유형: 새로운 개요: 기술 라이브러리를 사용하면 LLM 에이전트가 요청 시 작업별 지침을 로드할 수 있으므로, 비전문가 사용자는 어떤 기술이 존재하는지, 어떻게 작동하는지 알지 못한 채 자연어를 통해 도메인별 작업을 해결할 수 있습니다. 그러나 성능은…"
     },
     {
       "source": "NY Fed Liberty Street",
@@ -312,7 +312,7 @@
       "date": "2026-05-19",
       "url": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
       "summary": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "AWS Architecture Blog",
@@ -325,7 +325,7 @@
         "Energy",
         "Industries",
         "Technical How-to",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -336,13 +336,13 @@
       "date": "2026-05-19",
       "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
       "summary": "In her recent article about harness engineering for coding agent users, Birgitta Böckeler laid out a mental model for expanding a coding agent harness: a system of guides and sensors that increase the probability of good agent outputs and enable self-correction before issues rea…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Martin Fowler",
         "글로벌",
         "아키텍처",
-        "new"
+        "fresh"
       ],
       "koSummary": "코딩 에이전트 사용자를 위한 하네스 엔지니어링에 관한 최근 기사에서 Birgitta Böckeler는 코딩 에이전트 하네스 확장을 위한 정신적 모델, 즉 좋은 에이전트 출력 가능성을 높이고 문제가 발생하기 전에 자체 수정을 가능하게 하는 가이드 및 센서 시스템을 제시했습니다."
     },
@@ -354,7 +354,7 @@
       "date": "2026-05-19",
       "url": "https://blog.cloudflare.com/claude-managed-agents/",
       "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing th…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Cloudflare Architecture",
@@ -365,7 +365,7 @@
         "Cloudflare Workers",
         "Durable Objects",
         "Developers Storage",
-        "new"
+        "fresh"
       ],
       "koSummary": "Cloudflare는 Anthropic의 Claude Managed Agents와 통합되어 자율 코드 전달을 위한 빠르고 격리된 실행 환경을 제공합니다. 즉, 빌더는 프라이빗 백엔드에 대한 액세스를 엄격하게 제어하고 쉽게 사용자 정의하는 동시에 에이전트 워크플로를 전 세계적으로 확장할 수 있습니다."
     },
@@ -377,13 +377,13 @@
       "date": "2026-05-19",
       "url": "https://opentelemetry.io/blog/2026/security-legacy-environments/",
       "summary": "OpenTelemetry is gaining traction in manufacturing and other legacy environments as organizations explore modern observability approaches. However, applying these practices in traditional systems introduces a different set of security challenges. The constraints of legacy infras…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "OpenTelemetry",
         "글로벌",
         "관측성",
-        "new"
+        "fresh"
       ],
       "koSummary": "OpenTelemetry는 조직이 최신 관찰 접근 방식을 탐색함에 따라 제조 및 기타 레거시 환경에서 주목을 받고 있습니다. 그러나 이러한 방식을 기존 시스템에 적용하면 다른 보안 문제가 발생합니다. 레거시 인프라의 제약…"
     },
@@ -396,13 +396,13 @@
       "url": "https://www.museum.go.kr/site/main/exhiSpecialTheme/view/mainVisual?exhiSpThemId=3515965",
       "summary": "김홍도의 예술 세계를 집약적으로 조명하는 전시",
       "type": "특별전",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "전시",
         "국립중앙박물관",
         "특별전",
         "현재전시",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -526,6 +526,23 @@
         "fresh"
       ],
       "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "로드 무비: 1945년 이후 한·일 미술",
+      "authors": "곽인식, 남화연, 다나카 고키, 나카무라 마사토, 무라카미 다카시, 박서보, 서승원, 이불, 이우환, 정연두, 조양규 등 40여 명",
+      "date": "2026-05-14",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202408210001821",
+      "summary": "«로드 무비: 1945년 이후 한·일 미술»전은 한·일 국교정상화 60주년을 계기로 일본 요코하마미술관과 공동 기획으로 마련되었다. 이 전시는 1945년 이후 현재까지 80년에 걸쳐 이어져 온 한·일 미술 교류의 역사를 조망한다. ‘로드 무비’는 길 위의 이동을 통해 주인공이 예상치 못한 인물과 사건을 만나고, 그 과정에서 변화에 이르는 영화 장르이다. 한국과 일본의 예술가들 역시 두 나라 사이, 낯선 길 위에서 기꺼이 모험을 감행하며, 서로를 향하는 여러 갈래의 길을 만들어왔다. 이 전시는 1…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
     },
     {
       "source": "자본시장연구원",
@@ -716,7 +733,7 @@
       "date": "2026-05-05",
       "url": "https://slack.engineering/from-ssh-to-rest-a-security-driven-modernization-of-slacks-emr-data-pipelines/",
       "summary": "Excerpt By 2024, Slack’s data platform had accumulated 700+ SSH-based operators orchestrating critical data pipelines. We’re talking daily search indexing that processed terabytes of data, analytics jobs powering business intelligence, the whole shebang. Every single one of thes…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "Slack Engineering",
@@ -728,7 +745,7 @@
         "data-engineering",
         "data-infrastructure",
         "security",
-        "fresh"
+        "stable"
       ],
       "koSummary": "SSH에서 REST까지: Slack EMR 데이터 파이프라인의 보안 중심 현대화"
     },
@@ -797,6 +814,23 @@
         "교양",
         "EBS",
         "다큐프라임 - 아이의 시간",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
         "stable"
       ]
     },
@@ -883,6 +917,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
       "source": "네이버 D2",
       "category": "개발",
       "title": "네이버 검색의 대규모 메트릭 저장소, VictoriaMetrics 운영기",
@@ -896,6 +947,40 @@
         "네이버 D2",
         "국내",
         "hello world",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
+      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
         "stable"
       ]
     },
@@ -1230,6 +1315,57 @@
     {
       "source": "KDI 연구보고서",
       "category": "연구",
+      "title": "플랫폼 담합 규율 방향에 관한 연구",
+      "authors": "조성익",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19066",
+      "summary": "본 연구에서는 전통적인 담합과 플랫폼 담합 사이의 차이를 분석하고, 그 구체적 내용이 무엇인지 확인한다. 첫째, 플랫폼 담합에서는, 전통적인 담합에서는 흔치 않았던, 유력한 경쟁사업자를 배제한 일부 사업자만 가담하는 부분 담합이 형성될 수 있다. 둘째, 이 부분 담합은 유력 경쟁사업자와의 경쟁을 촉진하는 결과를 낳을 수 있다. 셋째, 경쟁이 강화되면서 일부 이용자들의 후생이 개선되는 효율성 증진 가능성이 있다. 따라서 앞으로는 플랫폼 담합을 조사하고 처리하는 과정에서, 효율성 증진 가능성과 경쟁…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "제약 산업에서의 정부 정책 효과 분석과 시사점",
+      "authors": "김형진",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19125",
+      "summary": "본 연구는 정부의 간접출자 정책인 모태펀드(Fund of Funds)가 국내 바이오 벤처기업의 혁신 성과와 자본 형성에 미치는 영향을 실증적으로 분석한다. 2000~23년 기간의 기업 단위 벤처투자·재무·특허 데이터를 통합하여, 이벤트 스터디(Event Study) 설계와 이중차분법을 통해 벤처캐피탈협회의 정부 출자 VC(모태펀드)와 비모태펀드 간 차이를 식별하였다. 분석 결과, 모태펀드 투자는 특허 인용 관계를 통해 기술적으로 연결된 바이오텍 기업의 혁신 및 기업공개(IPO)와 양(+)의 상관…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "에너지 산업 육성을 위한 시장 설계",
+      "authors": "윤여창",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19124",
+      "summary": "오늘날 기후위기 대응과 탄소중립 달성에 대한 필요성이 커지는 상황에서, 재생에너지와 저탄소 공정 확산을 위한 지원이 확대되고 있다. 동시에 신성장 동력 확보와 보호무역 강화로 인한 국내 산업 육성 요구도 늘어나고 있다. 하지만 산업 육성 정책은 가격 신호 왜곡과 자원배분 비효율, 통상 리스크를 초래할 수 있다는 우려도 함께 커지고 있다. 본 연구는 이런 문제의식에 기반해, 국내 에너지 산업 육성 정책과 에너지 시장 설계의 상호작용이 기업의 시장 참여와 효율성에 미치는 영향을 분석한다. 이를 위해…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
       "title": "중대재해처벌법이 노동시장에 미친 영향",
       "authors": "정수환",
       "date": "2025-12-31",
@@ -1241,40 +1377,6 @@
         "연구",
         "KDI 연구보고서",
         "연구보고서",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "장기요양보험제도의 효과성 제고를 위한 연구",
-      "authors": "김도헌",
-      "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19167",
-      "summary": "우리나라는 고령화의 진전에 따라 노인 의료비 지출이 증가하고 있으며, 특히 의료적 필요도는 낮지만 요양 필요도가 높은 노인이 고비용의 의료기관에 장기간 입원하는 이른바 사회적 입원 현상이 중요한 정책 과제로 지적되고 있다. 이러한 노인의 돌봄 수요 증가와 삶의 질 개선의 필요성, 그리고 비효율적인 의료비 지출 문제에 대응하기 위해 정부는 2008년에 노인장기요양보험제도를 도입하였다. 제도 도입 이후 장기요양 서비스의 대상과 범위는 지속적으로 확대되었으며, 도입 초기의 3등급 체계에서 경증 치매…",
-      "label": "정책연구시리즈",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "정책연구시리즈",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "모바일 생태계의 경쟁에 대한 연구: 앱마켓의 시장지배력을 중심으로",
-      "authors": "김민정 외",
-      "date": "2025-12-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19166",
-      "summary": "본 연구는 자세한 데이터를 기반으로 앱마켓 관련 시장에 대해서 심층적으로 분석하고, 앱마켓 플랫폼의 시장지배력에 대한 함의를 도출하고자 했다. 구체적으로는 구글과 애플의 앱마켓 간 그리고 앱마켓 내 주요 앱들의 경쟁 상황을 다각도로 분석하되, 해외 주요국의 시장과 구별되는 차이점이 있는지도 살펴보았다. 먼저 제2장에서는 구글플레이와 앱스토어의 전반적인 시장 규모를 무료앱/유료앱, 일반앱/게임앱, 카테고리별 등 다양한 측면에서 분석했다. 국가별로 어느 앱마켓이 더 우세한지에 있어서는 꽤 큰 차이가…",
-      "label": "정책연구시리즈",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "정책연구시리즈",
         "stable"
       ]
     },
@@ -1457,23 +1559,6 @@
       "tags": [
         "이슈",
         "국토이슈리포트",
-        "stable"
-      ]
-    },
-    {
-      "source": "KDI 연구보고서",
-      "category": "연구",
-      "title": "노인돌봄 인력의 전망과 정책 대응",
-      "authors": "권정현",
-      "date": "2025-03-31",
-      "url": "https://www.kdi.re.kr/research/reportView?pub_no=18941",
-      "summary": "노인돌봄 일자리는 노동집약적이며 감정 소모적인 동시에 저숙련자가 비교적 쉽게 진입할 수 있는 저임금 일자리이다. 이런 이유로 전 세계적으로 노인돌봄 일자리는 선호도가 낮으며, 고령화가 진행된 선진국들은 서비스 인력 부족 문제를 겪고 있다. 우리나라는 2024년 12월 65세 이상 고령인구가 전체 인구의 20% 이상을 차지하는 초고령사회로 진입하였다. 또한 베이비붐 세대가 75세 이상 후기 고령자로 진입하는 2030년 이후에는 노인돌봄서비스가 필요한 초고령인구 규모가 빠른 증가세를 나타내면서 노인…",
-      "label": "연구보고서",
-      "score": "stable",
-      "tags": [
-        "연구",
-        "KDI 연구보고서",
-        "연구보고서",
         "stable"
       ]
     },
