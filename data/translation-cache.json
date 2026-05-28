@@ -1700,5 +1700,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "통합 아키텍처에서 사용자 생성 콘텐츠에 대한 모든 검색 구성 요소를 통합하는 추천 시스템을 재구성한 SilverTorch를 소개합니다. SilverTorch는 최첨단 접근 방식에 비해 최대 23.7배 더 높은 처리량을 보여줍니다. 20개도 보여요..."
+  },
+  "https://arxiv.org/abs/2605.27492|summary": {
+    "input": "arXiv:2605.27492v1 Announce Type: new Abstract: LLM agents are rapidly evolving from coding assistants into autonomous software engineering systems. However, existing evaluation methodologies remain largely centered on static, isolated, and short-horizon benchmarks that fail to…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.27492v1 발표 유형: 새로운 개요: LLM 에이전트는 코딩 보조자에서 자율 소프트웨어 엔지니어링 시스템으로 빠르게 발전하고 있습니다. 그러나 기존 평가 방법론은 주로 정적, 고립성 및 단기 벤치마크에 중점을 두며 실패합니다."
+  },
+  "https://arxiv.org/abs/2605.27716|summary": {
+    "input": "arXiv:2605.27716v1 Announce Type: new Abstract: Ensuring web accessibility at scale remains challenging because rule-based tools provide limited coverage while manual remediation is costly and error-prone. This paper evaluates large language model based agents, specifically Kimi…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.27716v1 발표 유형: new 개요: 규칙 기반 도구는 제한된 적용 범위를 제공하는 반면 수동 수정은 비용이 많이 들고 오류가 발생하기 쉽기 때문에 대규모 웹 접근성을 보장하는 것은 여전히 ​​어려운 일입니다. 본 논문은 대규모 언어 모델 기반 에이전트, 특히 Kimi를 평가합니다."
   }
 }
