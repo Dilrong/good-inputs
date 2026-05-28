@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-05-28T16:34:59.447Z",
+  "generatedAt": "2026-05-28T20:38:10.459Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "2026년 창동레지던시 상반기 입주작가전 «두 개의 영토»",
+      "authors": "무진형제, 이선민, 장종완, 사라 세진 장(사라 반 데어 헤이드), 콘스탄스 텐빅, 사룻 수파수티웻 (총 6명/팀)",
+      "date": "2026-05-29",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202605140002074",
+      "summary": "국립현대미술관 창동레지던시는 2026년 상반기 입주작가전 «두 개의 영토»를 5월 29일(금)부터 6월 7일(일)까지 10일간 개최한다. 이번 전시에는 창동레지던시 24기 국내작가 3인 무진형제, 이선민, 장종완을 비롯하여 해외작가 3인 사라 세진 장(사라 반 데어 헤이드)(네덜란드), 콘스탄스 텐빅(노르웨이), 사룻 수파수티웻(태국) 총 4개국 6명/팀의 작가가 참여한다. 전시는 서로 다른 영역이 맞닿는 경계에서 생성되는 감각과 관계를 탐색한다. 참여 작가들은 개인적 서사와 집단적 기억, 의례…",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "레지던시",
+        "현재전시",
+        "new"
+      ]
+    },
+    {
+      "source": "Rust Blog",
+      "category": "개발",
+      "title": "Announcing Rust 1.96.0",
+      "authors": "The Rust Release Team",
+      "date": "2026-05-28",
+      "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+      "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Rust Blog",
+        "글로벌",
+        "new"
+      ],
+      "koSummary": "Rust 팀은 Rust의 새 버전인 1.96.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.96.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면…"
+    },
     {
       "source": "Slack Engineering",
       "category": "개발",
@@ -280,23 +314,6 @@
         "new"
       ],
       "koSummary": "통합 아키텍처에서 사용자 생성 콘텐츠에 대한 모든 검색 구성 요소를 통합하는 추천 시스템을 재구성한 SilverTorch를 소개합니다. SilverTorch는 최첨단 접근 방식에 비해 최대 23.7배 더 높은 처리량을 보여줍니다. 20개도 보여요..."
-    },
-    {
-      "source": "Rust Blog",
-      "category": "개발",
-      "title": "Security Advisory for Cargo (CVE-2026-5223)",
-      "authors": "Rust Security Response Team",
-      "date": "2026-05-25",
-      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
-      "summary": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Rust Blog",
-        "글로벌",
-        "new"
-      ],
-      "koSummary": "Rust 보안 대응 팀은 Cargo가 제3자 레지스트리에서 다운로드한 크레이트 타르볼 내부의 심볼릭 링크를 잘못 처리하여 악성 크레이트가 동일한 레지스트리에 있는 다른 크레이트의 소스 코드를 무시할 수 있다는 통보를 받았습니다. 이 취약점은 다음과 같이 추적됩니다…"
     },
     {
       "source": "토스 테크",
@@ -629,6 +646,23 @@
       "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "로드 무비: 1945년 이후 한·일 미술",
+      "authors": "곽인식, 남화연, 다나카 고키, 나카무라 마사토, 무라카미 다카시, 박서보, 서승원, 이불, 이우환, 정연두, 조양규 등 40여 명",
+      "date": "2026-05-14",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202408210001821",
+      "summary": "«로드 무비: 1945년 이후 한·일 미술»전은 한·일 국교정상화 60주년을 계기로 일본 요코하마미술관과 공동 기획으로 마련되었다. 이 전시는 1945년 이후 현재까지 80년에 걸쳐 이어져 온 한·일 미술 교류의 역사를 조망한다. ‘로드 무비’는 길 위의 이동을 통해 주인공이 예상치 못한 인물과 사건을 만나고, 그 과정에서 변화에 이르는 영화 장르이다. 한국과 일본의 예술가들 역시 두 나라 사이, 낯선 길 위에서 기꺼이 모험을 감행하며, 서로를 향하는 여러 갈래의 길을 만들어왔다. 이 전시는 1…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "자본시장연구원",
       "category": "경제",
       "title": "외환시장 거래시간 연장이 환율 변동성에 미친 영향",
@@ -838,6 +872,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -902,6 +953,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
       "source": "네이버 D2",
       "category": "개발",
       "title": "네이버 검색의 대규모 메트릭 저장소, VictoriaMetrics 운영기",
@@ -915,6 +983,23 @@
         "네이버 D2",
         "국내",
         "hello world",
+        "stable"
+      ]
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
         "stable"
       ]
     },
@@ -1063,7 +1148,7 @@
       "source": "Dropbox Tech",
       "category": "개발",
       "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
-      "authors": "Mike White,Kevin Altschuler,Facundo Agriel",
+      "authors": "Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel",
       "date": "2026-04-02",
       "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
       "summary": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",

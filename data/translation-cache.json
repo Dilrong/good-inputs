@@ -1742,5 +1742,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "2026년 1분기 미국 고용 증가율은 1년 전보다 0.2%로 소폭 증가했습니다. 그러나 전국 평균은 50개 주에 걸쳐 일자리 증가의 상당한 변화를 가리고 있습니다. 50개 주 중 21개 주에서 일자리가 증가했습니다. … 계속 읽기 →"
+  },
+  "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/|summary": {
+    "input": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Rust 팀은 Rust의 새 버전인 1.96.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.96.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면…"
   }
 }
