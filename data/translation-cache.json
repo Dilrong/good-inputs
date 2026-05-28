@@ -1712,5 +1712,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.27716v1 발표 유형: new 개요: 규칙 기반 도구는 제한된 적용 범위를 제공하는 반면 수동 수정은 비용이 많이 들고 오류가 발생하기 쉽기 때문에 대규모 웹 접근성을 보장하는 것은 여전히 ​​어려운 일입니다. 본 논문은 대규모 언어 모델 기반 에이전트, 특히 Kimi를 평가합니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/may/impact-rising-interest-rates-mortgage-borrowing|summary": {
+    "input": "Denials moved closely with rising U.S. mortgage rates in 2022 and 2023, showing higher borrowing costs—not weaker applicants—drove the increased rejections.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "거부는 2022년과 2023년 미국 모기지 금리 상승과 밀접하게 연관되어 약한 신청자가 아니라 더 높은 차입 비용이 거부 증가를 주도했다는 것을 보여줍니다."
   }
 }

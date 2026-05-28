@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T04:40:18.772Z",
+  "generatedAt": "2026-05-28T10:34:35.351Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -40,6 +40,24 @@
         "new"
       ],
       "koSummary": "arXiv:2605.27716v1 발표 유형: new 개요: 규칙 기반 도구는 제한된 적용 범위를 제공하는 반면 수동 수정은 비용이 많이 들고 오류가 발생하기 쉽기 때문에 대규모 웹 접근성을 보장하는 것은 여전히 ​​어려운 일입니다. 본 논문은 대규모 언어 모델 기반 에이전트, 특히 Kimi를 평가합니다."
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Failing the Threshold: The Impact of Rising Interest Rates on Mortgage Borrowing",
+      "authors": "",
+      "date": "2026-05-28",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/may/impact-rising-interest-rates-mortgage-borrowing",
+      "summary": "Denials moved closely with rising U.S. mortgage rates in 2022 and 2023, showing higher borrowing costs—not weaker applicants—drove the increased rejections.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "new"
+      ],
+      "koSummary": "거부는 2022년과 2023년 미국 모기지 금리 상승과 밀접하게 연관되어 약한 신청자가 아니라 더 높은 차입 비용이 거부 증가를 주도했다는 것을 보여줍니다."
     },
     {
       "source": "pnpm Blog",
@@ -684,24 +702,6 @@
         "fresh"
       ],
       "koSummary": "새로운(이전) 가비지 수집기가 포함된 특별 릴리스입니다."
-    },
-    {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "Flash Report: Headline Unemployment Steady in April, but Job Separations Rise",
-      "authors": "",
-      "date": "2026-05-08",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/may/flash-report-headline-unemployment-steady-april-job-separations-rise",
-      "summary": "An analysis breaks down how changes in people moving into and out of unemployment and the labor force helped keep the April jobless rate stable at 4.3%.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "fresh"
-      ],
-      "koSummary": "한 분석에서는 실업자 및 노동력의 변화가 4월 실업률을 4.3%로 안정적으로 유지하는 데 어떻게 도움이 되었는지 분석합니다."
     },
     {
       "source": "Grafana Blog",
