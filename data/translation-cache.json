@@ -1748,5 +1748,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "Rust 팀은 Rust의 새 버전인 1.96.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.96.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면…"
+  },
+  "https://arxiv.org/abs/2605.28876|summary": {
+    "input": "arXiv:2605.28876v1 Announce Type: new Abstract: CI failure logs are large (median 5k lines, max 200k in this corpus) and noisy. Coding agents that try to debug them depend on an upstream tool to reduce the log to a manageable context, but the field has had no public empirical co…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.28876v1 발표 유형: 새로운 개요: CI 실패 로그는 크고(중앙값 5,000개 라인, 이 자료에서는 최대 200,000개) 잡음이 많습니다. 디버깅을 시도하는 코딩 에이전트는 로그를 관리 가능한 컨텍스트로 줄이기 위해 업스트림 도구에 의존하지만 해당 분야에는 공개 경험적 자료가 없습니다."
+  },
+  "https://arxiv.org/abs/2605.28893|summary": {
+    "input": "arXiv:2605.28893v1 Announce Type: new Abstract: Large Language Models(LLMs) have been actively integrated into modern software systems as critical components. LLM-in-the-loop vulnerabilities, where vulnerabilities are introduced by LLMs and their dependent downstream components,…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.28893v1 발표 유형: 새로운 개요: 대형 언어 모델(LLM)은 중요한 구성 요소로서 최신 소프트웨어 시스템에 적극적으로 통합되었습니다. LLM 및 해당 종속 다운스트림 구성 요소에 의해 취약점이 발생하는 LLM-in-the-loop 취약점..."
   }
 }
