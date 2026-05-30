@@ -1,47 +1,7 @@
 {
-  "generatedAt": "2026-05-29T20:39:01.185Z",
+  "generatedAt": "2026-05-30T04:18:47.648Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "LogDx-CI: Benchmarking Log Reduction Tools for LLM Root-Cause Diagnosis",
-      "authors": "Bowen Qin",
-      "date": "2026-05-29",
-      "url": "https://arxiv.org/abs/2605.28876",
-      "summary": "arXiv:2605.28876v1 Announce Type: new Abstract: CI failure logs are large (median 5k lines, max 200k in this corpus) and noisy. Coding agents that try to debug them depend on an upstream tool to reduce the log to a manageable context, but the field has had no public empirical co…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.28876v1 발표 유형: 새로운 개요: CI 실패 로그는 크고(중앙값 5,000개 라인, 이 자료에서는 최대 200,000개) 잡음이 많습니다. 디버깅을 시도하는 코딩 에이전트는 로그를 관리 가능한 컨텍스트로 줄이기 위해 업스트림 도구에 의존하지만 해당 분야에는 공개 경험적 자료가 없습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Towards Demystifying and Repairing LLM-in-the-Loop Vulnerabilities",
-      "authors": "Yujie Ma, Jialin Rong, Chenxi Yang, Lili Quan, Xiaofei Xie, Yongqiang Lyu, Qiang Hu",
-      "date": "2026-05-29",
-      "url": "https://arxiv.org/abs/2605.28893",
-      "summary": "arXiv:2605.28893v1 Announce Type: new Abstract: Large Language Models(LLMs) have been actively integrated into modern software systems as critical components. LLM-in-the-loop vulnerabilities, where vulnerabilities are introduced by LLMs and their dependent downstream components,…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.CR",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.28893v1 발표 유형: 새로운 개요: 대형 언어 모델(LLM)은 중요한 구성 요소로서 최신 소프트웨어 시스템에 적극적으로 통합되었습니다. LLM 및 해당 종속 다운스트림 구성 요소에 의해 취약점이 발생하는 LLM-in-the-loop 취약점..."
-    },
     {
       "source": "Rust Blog",
       "category": "개발",
@@ -307,12 +267,12 @@
       "date": "2026-05-22",
       "url": "https://toss.tech/article/cross-functional-tpm-tip",
       "summary": "회의를 늘려도 안 풀리는 문제, 조율과 해결 사이에서 진짜 필요한 역량",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "토스 테크",
         "국내",
-        "new"
+        "fresh"
       ]
     },
     {
@@ -323,13 +283,13 @@
       "date": "2026-05-22",
       "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260522~a4812a8f23.en.html",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "ECB Press",
         "글로벌",
         "중앙은행",
-        "new"
+        "fresh"
       ],
       "koSummary": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
     },
