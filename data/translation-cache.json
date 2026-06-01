@@ -1790,5 +1790,35 @@
     "approved": true,
     "mode": "summary",
     "koText": "\"심층 기술 혁신\"이라는 용어는 연구, 정책 및 실무에서 점점 더 많은 관심을 받고 있지만 일관되지 않게 적용되고 합의된 정의가 부족합니다. 이는 누적된 지식 구축을 제한하고 심층 기술 혁신이 인접 개념과 어떻게 관련되는지 모호하게 만듭니다. 우리…"
+  },
+  "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/|summary": {
+    "input": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service.",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/|title": {
+    "input": "Building a scalable user search layer on top of Amazon Cognito",
+    "approved": true,
+    "mode": "title",
+    "koText": "Amazon Cognito 위에 확장 가능한 사용자 검색 계층 구축"
+  },
+  "https://blog.cloudflare.com/optimizing-core-unit-boot-time/|summary": {
+    "input": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 펌웨어 업데이트로 인해 코어 서버를 재부팅하는 데 4시간이 걸리는 이유를 조사했습니다. UEFI 데이터 구조와 iPXE 자동화를 활용하여 불필요한 시간 초과를 제거하고 부팅 시간을 몇 분으로 단축했습니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/06/remote-work-leaves-younger-workers-sidelined/|summary": {
+    "input": "Youth unemployment has risen dramatically since the pandemic—as has the prevalence of remote work. Our analysis suggests that these trends are related, with remote work making it more difficult for managers to train and mentor new employees. Accordingly, companies may be relucta…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "코로나19 팬데믹 이후 청년 실업률은 원격근무의 확산과 마찬가지로 극적으로 증가했습니다. 우리의 분석에 따르면 이러한 추세는 원격 근무로 인해 관리자가 신입 직원을 교육하고 멘토링하는 것이 더 어려워지는 것과 관련이 있는 것으로 나타났습니다. 따라서 기업에서는 거부감을 느낄 수도 있습니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/06/three-different-measures-of-labor-costs/|summary": {
+    "input": "The takeaway Labor is used in production, and measuring the costs of that labor is important for business decisionmaking. There are several ways to measure these costs, and it’s important to know their differences. Three forms of labor cost data … Continue reading →",
+    "approved": true,
+    "mode": "summary",
+    "koText": "테이크아웃 노동은 생산에 사용되며 해당 노동 비용을 측정하는 것은 비즈니스 의사 결정에 중요합니다. 이러한 비용을 측정하는 방법에는 여러 가지가 있으며, 그 차이점을 아는 것이 중요합니다. 세 가지 형태의 인건비 데이터… 계속 읽기 →"
   }
 }

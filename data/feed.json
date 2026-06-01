@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T12:09:37.500Z",
+  "generatedAt": "2026-06-01T18:17:15.889Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,51 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Building a scalable user search layer on top of Amazon Cognito",
+      "authors": "Philip Chen",
+      "date": "2026-06-01",
+      "url": "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/",
+      "summary": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Advanced (300)",
+        "Amazon Cognito",
+        "Amazon OpenSearch Service",
+        "Architecture",
+        "Technical How-to",
+        "new"
+      ],
+      "koSummary": "Amazon Cognito 위에 확장 가능한 사용자 검색 계층 구축"
+    },
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "How we reduced core unit boot time from hours to minutes",
+      "authors": "Giovanni Pereira Zantedeschi",
+      "date": "2026-06-01",
+      "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+      "summary": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "Infrastructure",
+        "Engineering",
+        "Networking",
+        "Core",
+        "new"
+      ],
+      "koSummary": "우리는 펌웨어 업데이트로 인해 코어 서버를 재부팅하는 데 4시간이 걸리는 이유를 조사했습니다. UEFI 데이터 구조와 iPXE 자동화를 활용하여 불필요한 시간 초과를 제거하고 부팅 시간을 몇 분으로 단축했습니다."
     },
     {
       "source": "arXiv cs.SE",
@@ -58,6 +103,44 @@
         "new"
       ],
       "koSummary": "arXiv:2605.30478v1 발표 유형: 새로운 개요: 검증 가능한 보상(RLVR)을 통한 강화 학습은 단위 테스트 결과와 같은 프로그래밍 방식으로 확인 가능한 신호를 사용하여 언어 모델을 훈련하여 코드 생성의 기능적 정확성을 직접 최적화할 수 있습니다. 우리는…"
+    },
+    {
+      "source": "NY Fed Liberty Street",
+      "category": "경제",
+      "title": "Remote Work Leaves Younger Workers Sidelined",
+      "authors": "",
+      "date": "2026-06-01",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/remote-work-leaves-younger-workers-sidelined/",
+      "summary": "Youth unemployment has risen dramatically since the pandemic—as has the prevalence of remote work. Our analysis suggests that these trends are related, with remote work making it more difficult for managers to train and mentor new employees. Accordingly, companies may be relucta…",
+      "score": "new",
+      "tags": [
+        "경제",
+        "NY Fed Liberty Street",
+        "글로벌",
+        "연준",
+        "Labor Market",
+        "new"
+      ],
+      "koSummary": "코로나19 팬데믹 이후 청년 실업률은 원격근무의 확산과 마찬가지로 극적으로 증가했습니다. 우리의 분석에 따르면 이러한 추세는 원격 근무로 인해 관리자가 신입 직원을 교육하고 멘토링하는 것이 더 어려워지는 것과 관련이 있는 것으로 나타났습니다. 따라서 기업에서는 거부감을 느낄 수도 있습니다."
+    },
+    {
+      "source": "FRED Blog",
+      "category": "경제",
+      "title": "Three different measures of labor costs",
+      "authors": "",
+      "date": "2026-06-01",
+      "url": "https://fredblog.stlouisfed.org/2026/06/three-different-measures-of-labor-costs/",
+      "summary": "The takeaway Labor is used in production, and measuring the costs of that labor is important for business decisionmaking. There are several ways to measure these costs, and it’s important to know their differences. Three forms of labor cost data … Continue reading →",
+      "score": "new",
+      "tags": [
+        "경제",
+        "FRED Blog",
+        "글로벌",
+        "데이터",
+        "Uncategorized",
+        "new"
+      ],
+      "koSummary": "테이크아웃 노동은 생산에 사용되며 해당 노동 비용을 측정하는 것은 비즈니스 의사 결정에 중요합니다. 이러한 비용을 측정하는 방법에는 여러 가지가 있으며, 그 차이점을 아는 것이 중요합니다. 세 가지 형태의 인건비 데이터… 계속 읽기 →"
     },
     {
       "source": "ECB Press",
@@ -241,50 +324,6 @@
       "koSummary": "Birgitta Böckeler는 회귀 센서로서 테스트 스위트의 역할을 검토하고 돌연변이 테스트가 수행할 수 있는 역할에 초점을 맞춰 코딩 에이전트용 센서에 대한 게시물을 마쳤습니다. 더…"
     },
     {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-      "authors": "Lai Yi Ohlsen",
-      "date": "2026-05-27",
-      "url": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
-      "summary": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Internet Traffic",
-        "Internet Trends",
-        "Internet Quality",
-        "Internet Shutdown",
-        "Radar",
-        "DNS",
-        "new"
-      ],
-      "koSummary": "Cloudflare Radar 데이터는 서비스 종료가 시작된 지 거의 3개월 만에 이란에서 부분적인 인터넷 복원의 초기 징후를 확인했습니다. 트래픽 급증과 DNS 쿼리가 증가했지만 네트워크 활동은 현재 종료 전 수준의 40%에 불과합니다."
-    },
-    {
-      "source": "NY Fed Liberty Street",
-      "category": "경제",
-      "title": "Food Insecurity and Consumer Pessimism",
-      "authors": "",
-      "date": "2026-05-27",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/food-insecurity-and-consumer-pessimism/",
-      "summary": "Current discussions regarding a bifurcated U.S. economy highlight the increasing economic divide between lower- and higher-income Americans in spending and earnings growth and wealth accumulation. While many households are doing fine and economic activity overall has been expand…",
-      "score": "new",
-      "tags": [
-        "경제",
-        "NY Fed Liberty Street",
-        "글로벌",
-        "연준",
-        "Expectations",
-        "Household Finance",
-        "new"
-      ],
-      "koSummary": "양분된 미국 경제에 관한 현재의 논의는 지출, 소득 증가 및 부 축적에 있어서 저소득층과 고소득층 사이의 경제적 격차가 증가하고 있음을 강조합니다. 많은 가구가 잘 지내고 전반적인 경제 활동이 확대되는 동안…"
-    },
-    {
       "source": "국토정책Brief",
       "category": "정책",
       "title": "[국토정책Brief 제1064호] 국유재산 '기부 대 양여 사업'관리 합리화 방안",
@@ -445,30 +484,6 @@
         "fresh"
       ],
       "koSummary": "사이버 탄력성은 공격자가 환경에 영향을 미친 후 워크로드를 알려진 양호한 상태로 복구하는 능력입니다. 예방 작업은 위협 행위자를 차단하고 탐지 작업은 이를 신속하게 찾아냅니다. 사이버 탄력성은 복구에 중점을 두고 있습니다. 즉, 신뢰할 수 있는 환경을 복원하는 것입니다."
-    },
-    {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
-      "authors": "Saransh Burman",
-      "date": "2026-05-19",
-      "url": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
-      "summary": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Amazon Elastic Kubernetes Service",
-        "Artificial Intelligence",
-        "Compute",
-        "Customer Solutions",
-        "Energy",
-        "Industries",
-        "Technical How-to",
-        "fresh"
-      ]
     },
     {
       "source": "Martin Fowler",
@@ -696,25 +711,6 @@
         "국토정책Brief",
         "fresh"
       ]
-    },
-    {
-      "source": "FRED Blog",
-      "category": "경제",
-      "title": "The peculiar recent behavior of unemployment",
-      "authors": "",
-      "date": "2026-05-11",
-      "url": "https://fredblog.stlouisfed.org/2026/05/the-peculiar-recent-behavior-of-unemployment/",
-      "summary": "Our FRED graph above shows that unemployment is almost always doing one of two things: (1) declining slowly during expansions or (2) rising rapidly during recessions. Friedman (1964, 1993) compared this behavior to playing a musical instrument, describing it as … Continue readin…",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "FRED Blog",
-        "글로벌",
-        "데이터",
-        "Uncategorized",
-        "fresh"
-      ],
-      "koSummary": "위의 FRED 그래프는 실업률이 거의 항상 두 가지 중 하나를 수행한다는 것을 보여줍니다. (1) 경기 확장 중에 천천히 감소하거나 (2) 경기 침체 중에 급격히 증가합니다. Friedman(1964, 1993)은 이러한 행동을 악기 연주에 비유하면서 다음과 같이 설명했습니다. 계속 읽으세요…"
     },
     {
       "source": "EBS",
