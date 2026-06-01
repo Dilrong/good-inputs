@@ -1820,5 +1820,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "테이크아웃 노동은 생산에 사용되며 해당 노동 비용을 측정하는 것은 비즈니스 의사 결정에 중요합니다. 이러한 비용을 측정하는 방법에는 여러 가지가 있으며, 그 차이점을 아는 것이 중요합니다. 세 가지 형태의 인건비 데이터… 계속 읽기 →"
+  },
+  "https://aws.amazon.com/blogs/developer/aws-sdk-for-net-v3-end-of-support-announcement/|summary": {
+    "input": "As previously announced, version 3 of the AWS SDK for .NET entered maintenance mode on March 1, 2026. In alignment with our SDKs and Tools Maintenance Policy, AWS SDK for .NET V3 has now reached end-of-support as of June 1, 2026.&nbsp; Starting June 1, 2026, there&nbsp;are no pl…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이전에 발표한 대로 .NET용 AWS SDK 버전 3은 2026년 3월 1일에 유지 관리 모드에 들어갔습니다. SDK 및 도구 유지 관리 정책에 따라 .NET용 AWS SDK V3는 이제 2026년 6월 1일부로 지원이 종료되었습니다. 2026년 6월 1일부터 지원이 종료됩니다."
   }
 }

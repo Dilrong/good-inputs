@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T18:17:15.889Z",
+  "generatedAt": "2026-06-01T21:45:30.478Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,27 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "AWS Developer",
+      "category": "개발",
+      "title": "AWS SDK for .NET V3 end-of-support announcement",
+      "authors": "Muhammad Othman",
+      "date": "2026-06-01",
+      "url": "https://aws.amazon.com/blogs/developer/aws-sdk-for-net-v3-end-of-support-announcement/",
+      "summary": "As previously announced, version 3 of the AWS SDK for .NET entered maintenance mode on March 1, 2026. In alignment with our SDKs and Tools Maintenance Policy, AWS SDK for .NET V3 has now reached end-of-support as of June 1, 2026.&nbsp; Starting June 1, 2026, there&nbsp;are no pl…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Developer",
+        "글로벌",
+        ".NET",
+        "Announcements",
+        "AWS SDK for .NET",
+        "Developer Tools",
+        "new"
+      ],
+      "koSummary": "이전에 발표한 대로 .NET용 AWS SDK 버전 3은 2026년 3월 1일에 유지 관리 모드에 들어갔습니다. SDK 및 도구 유지 관리 정책에 따라 .NET용 AWS SDK V3는 이제 2026년 6월 1일부로 지원이 종료되었습니다. 2026년 6월 1일부터 지원이 종료됩니다."
     },
     {
       "source": "AWS Architecture Blog",
@@ -440,27 +461,6 @@
         "fresh"
       ],
       "koSummary": "이제 Django 6.1 알파 1을 사용할 수 있습니다. 이는 6.1 릴리스 주기의 첫 번째 단계를 나타내며 Django 6.1의 변경 사항을 시험해 볼 수 있는 기회입니다. Django 6.1은 새로운 기능과 유용성 개선 사항이 조화롭게 혼합된 기능을 제공합니다. 자세한 내용은 in-de…"
-    },
-    {
-      "source": "AWS Developer",
-      "category": "개발",
-      "title": "Announcing updated retry behavior for AWS SDKs and Tools",
-      "authors": "Matthew Miller",
-      "date": "2026-05-20",
-      "url": "https://aws.amazon.com/blogs/developer/announcing-updated-retry-behavior-for-aws-sdks-and-tools/",
-      "summary": "When your application calls an AWS service and the request fails with a retryable error, the AWS SDK retries it automatically. The retry behavior controls how long the SDK waits between attempts and when it gives up. Most of this happens in the background, but it directly affect…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "AWS Developer",
-        "글로벌",
-        "Announcements",
-        "Best Practices",
-        "Developer Tools",
-        "SDK",
-        "fresh"
-      ],
-      "koSummary": "애플리케이션이 AWS 서비스를 호출하고 재시도 가능 오류로 인해 요청이 실패하면 AWS SDK가 자동으로 이를 재시도합니다. 재시도 동작은 SDK가 시도 간 대기 시간과 포기 시점을 제어합니다. 대부분의 작업은 백그라운드에서 발생하지만 직접적인 영향을 미칩니다..."
     },
     {
       "source": "AWS Architecture Blog",
