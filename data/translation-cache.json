@@ -1760,5 +1760,35 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2605.28893v1 발표 유형: 새로운 개요: 대형 언어 모델(LLM)은 중요한 구성 요소로서 최신 소프트웨어 시스템에 적극적으로 통합되었습니다. LLM 및 해당 종속 다운스트림 구성 요소에 의해 취약점이 발생하는 LLM-in-the-loop 취약점..."
+  },
+  "https://arxiv.org/abs/2605.30394|summary": {
+    "input": "arXiv:2605.30394v1 Announce Type: new Abstract: This paper introduces Code Bench, a benchmark capable of evaluating Large Language Models (LLMs) concise code generation abilities in 60 programming languages. Based on code golf, a recreational programming competition focused on m…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.30394v1 발표 유형: 새로운 개요: 이 문서에서는 60개 프로그래밍 언어로 LLM(대형 언어 모델) 간결 코드 생성 능력을 평가할 수 있는 벤치마크인 Code Bench를 소개합니다. 코드골프를 기반으로 한 인간 중심의 레크리에이션 프로그래밍 대회…"
+  },
+  "https://arxiv.org/abs/2605.30478|summary": {
+    "input": "arXiv:2605.30478v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) trains language models using programmatically checkable signals such as unit-test outcomes, enabling direct optimization for functional correctness in code generation. We conduc…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2605.30478v1 발표 유형: 새로운 개요: 검증 가능한 보상(RLVR)을 통한 강화 학습은 단위 테스트 결과와 같은 프로그래밍 방식으로 확인 가능한 신호를 사용하여 언어 모델을 훈련하여 코드 생성의 기능적 정확성을 직접 최적화할 수 있습니다. 우리는…"
+  },
+  "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260601~38dffe5ec5.en.html|title": {
+    "input": "Isabel Schnabel: From money market funds to stablecoins: lessons for central banks",
+    "approved": true,
+    "mode": "title",
+    "koText": "Isabel Schnabel: 머니마켓 펀드에서 스테이블코인까지: 중앙은행을 위한 교훈"
+  },
+  "https://www.nber.org/papers/w35254#fromrss|summary": {
+    "input": "The space sector has become far more dynamic and innovative, with new actors (e.g., start-ups, venture capital) entering and the ever-growing importance of private firms. In this paper we introduce a novel concept, innovatisation, to understand this phenomenon. Innovatisation de…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우주 부문은 새로운 주체(예: 스타트업, 벤처 캐피탈)의 진입과 민간 기업의 중요성이 점점 커지면서 훨씬 더 역동적이고 혁신적으로 변했습니다. 본 논문에서는 이러한 현상을 이해하기 위해 혁신이라는 새로운 개념을 소개합니다. 혁신 드…"
+  },
+  "https://www.nber.org/papers/w35255#fromrss|summary": {
+    "input": "The term “deep-tech innovation” has attracted growing attention in research, policy, and practice, but it is applied inconsistently and lacks an agreed-upon definition. This limits cumulative knowledge building and blurs how deep-tech innovation relates to adjacent concepts. We…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "\"심층 기술 혁신\"이라는 용어는 연구, 정책 및 실무에서 점점 더 많은 관심을 받고 있지만 일관되지 않게 적용되고 합의된 정의가 부족합니다. 이는 누적된 지식 구축을 제한하고 심층 기술 혁신이 인접 개념과 어떻게 관련되는지 모호하게 만듭니다. 우리…"
   }
 }
