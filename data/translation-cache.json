@@ -1850,5 +1850,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 게시물에서는 NYCBS가 Amazon Web Services(AWS) 및 AWS 파트너 Pronetx(현재 Caylent의 일부)와 제휴하여 AWS 클라우드 연락 센터 서비스인 Amazon Connect Customer로 마이그레이션한 방법을 자세히 설명합니다. 마이그레이션을 통해 환자 등록이 54% 개선되었으며 혁신이 이루어졌습니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/|summary": {
+    "input": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the full value of their da…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 Doczy.ai™가 어떻게 AWS에서 생성적 AI를 사용하여 대규모 계약 인텔리전스를 자동화하고 구조화되지 않은 문서를 체계적이고 실행 가능한 통찰력으로 변환하여 조직이 중요한 비즈니스 프로세스를 자동화하고 데이터의 전체 가치를 활용할 수 있는지 보여줍니다."
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/06/struggling-regional-small-businesses-deeply-pessimistic-about-2026-prospects/|summary": {
+    "input": "We recently updated the suite of indicators describing the performance of small businesses in the Second District (defined, for the purpose of this study, as New York, New Jersey, and Connecticut) and nationally with data from the 2025 edition of the Small Business Credit Survey…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "우리는 최근 2지구(본 연구의 목적을 위해 뉴욕, 뉴저지, 코네티컷으로 정의) 및 전국적으로 2025년 중소기업 신용 조사 데이터를 사용하여 중소기업의 성과를 설명하는 지표 세트를 업데이트했습니다."
   }
 }
