@@ -1862,5 +1862,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "우리는 최근 2지구(본 연구의 목적을 위해 뉴욕, 뉴저지, 코네티컷으로 정의) 및 전국적으로 2025년 중소기업 신용 조사 데이터를 사용하여 중소기업의 성과를 설명하는 지표 세트를 업데이트했습니다."
+  },
+  "https://blog.python.org/2026/06/python-3150-beta-2/|summary": {
+    "input": "The antepenultimate 3.15 beta is out!",
+    "approved": true,
+    "mode": "summary",
+    "koText": "두 번째 버전 3.15 베타가 출시되었습니다!"
+  },
+  "https://aws.amazon.com/blogs/developer/introducing-open-source-skills-for-aws-sdk-best-practices/|summary": {
+    "input": "We released a set of AWS SDK Skills as part of the open-source Agent Toolkit for AWS. These are AI skills that teach coding agents how to follow AWS SDK best practices. The project is available on GitHub under the Apache-2.0 license. The problem AI coding agents know the general…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "AWS용 오픈 소스 Agent Toolkit의 일부로 AWS SDK 기술 세트를 출시했습니다. 이는 코딩 에이전트에게 AWS SDK 모범 사례를 따르는 방법을 가르치는 AI 기술입니다. 이 프로젝트는 Apache-2.0 라이선스에 따라 GitHub에서 사용할 수 있습니다. AI 코딩 에이전트가 알고 있는 문제는…"
+  },
+  "https://pnpm.io/blog/releases/11.5|summary": {
+    "input": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-t…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
   }
 }

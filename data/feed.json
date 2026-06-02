@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T16:55:19.117Z",
+  "generatedAt": "2026-06-02T21:27:29.433Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -35,6 +35,51 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "Python Insider",
+      "category": "개발",
+      "title": "Python 3.15.0 beta 2 is here!",
+      "authors": "Hugo van Kemenade",
+      "date": "2026-06-02",
+      "url": "https://blog.python.org/2026/06/python-3150-beta-2/",
+      "summary": "The antepenultimate 3.15 beta is out!",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Python Insider",
+        "글로벌",
+        "releases",
+        "new"
+      ],
+      "koSummary": "두 번째 버전 3.15 베타가 출시되었습니다!"
+    },
+    {
+      "source": "AWS Developer",
+      "category": "개발",
+      "title": "Introducing Open-Source Skills for AWS SDK Best Practices",
+      "authors": "David Yaffe",
+      "date": "2026-06-02",
+      "url": "https://aws.amazon.com/blogs/developer/introducing-open-source-skills-for-aws-sdk-best-practices/",
+      "summary": "We released a set of AWS SDK Skills as part of the open-source Agent Toolkit for AWS. These are AI skills that teach coding agents how to follow AWS SDK best practices. The project is available on GitHub under the Apache-2.0 license. The problem AI coding agents know the general…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Developer",
+        "글로벌",
+        "Announcements",
+        "Artificial Intelligence",
+        "Generative AI",
+        "announcement",
+        "aws",
+        "aws-sdk-js-v3",
+        "JavaScript",
+        "Open Source",
+        "Python",
+        "Swift",
+        "new"
+      ],
+      "koSummary": "AWS용 오픈 소스 Agent Toolkit의 일부로 AWS SDK 기술 세트를 출시했습니다. 이는 코딩 에이전트에게 AWS SDK 모범 사례를 따르는 방법을 가르치는 AI 기술입니다. 이 프로젝트는 Apache-2.0 라이선스에 따라 GitHub에서 사용할 수 있습니다. AI 코딩 에이전트가 알고 있는 문제는…"
     },
     {
       "source": "AWS Architecture Blog",
@@ -157,32 +202,6 @@
       ]
     },
     {
-      "source": "AWS Developer",
-      "category": "개발",
-      "title": "Announcing the General Availability of the AWS IoT Device SDK for Swift",
-      "authors": "Vera Xia",
-      "date": "2026-06-01",
-      "url": "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-the-aws-iot-device-sdk-for-swift/",
-      "summary": "We are excited to announce the General Availability (GA) of the AWS IoT Device SDK for Swift. This release gives Swift developers a production-ready SDK with stable APIs and integrated service clients to connect applications to AWS IoT Core. What’s New The GA release now provide…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "AWS Developer",
-        "글로벌",
-        "Announcements",
-        "AWS IoT Core",
-        "AWS SDK for Swift",
-        "Developer Tools",
-        "Intermediate (200)",
-        "Internet of Things",
-        "aws",
-        "SDK",
-        "Swift",
-        "new"
-      ],
-      "koSummary": "Swift용 AWS IoT 디바이스 SDK의 정식 출시(GA)를 발표하게 되어 기쁘게 생각합니다. 이번 릴리스에서는 Swift 개발자에게 애플리케이션을 AWS IoT Core에 연결하기 위한 안정적인 API와 통합 서비스 클라이언트가 포함된 프로덕션용 SDK를 제공합니다. 새로운 기능 이제 GA 릴리스에서는 다음을 제공합니다..."
-    },
-    {
       "source": "AWS Architecture Blog",
       "category": "개발",
       "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
@@ -280,6 +299,24 @@
         "new"
       ],
       "koSummary": "Isabel Schnabel: 머니마켓 펀드에서 스테이블코인까지: 중앙은행을 위한 교훈"
+    },
+    {
+      "source": "pnpm Blog",
+      "category": "개발",
+      "title": "pnpm 11.5",
+      "authors": "",
+      "date": "2026-05-29",
+      "url": "https://pnpm.io/blog/releases/11.5",
+      "summary": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-t…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "pnpm Blog",
+        "글로벌",
+        "release",
+        "new"
+      ],
+      "koSummary": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
     },
     {
       "source": "Rust Blog",
@@ -384,24 +421,6 @@
         "new"
       ],
       "koSummary": "2026년 1분기 미국 고용 증가율은 1년 전보다 0.2%로 소폭 증가했습니다. 그러나 전국 평균은 50개 주에 걸쳐 일자리 증가의 상당한 변화를 가리고 있습니다. 50개 주 중 21개 주에서 일자리가 증가했습니다. … 계속 읽기 →"
-    },
-    {
-      "source": "pnpm Blog",
-      "category": "개발",
-      "title": "pnpm 11.4",
-      "authors": "",
-      "date": "2026-05-27",
-      "url": "https://pnpm.io/blog/releases/11.4",
-      "summary": "pnpm 11.4 closes a cluster of supply-chain holes around lockfile integrity, credential scoping, git resolutions, patch files, and dependency aliases, makes tarball-integrity mismatches a hard install failure by default (with a narrowly-scoped --update-checksums opt-in), and chan…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "pnpm Blog",
-        "글로벌",
-        "release",
-        "new"
-      ],
-      "koSummary": "pnpm 11.4는 잠금 파일 무결성, 자격 증명 범위 지정, git 확인, 패치 파일 및 종속성 별칭과 관련된 공급망 허점 클러스터를 닫고 기본적으로 tarball-integrity 불일치를 하드 설치 실패로 만들고(좁은 범위의 --update-checksums 옵트인 사용) chan…"
     },
     {
       "source": "Martin Fowler",
@@ -783,24 +802,6 @@
         "다큐프라임 - 아이의 시간",
         "stable"
       ]
-    },
-    {
-      "source": "Python Insider",
-      "category": "개발",
-      "title": "Python 3.14.5 is out!",
-      "authors": "Hugo van Kemenade",
-      "date": "2026-05-10",
-      "url": "https://blog.python.org/2026/05/python-3145-is-out/",
-      "summary": "A special release with a new (old) garbage collector.",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "Python Insider",
-        "글로벌",
-        "releases",
-        "stable"
-      ],
-      "koSummary": "새로운(이전) 가비지 수집기가 포함된 특별 릴리스입니다."
     },
     {
       "source": "Grafana Blog",
