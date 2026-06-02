@@ -1826,5 +1826,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "이전에 발표한 대로 .NET용 AWS SDK 버전 3은 2026년 3월 1일에 유지 관리 모드에 들어갔습니다. SDK 및 도구 유지 관리 정책에 따라 .NET용 AWS SDK V3는 이제 2026년 6월 1일부로 지원이 종료되었습니다. 2026년 6월 1일부터 지원이 종료됩니다."
+  },
+  "https://arxiv.org/abs/2606.00118|summary": {
+    "input": "arXiv:2606.00118v1 Announce Type: new Abstract: Context: Logging is a crucial practice in software engineering, aiding developers in debugging applications when errors occur. While existing research has explored logging challenges from an academic perspective through literature…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.00118v1 발표 유형: 새로운 개요: 컨텍스트: 로깅은 소프트웨어 엔지니어링에서 중요한 관행으로, 오류가 발생할 때 개발자가 애플리케이션을 디버깅하는 데 도움이 됩니다. 기존 연구에서는 문헌을 통해 학문적 관점에서 벌목 문제를 탐구했지만…"
+  },
+  "https://arxiv.org/abs/2606.00131|summary": {
+    "input": "arXiv:2606.00131v1 Announce Type: new Abstract: Post-link optimizers (PLOs) such as Propeller and BOLT have demonstrated that precise, profile-guided code layout can extract significant performance gains from heavily optimized binaries. However, these systems are currently restr…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.00131v1 발표 유형: 새로운 개요: Propeller 및 BOLT와 같은 PLO(포스트 링크 최적화 프로그램)는 정밀한 프로필 기반 코드 레이아웃이 고도로 최적화된 바이너리에서 상당한 성능 이점을 얻을 수 있음을 보여주었습니다. 그러나 이러한 시스템은 현재 중단되었습니다."
+  },
+  "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-the-aws-iot-device-sdk-for-swift/|summary": {
+    "input": "We are excited to announce the General Availability (GA) of the AWS IoT Device SDK for Swift. This release gives Swift developers a production-ready SDK with stable APIs and integrated service clients to connect applications to AWS IoT Core. What’s New The GA release now provide…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Swift용 AWS IoT 디바이스 SDK의 정식 출시(GA)를 발표하게 되어 기쁘게 생각합니다. 이번 릴리스에서는 Swift 개발자에게 애플리케이션을 AWS IoT Core에 연결하기 위한 안정적인 API와 통합 서비스 클라이언트가 포함된 프로덕션용 SDK를 제공합니다. 새로운 기능 이제 GA 릴리스에서는 다음을 제공합니다..."
+  },
+  "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/|summary": {
+    "input": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient enrollment and transformed…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 NYCBS가 Amazon Web Services(AWS) 및 AWS 파트너 Pronetx(현재 Caylent의 일부)와 제휴하여 AWS 클라우드 연락 센터 서비스인 Amazon Connect Customer로 마이그레이션한 방법을 자세히 설명합니다. 마이그레이션을 통해 환자 등록이 54% 개선되었으며 혁신이 이루어졌습니다."
   }
 }

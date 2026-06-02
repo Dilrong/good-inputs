@@ -1,13 +1,30 @@
 {
-  "generatedAt": "2026-06-01T21:45:30.478Z",
+  "generatedAt": "2026-06-02T05:01:04.389Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
       "source": "네이버 D2",
       "category": "개발",
+      "title": "Inside VictoriaMetrics",
+      "authors": "",
+      "date": "2026-06-02",
+      "url": "https://d2.naver.com/helloworld/9290861",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER ENGINEERING DAY 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 VictoriaMetrics의 수집(vmagent) → 라우팅(vminsert) → 저장(vmstorage) → 쿼리(vmselect) 순서로 내부 구조를 들여다기보고, 원리에 따라 수집의 좋은 구조를 살펴봅니다. 발표 대상 VictoriaMetrics 개발에 관심 있는 엔지니어 대규모 분산 시스템과 메트릭 인프라를 운영하는 엔지니어 목차 Architecture Ov…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "네이버 D2",
+        "국내",
+        "hello world",
+        "new"
+      ]
+    },
+    {
+      "source": "네이버 D2",
+      "category": "개발",
       "title": "AI 에이전트가 코드를 실험하고 개선하는 법",
       "authors": "",
-      "date": "2026-06-01",
+      "date": "2026-06-02",
       "url": "https://d2.naver.com/helloworld/8061804",
       "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 2026(5월)에서 발표되었던 세션을 공개합니다. 발표 내용 Karpathy의 AutoResearch 방법론을 라이브 스트리밍에 적용하여, AI 에이전트가 코드를 자율적으로 수정·빌드·실험·판정하는 루프를 구축하고 스트리밍 품질(QoE)을 17% 개선한 사례를 소개합니다. 발표 대상 스트리밍/플레이어 개발에 관심 있는 엔지니어 AI 에이전트를 실무 코드 최적화에 활용하고 싶은 개발자 ABR, QoE, LL-HLS 등 미디어 기…",
       "score": "new",
@@ -20,25 +37,107 @@
       ]
     },
     {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "An Empirical Study on Logging Evolution On Stack Overflow: Trends, Topics, and Challenges",
+      "authors": "Patrick Loic Foalem, Andre Nguimbous, Foutse Khomh, Heng Li, Ettore Merlo",
+      "date": "2026-06-02",
+      "url": "https://arxiv.org/abs/2606.00118",
+      "summary": "arXiv:2606.00118v1 Announce Type: new Abstract: Context: Logging is a crucial practice in software engineering, aiding developers in debugging applications when errors occur. While existing research has explored logging challenges from an academic perspective through literature…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.PL",
+        "new"
+      ],
+      "koSummary": "arXiv:2606.00118v1 발표 유형: 새로운 개요: 컨텍스트: 로깅은 소프트웨어 엔지니어링에서 중요한 관행으로, 오류가 발생할 때 개발자가 애플리케이션을 디버깅하는 데 도움이 됩니다. 기존 연구에서는 문헌을 통해 학문적 관점에서 벌목 문제를 탐구했지만…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "AI-PROPELLER: Warehouse-Scale Interprocedural Code Layout Optimization with AlphaEvolve",
+      "authors": "Chaitanya Mamatha Ananda, Rajiv Gupta, Mircea Trofin, Aiden Grossman, Sriraman Tallam, Xinliang David Li, Amir Yazdanbakhsh",
+      "date": "2026-06-02",
+      "url": "https://arxiv.org/abs/2606.00131",
+      "summary": "arXiv:2606.00131v1 Announce Type: new Abstract: Post-link optimizers (PLOs) such as Propeller and BOLT have demonstrated that precise, profile-guided code layout can extract significant performance gains from heavily optimized binaries. However, these systems are currently restr…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.AI",
+        "cs.LG",
+        "cs.PL",
+        "new"
+      ],
+      "koSummary": "arXiv:2606.00131v1 발표 유형: 새로운 개요: Propeller 및 BOLT와 같은 PLO(포스트 링크 최적화 프로그램)는 정밀한 프로필 기반 코드 레이아웃이 고도로 최적화된 바이너리에서 상당한 성능 이점을 얻을 수 있음을 보여주었습니다. 그러나 이러한 시스템은 현재 중단되었습니다."
+    },
+    {
+      "source": "국토정책Brief",
+      "category": "정책",
+      "title": "[국토정책Brief 제1065호] 네트워크 기반 공개제한 공간정보의 제공방안",
+      "authors": "최경아, 서기환, 임륭혁",
+      "date": "2026-06-01",
+      "url": "https://library.krihs.re.kr/library/10120/contents/7769249",
+      "summary": "➊ 공개제한 공간정보는 국가안보 및 공공안전을 이유로 제공이 제한되는 정보로서, 현재 기관 방문과 저장매체 반출을 전제로 한 오프라인 방식으로 제공되고 있음 ➋ 공개제한 공간정보의 활용 수요는 관리기관 집계 기준 2024년 29건에서 2025년 389건으로 약 13배 이상 급격히 증가하고 있으나, 현행 제공체계는 대용량·고빈도 분석이 요구되는 디지털 환경과 괴리를 보이며 수요를 충분히 수용하지 못하고 있음 ➌ 관리기관, 전문기관, 수요기관의 이해관계자 인터뷰 분석 결과, 제공·활용의 전 과정에서…",
+      "score": "new",
+      "tags": [
+        "정책",
+        "국토정책Brief",
+        "new"
+      ]
+    },
+    {
       "source": "AWS Developer",
       "category": "개발",
-      "title": "AWS SDK for .NET V3 end-of-support announcement",
-      "authors": "Muhammad Othman",
+      "title": "Announcing the General Availability of the AWS IoT Device SDK for Swift",
+      "authors": "Vera Xia",
       "date": "2026-06-01",
-      "url": "https://aws.amazon.com/blogs/developer/aws-sdk-for-net-v3-end-of-support-announcement/",
-      "summary": "As previously announced, version 3 of the AWS SDK for .NET entered maintenance mode on March 1, 2026. In alignment with our SDKs and Tools Maintenance Policy, AWS SDK for .NET V3 has now reached end-of-support as of June 1, 2026.&nbsp; Starting June 1, 2026, there&nbsp;are no pl…",
+      "url": "https://aws.amazon.com/blogs/developer/announcing-the-general-availability-of-the-aws-iot-device-sdk-for-swift/",
+      "summary": "We are excited to announce the General Availability (GA) of the AWS IoT Device SDK for Swift. This release gives Swift developers a production-ready SDK with stable APIs and integrated service clients to connect applications to AWS IoT Core. What’s New The GA release now provide…",
       "score": "new",
       "tags": [
         "개발",
         "AWS Developer",
         "글로벌",
-        ".NET",
         "Announcements",
-        "AWS SDK for .NET",
+        "AWS IoT Core",
+        "AWS SDK for Swift",
         "Developer Tools",
+        "Intermediate (200)",
+        "Internet of Things",
+        "aws",
+        "SDK",
+        "Swift",
         "new"
       ],
-      "koSummary": "이전에 발표한 대로 .NET용 AWS SDK 버전 3은 2026년 3월 1일에 유지 관리 모드에 들어갔습니다. SDK 및 도구 유지 관리 정책에 따라 .NET용 AWS SDK V3는 이제 2026년 6월 1일부로 지원이 종료되었습니다. 2026년 6월 1일부터 지원이 종료됩니다."
+      "koSummary": "Swift용 AWS IoT 디바이스 SDK의 정식 출시(GA)를 발표하게 되어 기쁘게 생각합니다. 이번 릴리스에서는 Swift 개발자에게 애플리케이션을 AWS IoT Core에 연결하기 위한 안정적인 API와 통합 서비스 클라이언트가 포함된 프로덕션용 SDK를 제공합니다. 새로운 기능 이제 GA 릴리스에서는 다음을 제공합니다..."
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
+      "authors": "Muni T. Bondu",
+      "date": "2026-06-01",
+      "url": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/",
+      "summary": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient enrollment and transformed…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Amazon Connect",
+        "Customer Solutions",
+        "new"
+      ],
+      "koSummary": "이 게시물에서는 NYCBS가 Amazon Web Services(AWS) 및 AWS 파트너 Pronetx(현재 Caylent의 일부)와 제휴하여 AWS 클라우드 연락 센터 서비스인 Amazon Connect Customer로 마이그레이션한 방법을 자세히 설명합니다. 마이그레이션을 통해 환자 등록이 54% 개선되었으며 혁신이 이루어졌습니다."
     },
     {
       "source": "AWS Architecture Blog",
@@ -84,46 +183,6 @@
         "new"
       ],
       "koSummary": "우리는 펌웨어 업데이트로 인해 코어 서버를 재부팅하는 데 4시간이 걸리는 이유를 조사했습니다. UEFI 데이터 구조와 iPXE 자동화를 활용하여 불필요한 시간 초과를 제거하고 부팅 시간을 몇 분으로 단축했습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "CodeGolf Bench: A Multi-Language Benchmark for Evaluating Concise Code Generation Capabilities of Large Language Models",
-      "authors": "Vedant Padwal",
-      "date": "2026-06-01",
-      "url": "https://arxiv.org/abs/2605.30394",
-      "summary": "arXiv:2605.30394v1 Announce Type: new Abstract: This paper introduces Code Bench, a benchmark capable of evaluating Large Language Models (LLMs) concise code generation abilities in 60 programming languages. Based on code golf, a recreational programming competition focused on m…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.30394v1 발표 유형: 새로운 개요: 이 문서에서는 60개 프로그래밍 언어로 LLM(대형 언어 모델) 간결 코드 생성 능력을 평가할 수 있는 벤치마크인 Code Bench를 소개합니다. 코드골프를 기반으로 한 인간 중심의 레크리에이션 프로그래밍 대회…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Improving Small Language Models for Code Generation with Reinforcement Learning from Verification Feedback",
-      "authors": "Egor Skopin, Evgeny Kotelnikov",
-      "date": "2026-06-01",
-      "url": "https://arxiv.org/abs/2605.30478",
-      "summary": "arXiv:2605.30478v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) trains language models using programmatically checkable signals such as unit-test outcomes, enabling direct optimization for functional correctness in code generation. We conduc…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.CL",
-        "new"
-      ],
-      "koSummary": "arXiv:2605.30478v1 발표 유형: 새로운 개요: 검증 가능한 보상(RLVR)을 통한 강화 학습은 단위 테스트 결과와 같은 프로그래밍 방식으로 확인 가능한 신호를 사용하여 언어 모델을 훈련하여 코드 생성의 기능적 정확성을 직접 최적화할 수 있습니다. 우리는…"
     },
     {
       "source": "NY Fed Liberty Street",
@@ -463,29 +522,6 @@
       "koSummary": "이제 Django 6.1 알파 1을 사용할 수 있습니다. 이는 6.1 릴리스 주기의 첫 번째 단계를 나타내며 Django 6.1의 변경 사항을 시험해 볼 수 있는 기회입니다. Django 6.1은 새로운 기능과 유용성 개선 사항이 조화롭게 혼합된 기능을 제공합니다. 자세한 내용은 in-de…"
     },
     {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
-      "authors": "Ashish Panwar",
-      "date": "2026-05-20",
-      "url": "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/",
-      "summary": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a trustworthy environm…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Amazon GuardDuty",
-        "AWS Backup",
-        "Best Practices",
-        "Resilience",
-        "Thought Leadership",
-        "fresh"
-      ],
-      "koSummary": "사이버 탄력성은 공격자가 환경에 영향을 미친 후 워크로드를 알려진 양호한 상태로 복구하는 능력입니다. 예방 작업은 위협 행위자를 차단하고 탐지 작업은 이를 신속하게 찾아냅니다. 사이버 탄력성은 복구에 중점을 두고 있습니다. 즉, 신뢰할 수 있는 환경을 복원하는 것입니다."
-    },
-    {
       "source": "Martin Fowler",
       "category": "개발",
       "title": "Maintainability sensors for coding agents",
@@ -705,11 +741,11 @@
       "date": "2026-05-11",
       "url": "https://library.krihs.re.kr/library/10120/contents/7737662",
       "summary": "➊ 15분 도시 등 근접성 중심의 계획 패러다임이 강조되고 있으며, 문화시설은 청년층의 정주 의향과 생활만족도를 결정짓는 필수 공공서비스이자 핵심 어메니티로 인식되고 있음 ➋ 문화시설 공급 전략을 비교해 보면 서울은 시간 기준 접근성과 보행 일상권을 통해 생활권 내 접근성을 높이려는 반면, 베를린은 중심지 이론(Central Place Theory)에 기반하여 위계별로 문화서비스를 배분하는 다핵적 공급 체계를 지향하고 있음 ➌ E2SFCA 지수로 문화접근성을 비교한 결과, 서울은 영화관을 제외하…",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "정책",
         "국토정책Brief",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -721,12 +757,12 @@
       "url": "https://www.ebs.co.kr/tv/show?prodId=452973&lectId=60719607&new",
       "summary": "경남 창원의 교방초등학교 씨름부를 6개월간 밀착 기록하며, 몸을 통해 세상을 익히는 아이들의 시간 조명. 씨름 소년들의 부단한 도전이 이끄는 변화를 통해, 우리 사회가 지켜내야 할 가치-실패의 경험, 회복탄력성, 지지와 연대-에 대해 깊은 울림을 주는 스포츠 다큐 영화.",
       "program": "다큐프라임 - 아이의 시간",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "교양",
         "EBS",
         "다큐프라임 - 아이의 시간",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -864,38 +900,6 @@
         "경제",
         "KIEP",
         "국내",
-        "stable"
-      ]
-    },
-    {
-      "source": "네이버 D2",
-      "category": "개발",
-      "title": "비개발자의 AI 협업 도전기 — 생산성 측정하려다 서버까지 띄운 9일",
-      "authors": "",
-      "date": "2026-04-29",
-      "url": "https://d2.naver.com/helloworld/2017402",
-      "summary": "\"조직이 잘하고 있는지 어떻게 알 수 있을까?\" 이 질문에서 출발해 사내 가이드 문서와 AI를 붙들고 직접 측정 도구를 완성하기까지 9일이 걸렸습니다. 그 과정을 기록으로 남깁니다. 사내 생산성 측정에 관한 고민 기술 PM으로 일하면서 조직과 프로젝트의 생산성을 어떻게 측정할지는 늘 풀리지 않는 과제였습니다. 스프린트를 원활하게 진행하는 것 같아도 막상 이를 수치로 보여달라고 하면 난감했습니다. 속도가 빨라지는지, 병목이 어디서 발생하는지, 지난 분기보다 나아지고 있는지 감각적으로는 알 수 있었…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "네이버 D2",
-        "국내",
-        "hello world",
-        "stable"
-      ]
-    },
-    {
-      "source": "국토정책Brief",
-      "category": "정책",
-      "title": "[국토정책Brief 제1060호] 지자체 도로관리의 개선을 위한 디지털 전환 정책 방안",
-      "authors": "김광호",
-      "date": "2026-04-27",
-      "url": "https://library.krihs.re.kr/library/10120/contents/7734174",
-      "summary": "➊ 국내 도로에 존재하는 교량과 터널 중 준공 후 30년 이상 된 노후시설의 비율은 각각 22.2%와 5.8%에 달하며 전반적인 도로 유지보수 비용도 최근 증가 추세임 ➋ 특히 지자체 소관 도로시설의 노후화 및 기능 저하가 심각하지만 도로관리와 관련된 예산 여건이 좋지 않고, 정보화 수준은 낮음(예: 기초지자체의 도로대장 전산화 비율은 약 38.7%) ➌ 지자체 도로관리에 대한 디지털 전환은 업무방식, 조직문화 등을 개선하고 ‘유지관리 비용 절감’, ‘자동화 수준 제고’ 등의 측면에서 긍정적인…",
-      "score": "stable",
-      "tags": [
-        "정책",
-        "국토정책Brief",
         "stable"
       ]
     },
