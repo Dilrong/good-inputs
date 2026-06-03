@@ -1892,5 +1892,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.02804v1 발표 유형: 새로운 개요: 책임 있는 소프트웨어 시스템 설계(DASS)에 관한 워크숍은 정부, 학계,…"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/06/the-unintended-effects-of-interest-rate-caps-credit-reallocation-to-safer-borrowers/|summary": {
+    "input": "Several states have recently capped consumer loan rates with the stated purpose of protecting borrowers. In a recent Staff Report , we study how these interventions have played out in three states. In our first post about that study , we showed that rate caps lead riskier borrow…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "몇몇 주에서는 최근 차용인을 보호한다는 목적으로 소비자 대출 금리에 상한선을 적용했습니다. 최근 직원 보고서에서 우리는 이러한 개입이 세 가지 주에서 어떻게 진행되었는지 연구했습니다. 해당 연구에 대한 첫 번째 게시물에서 우리는 금리 상한제가 더 위험한 차입을 초래한다는 것을 보여주었습니다…"
+  },
+  "https://libertystreeteconomics.newyorkfed.org/2026/06/the-unintended-effects-of-interest-rate-caps-credit-rationing-for-risky-borrowers/|summary": {
+    "input": "In imperial China, 3 percent was the maximum legal monthly loan rate; charging more was punishable by 40 to 100 blows with the “ light cane .” (Rockoff 2003 ) Centuries later, many U.S. states are imposing the same cap (without corporal penalties) on alternative credit providers…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "중국 제국에서는 3%가 법정 최대 월 대출 금리였습니다. 더 많이 충전하면 \"가벼운 지팡이\"로 40~100번의 타격을 가할 수 있습니다. (Rockoff 2003) 몇 세기 후, 미국의 많은 주에서는 대체 신용 제공자에게 동일한 한도(체벌 없이)를 부과하고 있습니다."
   }
 }
