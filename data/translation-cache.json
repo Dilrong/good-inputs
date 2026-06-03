@@ -1880,5 +1880,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
+  },
+  "https://arxiv.org/abs/2606.02755|summary": {
+    "input": "arXiv:2606.02755v1 Announce Type: new Abstract: Large language model (LLM) applications are increasingly expected to satisfy deterministic institutional requirements while relying on probabilistic generative components. This mismatch makes ordinary post-hoc benchmarking insuffic…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.02755v1 발표 유형: 새로운 개요: LLM(대형 언어 모델) 애플리케이션은 확률적 생성 구성요소에 의존하면서 결정론적 제도적 요구 사항을 충족할 것으로 점점 더 기대되고 있습니다. 이러한 불일치로 인해 일반적인 사후 벤치마킹이 충분하지 않습니다."
+  },
+  "https://arxiv.org/abs/2606.02804|summary": {
+    "input": "arXiv:2606.02804v1 Announce Type: new Abstract: The Workshop on Designing Accountable Software Systems (DASS) was convened in November 2024 with support from the U.S. National Science Foundation to engage a wide range of current and future stakeholders from government, academia,…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.02804v1 발표 유형: 새로운 개요: 책임 있는 소프트웨어 시스템 설계(DASS)에 관한 워크숍은 정부, 학계,…"
   }
 }
