@@ -1,7 +1,59 @@
 {
-  "generatedAt": "2026-06-03T11:23:26.603Z",
+  "generatedAt": "2026-06-03T17:18:14.531Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "Django Blog",
+      "category": "개발",
+      "title": "Django security releases issued: 6.0.6 and 5.2.15",
+      "authors": "Natalia Bidart",
+      "date": "2026-06-03",
+      "url": "https://www.djangoproject.com/weblog/2026/jun/03/security-releases/",
+      "summary": "In accordance with our security release policy , the Django team is issuing releases for Django 6.0.6 and Django 5.2.15 . These releases address the security issues detailed below. We encourage all users of Django to upgrade as soon as possible. CVE-2026-6873: Signed cookie salt…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Django Blog",
+        "글로벌",
+        "new"
+      ],
+      "koSummary": "보안 릴리스 정책에 따라 Django 팀은 Django 6.0.6 및 Django 5.2.15용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. CVE-2026-6873: 서명된 쿠키 솔트…"
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
+      "authors": "Vignyanand Penumatcha",
+      "date": "2026-06-03",
+      "url": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
+      "summary": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Advanced (300)",
+        "Amazon EC2",
+        "Amazon EventBridge",
+        "Amazon FSx for NetApp ONTAP",
+        "Application Integration",
+        "Auto Scaling",
+        "AWS Backup",
+        "AWS Lambda",
+        "AWS Systems Manager",
+        "Compute",
+        "Customer Solutions",
+        "Database",
+        "Experience-Based Acceleration",
+        "Learning Levels",
+        "Storage",
+        "Technical How-to",
+        "database",
+        "new"
+      ],
+      "koSummary": "이 게시물에서는 FSxN 공유 스토리지, 동적 AMI 업데이트가 포함된 Auto Scaling 그룹, 서버리스 오케스트레이션을 사용하여 고가용성 Oracle 데이터베이스 아키텍처를 구축하여 현재 구성으로 복구 시간을 줄이는 방법을 보여줍니다."
+    },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
@@ -214,26 +266,6 @@
       ]
     },
     {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
-      "authors": "Muni T. Bondu",
-      "date": "2026-06-01",
-      "url": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/",
-      "summary": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient enrollment and transformed…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Amazon Connect",
-        "Customer Solutions",
-        "new"
-      ],
-      "koSummary": "이 게시물에서는 NYCBS가 Amazon Web Services(AWS) 및 AWS 파트너 Pronetx(현재 Caylent의 일부)와 제휴하여 AWS 클라우드 연락 센터 서비스인 Amazon Connect Customer로 마이그레이션한 방법을 자세히 설명합니다. 마이그레이션을 통해 환자 등록이 54% 개선되었으며 혁신이 이루어졌습니다."
-    },
-    {
       "source": "Cloudflare Architecture",
       "category": "개발",
       "title": "How we reduced core unit boot time from hours to minutes",
@@ -309,23 +341,6 @@
         "new"
       ],
       "koSummary": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "2026년 창동레지던시 상반기 입주작가전 «두 개의 영토»",
-      "authors": "무진형제, 이선민, 장종완, 사라 세진 장(사라 반 데어 헤이드), 콘스탄스 텐빅, 사룻 수파수티웻 (총 6명/팀)",
-      "date": "2026-05-29",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202605140002074",
-      "summary": "국립현대미술관 창동레지던시는 2026년 상반기 입주작가전 «두 개의 영토»를 5월 29일(금)부터 6월 7일(일)까지 10일간 개최한다. 이번 전시에는 창동레지던시 24기 국내작가 3인 무진형제, 이선민, 장종완을 비롯하여 해외작가 3인 사라 세진 장(사라 반 데어 헤이드)(네덜란드), 콘스탄스 텐빅(노르웨이), 사룻 수파수티웻(태국) 총 4개국 6명/팀의 작가가 참여한다. 전시는 서로 다른 영역이 맞닿는 경계에서 생성되는 감각과 관계를 탐색한다. 참여 작가들은 개인적 서사와 집단적 기억, 의례…",
-      "score": "new",
-      "tags": [
-        "전시",
-        "MMCA",
-        "레지던시",
-        "현재전시",
-        "new"
-      ]
     },
     {
       "source": "Rust Blog",
@@ -552,23 +567,6 @@
       ]
     },
     {
-      "source": "Django Blog",
-      "category": "개발",
-      "title": "Django 6.1 alpha 1 released",
-      "authors": "Jacob Walls",
-      "date": "2026-05-20",
-      "url": "https://www.djangoproject.com/weblog/2026/may/20/django-61-alpha-1-released/",
-      "summary": "Django 6.1 alpha 1 is now available. It represents the first stage in the 6.1 release cycle and is an opportunity to try out the changes coming in Django 6.1. Django 6.1 offers a harmonious mélange of new features and usability improvements, which you can read about in the in-de…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "Django Blog",
-        "글로벌",
-        "fresh"
-      ],
-      "koSummary": "이제 Django 6.1 알파 1을 사용할 수 있습니다. 이는 6.1 릴리스 주기의 첫 번째 단계를 나타내며 Django 6.1의 변경 사항을 시험해 볼 수 있는 기회입니다. Django 6.1은 새로운 기능과 유용성 개선 사항이 조화롭게 혼합된 기능을 제공합니다. 자세한 내용은 in-de…"
-    },
-    {
       "source": "Martin Fowler",
       "category": "개발",
       "title": "Maintainability sensors for coding agents",
@@ -745,23 +743,6 @@
       "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "로드 무비: 1945년 이후 한·일 미술",
-      "authors": "곽인식, 남화연, 다나카 고키, 나카무라 마사토, 무라카미 다카시, 박서보, 서승원, 이불, 이우환, 정연두, 조양규 등 40여 명",
-      "date": "2026-05-14",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202408210001821",
-      "summary": "«로드 무비: 1945년 이후 한·일 미술»전은 한·일 국교정상화 60주년을 계기로 일본 요코하마미술관과 공동 기획으로 마련되었다. 이 전시는 1945년 이후 현재까지 80년에 걸쳐 이어져 온 한·일 미술 교류의 역사를 조망한다. ‘로드 무비’는 길 위의 이동을 통해 주인공이 예상치 못한 인물과 사건을 만나고, 그 과정에서 변화에 이르는 영화 장르이다. 한국과 일본의 예술가들 역시 두 나라 사이, 낯선 길 위에서 기꺼이 모험을 감행하며, 서로를 향하는 여러 갈래의 길을 만들어왔다. 이 전시는 1…",
-      "score": "fresh",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "fresh"
-      ]
-    },
-    {
       "source": "자본시장연구원",
       "category": "경제",
       "title": "외환시장 거래시간 연장이 환율 변동성에 미친 영향",
@@ -934,23 +915,6 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "오~감각미술관",
-      "authors": "깪, 엄정순, 함진",
-      "date": "2026-04-30",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
-      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "어린이미술관",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -983,38 +947,22 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "source": "Prometheus Blog",
+      "category": "개발",
+      "title": "Ask the Prometheus docs with Kapa.ai",
+      "authors": "Arthur Silva Sens (@ArthurSens)",
       "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "url": "https://prometheus.io/blog/2026/04/22/ask-the-prometheus-docs-with-kapa-ai/",
+      "summary": "Prometheus documentation now includes a new Kapa.ai integration. This is available as part of the partnership between CNCF and Kapa.ai , which helps CNCF projects make their documentation and knowledge more accessible. You can now use the Ask AI entry on prometheus.io to ask que…",
       "score": "stable",
       "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
+        "개발",
+        "Prometheus Blog",
+        "글로벌",
+        "관측성",
         "stable"
-      ]
+      ],
+      "koSummary": "Prometheus 문서에는 이제 새로운 Kapa.ai 통합이 포함됩니다. 이는 CNCF와 Kapa.ai 간의 파트너십의 일부로 제공되며, 이는 CNCF 프로젝트에서 문서와 지식에 대한 접근성을 높이는 데 도움이 됩니다. 이제 prometheus.io의 Ask AI 항목을 사용하여 질문할 수 있습니다."
     },
     {
       "source": "국립중앙박물관",
@@ -1505,24 +1453,6 @@
         "stable"
       ],
       "koSummary": "React Server 구성 요소에 인증되지 않은 원격 코드 실행 취약점이 있습니다. 버전 19.0.1, 19.1.2 및 19.2.1에 수정 사항이 게시되었습니다. 즉시 업그레이드하는 것이 좋습니다."
-    },
-    {
-      "source": "Prometheus Blog",
-      "category": "개발",
-      "title": "Visualizing Target Relabeling Rules in Prometheus 3.8.0",
-      "authors": "Julius Volz (@juliusv)",
-      "date": "2025-12-02",
-      "url": "https://prometheus.io/blog/2025/12/02/visualizing-target-relabeling-rules-in-the-prometheus-ui/",
-      "summary": "Prometheus' target relabeling feature allows you to adjust the labels of a discovered target or even drop the target entirely. Relabeling rules, while powerful, can be hard to understand and debug. Your rules have to match the expected labels that your service discovery mechanis…",
-      "score": "stable",
-      "tags": [
-        "개발",
-        "Prometheus Blog",
-        "글로벌",
-        "관측성",
-        "stable"
-      ],
-      "koSummary": "Prometheus의 대상 재지정 기능을 사용하면 발견된 대상의 레이블을 조정하거나 대상을 완전히 삭제할 수도 있습니다. 레이블 재지정 규칙은 강력하기는 하지만 이해하고 디버깅하기 어려울 수 있습니다. 규칙은 서비스 검색 메커니즘에서 예상되는 레이블과 일치해야 합니다."
     },
     {
       "source": "국립중앙박물관",

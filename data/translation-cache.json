@@ -1904,5 +1904,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "중국 제국에서는 3%가 법정 최대 월 대출 금리였습니다. 더 많이 충전하면 \"가벼운 지팡이\"로 40~100번의 타격을 가할 수 있습니다. (Rockoff 2003) 몇 세기 후, 미국의 많은 주에서는 대체 신용 제공자에게 동일한 한도(체벌 없이)를 부과하고 있습니다."
+  },
+  "https://www.djangoproject.com/weblog/2026/jun/03/security-releases/|summary": {
+    "input": "In accordance with our security release policy , the Django team is issuing releases for Django 6.0.6 and Django 5.2.15 . These releases address the security issues detailed below. We encourage all users of Django to upgrade as soon as possible. CVE-2026-6873: Signed cookie salt…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "보안 릴리스 정책에 따라 Django 팀은 Django 6.0.6 및 Django 5.2.15용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. CVE-2026-6873: 서명된 쿠키 솔트…"
+  },
+  "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/|summary": {
+    "input": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 FSxN 공유 스토리지, 동적 AMI 업데이트가 포함된 Auto Scaling 그룹, 서버리스 오케스트레이션을 사용하여 고가용성 Oracle 데이터베이스 아키텍처를 구축하여 현재 구성으로 복구 시간을 줄이는 방법을 보여줍니다."
+  },
+  "https://prometheus.io/blog/2026/04/22/ask-the-prometheus-docs-with-kapa-ai/|summary": {
+    "input": "Prometheus documentation now includes a new Kapa.ai integration. This is available as part of the partnership between CNCF and Kapa.ai , which helps CNCF projects make their documentation and knowledge more accessible. You can now use the Ask AI entry on prometheus.io to ask que…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Prometheus 문서에는 이제 새로운 Kapa.ai 통합이 포함됩니다. 이는 CNCF와 Kapa.ai 간의 파트너십의 일부로 제공되며, 이는 CNCF 프로젝트에서 문서와 지식에 대한 접근성을 높이는 데 도움이 됩니다. 이제 prometheus.io의 Ask AI 항목을 사용하여 질문할 수 있습니다."
   }
 }
