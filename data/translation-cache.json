@@ -1922,5 +1922,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "Prometheus 문서에는 이제 새로운 Kapa.ai 통합이 포함됩니다. 이는 CNCF와 Kapa.ai 간의 파트너십의 일부로 제공되며, 이는 CNCF 프로젝트에서 문서와 지식에 대한 접근성을 높이는 데 도움이 됩니다. 이제 prometheus.io의 Ask AI 항목을 사용하여 질문할 수 있습니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/|summary": {
+    "input": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap Prioritization (TRP…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/|title": {
+    "input": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
+  },
+  "https://blog.cloudflare.com/enforce-first-as-bgp/|summary": {
+    "input": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "BGP는 인터넷 트래픽에 부정적인 영향을 미치는 라우팅 하이재킹 및 경로 유출에 취약합니다. RPKI는 이러한 문제 중 일부를 해결하는 데 도움이 되지만 일부 위조된 경로의 경우 더 간단한 메커니즘, 즉 BGP의 첫 번째 AS 적용에 의존해야 합니다."
   }
 }

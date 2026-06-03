@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T17:18:14.531Z",
+  "generatedAt": "2026-06-03T21:30:53.546Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,25 @@
         "new"
       ],
       "koSummary": "보안 릴리스 정책에 따라 Django 팀은 Django 6.0.6 및 Django 5.2.15용 릴리스를 발행하고 있습니다. 이 릴리스에서는 아래에 자세히 설명된 보안 문제를 해결합니다. 우리는 모든 Django 사용자가 가능한 한 빨리 업그레이드할 것을 권장합니다. CVE-2026-6873: 서명된 쿠키 솔트…"
+    },
+    {
+      "source": "AWS Architecture Blog",
+      "category": "개발",
+      "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
+      "authors": "John Walker",
+      "date": "2026-06-03",
+      "url": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/",
+      "summary": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap Prioritization (TRP…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "AWS Architecture Blog",
+        "글로벌",
+        "아키텍처",
+        "Architecture",
+        "Best Practices",
+        "new"
+      ]
     },
     {
       "source": "AWS Architecture Blog",
@@ -53,6 +72,29 @@
         "new"
       ],
       "koSummary": "이 게시물에서는 FSxN 공유 스토리지, 동적 AMI 업데이트가 포함된 Auto Scaling 그룹, 서버리스 오케스트레이션을 사용하여 고가용성 Oracle 데이터베이스 아키텍처를 구축하여 현재 구성으로 복구 시간을 줄이는 방법을 보여줍니다."
+    },
+    {
+      "source": "Cloudflare Architecture",
+      "category": "개발",
+      "title": "Enforcing the First AS in BGP AS_PATHs",
+      "authors": "Bryton Herdes",
+      "date": "2026-06-03",
+      "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+      "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Cloudflare Architecture",
+        "글로벌",
+        "아키텍처",
+        "BGP",
+        "Routing",
+        "Routing Security",
+        "RPKI",
+        "Radar",
+        "new"
+      ],
+      "koSummary": "BGP는 인터넷 트래픽에 부정적인 영향을 미치는 라우팅 하이재킹 및 경로 유출에 취약합니다. RPKI는 이러한 문제 중 일부를 해결하는 데 도움이 되지만 일부 위조된 경로의 경우 더 간단한 메커니즘, 즉 BGP의 첫 번째 AS 적용에 의존해야 합니다."
     },
     {
       "source": "arXiv cs.SE",
@@ -211,46 +253,6 @@
       "koSummary": "AWS용 오픈 소스 Agent Toolkit의 일부로 AWS SDK 기술 세트를 출시했습니다. 이는 코딩 에이전트에게 AWS SDK 모범 사례를 따르는 방법을 가르치는 AI 기술입니다. 이 프로젝트는 Apache-2.0 라이선스에 따라 GitHub에서 사용할 수 있습니다. AI 코딩 에이전트가 알고 있는 문제는…"
     },
     {
-      "source": "AWS Architecture Blog",
-      "category": "개발",
-      "title": "Automating contract intelligence with Doczy.ai™ on AWS",
-      "authors": "Sanket Nasre",
-      "date": "2026-06-02",
-      "url": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
-      "summary": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the full value of their da…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "AWS Architecture Blog",
-        "글로벌",
-        "아키텍처",
-        "Advanced (300)",
-        "Amazon Bedrock",
-        "Amazon Bedrock Agents",
-        "Amazon Bedrock Knowledge Bases",
-        "Amazon CloudWatch",
-        "Amazon Cognito",
-        "Amazon Elastic Container Service",
-        "Amazon Machine Learning",
-        "Amazon Simple Storage Service (S3)",
-        "Amazon Textract",
-        "Artificial Intelligence",
-        "AWS Lambda",
-        "AWS Secrets Manager",
-        "Compute",
-        "Containers",
-        "Customer Solutions",
-        "Learning Levels",
-        "Management Tools",
-        "Security, Identity, & Compliance",
-        "Storage",
-        "Technical How-to",
-        "Uncategorized",
-        "new"
-      ],
-      "koSummary": "이 게시물에서는 Doczy.ai™가 어떻게 AWS에서 생성적 AI를 사용하여 대규모 계약 인텔리전스를 자동화하고 구조화되지 않은 문서를 체계적이고 실행 가능한 통찰력으로 변환하여 조직이 중요한 비즈니스 프로세스를 자동화하고 데이터의 전체 가치를 활용할 수 있는지 보여줍니다."
-    },
-    {
       "source": "국토정책Brief",
       "category": "정책",
       "title": "[국토정책Brief 제1065호] 네트워크 기반 공개제한 공간정보의 제공방안",
@@ -343,6 +345,23 @@
       "koSummary": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "2026년 창동레지던시 상반기 입주작가전 «두 개의 영토»",
+      "authors": "무진형제, 이선민, 장종완, 사라 세진 장(사라 반 데어 헤이드), 콘스탄스 텐빅, 사룻 수파수티웻 (총 6명/팀)",
+      "date": "2026-05-29",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202605140002074",
+      "summary": "국립현대미술관 창동레지던시는 2026년 상반기 입주작가전 «두 개의 영토»를 5월 29일(금)부터 6월 7일(일)까지 10일간 개최한다. 이번 전시에는 창동레지던시 24기 국내작가 3인 무진형제, 이선민, 장종완을 비롯하여 해외작가 3인 사라 세진 장(사라 반 데어 헤이드)(네덜란드), 콘스탄스 텐빅(노르웨이), 사룻 수파수티웻(태국) 총 4개국 6명/팀의 작가가 참여한다. 전시는 서로 다른 영역이 맞닿는 경계에서 생성되는 감각과 관계를 탐색한다. 참여 작가들은 개인적 서사와 집단적 기억, 의례…",
+      "score": "new",
+      "tags": [
+        "전시",
+        "MMCA",
+        "레지던시",
+        "현재전시",
+        "new"
+      ]
+    },
+    {
       "source": "Rust Blog",
       "category": "개발",
       "title": "Announcing Rust 1.96.0",
@@ -385,29 +404,6 @@
         "new"
       ],
       "koSummary": "2023년 초, Slack은 고객이 기대하는 보안, 안정성, 성능을 갖춘 엔터프라이즈 규모의 LLM(대형 언어 모델)을 제공해야 하는 근본적인 과제에 직면했습니다. 3년에 걸쳐 우리는 기본 인프라에서 정교한 멀티 클라우드 조정으로 발전했습니다."
-    },
-    {
-      "source": "Cloudflare Architecture",
-      "category": "개발",
-      "title": "How we built Cloudflare's data platform and an AI agent on top of it",
-      "authors": "Brian Brunner",
-      "date": "2026-05-28",
-      "url": "https://blog.cloudflare.com/our-unified-data-platform/",
-      "summary": "Here’s how we built Town Lake, Cloudflare's unified analytics platform, alongside Skipper, an internal AI agent running on top of it.",
-      "score": "new",
-      "tags": [
-        "개발",
-        "Cloudflare Architecture",
-        "글로벌",
-        "아키텍처",
-        "Engineering",
-        "Analytics",
-        "Developers Storage",
-        "AI",
-        "Data Platform",
-        "new"
-      ],
-      "koSummary": "Cloudflare의 통합 분석 플랫폼인 Town Lake를 그 위에서 실행되는 내부 AI 에이전트인 Skipper와 함께 구축한 방법은 다음과 같습니다."
     },
     {
       "source": "St. Louis Fed",
@@ -743,6 +739,23 @@
       "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "로드 무비: 1945년 이후 한·일 미술",
+      "authors": "곽인식, 남화연, 다나카 고키, 나카무라 마사토, 무라카미 다카시, 박서보, 서승원, 이불, 이우환, 정연두, 조양규 등 40여 명",
+      "date": "2026-05-14",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202408210001821",
+      "summary": "«로드 무비: 1945년 이후 한·일 미술»전은 한·일 국교정상화 60주년을 계기로 일본 요코하마미술관과 공동 기획으로 마련되었다. 이 전시는 1945년 이후 현재까지 80년에 걸쳐 이어져 온 한·일 미술 교류의 역사를 조망한다. ‘로드 무비’는 길 위의 이동을 통해 주인공이 예상치 못한 인물과 사건을 만나고, 그 과정에서 변화에 이르는 영화 장르이다. 한국과 일본의 예술가들 역시 두 나라 사이, 낯선 길 위에서 기꺼이 모험을 감행하며, 서로를 향하는 여러 갈래의 길을 만들어왔다. 이 전시는 1…",
+      "score": "fresh",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "fresh"
+      ]
+    },
+    {
       "source": "자본시장연구원",
       "category": "경제",
       "title": "외환시장 거래시간 연장이 환율 변동성에 미친 영향",
@@ -915,6 +928,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "오~감각미술관",
+      "authors": "깪, 엄정순, 함진",
+      "date": "2026-04-30",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
+      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "어린이미술관",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -947,6 +977,23 @@
       ]
     },
     {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
+      "authors": "방혜자",
+      "date": "2026-04-24",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
+      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "청주",
+        "현재전시",
+        "stable"
+      ]
+    },
+    {
       "source": "Prometheus Blog",
       "category": "개발",
       "title": "Ask the Prometheus docs with Kapa.ai",
@@ -963,6 +1010,23 @@
         "stable"
       ],
       "koSummary": "Prometheus 문서에는 이제 새로운 Kapa.ai 통합이 포함됩니다. 이는 CNCF와 Kapa.ai 간의 파트너십의 일부로 제공되며, 이는 CNCF 프로젝트에서 문서와 지식에 대한 접근성을 높이는 데 도움이 됩니다. 이제 prometheus.io의 Ask AI 항목을 사용하여 질문할 수 있습니다."
+    },
+    {
+      "source": "MMCA",
+      "category": "전시",
+      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
+      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
+      "date": "2026-04-22",
+      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
+      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
+      "score": "stable",
+      "tags": [
+        "전시",
+        "MMCA",
+        "과천",
+        "현재전시",
+        "stable"
+      ]
     },
     {
       "source": "국립중앙박물관",
