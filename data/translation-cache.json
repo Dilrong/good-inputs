@@ -1940,5 +1940,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "BGP는 인터넷 트래픽에 부정적인 영향을 미치는 라우팅 하이재킹 및 경로 유출에 취약합니다. RPKI는 이러한 문제 중 일부를 해결하는 데 도움이 되지만 일부 위조된 경로의 경우 더 간단한 메커니즘, 즉 BGP의 첫 번째 AS 적용에 의존해야 합니다."
+  },
+  "https://arxiv.org/abs/2606.04017|summary": {
+    "input": "arXiv:2606.04017v1 Announce Type: new Abstract: Long-running AI agents fail not only when inference fails or tools are underspecified, but when independently evolving model and harness layers change the semantics of belief, capability, and goal commitments across their boundary…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.04017v1 발표 유형: 새로운 개요: 추론이 실패하거나 도구가 제대로 지정되지 않은 경우뿐만 아니라 독립적으로 진화하는 모델 및 하네스 계층이 경계를 넘어 신념, 기능 및 목표 약속의 의미를 변경하는 경우 장기 실행 AI 에이전트가 실패합니다…"
+  },
+  "https://arxiv.org/abs/2606.04023|summary": {
+    "input": "arXiv:2606.04023v1 Announce Type: new Abstract: While large language models (LLMs) have been extensively evaluated on code generation tasks for general-purpose programming and GPU-accelerated environments (e.g., PyTorch, CUDA), their capabilities in CPU-oriented high-performance…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.04023v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 범용 프로그래밍 및 GPU 가속 환경(예: PyTorch, CUDA)을 위한 코드 생성 작업에 대해 광범위하게 평가되었지만 CPU 중심 고성능..."
   }
 }
