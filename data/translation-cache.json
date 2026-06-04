@@ -1952,5 +1952,23 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.04023v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 범용 프로그래밍 및 GPU 가속 환경(예: PyTorch, CUDA)을 위한 코드 생성 작업에 대해 광범위하게 평가되었지만 CPU 중심 고성능..."
+  },
+  "https://blog.cloudflare.com/voidzero-joins-cloudflare/|summary": {
+    "input": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Vite, Vitest, Rolldown, Oxc 및 Vite+를 지원하는 팀인 VoidZero가 Cloudflare에 합류합니다. Vite는 오픈 소스를 유지하고 공급업체에 구애받지 않으며 모든 사람을 위해 구축되었습니다."
+  },
+  "https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/|summary": {
+    "input": "The PostgreSQL Global Development Group announces that the first beta release of PostgreSQL 19 is now available for download . This release contains PostgreSQL 19 feature previews ahead of general availability, though some details of the release can change during the beta period.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "PostgreSQL 글로벌 개발 그룹은 이제 PostgreSQL 19의 첫 번째 베타 릴리스를 다운로드할 수 있다고 발표했습니다. 이 릴리스에는 일반 출시에 앞서 PostgreSQL 19 기능 미리 보기가 포함되어 있지만 릴리스의 일부 세부 사항은 베타 기간 동안 변경될 수 있습니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/06/why-exclude-food-and-energy-from-inflation-measures/|summary": {
+    "input": "The Federal Reserve has a dual mandate from Congress: stable prices and full employment. For the first objective, what prices should the Fed keep stable? There are many to choose from. Although they’re obviously correlated, they do deviate from each other, … Continue reading →",
+    "approved": true,
+    "mode": "summary",
+    "koText": "연준은 의회로부터 물가 안정과 완전고용이라는 이중 권한을 갖고 있습니다. 첫 번째 목표를 위해 연준은 어떤 가격을 안정적으로 유지해야 할까요? 선택할 수 있는 것이 많습니다. 분명히 상관관계가 있지만 서로 어긋나 있습니다. … 계속 읽기 →"
   }
 }
