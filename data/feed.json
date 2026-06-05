@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-06-04T20:27:36.035Z",
+  "generatedAt": "2026-06-05T04:50:29.309Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
+    {
+      "source": "토스 테크",
+      "category": "개발",
+      "title": "토스팀이 AI 파도를 마주하는 방법: AI Surf Day",
+      "authors": "",
+      "date": "2026-06-05",
+      "url": "https://toss.tech/article/ai-surf-day",
+      "summary": "파도를 멈출 수는 없지만, 서핑하는 방법은 배울 수 있다.",
+      "score": "new",
+      "tags": [
+        "개발",
+        "토스 테크",
+        "국내",
+        "new"
+      ]
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "Where Do Large Language Models Fail on Competitive Programming? A Taxonomy of Failures by Algorithm Type and Difficulty Rating",
+      "authors": "Ayush Kumar Jha, Shalini Jha",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.05228",
+      "summary": "arXiv:2606.05228v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate increasing proficiency on competitive programming benchmarks, yet technical reports predominantly publish aggregate pass rates, obscuring domain-specific vulnerabilities. We present a system…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "cs.PL",
+        "new"
+      ],
+      "koSummary": "arXiv:2606.05228v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 경쟁력 있는 프로그래밍 벤치마크에서 향상된 숙련도를 보여주지만 기술 보고서는 주로 집계 합격률을 게시하여 도메인별 취약점을 모호하게 합니다. 시스템을 제시합니다…"
+    },
+    {
+      "source": "arXiv cs.SE",
+      "category": "개발",
+      "title": "DeployBench: Benchmarking LLM Agents for Research Artifact Deployment",
+      "authors": "Yuanli Wang, Yaoyao Qian, Yue Zhang, Hanhan Zhou, Jindan Huang, Tianfu Fu, Qiuyang Mang, Huanzhi Mao, Wenhao Chai, Wendong Fan, Liqiang Jing",
+      "date": "2026-06-05",
+      "url": "https://arxiv.org/abs/2606.05238",
+      "summary": "arXiv:2606.05238v1 Announce Type: new Abstract: LLM agents have made rapid progress on software engineering and ML research tasks, but these advances often assume access to a working runnable environment. For research artifacts released alongside published papers, setting up suc…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "arXiv cs.SE",
+        "글로벌",
+        "논문",
+        "cs.SE",
+        "new"
+      ],
+      "koSummary": "arXiv:2606.05238v1 발표 유형: new 개요: LLM 에이전트는 소프트웨어 엔지니어링 및 ML 연구 작업에서 급속한 발전을 이루었지만 이러한 발전은 종종 실행 가능한 작업 환경에 대한 액세스를 전제로 합니다. 출판된 논문과 함께 발표된 연구 아티팩트에 대해 성공적인 설정…"
+    },
     {
       "source": "네이버 D2",
       "category": "개발",
@@ -59,45 +114,6 @@
         "new"
       ],
       "koSummary": "Vite, Vitest, Rolldown, Oxc 및 Vite+를 지원하는 팀인 VoidZero가 Cloudflare에 합류합니다. Vite는 오픈 소스를 유지하고 공급업체에 구애받지 않으며 모든 사람을 위해 구축되었습니다."
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "Neither Layer Alone: Epistemic Integrity Requires Hierarchical Joint Design for Long-Running AI Agents",
-      "authors": "Zhihong Shen",
-      "date": "2026-06-04",
-      "url": "https://arxiv.org/abs/2606.04017",
-      "summary": "arXiv:2606.04017v1 Announce Type: new Abstract: Long-running AI agents fail not only when inference fails or tools are underspecified, but when independently evolving model and harness layers change the semantics of belief, capability, and goal commitments across their boundary…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "new"
-      ],
-      "koSummary": "arXiv:2606.04017v1 발표 유형: 새로운 개요: 추론이 실패하거나 도구가 제대로 지정되지 않은 경우뿐만 아니라 독립적으로 진화하는 모델 및 하네스 계층이 경계를 넘어 신념, 기능 및 목표 약속의 의미를 변경하는 경우 장기 실행 AI 에이전트가 실패합니다…"
-    },
-    {
-      "source": "arXiv cs.SE",
-      "category": "개발",
-      "title": "CodegenBench: Can LLMs Write Efficient Code Across Architectures?",
-      "authors": "Jie Li, Wenzhao Wu, Junqi Hu, Qinrui Zheng, Bowen Wu, Juepeng Zheng, Yutong Lu, Haohuan Fu",
-      "date": "2026-06-04",
-      "url": "https://arxiv.org/abs/2606.04023",
-      "summary": "arXiv:2606.04023v1 Announce Type: new Abstract: While large language models (LLMs) have been extensively evaluated on code generation tasks for general-purpose programming and GPU-accelerated environments (e.g., PyTorch, CUDA), their capabilities in CPU-oriented high-performance…",
-      "score": "new",
-      "tags": [
-        "개발",
-        "arXiv cs.SE",
-        "글로벌",
-        "논문",
-        "cs.SE",
-        "cs.AI",
-        "new"
-      ],
-      "koSummary": "arXiv:2606.04023v1 발표 유형: 새로운 개요: LLM(대형 언어 모델)은 범용 프로그래밍 및 GPU 가속 환경(예: PyTorch, CUDA)을 위한 코드 생성 작업에 대해 광범위하게 평가되었지만 CPU 중심 고성능..."
     },
     {
       "source": "PostgreSQL",
@@ -412,12 +428,12 @@
       "date": "2026-05-28",
       "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
       "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Rust Blog",
         "글로벌",
-        "new"
+        "fresh"
       ],
       "koSummary": "Rust 팀은 Rust의 새 버전인 1.96.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.96.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면…"
     },
@@ -429,7 +445,7 @@
       "date": "2026-05-28",
       "url": "https://slack.engineering/slack-ai-the-path-to-multi-cloud/",
       "summary": "In early 2023, Slack faced a foundational challenge: serving Large Language Models (LLMs) at enterprise scale with the security, reliability, and performance our customers expect. Over three years, we evolved from basic infrastructure to orchestrating a sophisticated multi-cloud…",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "개발",
         "Slack Engineering",
@@ -444,7 +460,7 @@
         "innovation",
         "machine-learning",
         "software-development",
-        "new"
+        "fresh"
       ],
       "koSummary": "2023년 초, Slack은 고객이 기대하는 보안, 안정성, 성능을 갖춘 엔터프라이즈 규모의 LLM(대형 언어 모델)을 제공해야 하는 근본적인 과제에 직면했습니다. 3년에 걸쳐 우리는 기본 인프라에서 정교한 멀티 클라우드 조정으로 발전했습니다."
     },
@@ -456,13 +472,13 @@
       "date": "2026-05-28",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/may/impact-rising-interest-rates-mortgage-borrowing",
       "summary": "Denials moved closely with rising U.S. mortgage rates in 2022 and 2023, showing higher borrowing costs—not weaker applicants—drove the increased rejections.",
-      "score": "new",
+      "score": "fresh",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "new"
+        "fresh"
       ],
       "koSummary": "거부는 2022년과 2023년 미국 모기지 금리 상승과 밀접하게 연관되어 약한 신청자가 아니라 더 높은 차입 비용이 거부 증가를 주도했다는 것을 보여줍니다."
     },
@@ -663,27 +679,11 @@
       "date": "2026-05-14",
       "url": "https://library.krihs.re.kr/library/10120/contents/5951146?checkinId=4036049&articleId=1942976",
       "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "이슈",
         "국토이슈리포트",
-        "fresh"
-      ]
-    },
-    {
-      "source": "토스 테크",
-      "category": "개발",
-      "title": "AI 시대, 성과 내는 조직일수록 토스식 TPM이 필요한 이유",
-      "authors": "",
-      "date": "2026-05-14",
-      "url": "https://toss.tech/article/toss-tpm",
-      "summary": "모두가 열심히 해도 계속 비는 문제, 토스가 그 회색지대를 해결하는 법",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "토스 테크",
-        "국내",
-        "fresh"
+        "stable"
       ]
     },
     {
@@ -694,7 +694,7 @@
       "date": "2026-05-14",
       "url": "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/",
       "summary": "How the GitHub Issues team used client-side caching, smart prefetching, and service workers to make navigation feel instant. The post From latency to instant: Modernizing GitHub Issues navigation performance appeared first on The GitHub Blog .",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "개발",
         "GitHub Engineering",
@@ -703,7 +703,7 @@
         "Engineering",
         "engineering",
         "GitHub Issues",
-        "fresh"
+        "stable"
       ],
       "koSummary": "GitHub Issues 팀이 클라이언트 측 캐싱, 스마트 프리페칭, 서비스 워커를 사용하여 탐색이 즉각적으로 느껴지도록 만든 방법입니다. 대기 시간에서 즉시로: GitHub 문제 현대화 탐색 성능 게시물이 GitHub 블로그에 처음 게재되었습니다."
     },
@@ -715,13 +715,13 @@
       "date": "2026-05-14",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/may/banking-analytics-banks-experience-asset-growth-ongoing-consolidation",
       "summary": "From 2020 to 2025, the number of U.S. banks declined by 13% while average asset size per institution grew by 33% to $5.8 billion.",
-      "score": "fresh",
+      "score": "stable",
       "tags": [
         "경제",
         "St. Louis Fed",
         "글로벌",
         "연준",
-        "fresh"
+        "stable"
       ],
       "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },

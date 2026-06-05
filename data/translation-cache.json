@@ -1976,5 +1976,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "우리는 데이터 센터에서 즉각적으로 또는 통지 없이 전력 손실을 처리하고 완화하기 위한 Meta 인프라 내의 새로운 테스트 패러다임인 Instantaneous PowerLoss Storm을 도입합니다. 우리는 기존 시스템에 즉각적인 장애를 허용할 준비를 구축한 방법을 공유하고 있습니다."
+  },
+  "https://arxiv.org/abs/2606.05228|summary": {
+    "input": "arXiv:2606.05228v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate increasing proficiency on competitive programming benchmarks, yet technical reports predominantly publish aggregate pass rates, obscuring domain-specific vulnerabilities. We present a system…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.05228v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)은 경쟁력 있는 프로그래밍 벤치마크에서 향상된 숙련도를 보여주지만 기술 보고서는 주로 집계 합격률을 게시하여 도메인별 취약점을 모호하게 합니다. 시스템을 제시합니다…"
+  },
+  "https://arxiv.org/abs/2606.05238|summary": {
+    "input": "arXiv:2606.05238v1 Announce Type: new Abstract: LLM agents have made rapid progress on software engineering and ML research tasks, but these advances often assume access to a working runnable environment. For research artifacts released alongside published papers, setting up suc…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.05238v1 발표 유형: new 개요: LLM 에이전트는 소프트웨어 엔지니어링 및 ML 연구 작업에서 급속한 발전을 이루었지만 이러한 발전은 종종 실행 가능한 작업 환경에 대한 액세스를 전제로 합니다. 출판된 논문과 함께 발표된 연구 아티팩트에 대해 성공적인 설정…"
   }
 }
