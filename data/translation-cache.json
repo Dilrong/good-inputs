@@ -1988,5 +1988,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.05238v1 발표 유형: new 개요: LLM 에이전트는 소프트웨어 엔지니어링 및 ML 연구 작업에서 급속한 발전을 이루었지만 이러한 발전은 종종 실행 가능한 작업 환경에 대한 액세스를 전제로 합니다. 출판된 논문과 함께 발표된 연구 아티팩트에 대해 성공적인 설정…"
+  },
+  "https://blog.cloudflare.com/ai-gateway-spend-limits/|summary": {
+    "input": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "AI Gateway는 이제 실시간 지출 한도 기능을 제공하여 여러 AI 공급자에 걸쳐 토큰 청구 폭주를 방지합니다. Cloudflare Access와 통합하면 기업은 ID 기반 예산과 정책을 사용할 수 있습니다."
   }
 }
