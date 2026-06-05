@@ -1994,5 +1994,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "AI Gateway는 이제 실시간 지출 한도 기능을 제공하여 여러 AI 공급자에 걸쳐 토큰 청구 폭주를 방지합니다. Cloudflare Access와 통합하면 기업은 ID 기반 예산과 정책을 사용할 수 있습니다."
+  },
+  "https://www.stlouisfed.org/on-the-economy/2026/jun/flash-report-may-unemployment-job-gains-signal-steady-labor-market|summary": {
+    "input": "Changes in people moving into and out of unemployment and the labor force combined to again keep the jobless rate steady at 4.3% in May.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "실업률과 노동력에 들어오고 나가는 사람들의 변화가 결합되어 5월 실업률은 다시 4.3%로 안정적으로 유지되었습니다."
   }
 }
