@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-05T20:13:27.153Z",
+  "generatedAt": "2026-06-06T04:22:51.466Z",
   "summary": {
     "total": 42,
-    "ok": 40,
-    "warn": 1,
+    "ok": 39,
+    "warn": 2,
     "error": 1,
-    "published": 40,
-    "excluded": 2
+    "published": 39,
+    "excluded": 3
   },
   "translation": {
-    "attempted": 46,
-    "kept": 44,
+    "attempted": 44,
+    "kept": 42,
     "rejected": 2,
     "titleFallback": 5
   },
@@ -24,7 +24,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:31.409Z"
+      "checkedAt": "2026-06-06T04:19:40.359Z"
     },
     {
       "source": "국토이슈리포트",
@@ -35,7 +35,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:35.659Z"
+      "checkedAt": "2026-06-06T04:19:43.726Z"
     },
     {
       "source": "워킹페이퍼",
@@ -46,7 +46,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:37.577Z"
+      "checkedAt": "2026-06-06T04:19:45.433Z"
     },
     {
       "source": "KDI FOCUS",
@@ -57,7 +57,7 @@
       "status": "warn",
       "detail": "empty",
       "publish": false,
-      "checkedAt": "2026-06-05T20:12:43.343Z"
+      "checkedAt": "2026-06-06T04:19:47.732Z"
     },
     {
       "source": "KDI 연구보고서",
@@ -68,7 +68,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:48.999Z"
+      "checkedAt": "2026-06-06T04:19:52.887Z"
     },
     {
       "source": "자본시장연구원",
@@ -79,7 +79,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:51.666Z"
+      "checkedAt": "2026-06-06T04:19:54.981Z"
     },
     {
       "source": "KIEP",
@@ -90,7 +90,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:53.517Z"
+      "checkedAt": "2026-06-06T04:19:57.148Z"
     },
     {
       "source": "한국은행",
@@ -101,7 +101,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:55.442Z"
+      "checkedAt": "2026-06-06T04:19:59.251Z"
     },
     {
       "source": "Stripe Engineering",
@@ -112,7 +112,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:55.589Z"
+      "checkedAt": "2026-06-06T04:19:59.371Z"
     },
     {
       "source": "토스 테크",
@@ -123,7 +123,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:57.771Z"
+      "checkedAt": "2026-06-06T04:20:01.604Z"
     },
     {
       "source": "네이버 D2",
@@ -134,7 +134,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:59.725Z"
+      "checkedAt": "2026-06-06T04:20:03.717Z"
     },
     {
       "source": "GitHub Engineering",
@@ -145,7 +145,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:59.792Z"
+      "checkedAt": "2026-06-06T04:20:03.925Z"
     },
     {
       "source": "Node.js Blog",
@@ -156,7 +156,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:12:59.908Z"
+      "checkedAt": "2026-06-06T04:20:04.040Z"
     },
     {
       "source": "Django Blog",
@@ -167,7 +167,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.031Z"
+      "checkedAt": "2026-06-06T04:20:04.328Z"
     },
     {
       "source": "Python Insider",
@@ -178,7 +178,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.123Z"
+      "checkedAt": "2026-06-06T04:20:04.378Z"
     },
     {
       "source": "pnpm Blog",
@@ -189,7 +189,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.209Z"
+      "checkedAt": "2026-06-06T04:20:04.441Z"
     },
     {
       "source": "React Blog",
@@ -200,7 +200,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.314Z"
+      "checkedAt": "2026-06-06T04:20:04.498Z"
     },
     {
       "source": "Go Blog",
@@ -211,7 +211,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.454Z"
+      "checkedAt": "2026-06-06T04:20:05.072Z"
     },
     {
       "source": "Rust Blog",
@@ -222,7 +222,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.514Z"
+      "checkedAt": "2026-06-06T04:20:05.189Z"
     },
     {
       "source": "Kubernetes Blog",
@@ -233,7 +233,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.720Z"
+      "checkedAt": "2026-06-06T04:20:05.289Z"
     },
     {
       "source": "AWS Developer",
@@ -244,7 +244,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:00.871Z"
+      "checkedAt": "2026-06-06T04:20:05.547Z"
     },
     {
       "source": "Meta Engineering",
@@ -255,7 +255,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:01.248Z"
+      "checkedAt": "2026-06-06T04:20:05.622Z"
     },
     {
       "source": "Dropbox Tech",
@@ -266,7 +266,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:02.141Z"
+      "checkedAt": "2026-06-06T04:20:06.577Z"
     },
     {
       "source": "Slack Engineering",
@@ -277,7 +277,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:02.225Z"
+      "checkedAt": "2026-06-06T04:20:06.793Z"
     },
     {
       "source": "Svelte Blog",
@@ -288,7 +288,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:02.445Z"
+      "checkedAt": "2026-06-06T04:20:07.037Z"
     },
     {
       "source": "AWS Architecture Blog",
@@ -299,7 +299,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:02.518Z"
+      "checkedAt": "2026-06-06T04:20:07.073Z"
     },
     {
       "source": "Martin Fowler",
@@ -310,7 +310,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:02.758Z"
+      "checkedAt": "2026-06-06T04:20:07.252Z"
     },
     {
       "source": "Cloudflare Architecture",
@@ -321,7 +321,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:03.456Z"
+      "checkedAt": "2026-06-06T04:20:07.974Z"
     },
     {
       "source": "Prometheus Blog",
@@ -332,7 +332,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:03.617Z"
+      "checkedAt": "2026-06-06T04:20:08.101Z"
     },
     {
       "source": "Grafana Blog",
@@ -343,7 +343,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:03.678Z"
+      "checkedAt": "2026-06-06T04:20:08.153Z"
     },
     {
       "source": "OpenTelemetry",
@@ -354,18 +354,18 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:03.872Z"
+      "checkedAt": "2026-06-06T04:20:08.348Z"
     },
     {
       "source": "arXiv cs.SE",
       "category": "개발",
       "maxItems": 2,
-      "itemCount": 2,
+      "itemCount": 0,
       "previousCount": 2,
-      "status": "ok",
-      "detail": "stable",
-      "publish": true,
-      "checkedAt": "2026-06-05T20:13:03.950Z"
+      "status": "warn",
+      "detail": "empty",
+      "publish": false,
+      "checkedAt": "2026-06-06T04:20:08.417Z"
     },
     {
       "source": "PostgreSQL",
@@ -376,7 +376,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:04.582Z"
+      "checkedAt": "2026-06-06T04:20:08.944Z"
     },
     {
       "source": "St. Louis Fed",
@@ -387,7 +387,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:05.465Z"
+      "checkedAt": "2026-06-06T04:20:09.039Z"
     },
     {
       "source": "NY Fed Liberty Street",
@@ -398,7 +398,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:05.545Z"
+      "checkedAt": "2026-06-06T04:20:09.119Z"
     },
     {
       "source": "FRED Blog",
@@ -409,7 +409,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:05.693Z"
+      "checkedAt": "2026-06-06T04:20:09.159Z"
     },
     {
       "source": "NBER Working Papers",
@@ -420,7 +420,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:06.289Z"
+      "checkedAt": "2026-06-06T04:20:09.624Z"
     },
     {
       "source": "ECB Blog",
@@ -431,7 +431,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:06.750Z"
+      "checkedAt": "2026-06-06T04:20:10.134Z"
     },
     {
       "source": "ECB Press",
@@ -442,7 +442,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:06.860Z"
+      "checkedAt": "2026-06-06T04:20:10.231Z"
     },
     {
       "source": "MMCA",
@@ -454,7 +454,7 @@
       "detail": "fetch-failed",
       "publish": false,
       "error": "Command failed: curl -sL --compressed -A Mozilla/5.0 (compatible; GoodInputsBot/2.0) -X GET -H x-requested-with: XMLHttpRequest https://www.mmca.go.kr/exhibitions/AjaxExhibitionList.do?exhFlag=1&searchExhPlaCd=&searchExhCd=&sort=1&pageIndex=1&exhLangCd=01\n",
-      "checkedAt": "2026-06-05T20:13:08.280Z"
+      "checkedAt": "2026-06-06T04:22:34.997Z"
     },
     {
       "source": "국립중앙박물관",
@@ -465,7 +465,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:17.998Z"
+      "checkedAt": "2026-06-06T04:22:42.035Z"
     },
     {
       "source": "EBS",
@@ -476,7 +476,7 @@
       "status": "ok",
       "detail": "stable",
       "publish": true,
-      "checkedAt": "2026-06-05T20:13:25.938Z"
+      "checkedAt": "2026-06-06T04:22:51.314Z"
     }
   ]
 }
