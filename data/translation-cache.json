@@ -2000,5 +2000,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "실업률과 노동력에 들어오고 나가는 사람들의 변화가 결합되어 5월 실업률은 다시 4.3%로 안정적으로 유지되었습니다."
+  },
+  "https://arxiv.org/abs/2606.06535|summary": {
+    "input": "arXiv:2606.06535v1 Announce Type: new Abstract: Context. Despite the growing adoption of Machine Learning Operations (MLOps), teams often approach MLOps projects in an ad hoc manner due to the lack of consolidated architectural guidance. The community would benefit from a refere…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.06535v1 발표 유형: 새로운 개요: 컨텍스트. MLOps(기계 학습 작업) 채택이 증가함에도 불구하고 팀은 통합 아키텍처 지침이 부족하여 임시 방식으로 MLOps 프로젝트에 접근하는 경우가 많습니다. 커뮤니티는 추천을 통해 이익을 얻을 수 있습니다…"
+  },
+  "https://arxiv.org/abs/2606.06545|summary": {
+    "input": "arXiv:2606.06545v1 Announce Type: new Abstract: Enterprise agent systems increasingly need to connect large language models to private tools, internal knowledge, and Model Context Protocol (MCP) interfaces. In this setting, raw task capability is insufficient: organizations also…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.06545v1 발표 유형: new 개요: 엔터프라이즈 에이전트 시스템은 점점 더 대규모 언어 모델을 개인 도구, 내부 지식 및 MCP(모델 컨텍스트 프로토콜) 인터페이스에 연결해야 합니다. 이 환경에서는 원시 작업 기능이 부족합니다. 조직도…"
+  },
+  "https://www.nber.org/papers/w35205#fromrss|summary": {
+    "input": "A foundational question in General Equilibrium theory—when is an equilibrium stable?—has remained largely unresolved for over 150 years despite important contributions. This paper proposes a resolution.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "일반균형 이론의 근본적인 질문인 균형은 언제 안정되는가? 중요한 기여에도 불구하고 150년 넘게 대부분 해결되지 않은 채로 남아 있습니다. 이 논문은 해결책을 제안합니다."
+  },
+  "https://www.nber.org/papers/w35288#fromrss|summary": {
+    "input": "Since the 1974 Safe Drinking Water Act, the U.S. has spent $2 trillion to provide safe drinking water, yet drinking water for 10–20 percent of Americans violates standards. We study trends, causes, and consequences of U.S. drinking water pollution, using 266 million readings on…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "1974년 안전한 식수법(Safe Drinking Water Act) 이후 미국은 안전한 식수를 제공하기 위해 2조 달러를 지출했지만 미국인 중 10~20%가 마시는 물이 기준을 위반하고 있습니다. 우리는 2억 6,600만 건의 판독값을 사용하여 미국 식수 오염의 추세, 원인 및 결과를 연구합니다."
   }
 }
