@@ -2024,5 +2024,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "1974년 안전한 식수법(Safe Drinking Water Act) 이후 미국은 안전한 식수를 제공하기 위해 2조 달러를 지출했지만 미국인 중 10~20%가 마시는 물이 기준을 위반하고 있습니다. 우리는 2억 6,600만 건의 판독값을 사용하여 미국 식수 오염의 추세, 원인 및 결과를 연구합니다."
+  },
+  "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/|summary": {
+    "input": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Cloudflare 고객은 이제 WAF 내에서 직접 Cloudforce One 위협 인텔리전스를 사용하여 고위험 트래픽을 차단할 수 있습니다. 보안팀은 새로운 cf.intel 필드를 사용하여 특정 위협 행위자와 대상 산업에 대한 보호를 실시간으로 자동화할 수 있습니다."
+  },
+  "https://fredblog.stlouisfed.org/2026/06/understanding-the-various-us-debt-to-gdp-ratios/|summary": {
+    "input": "Headlines earlier this year reported that federal US debt exceeded the size of the US economy. Another way to put that: The US debt-to-GDP ratio is over 100%. Opinions and economic analysis vary about what a sustainable fiscal path looks … Continue reading →",
+    "approved": true,
+    "mode": "summary",
+    "koText": "올해 초 헤드라인에서는 미국 연방 부채가 미국 경제 규모를 초과했다고 보도했습니다. 다르게 말하면 미국의 GDP 대비 부채 비율은 100%가 넘습니다. 지속 가능한 재정 경로가 무엇인지에 대한 의견과 경제 분석은 다양합니다… 계속 읽기 →"
   }
 }
