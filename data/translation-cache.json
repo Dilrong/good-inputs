@@ -2036,5 +2036,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "올해 초 헤드라인에서는 미국 연방 부채가 미국 경제 규모를 초과했다고 보도했습니다. 다르게 말하면 미국의 GDP 대비 부채 비율은 100%가 넘습니다. 지속 가능한 재정 경로가 무엇인지에 대한 의견과 경제 분석은 다양합니다… 계속 읽기 →"
+  },
+  "https://arxiv.org/abs/2606.07681|summary": {
+    "input": "arXiv:2606.07681v1 Announce Type: new Abstract: Differentiable programming offers transformative capabilities for scientific modeling, enabling gradient-based parameter estimation, sensitivity analysis, and data assimilation. Yet, migrating legacy codebases into differentiable f…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.07681v1 발표 유형: 새로운 개요: 미분 가능 프로그래밍은 과학적 모델링을 위한 혁신적인 기능을 제공하여 경사 기반 매개변수 추정, 민감도 분석 및 데이터 동화를 가능하게 합니다. 그러나 레거시 코드베이스를 미분 가능한 코드로 마이그레이션하는 것은…"
+  },
+  "https://arxiv.org/abs/2606.07682|summary": {
+    "input": "arXiv:2606.07682v1 Announce Type: new Abstract: AI agents are increasingly expected to complete long-horizon workflows that require sustained progress over hours, millions of tokens, and complex environments. Yet current agent benchmarks largely evaluate short-form tasks, such a…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.07682v1 발표 유형: 새로운 개요: AI 에이전트는 몇 시간에 걸쳐 지속적인 진행, 수백만 개의 토큰 및 복잡한 환경이 필요한 장기적인 워크플로를 완료할 것으로 점점 더 기대되고 있습니다. 그러나 현재 에이전트 벤치마크는 주로 다음과 같은 짧은 형식의 작업을 평가합니다."
   }
 }
