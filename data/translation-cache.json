@@ -2054,5 +2054,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "Project Glasswing에 대한 게시물에서 우리는 취약점 주변의 아키텍처가 패치 속도보다 더 중요하다고 주장했습니다. 여기서는 해당 아키텍처의 모습, 방어하는 위협, Cloudflare의 큐레이터로서 직접 실행하는 방법을 살펴보겠습니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/|summary": {
+    "input": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS service connects to the ne…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "이 게시물에서는 Amazon Bedrock Data Automation 및 AWS HealthLake를 사용하여 스캔한 PDF 의료 기록을 FHIR R4 호환 데이터로 변환하는 자동화된 서버리스 파이프라인을 구축하는 방법을 알아봅니다. 아키텍처를 살펴보고 각 AWS 서비스가 네트워크에 연결되는 방법을 설명합니다."
   }
 }
