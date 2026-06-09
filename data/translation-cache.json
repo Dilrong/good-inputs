@@ -2048,5 +2048,11 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.07682v1 발표 유형: 새로운 개요: AI 에이전트는 몇 시간에 걸쳐 지속적인 진행, 수백만 개의 토큰 및 복잡한 환경이 필요한 장기적인 워크플로를 완료할 것으로 점점 더 기대되고 있습니다. 그러나 현재 에이전트 벤치마크는 주로 다음과 같은 짧은 형식의 작업을 평가합니다."
+  },
+  "https://blog.cloudflare.com/frontier-model-defense/|summary": {
+    "input": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's cu…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Project Glasswing에 대한 게시물에서 우리는 취약점 주변의 아키텍처가 패치 속도보다 더 중요하다고 주장했습니다. 여기서는 해당 아키텍처의 모습, 방어하는 위협, Cloudflare의 큐레이터로서 직접 실행하는 방법을 살펴보겠습니다."
   }
 }
