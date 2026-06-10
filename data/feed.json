@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T04:51:26.152Z",
+  "generatedAt": "2026-06-10T10:33:04.768Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -1493,42 +1493,6 @@
         "국토이슈리포트",
         "stable"
       ]
-    },
-    {
-      "source": "NBER Working Papers",
-      "category": "경제",
-      "title": "Tatonnement and Price Setting in General Equilibrium -- by Iván Werning ⓡ Guido Lorenzoni",
-      "authors": "",
-      "date": "",
-      "url": "https://www.nber.org/papers/w35205#fromrss",
-      "summary": "A foundational question in General Equilibrium theory—when is an equilibrium stable?—has remained largely unresolved for over 150 years despite important contributions. This paper proposes a resolution.",
-      "score": "stable",
-      "tags": [
-        "경제",
-        "NBER Working Papers",
-        "글로벌",
-        "연구",
-        "stable"
-      ],
-      "koSummary": "일반균형 이론의 근본적인 질문인 균형은 언제 안정되는가? 중요한 기여에도 불구하고 150년 넘게 대부분 해결되지 않은 채로 남아 있습니다. 이 논문은 해결책을 제안합니다."
-    },
-    {
-      "source": "NBER Working Papers",
-      "category": "경제",
-      "title": "Water Works: Causes and Consequences of Safe Drinking Water in America -- by David A. Keiser, Bhashkar Mazumder, David Molitor, Joseph S. Shapiro",
-      "authors": "",
-      "date": "",
-      "url": "https://www.nber.org/papers/w35288#fromrss",
-      "summary": "Since the 1974 Safe Drinking Water Act, the U.S. has spent $2 trillion to provide safe drinking water, yet drinking water for 10–20 percent of Americans violates standards. We study trends, causes, and consequences of U.S. drinking water pollution, using 266 million readings on…",
-      "score": "stable",
-      "tags": [
-        "경제",
-        "NBER Working Papers",
-        "글로벌",
-        "연구",
-        "stable"
-      ],
-      "koSummary": "1974년 안전한 식수법(Safe Drinking Water Act) 이후 미국은 안전한 식수를 제공하기 위해 2조 달러를 지출했지만 미국인 중 10~20%가 마시는 물이 기준을 위반하고 있습니다. 우리는 2억 6,600만 건의 판독값을 사용하여 미국 식수 오염의 추세, 원인 및 결과를 연구합니다."
     }
   ]
 }
