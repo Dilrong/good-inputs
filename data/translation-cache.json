@@ -2060,5 +2060,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "이 게시물에서는 Amazon Bedrock Data Automation 및 AWS HealthLake를 사용하여 스캔한 PDF 의료 기록을 FHIR R4 호환 데이터로 변환하는 자동화된 서버리스 파이프라인을 구축하는 방법을 알아봅니다. 아키텍처를 살펴보고 각 AWS 서비스가 네트워크에 연결되는 방법을 설명합니다."
+  },
+  "https://arxiv.org/abs/2606.09942|summary": {
+    "input": "arXiv:2606.09942v1 Announce Type: new Abstract: Microservice systems are widely used to build cloud applications, yet their complexity makes failures inevitable, degrading user experience and causing economic loss. Automated anomaly detection and root cause analysis (RCA) are no…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.09942v1 발표 유형: new 개요: 마이크로서비스 시스템은 클라우드 애플리케이션을 구축하는 데 널리 사용되지만 그 복잡성으로 인해 실패가 불가피해 사용자 경험이 저하되고 경제적 손실이 발생합니다. 자동 이상 탐지 및 근본 원인 분석(RCA)은 불가능합니다."
+  },
+  "https://arxiv.org/abs/2606.09956|summary": {
+    "input": "arXiv:2606.09956v1 Announce Type: new Abstract: The rapid adoption of LLM-powered code generation has dramatically accelerated software development, yet effective verification methods remain severely underdeveloped. Existing bug localization techniques are either prohibitively e…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.09956v1 발표 유형: new 개요: LLM 기반 코드 생성의 급속한 채택으로 소프트웨어 개발이 극적으로 가속화되었지만 효과적인 검증 방법은 여전히 ​​개발이 미흡합니다. 기존 버그 위치 파악 기술은 엄청나게 효율적입니다."
   }
 }
