@@ -2072,5 +2072,29 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.09956v1 발표 유형: new 개요: LLM 기반 코드 생성의 급속한 채택으로 소프트웨어 개발이 극적으로 가속화되었지만 효과적인 검증 방법은 여전히 ​​개발이 미흡합니다. 기존 버그 위치 파악 기술은 엄청나게 효율적입니다."
+  },
+  "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/|summary": {
+    "input": "The Snowflake and AWS Custom Well-Architected Framework Lens brings together AWS Well-Architected best practices and Snowflake guidance into a single review experience, with integrated recommendations that reflect how the two services compose in production. In this post, we walk…",
+    "approved": false,
+    "mode": "summary",
+    "koText": ""
+  },
+  "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/|title": {
+    "input": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
+  },
+  "https://blog.cloudflare.com/private-origins-dns-routing/|summary": {
+    "input": "Application Services for Private Origins is available now in closed beta. Route public hostnames to private IP origins over your existing IPsec, GRE, CNI, or Cloudflare Mesh paths. No public IPs or extra connector software required.",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Private Origins용 애플리케이션 서비스는 현재 비공개 베타 버전으로 제공됩니다. 기존 IPsec, GRE, CNI 또는 Cloudflare Mesh 경로를 통해 공개 호스트 이름을 비공개 IP 원본으로 라우팅하세요. 공용 IP나 추가 커넥터 소프트웨어가 필요하지 않습니다."
+  },
+  "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases|title": {
+    "input": "Wednesday, June 17, 2026 Security Releases",
+    "approved": true,
+    "mode": "title",
+    "koText": "2026년 6월 17일 수요일 보안 릴리스"
   }
 }
