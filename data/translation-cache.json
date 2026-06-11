@@ -2114,5 +2114,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "arXiv:2606.11462v1 발표 유형: 새로운 개요: 안전 보증 사례는 안전 필수 시스템이 안전 요구 사항을 충족한다는 구조화된 정당성을 제공합니다. 최근에는 패배자라는 개념이 안전 주장의 타당성에 도전하는 엄격한 수단으로 등장했습니다."
+  },
+  "https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/|summary": {
+    "input": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspa…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "Abstract 에이전트 기반 엔드 투 엔드(E2E) 테스트는 테스트에 새로운 탐색 계층을 추가하지만 기존의 결정적 테스트를 대체해야 합니까? 테스트 작업 공간에서 Playwright MCP, Playwright CLI 및 에이전트 생성 Playwright 테스트를 사용하여 200개 이상의 에이전트 E2E 워크플로를 실행했습니다."
+  },
+  "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html|title": {
+    "input": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+    "approved": false,
+    "mode": "title",
+    "koText": ""
   }
 }

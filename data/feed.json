@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T10:59:03.414Z",
+  "generatedAt": "2026-06-11T16:23:26.264Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,27 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "Slack Engineering",
+      "category": "개발",
+      "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
+      "authors": "Sergii Gorbachov",
+      "date": "2026-06-11",
+      "url": "https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/",
+      "summary": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspa…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "Slack Engineering",
+        "글로벌",
+        "Uncategorized",
+        "automation-testing",
+        "developer-productivity",
+        "innovation",
+        "new"
+      ],
+      "koSummary": "Abstract 에이전트 기반 엔드 투 엔드(E2E) 테스트는 테스트에 새로운 탐색 계층을 추가하지만 기존의 결정적 테스트를 대체해야 합니까? 테스트 작업 공간에서 Playwright MCP, Playwright CLI 및 에이전트 생성 Playwright 테스트를 사용하여 200개 이상의 에이전트 E2E 워크플로를 실행했습니다."
     },
     {
       "source": "arXiv cs.SE",
@@ -57,6 +78,23 @@
         "new"
       ],
       "koSummary": "arXiv:2606.11462v1 발표 유형: 새로운 개요: 안전 보증 사례는 안전 필수 시스템이 안전 요구 사항을 충족한다는 구조화된 정당성을 제공합니다. 최근에는 패배자라는 개념이 안전 주장의 타당성에 도전하는 엄격한 수단으로 등장했습니다."
+    },
+    {
+      "source": "ECB Press",
+      "category": "경제",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "authors": "",
+      "date": "2026-06-11",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
+      "score": "new",
+      "tags": [
+        "경제",
+        "ECB Press",
+        "글로벌",
+        "중앙은행",
+        "new"
+      ]
     },
     {
       "source": "네이버 D2",
@@ -253,6 +291,21 @@
       ]
     },
     {
+      "source": "KDI FOCUS",
+      "category": "정책",
+      "title": "의무휴업일 평일 전환이 시사하는 유통정책의 전환 방향",
+      "authors": "",
+      "date": "2026-06-08",
+      "url": "https://www.kdi.re.kr/research/focusView?pub_no=19187",
+      "summary": "온 · 오프라인 간 소비 이동이 활발해진 최근의 유통환경과 지역별 여건을 고려하여 의무휴업일의 평일 전환을 보다 적극적으로 검토할 필요",
+      "score": "new",
+      "tags": [
+        "정책",
+        "KDI FOCUS",
+        "new"
+      ]
+    },
+    {
       "source": "FRED Blog",
       "category": "경제",
       "title": "Understanding the various US debt-to-GDP ratios : Similar data series tell slightly different stories",
@@ -270,24 +323,6 @@
         "new"
       ],
       "koSummary": "올해 초 헤드라인에서는 미국 연방 부채가 미국 경제 규모를 초과했다고 보도했습니다. 다르게 말하면 미국의 GDP 대비 부채 비율은 100%가 넘습니다. 지속 가능한 재정 경로가 무엇인지에 대한 의견과 경제 분석은 다양합니다… 계속 읽기 →"
-    },
-    {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "Flash Report: May Unemployment, Job Gains Signal Steady Labor Market",
-      "authors": "",
-      "date": "2026-06-05",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/jun/flash-report-may-unemployment-job-gains-signal-steady-labor-market",
-      "summary": "Changes in people moving into and out of unemployment and the labor force combined to again keep the jobless rate steady at 4.3% in May.",
-      "score": "new",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "new"
-      ],
-      "koSummary": "실업률과 노동력에 들어오고 나가는 사람들의 변화가 결합되어 5월 실업률은 다시 4.3%로 안정적으로 유지되었습니다."
     },
     {
       "source": "PostgreSQL",
@@ -445,24 +480,6 @@
       ]
     },
     {
-      "source": "ECB Press",
-      "category": "경제",
-      "title": "Isabel Schnabel: From money market funds to stablecoins: lessons for central banks",
-      "authors": "",
-      "date": "2026-06-01",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260601~38dffe5ec5.en.html",
-      "summary": "요약 추출 실패. 제목과 원문 링크만 우선 표시한다.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "ECB Press",
-        "글로벌",
-        "중앙은행",
-        "fresh"
-      ],
-      "koSummary": "Isabel Schnabel: 머니마켓 펀드에서 스테이블코인까지: 중앙은행을 위한 교훈"
-    },
-    {
       "source": "pnpm Blog",
       "category": "개발",
       "title": "pnpm 11.5",
@@ -496,33 +513,6 @@
         "fresh"
       ],
       "koSummary": "Rust 팀은 Rust의 새 버전인 1.96.0을 발표하게 되어 기쁘게 생각합니다. Rust는 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원하는 프로그래밍 언어입니다. Rustup을 통해 이전 버전의 Rust가 설치되어 있다면 다음과 같이 1.96.0을 얻을 수 있습니다: $ Rustup update stable 만약 그렇지 않다면…"
-    },
-    {
-      "source": "Slack Engineering",
-      "category": "개발",
-      "title": "Slack AI: The Path to Multi-Cloud",
-      "authors": "Shaurya Kethireddy",
-      "date": "2026-05-28",
-      "url": "https://slack.engineering/slack-ai-the-path-to-multi-cloud/",
-      "summary": "In early 2023, Slack faced a foundational challenge: serving Large Language Models (LLMs) at enterprise scale with the security, reliability, and performance our customers expect. Over three years, we evolved from basic infrastructure to orchestrating a sophisticated multi-cloud…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "Slack Engineering",
-        "글로벌",
-        "Uncategorized",
-        "aws",
-        "backend",
-        "cloud-computing",
-        "collaboration",
-        "engineering",
-        "infrastructure",
-        "innovation",
-        "machine-learning",
-        "software-development",
-        "fresh"
-      ],
-      "koSummary": "2023년 초, Slack은 고객이 기대하는 보안, 안정성, 성능을 갖춘 엔터프라이즈 규모의 LLM(대형 언어 모델)을 제공해야 하는 근본적인 과제에 직면했습니다. 3년에 걸쳐 우리는 기본 인프라에서 정교한 멀티 클라우드 조정으로 발전했습니다."
     },
     {
       "source": "St. Louis Fed",
@@ -752,21 +742,22 @@
       "koSummary": "GitHub Issues 팀이 클라이언트 측 캐싱, 스마트 프리페칭, 서비스 워커를 사용하여 탐색이 즉각적으로 느껴지도록 만든 방법입니다. 대기 시간에서 즉시로: GitHub 문제 현대화 탐색 성능 게시물이 GitHub 블로그에 처음 게재되었습니다."
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "로드 무비: 1945년 이후 한·일 미술",
-      "authors": "곽인식, 남화연, 다나카 고키, 나카무라 마사토, 무라카미 다카시, 박서보, 서승원, 이불, 이우환, 정연두, 조양규 등 40여 명",
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Banking Analytics: Banks Experience Asset Growth amid Ongoing Consolidation",
+      "authors": "",
       "date": "2026-05-14",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202408210001821",
-      "summary": "«로드 무비: 1945년 이후 한·일 미술»전은 한·일 국교정상화 60주년을 계기로 일본 요코하마미술관과 공동 기획으로 마련되었다. 이 전시는 1945년 이후 현재까지 80년에 걸쳐 이어져 온 한·일 미술 교류의 역사를 조망한다. ‘로드 무비’는 길 위의 이동을 통해 주인공이 예상치 못한 인물과 사건을 만나고, 그 과정에서 변화에 이르는 영화 장르이다. 한국과 일본의 예술가들 역시 두 나라 사이, 낯선 길 위에서 기꺼이 모험을 감행하며, 서로를 향하는 여러 갈래의 길을 만들어왔다. 이 전시는 1…",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/may/banking-analytics-banks-experience-asset-growth-ongoing-consolidation",
+      "summary": "From 2020 to 2025, the number of U.S. banks declined by 13% while average asset size per institution grew by 33% to $5.8 billion.",
       "score": "stable",
       "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
         "stable"
-      ]
+      ],
+      "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },
     {
       "source": "자본시장연구원",
@@ -926,23 +917,6 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "오~감각미술관",
-      "authors": "깪, 엄정순, 함진",
-      "date": "2026-04-30",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202603240002068",
-      "summary": "«오~감각미술관»은 어린이와 가족이 몸 전체로 예술을 경험할 수 있도록 기획된 참여형 전시입니다. 이 전시는 ‘미술관은 보는 곳’이라는 익숙한 생각에서 한 걸음 더 나아가, 눈, 코, 입, 귀, 손의 오감을 열어 현대미술을 더욱 자유롭고 즐겁게 만날 수 있도록 준비되었습니다. 이번 전시는 깪, 엄정순, 함진 세 작가의 예술 세계와 감각을 만날 수 있는 공간으로 구성되어 있습니다. 바람에 흔들리는 종이의 소리와 그림자를 느끼고, 작품을 부드럽게 보듬어 안아보며, 돋보기를 통해 작은 세계를 들여다보…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "어린이미술관",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "KIEP",
       "category": "경제",
       "title": "회복탄력성 관점에서 바라본 개발도상국의 기후변화 대응 과제와 협력 방안",
@@ -975,23 +949,6 @@
       ]
     },
     {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "방혜자 - 천지에 마음의 빛 뿌리며 간다",
-      "authors": "방혜자",
-      "date": "2026-04-24",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202601060002022",
-      "summary": "한국과 프랑스를 오가며 양국의 문화예술을 양분 삼아 독자적인 예술 세계를 구축한 방혜자(1937-2022)의 작품을 소개하는 전시이다. 2026년 한불수교 140주년을 기념하는 행사 중 하나로, 전시는 여성미술가로서 초기 추상미술 작품을 선보인 방혜자의 시기별 주요 작품을 국립현대미술관 소장품을 비롯해, 국내에 소개되지 않은 프랑스 소재 작품들과 더불어 소개한다. ‘빛’을 평생에 걸쳐 영감의 원천으로 삼아온 작가의 삶과 세계관, 표현 방식을 전방위적으로 조망하고 그 의의를 탐구하는 본 전시에서…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "청주",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
       "source": "Prometheus Blog",
       "category": "개발",
       "title": "Ask the Prometheus docs with Kapa.ai",
@@ -1008,40 +965,6 @@
         "stable"
       ],
       "koSummary": "Prometheus 문서에는 이제 새로운 Kapa.ai 통합이 포함됩니다. 이는 CNCF와 Kapa.ai 간의 파트너십의 일부로 제공되며, 이는 CNCF 프로젝트에서 문서와 지식에 대한 접근성을 높이는 데 도움이 됩니다. 이제 prometheus.io의 Ask AI 항목을 사용하여 질문할 수 있습니다."
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 II»",
-      "authors": "김환기, 박생광, 박서보, 서세옥, 서승원, 유영국, 윤형근, 이성자, 이숙자, 최욱경 등 78여 명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001885",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 II»는 국립현대미술관 소장품 중 20세기 후반에 제작된 주요 작품 120여 점을 소개한다. 국립현대미술관은 1969년 경복궁 내에 위치한 미술관에서 제18회 대한민국미술전람회(국전)를 개관전으로 개최하며 문을 열었으며, 당시 국전의 체계적인 운영이 미술관의 주요 설립 목적이었다. 작품 수집은 1971년부터 이루어졌고, 50여 년이 넘는 기간 동안 한국 미술사 연구에 초점을 맞춘 작품과 아카이브를 꾸준히 수집, 보존해 현재 11,800여 점의 소장품을 보유하…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "stable"
-      ]
-    },
-    {
-      "source": "MMCA",
-      "category": "전시",
-      "title": "MMCA 과천 상설전 «한국근현대미술 I»",
-      "authors": "정찬영, 김규진, 안중식, 장우성, 김기창, 박래현, 박수근, 이중섭, 장욱진, 오지호 등 73명",
-      "date": "2026-04-22",
-      "url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202501060001884",
-      "summary": "MMCA 과천 상설전 «한국근현대미술 Ⅰ»은 국립현대미술관 소장품 중 20세기 전반에 제작된 작품 145점을 소개한다. 이 시기는 대한제국을 거쳐, 개화기, 일제 강점기, 광복, 한국전쟁에 이르는 시기이다. 1800년대 후반부터 조선의 지식인 사회에서는 일본과 청나라와의 교류를 통해 서양의 문물, 특히 과학기술에 대한 관심이 높아졌다. 일본의 ‘탈아입구(脫亞入歐)’, 청나라의 ‘중체서용(中體西用)’처럼 조선에서도 동양의 정신과 서양의 기술을 접목하자는 ‘동도서기(東道西器)’ 사상이 개화파 지식인…",
-      "score": "stable",
-      "tags": [
-        "전시",
-        "MMCA",
-        "과천",
-        "현재전시",
-        "stable"
-      ]
     },
     {
       "source": "국립중앙박물관",
@@ -1334,6 +1257,74 @@
         "stable"
       ],
       "koSummary": "우리는 devalue , svelte , @sveltejs/kit 및 @sveltejs/adapter-node 전반에 걸쳐 5개 취약점에 대한 패치를 출시했습니다. 알아야 할 사항은 다음과 같습니다. 지금 업그레이드하세요. 이러한 패키지를 사용하는 경우 해당 패키지를 취약하지 않은 버전으로 업그레이드하세요. devalue : 5.6.2 svelt…"
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "플랫폼 담합 규율 방향에 관한 연구",
+      "authors": "조성익",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19066",
+      "summary": "본 연구에서는 전통적인 담합과 플랫폼 담합 사이의 차이를 분석하고, 그 구체적 내용이 무엇인지 확인한다. 첫째, 플랫폼 담합에서는, 전통적인 담합에서는 흔치 않았던, 유력한 경쟁사업자를 배제한 일부 사업자만 가담하는 부분 담합이 형성될 수 있다. 둘째, 이 부분 담합은 유력 경쟁사업자와의 경쟁을 촉진하는 결과를 낳을 수 있다. 셋째, 경쟁이 강화되면서 일부 이용자들의 후생이 개선되는 효율성 증진 가능성이 있다. 따라서 앞으로는 플랫폼 담합을 조사하고 처리하는 과정에서, 효율성 증진 가능성과 경쟁…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "제약 산업에서의 정부 정책 효과 분석과 시사점",
+      "authors": "김형진",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19125",
+      "summary": "본 연구는 정부의 간접출자 정책인 모태펀드(Fund of Funds)가 국내 바이오 벤처기업의 혁신 성과와 자본 형성에 미치는 영향을 실증적으로 분석한다. 2000~23년 기간의 기업 단위 벤처투자·재무·특허 데이터를 통합하여, 이벤트 스터디(Event Study) 설계와 이중차분법을 통해 벤처캐피탈협회의 정부 출자 VC(모태펀드)와 비모태펀드 간 차이를 식별하였다. 분석 결과, 모태펀드 투자는 특허 인용 관계를 통해 기술적으로 연결된 바이오텍 기업의 혁신 및 기업공개(IPO)와 양(+)의 상관…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "에너지 산업 육성을 위한 시장 설계",
+      "authors": "윤여창",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19124",
+      "summary": "오늘날 기후위기 대응과 탄소중립 달성에 대한 필요성이 커지는 상황에서, 재생에너지와 저탄소 공정 확산을 위한 지원이 확대되고 있다. 동시에 신성장 동력 확보와 보호무역 강화로 인한 국내 산업 육성 요구도 늘어나고 있다. 하지만 산업 육성 정책은 가격 신호 왜곡과 자원배분 비효율, 통상 리스크를 초래할 수 있다는 우려도 함께 커지고 있다. 본 연구는 이런 문제의식에 기반해, 국내 에너지 산업 육성 정책과 에너지 시장 설계의 상호작용이 기업의 시장 참여와 효율성에 미치는 영향을 분석한다. 이를 위해…",
+      "label": "정책연구시리즈",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "정책연구시리즈",
+        "stable"
+      ]
+    },
+    {
+      "source": "KDI 연구보고서",
+      "category": "연구",
+      "title": "중대재해처벌법이 노동시장에 미친 영향",
+      "authors": "정수환",
+      "date": "2025-12-31",
+      "url": "https://www.kdi.re.kr/research/reportView?pub_no=19126",
+      "summary": "본 연구는 2021년 1월 제정되어 2022년 1월에 시행된 중대재해 처벌 등에 관한 법률(이하 중대재해처벌법)이 노동시장에 미친 영향을 연구하여 정책적 시사점을 도출한다. 제2장에서는 연구의 배경이 되는 제도적 구조를 정리하고, 연구 주제를 도출한다. 구체적으로는 중대재해처벌법의 제정 배경·핵심 내용·초기 판례 동향 및 기존 논의를 정리한다. 이후 노동경제학적 관점에서 기업이 안전 투자와 고용량을 선택하는 간단한 모형을 이용하여 중대재해처벌법의 영향을 이론적으로 예측하고 연구 주제를 도출한다.…",
+      "label": "연구보고서",
+      "score": "stable",
+      "tags": [
+        "연구",
+        "KDI 연구보고서",
+        "연구보고서",
+        "stable"
+      ]
     },
     {
       "source": "워킹페이퍼",
