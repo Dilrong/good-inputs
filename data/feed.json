@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:23:26.264Z",
+  "generatedAt": "2026-06-11T20:38:19.224Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -18,6 +18,24 @@
         "hello world",
         "new"
       ]
+    },
+    {
+      "source": "pnpm Blog",
+      "category": "개발",
+      "title": "Why pnpm no longer expands environment variables in a repository's .npmrc",
+      "authors": "",
+      "date": "2026-06-11",
+      "url": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc",
+      "summary": "pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 an…",
+      "score": "new",
+      "tags": [
+        "개발",
+        "pnpm Blog",
+        "글로벌",
+        "security",
+        "new"
+      ],
+      "koSummary": "pnpm은 방금 복제한 저장소 내부에 있는 .npmrc 및 pnpm-workspace.yaml 파일을 포함하여 찾은 모든 곳에서 $ 자리 표시자를 확장하는 데 사용되었습니다. 이는 악성 저장소가 사용자 환경의 비밀을 훔치는 방법임이 밝혀졌습니다. v10.34.2부터…"
     },
     {
       "source": "Slack Engineering",
@@ -82,7 +100,7 @@
     {
       "source": "ECB Press",
       "category": "경제",
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
       "authors": "",
       "date": "2026-06-11",
       "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
@@ -478,24 +496,6 @@
         "국토정책Brief",
         "fresh"
       ]
-    },
-    {
-      "source": "pnpm Blog",
-      "category": "개발",
-      "title": "pnpm 11.5",
-      "authors": "",
-      "date": "2026-05-29",
-      "url": "https://pnpm.io/blog/releases/11.5",
-      "summary": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-t…",
-      "score": "fresh",
-      "tags": [
-        "개발",
-        "pnpm Blog",
-        "글로벌",
-        "release",
-        "fresh"
-      ],
-      "koSummary": "pnpm 11.5는 nodeLinker에서 종속성을 끌어올리는 정도를 제어하기 위한 hoistingLimits 설정을 추가합니다. 끌어올리기 설치, 대화형 프롬프트 라이브러리를 대체하여 긴 선택 목록의 스크롤 문제 해결, 신뢰 규모에 따라 단계적 게시 인식, 여러 설치 및 배포를 제공합니다."
     },
     {
       "source": "Rust Blog",
@@ -1094,7 +1094,7 @@
       "source": "Dropbox Tech",
       "category": "개발",
       "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
-      "authors": "Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel",
+      "authors": "Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel",
       "date": "2026-04-02",
       "url": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
       "summary": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",

@@ -2122,9 +2122,15 @@
     "koText": "Abstract 에이전트 기반 엔드 투 엔드(E2E) 테스트는 테스트에 새로운 탐색 계층을 추가하지만 기존의 결정적 테스트를 대체해야 합니까? 테스트 작업 공간에서 Playwright MCP, Playwright CLI 및 에이전트 생성 Playwright 테스트를 사용하여 200개 이상의 에이전트 E2E 워크플로를 실행했습니다."
   },
   "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html|title": {
-    "input": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+    "input": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
     "approved": false,
     "mode": "title",
     "koText": ""
+  },
+  "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc|summary": {
+    "input": "pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 an…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "pnpm은 방금 복제한 저장소 내부에 있는 .npmrc 및 pnpm-workspace.yaml 파일을 포함하여 찾은 모든 곳에서 $ 자리 표시자를 확장하는 데 사용되었습니다. 이는 악성 저장소가 사용자 환경의 비밀을 훔치는 방법임이 밝혀졌습니다. v10.34.2부터…"
   }
 }
