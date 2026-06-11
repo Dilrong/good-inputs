@@ -2102,5 +2102,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "한 쌍의 버그 수정 릴리스가 귀하의 업그레이드를 기다리고 있습니다."
+  },
+  "https://arxiv.org/abs/2606.11442|summary": {
+    "input": "arXiv:2606.11442v1 Announce Type: new Abstract: Graphical model editing is shifting from desktop applications to web-based tools. We analyze the characteristics of existing frameworks and, based on this analysis, we derive a set of design principles that imply low-effort generat…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.11442v1 발표 유형: new 개요: 그래픽 모델 편집이 데스크톱 애플리케이션에서 웹 기반 도구로 전환되고 있습니다. 우리는 기존 프레임워크의 특성을 분석하고, 이 분석을 바탕으로 저노력 생성을 의미하는 일련의 설계 원칙을 도출합니다."
+  },
+  "https://arxiv.org/abs/2606.11462|summary": {
+    "input": "arXiv:2606.11462v1 Announce Type: new Abstract: Safety assurance cases provide structured justifications that safety-critical systems meet their safety requirements. Recently, the notion of defeaters has emerged as a rigorous means of challenging the validity of safety arguments…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.11462v1 발표 유형: 새로운 개요: 안전 보증 사례는 안전 필수 시스템이 안전 요구 사항을 충족한다는 구조화된 정당성을 제공합니다. 최근에는 패배자라는 개념이 안전 주장의 타당성에 도전하는 엄격한 수단으로 등장했습니다."
   }
 }
