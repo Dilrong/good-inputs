@@ -2132,5 +2132,17 @@
     "approved": true,
     "mode": "summary",
     "koText": "pnpm은 방금 복제한 저장소 내부에 있는 .npmrc 및 pnpm-workspace.yaml 파일을 포함하여 찾은 모든 곳에서 $ 자리 표시자를 확장하는 데 사용되었습니다. 이는 악성 저장소가 사용자 환경의 비밀을 훔치는 방법임이 밝혀졌습니다. v10.34.2부터…"
+  },
+  "https://arxiv.org/abs/2606.12592|summary": {
+    "input": "arXiv:2606.12592v1 Announce Type: new Abstract: The Internet of Things (IoT) is experiencing rapid growth. Smart devices are emerging in smart homes and industrial applications, performing mission-critical tasks. Bugs in IoT software can lead to severe consequences. For example,…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.12592v1 발표 유형: 새로운 개요: 사물 인터넷(IoT)이 급속한 성장을 경험하고 있습니다. 스마트 홈과 산업용 애플리케이션에서 미션 크리티컬 작업을 수행하는 스마트 장치가 등장하고 있습니다. IoT 소프트웨어의 버그는 심각한 결과를 초래할 수 있습니다. 예를 들어,…"
+  },
+  "https://arxiv.org/abs/2606.12620|summary": {
+    "input": "arXiv:2606.12620v1 Announce Type: new Abstract: Thanks to the rapid adoption of AI code assistants powered by large language models (LLMs), industry codebases are, increasingly, a hybrid of AI- and human-authored code. For risk management and productivity analysis purposes, it i…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "arXiv:2606.12620v1 발표 유형: 새로운 개요: 대규모 언어 모델(LLM)을 기반으로 하는 AI 코드 도우미의 급속한 채택 덕분에 업계 코드베이스는 점점 AI와 인간이 작성한 코드의 하이브리드화되고 있습니다. 위험 관리 및 생산성 분석 목적으로 이는…"
   }
 }
