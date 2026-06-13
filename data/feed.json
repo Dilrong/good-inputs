@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T09:37:03.285Z",
+  "generatedAt": "2026-06-13T14:29:10.307Z",
   "description": "좋은입력 클린 피드. 정책, 연구, 개발, 전시 원문을 수집해 제목, 날짜, 핵심 요약만 시간순으로 노출한다.",
   "items": [
     {
@@ -317,24 +317,6 @@
         "new"
       ],
       "koSummary": "올해 초 헤드라인에서는 미국 연방 부채가 미국 경제 규모를 초과했다고 보도했습니다. 다르게 말하면 미국의 GDP 대비 부채 비율은 100%가 넘습니다. 지속 가능한 재정 경로가 무엇인지에 대한 의견과 경제 분석은 다양합니다… 계속 읽기 →"
-    },
-    {
-      "source": "St. Louis Fed",
-      "category": "경제",
-      "title": "Flash Report: May Unemployment, Job Gains Signal Steady Labor Market",
-      "authors": "",
-      "date": "2026-06-05",
-      "url": "https://www.stlouisfed.org/on-the-economy/2026/jun/flash-report-may-unemployment-job-gains-signal-steady-labor-market",
-      "summary": "Changes in people moving into and out of unemployment and the labor force combined to again keep the jobless rate steady at 4.3% in May.",
-      "score": "fresh",
-      "tags": [
-        "경제",
-        "St. Louis Fed",
-        "글로벌",
-        "연준",
-        "fresh"
-      ],
-      "koSummary": "실업률과 노동력에 들어오고 나가는 사람들의 변화가 결합되어 5월 실업률은 다시 4.3%로 안정적으로 유지되었습니다."
     },
     {
       "source": "PostgreSQL",
@@ -716,6 +698,24 @@
         "stable"
       ],
       "koSummary": "GitHub Issues 팀이 클라이언트 측 캐싱, 스마트 프리페칭, 서비스 워커를 사용하여 탐색이 즉각적으로 느껴지도록 만든 방법입니다. 대기 시간에서 즉시로: GitHub 문제 현대화 탐색 성능 게시물이 GitHub 블로그에 처음 게재되었습니다."
+    },
+    {
+      "source": "St. Louis Fed",
+      "category": "경제",
+      "title": "Banking Analytics: Banks Experience Asset Growth amid Ongoing Consolidation",
+      "authors": "",
+      "date": "2026-05-14",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/may/banking-analytics-banks-experience-asset-growth-ongoing-consolidation",
+      "summary": "From 2020 to 2025, the number of U.S. banks declined by 13% while average asset size per institution grew by 33% to $5.8 billion.",
+      "score": "stable",
+      "tags": [
+        "경제",
+        "St. Louis Fed",
+        "글로벌",
+        "연준",
+        "stable"
+      ],
+      "koSummary": "2020년부터 2025년까지 미국 은행 수는 13% 감소한 반면 기관당 평균 자산 규모는 33% 증가한 58억 달러를 기록했습니다."
     },
     {
       "source": "자본시장연구원",
