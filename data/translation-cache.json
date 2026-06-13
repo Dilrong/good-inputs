@@ -2156,5 +2156,11 @@
     "approved": true,
     "mode": "title",
     "koText": "ECB 이사회의 결정(이자율 설정 결정에 추가)"
+  },
+  "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/|summary": {
+    "input": "Phase 1 of OTel-Arrow established OTAP, the OpenTelemetry Arrow Protocol, as an efficient transport protocol for OpenTelemetry. Apache Arrow is a language-independent, columnar in-memory format designed to move and process structured data efficiently across systems. We demonstra…",
+    "approved": true,
+    "mode": "summary",
+    "koText": "OTel-Arrow의 1단계에서는 OpenTelemetry를 위한 효율적인 전송 프로토콜로 OpenTelemetry Arrow 프로토콜인 OTAP를 확립했습니다. Apache Arrow는 시스템 간에 구조화된 데이터를 효율적으로 이동하고 처리하도록 설계된 언어 독립적인 열 형식의 인메모리 형식입니다. 우리는…"
   }
 }
